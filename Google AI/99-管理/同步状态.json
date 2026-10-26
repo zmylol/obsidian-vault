@@ -2155,7 +2155,8 @@
     "weekly_report_generated": "2026-W43",
     "pending_count": 47,
     "passed": true,
-    "checked_at": "2026-10-26T08:54:25+08:00"
+    "checked_at": "2026-10-26T08:54:25+08:00",
+    "summary_length_policy": "本轮新增摘要均在120–220字；既有摘要少数超过通常范围，保持原文并未在本轮擅自改写。"
   },
   "source_rechecks": {
     "last_batch_at": "2026-10-26T08:54:25+08:00",
