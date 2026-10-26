@@ -2,7 +2,7 @@
   "schema_version": 2,
   "timezone": "Asia/Shanghai",
   "created_at": "2026-10-11T10:35:34+08:00",
-  "updated_at": "2026-10-19T10:03:37+08:00",
+  "updated_at": "2026-10-26T08:54:25+08:00",
   "schedule": {
     "status": "ACTIVE",
     "automation_id": "google-ai",
@@ -15,13 +15,13 @@
     "first_weekly_report": "2026-10-11",
     "verified_at": "2026-10-11T10:35:34+08:00",
     "stagger_order": 6,
-    "next_scheduled_run": "2026-10-20T10:40:00+08:00"
+    "next_scheduled_run": "2026-10-27T10:40:00+08:00"
   },
   "structure": {
     "topics_enabled": false,
     "learning_routes_enabled": false,
     "category_levels": 2,
-    "categories": 8,
+    "categories": 9,
     "dynamic_categories": true
   },
   "initial_collection": {
@@ -40,11 +40,11 @@
   "sources": {
     "deepmind": {
       "url": "https://deepmind.google/blog/",
-      "last_attempt_at": "2026-10-19T09:58:43+08:00",
-      "last_listing_read_at": "2026-10-19T09:58:43+08:00",
-      "last_complete_scan_at": "2026-10-19T09:58:43+08:00",
-      "lookback_start": "2026-10-05",
-      "coverage": "首页与RSS本轮跨过10月05日，未发现已完成的新主文章；旧候选继续保留。",
+      "last_attempt_at": "2026-10-26T08:54:25+08:00",
+      "last_listing_read_at": "2026-10-26T08:54:25+08:00",
+      "last_complete_scan_at": "2026-10-26T08:54:25+08:00",
+      "lookback_start": "2026-10-12",
+      "coverage": "首页覆盖至当前；未发现本轮可独立收录且未重复的新主文章。",
       "pages": [
         "https://deepmind.google/blog/"
       ],
@@ -53,11 +53,11 @@
     },
     "research": {
       "url": "https://research.google/blog/",
-      "last_attempt_at": "2026-10-19T09:58:43+08:00",
-      "last_listing_read_at": "2026-10-19T09:58:43+08:00",
-      "last_complete_scan_at": "2026-10-19T09:58:43+08:00",
-      "lookback_start": "2026-10-05",
-      "coverage": "本轮首页已降至2026-10-16，新增Wet Lab Agent候选；100条RSS与列表继续跨过2026-10-05重叠窗口。正文候选与媒体待办分开管理。",
+      "last_attempt_at": "2026-10-26T08:54:25+08:00",
+      "last_listing_read_at": "2026-10-26T08:54:25+08:00",
+      "last_complete_scan_at": "2026-10-26T08:54:25+08:00",
+      "lookback_start": "2026-10-12",
+      "coverage": "首页与列表覆盖至 2026-10-23；TB 筛查与孕产超声候选已读，TB 关键媒体失败留队。",
       "pages": [
         "https://research.google/blog/",
         "https://research.google/blog/rss/"
@@ -67,11 +67,11 @@
     },
     "google_ai": {
       "url": "https://blog.google/innovation-and-ai/technology/ai/",
-      "last_attempt_at": "2026-10-19T09:58:43+08:00",
-      "last_listing_read_at": "2026-10-19T09:58:43+08:00",
-      "last_complete_scan_at": "2026-10-19T09:58:43+08:00",
-      "lookback_start": "2026-10-05",
-      "coverage": "AI栏目与RSS本轮跨过10月05日，产品推荐内容继续作为候选，未与已收录Argon后续重复。",
+      "last_attempt_at": "2026-10-26T08:54:25+08:00",
+      "last_listing_read_at": "2026-10-26T08:54:25+08:00",
+      "last_complete_scan_at": "2026-10-26T08:54:25+08:00",
+      "lookback_start": "2026-10-12",
+      "coverage": "AI 栏目覆盖至当前；未发现本轮可独立收录且未重复的新主文章。",
       "pages": [
         "https://blog.google/innovation-and-ai/technology/ai/",
         "https://blog.google/innovation-and-ai/technology/ai/rss/"
@@ -81,11 +81,11 @@
     },
     "developers": {
       "url": "https://developers.googleblog.com/",
-      "last_attempt_at": "2026-10-19T09:58:43+08:00",
-      "last_listing_read_at": "2026-10-19T09:58:43+08:00",
-      "last_complete_scan_at": "2026-10-19T09:58:43+08:00",
-      "lookback_start": "2026-10-05",
-      "coverage": "AI筛选首页已覆盖10月15日评测工程文章，旧候选与新文章逐项登记；列表跨过2026-10-05重叠窗口。",
+      "last_attempt_at": "2026-10-26T08:54:25+08:00",
+      "last_listing_read_at": "2026-10-26T08:54:25+08:00",
+      "last_complete_scan_at": "2026-10-26T08:54:25+08:00",
+      "lookback_start": "2026-10-12",
+      "coverage": "首页覆盖至 2026-10-22；Project Chrysalis 与 Agents CLI 候选留队。",
       "pages": [
         "https://developers.googleblog.com/",
         "https://developers.googleblog.com/en/search/?technology_categories=AI"
@@ -95,11 +95,11 @@
     },
     "cloud": {
       "url": "https://cloud.google.com/blog/products/ai-machine-learning",
-      "last_attempt_at": "2026-10-19T09:58:43+08:00",
-      "last_listing_read_at": "2026-10-19T09:58:43+08:00",
-      "last_complete_scan_at": "2026-10-19T09:58:43+08:00",
-      "lookback_start": "2026-10-05",
-      "coverage": "AI/ML首屏已覆盖10月16日Cloud评测/生物技术架构文章；Load more与RSS候选仍按正文核验，未将列表发现当completed。",
+      "last_attempt_at": "2026-10-26T08:54:25+08:00",
+      "last_listing_read_at": "2026-10-26T08:54:25+08:00",
+      "last_complete_scan_at": "2026-10-26T08:54:25+08:00",
+      "lookback_start": "2026-10-12",
+      "coverage": "AI/ML 与基础设施页面覆盖至 2026-10-22；llm-d 已收录，Agent Compute Engine 与 Knowledge Catalog 留队。",
       "pages": [
         "https://cloud.google.com/blog/products/ai-machine-learning",
         "https://cloudblog.withgoogle.com/rss/"
@@ -893,6 +893,92 @@
           "result": "passed"
         }
       }
+    },
+    {
+      "url": "https://www.research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/",
+      "source_aliases": [],
+      "path": "01-文章/科学与应用/健康 AI/2026-10-21 - 盲扫超声模型支持基层孕周评估.md",
+      "title": "盲扫超声模型支持基层孕周评估",
+      "original_title": "Empowering frontline maternal care with AI-assisted ultrasound",
+      "published": "2026-10-21",
+      "published_evidence": "原文页首",
+      "category": "科学与应用/健康 AI",
+      "status": "saved",
+      "first_collected_at": "2026-10-26T08:54:25+08:00",
+      "last_checked_at": "2026-10-26T08:54:25+08:00",
+      "last_updated_at": "2026-10-26T08:54:25+08:00",
+      "body_sha256": "59122b43c1532ea577d1c471793e7bd5f58480ce69ae4eb112c1d3a77c6f693e",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "technical_figures": 2,
+          "illustrative_cover": 0
+        },
+        "selected_images": 2,
+        "selected_images_visually_checked": true,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "all_videos_reviewed": false,
+        "media_review_scope": "所选技术配图已下载并可视核对；正文完整读，外链论文/代码/视频未全覆盖。",
+        "summary_review": {
+          "at": "2026-10-26T08:54:25+08:00",
+          "method": "执行者第二遍逐句事实核对与脱离正文可读性检查（独立审阅代理本轮不可用）",
+          "result": "passed"
+        }
+      },
+      "authors": [
+        "Angelica Willis",
+        "Nichole Young-Lin"
+      ],
+      "source_section": "Google Research · Health AI",
+      "summary": "Google Research 的前瞻性多中心盲扫超声研究让非超声技师用低成本手持探头采集标准化腹部扫描；模型在芝加哥和内罗毕估计孕周的平均绝对误差为 4.10 与 4.27 天，合并 4.18 天，不劣于专家测量的 4.48 天。模型用北卡与赞比亚 1,968 人训练、芝加哥 120 人微调，再测芝加哥 192 人与内罗毕 193 人，后者未本地微调。结果显示跨场景潜力，但不等于替代临床超声或完成监管部署。",
+      "collected": "2026-10-26T08:54:25+08:00"
+    },
+    {
+      "url": "https://cloud.google.com/blog/topics/ai-infrastructure/llm-d-1-0-an-open-source-stack-for-distributed-inference/",
+      "source_aliases": [],
+      "path": "01-文章/Agent 与开发者工具/Agent 工具链/2026-10-20 - llm-d 1.0：面向 Agent 的分布式推理栈.md",
+      "title": "llm-d 1.0：面向 Agent 的分布式推理栈",
+      "original_title": "Announcing llm-d 1.0: Open distributed inference for agents on Google Cloud TPUs and GPUs",
+      "published": "2026-10-20",
+      "published_evidence": "原文页首",
+      "category": "Agent 与开发者工具/Agent 工具链",
+      "status": "saved",
+      "first_collected_at": "2026-10-26T08:54:25+08:00",
+      "last_checked_at": "2026-10-26T08:54:25+08:00",
+      "last_updated_at": "2026-10-26T08:54:25+08:00",
+      "body_sha256": "8410d8c4440965dbb53d89ba9f9531aa674fc516ce919e9a1a28f5d0d1052313",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "technical_figures": 2,
+          "illustrative_cover": 0
+        },
+        "selected_images": 2,
+        "selected_images_visually_checked": true,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "all_videos_reviewed": false,
+        "media_review_scope": "所选技术配图已下载并可视核对；正文完整读，外链论文/代码/视频未全覆盖。",
+        "summary_review": {
+          "at": "2026-10-26T08:54:25+08:00",
+          "method": "执行者第二遍逐句事实核对与脱离正文可读性检查（独立审阅代理本轮不可用）",
+          "result": "passed"
+        }
+      },
+      "authors": [
+        "Mark Lohmeyer",
+        "Sean Horgan"
+      ],
+      "source_section": "Google Cloud Blog · AI infrastructure",
+      "summary": "Google 与 Red Hat、IBM 等社区发布 Kubernetes 原生的 llm-d 1.0，面向多步 Agent 的长前缀和突发负载，组合缓存路由、分层 KV cache、prefill/decode 解耦与 TPU/GPU 集群。会议演示 1,000 个沙箱 Agent 共用端点；官方称 Ironwood TPU 编程负载的 TTFT 中位数降低超过 85%、吞吐提高 2.4 倍。数字依赖指定硬件与基准，本文未复测。",
+      "collected": "2026-10-26T08:54:25+08:00"
     }
   ],
   "queues": {
@@ -1358,6 +1444,56 @@
         "stage": "discovered",
         "discovered_at": "2026-10-19T09:58:43+08:00",
         "reason": "日期与正文已核对；待范围筛选、摘要复核和配图整理。"
+      },
+      {
+        "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/",
+        "title": "Bringing foundational models to the front lines of TB screening",
+        "source": "research",
+        "published": "2026-10-23",
+        "status": "pending",
+        "stage": "body_read_media_retry",
+        "discovered_at": "2026-10-26T08:54:25+08:00",
+        "reason": "正文已完整读取；胸片关键原图下载失败/文件截断，待递增重试后再做正式摘要与图文核验。"
+      },
+      {
+        "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance/",
+        "title": "Introducing Agent Compute Engine and expanded agent governance",
+        "source": "cloud",
+        "published": "2026-10-22",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-26T08:54:25+08:00",
+        "reason": "正文与日期已发现，待完整读取、摘要复核和配图整理。"
+      },
+      {
+        "url": "https://cloud.google.com/blog/products/data-analytics/knowledge-catalog-self-learning-context-enrichment-for-ai-agents",
+        "title": "Introducing new self-learning context enrichment in Knowledge Catalog",
+        "source": "cloud",
+        "published": "2026-10-22",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-26T08:54:25+08:00",
+        "reason": "正文与日期已发现，待完整读取、摘要复核和配图整理。"
+      },
+      {
+        "url": "https://developers.googleblog.com/en/architecting-governed-self-evolving-ai-agents-on-google-cloud/",
+        "title": "Architecting Governed, Self-Evolving AI Agents on Google Cloud",
+        "source": "developers",
+        "published": "2026-10-22",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-26T08:54:25+08:00",
+        "reason": "首页新候选，待规范 URL、正文、范围与媒体核验。"
+      },
+      {
+        "url": "https://developers.googleblog.com/en/powering-the-agent-development-lifecycle-with-any-framework-from-adk-to-langchain-and-beyond/",
+        "title": "Powering the Agent Development Lifecycle with any framework, from ADK to LangChain and beyond",
+        "source": "developers",
+        "published": "2026-10-21",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-26T08:54:25+08:00",
+        "reason": "首页新候选，待完整正文、作者日期与摘要核验。"
       }
     ],
     "retry": [],
@@ -1527,6 +1663,37 @@
         "01-文章/Agent 与开发者工具/Agent 安全与治理/2026-10-15 - 评测 AI Agent：从感觉检查到可重复回归.md",
         "01-文章/Agent 与开发者工具/Agent 安全与治理/2026-10-17 - Agent 插件评测工程的四条经验.md"
       ],
+      "count_basis": "first_collected_at / change timestamp",
+      "coverage_status": "sources_window_scanned_candidates_pending"
+    },
+    "2026-W43": {
+      "path": "03-周报/2026-W43.md",
+      "coverage_start": "2026-10-19",
+      "coverage_end": "2026-10-25",
+      "generated_at": "2026-10-26T08:54:25+08:00",
+      "updated_at": "2026-10-26T08:54:25+08:00",
+      "status": "generated",
+      "included_articles": [
+        "01-文章/科学与应用/健康 AI/2026-10-21 - 盲扫超声模型支持基层孕周评估.md",
+        "01-文章/Agent 与开发者工具/Agent 工具链/2026-10-20 - llm-d 1.0：面向 Agent 的分布式推理栈.md"
+      ],
+      "changes": [
+        {
+          "url": "https://www.research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/",
+          "path": "01-文章/科学与应用/健康 AI/2026-10-21 - 盲扫超声模型支持基层孕周评估.md",
+          "type": "new",
+          "at": "2026-10-26T08:54:25+08:00",
+          "published": "2026-10-21"
+        },
+        {
+          "url": "https://cloud.google.com/blog/topics/ai-infrastructure/llm-d-1-0-an-open-source-stack-for-distributed-inference/",
+          "path": "01-文章/Agent 与开发者工具/Agent 工具链/2026-10-20 - llm-d 1.0：面向 Agent 的分布式推理栈.md",
+          "type": "new",
+          "at": "2026-10-26T08:54:25+08:00",
+          "published": "2026-10-20"
+        }
+      ],
+      "note": "周日运行遗漏；本次于周一补生成并完成校验。",
       "count_basis": "first_collected_at / change timestamp",
       "coverage_status": "sources_window_scanned_candidates_pending"
     }
@@ -1773,6 +1940,32 @@
       "event": "validation_complete",
       "result": "passed",
       "notes": "14篇文章、状态与索引一致；周报W42已生成；个人区块、相对链接、图片和候选队列核对通过。Wet Lab关键图下载仍待重试，未标completed。"
+    },
+    {
+      "at": "2026-10-26T08:54:25+08:00",
+      "type": "daily_sync",
+      "result": "2_new_0_deepened",
+      "changed_articles": [
+        {
+          "url": "https://www.research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/",
+          "path": "01-文章/科学与应用/健康 AI/2026-10-21 - 盲扫超声模型支持基层孕周评估.md",
+          "type": "new"
+        },
+        {
+          "url": "https://cloud.google.com/blog/topics/ai-infrastructure/llm-d-1-0-an-open-source-stack-for-distributed-inference/",
+          "path": "01-文章/Agent 与开发者工具/Agent 工具链/2026-10-20 - llm-d 1.0：面向 Agent 的分布式推理栈.md",
+          "type": "new"
+        }
+      ],
+      "pending_count": 47,
+      "sources_status": {
+        "deepmind": "success",
+        "research": "success",
+        "google_ai": "success",
+        "developers": "success",
+        "cloud": "success"
+      },
+      "notes": "结核候选正文已读但关键胸片媒体失败；W43遗漏周报已补生成。"
     }
   ],
   "excluded_candidates": [
@@ -1931,32 +2124,49 @@
       "published": "2026-10-17",
       "type": "new",
       "at": "2026-10-19T09:58:43+08:00"
+    },
+    {
+      "url": "https://www.research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/",
+      "path": "01-文章/科学与应用/健康 AI/2026-10-21 - 盲扫超声模型支持基层孕周评估.md",
+      "published": "2026-10-21",
+      "type": "new",
+      "at": "2026-10-26T08:54:25+08:00"
+    },
+    {
+      "url": "https://cloud.google.com/blog/topics/ai-infrastructure/llm-d-1-0-an-open-source-stack-for-distributed-inference/",
+      "path": "01-文章/Agent 与开发者工具/Agent 工具链/2026-10-20 - llm-d 1.0：面向 Agent 的分布式推理栈.md",
+      "published": "2026-10-20",
+      "type": "new",
+      "at": "2026-10-26T08:54:25+08:00"
     }
   ],
   "hash_fields_note": "body_sha256沿用既有笔记文件哈希；source_body_sha256是本次抽取来源全文的基线，不用二者互判原文更新。 本轮source_page_text_sha256为当前抽取整页文本（可能含导航）的校验值，只作变动线索；实质更新仍按正文事实与限定复核。",
   "validation": {
-    "article_files": 14,
-    "state_articles": 14,
-    "registry_articles": 14,
-    "summary_cards": 14,
+    "article_files": 16,
+    "state_articles": 16,
+    "registry_articles": 16,
+    "summary_cards": 16,
     "detail_status_counts": {
-      "completed": 14
+      "completed": 16
     },
     "selected_media_decoded": true,
     "user_content_preserved": true,
     "links_and_anchors_valid": true,
-    "weekly_report_generated": "2026-W42",
-    "pending_count": 42,
+    "weekly_report_generated": "2026-W43",
+    "pending_count": 47,
     "passed": true,
-    "checked_at": "2026-10-19T10:03:37+08:00"
+    "checked_at": "2026-10-26T08:54:25+08:00"
   },
   "source_rechecks": {
-    "last_batch_at": "2026-10-19T09:58:43+08:00",
-    "checked_paths": [],
-    "batch_size": 0,
+    "last_batch_at": "2026-10-26T08:54:25+08:00",
+    "checked_paths": [
+      "01-文章/科学与应用/健康 AI/2026-10-21 - 盲扫超声模型支持基层孕周评估.md",
+      "01-文章/Agent 与开发者工具/Agent 工具链/2026-10-20 - llm-d 1.0：面向 Agent 的分布式推理栈.md"
+    ],
+    "batch_size": 2,
     "max_batch_size": 5,
-    "result": "本轮处理新候选；Wet Lab图媒体失败保留队列。",
-    "next_priority": "先重试Wet Lab媒体，再处理近期来源候选。"
+    "result": "2篇新文完成；TB媒体失败留队。",
+    "next_priority": "先重试TB胸片，再处理10月22日候选。"
   },
   "weekly_audit": {
     "checked_at": "2026-10-15T17:07:08+08:00",
