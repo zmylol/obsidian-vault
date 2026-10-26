@@ -25,6 +25,7 @@ fi
 # Keep the remote repository text-first even if an automation writes a file
 # before .gitignore is refreshed.  The exclude rules also protect already
 # tracked paths during the transition commit.
+git add -u -- .
 git add -A -- \
   . \
   ':(exclude)**/98-附件/**' \
