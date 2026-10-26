@@ -13,7 +13,7 @@ tags:
 - agents
 - tool-use
 - products
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -58,13 +58,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#Claude%E5%BA%94%E7%94%A8%E4%B8%8E%E8%A1%8C%E4%B8%9A%E6%96%B9%E6%A1%88)
 
 > [官方原文](https://www.anthropic.com/news/introducing-claude-tag) · Introducing Claude Tag · 2026-06-23
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2026 年 6 月推出 Claude Tag 测试版，让 Team 和 Enterprise 客户在 Slack 频道里向 Claude 分派任务，并由多人接续同一工作。代理可记住获授权频道的相关信息、异步执行和安排后续任务，主动提醒则需要开启相应选项。管理员按频道限定数据、工具与记忆范围，并设置费用上限及查看日志；文中的内部使用比例是公司自述，不能直接证明其他团队也能获得相同效率。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 共同上下文支持多人接续
 

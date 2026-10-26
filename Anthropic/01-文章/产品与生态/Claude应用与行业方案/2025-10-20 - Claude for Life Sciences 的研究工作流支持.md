@@ -13,7 +13,7 @@ tags:
 - science
 - products
 - tool-use
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -55,13 +55,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#Claude%E5%BA%94%E7%94%A8%E4%B8%8E%E8%A1%8C%E4%B8%9A%E6%96%B9%E6%A1%88)
 
 > [官方原文](https://www.anthropic.com/news/claude-for-life-sciences) · Claude for Life Sciences · 2025-10-20
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2025 年 10 月推出 Claude for Life Sciences，试图把 Claude 扩展到科研全流程，并用连接器和 Agent Skills 接入文献、实验与生物信息工具。single-cell RNA-seq 示例按 scverse 方法做质控；Sonnet 4.5 在 Protocol QA 10-shot 中得分 0.83，高于人类基线 0.79 和 Sonnet 4 的 0.74。客户案例与基准来自公司或合作方，仍需专家审核。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 模型评测与实际工作之间
 

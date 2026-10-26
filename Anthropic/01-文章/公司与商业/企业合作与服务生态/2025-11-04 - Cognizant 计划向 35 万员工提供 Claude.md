@@ -14,7 +14,7 @@ tags:
 - company
 - economics
 - tool-use
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -58,13 +58,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E4%BC%81%E4%B8%9A%E5%90%88%E4%BD%9C%E4%B8%8E%E6%9C%8D%E5%8A%A1%E7%94%9F%E6%80%81)
 
 > [官方原文](https://www.anthropic.com/news/cognizant-partnership) · Cognizant will make Claude available to 350,000 employees, accelerating enterprise AI adoption and internal transformation · 2025-11-04
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Cognizant 在 2025 年 11 月宣布计划向全球最多 35 万名员工提供 Claude，同时把 Claude Code 和智能体工具接入现有工程与交付平台。合作拟覆盖编码、测试和文档工作，分析改造遗留系统，并开发从金融服务起步的行业智能体。多步任务将结合明确策略、审批和人工监督，客户则通过工作坊、参考方案与平台集成推进落地。35 万是计划部署上限，公告没有给出实际使用率或跨项目效果试验，不能据此判断全部员工已采用或生产收益已经实现。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 开发工具进入现有工程平台
 

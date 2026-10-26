@@ -16,7 +16,7 @@ source_section: "Google Research · Deep Review"
 tags: ["Google Research", "文档核验", "多 Agent"]
 status: "saved"
 detail_status: "completed"
-note_depth: "中文摘要与重点图文解读"
+note_depth: "中文摘要与重点文字解读"
 ---
 
 # Deep Review：分段并行核验技术文档
@@ -30,7 +30,7 @@ note_depth: "中文摘要与重点图文解读"
 
 Google Research 公开 Deep Review，以文档分段、按信息密度分配算力、并行核验和全局综合四步，检查长文档的逻辑、数学与证据。前身 PAT 曾为四场计算机科学会议中超过 1.6 万份自愿参加的稿件提供投稿前反馈，与正式评审分离。当前全球支持 PDF 和纯文本，每周免费两次，多文件输入尚未开放；试点反馈不等于专业判断可由系统替代，本次未实测。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 公开服务的边界
 

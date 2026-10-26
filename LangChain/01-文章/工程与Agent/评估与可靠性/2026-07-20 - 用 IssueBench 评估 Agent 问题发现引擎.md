@@ -19,7 +19,7 @@ tags:
 - lc
 - AI
 - 评估与可靠性
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 ---
@@ -37,7 +37,7 @@ translation_status: not_requested
 
 IssueBench 是 LangChain 用来检验问题发现引擎 Engine 的内部基准：它让系统把调用记录转成便于工程团队处理的问题卡片。现有 15 个合成任务覆盖运维、软件开发和客服，混入干净记录与 15 类已知故障，同时检查故障识别、分类、已有问题归属和新问题聚类。即使找对故障，重复建卡、乱合并或覆盖已有上下文也会扣分。这套设计提供了可重复的回归检查方法，但文章没有给出性能排名，合成任务也不能代表所有生产场景。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 同时给出调用记录和问题看板
 

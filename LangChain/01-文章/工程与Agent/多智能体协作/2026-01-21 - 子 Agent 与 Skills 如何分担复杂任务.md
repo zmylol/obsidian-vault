@@ -15,7 +15,7 @@ tags:
 - lc
 - AI
 - 多智能体协作
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 authors:
@@ -31,13 +31,13 @@ authors_source: 原文页首署名
 
 > [原文：Building Multi-Agent Applications with Deep Agents](https://www.langchain.com/blog/building-multi-agent-applications-with-deep-agents) · 发布于 2026-01-21 · 收录于 2026-09-09  
 > 作者：Sydney Runkle、Vivek Trivedy · LangChain 官方博客署名文章  
-> 中文摘要与重点图文解读，内容与配图为节选；示例代码未运行，关联论文未精读。历史文章中的产品状态与性能数据以原文条件为准。  
+> 中文摘要与重点文字解读，内容与配图为节选；示例代码未运行，关联论文未精读。历史文章中的产品状态与性能数据以原文条件为准。
 
 ## 摘要
 
 Deep Agents 用子 Agent 和 Skills 处理复杂任务中的上下文膨胀：子 Agent 在自己的上下文中执行多步工作，只把结果交回主流程；Skills 则先展示名称和说明，需要时才加载完整步骤。前者适合隔离探索过程、配置专用工具或模型，后者适合复用流程，二者也可组合，让子 Agent 按需读取技能。作者建议写清任务描述、输出要求并缩小工具集合。文章提供配置方法，没有量化证明组合必然更快或更准确；任务边界与传回结果仍需设计。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 子 Agent 隔离探索过程
 

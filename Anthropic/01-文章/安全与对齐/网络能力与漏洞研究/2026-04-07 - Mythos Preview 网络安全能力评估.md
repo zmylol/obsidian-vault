@@ -12,7 +12,7 @@ source_section: Research
 tags:
 - cybersecurity
 - evaluations
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -62,13 +62,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E7%BD%91%E7%BB%9C%E8%83%BD%E5%8A%9B%E4%B8%8E%E6%BC%8F%E6%B4%9E%E7%A0%94%E7%A9%B6)
 
 > [官方原文](https://www.anthropic.com/research/mythos-preview) · Assessing Claude Mythos Preview’s cybersecurity capabilities · 2026-04-07
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 报告 Mythos Preview 在隔离环境中寻找软件漏洞、构建利用链的能力明显增强，并通过 Project Glasswing 限定早期访问、协调修复。在模拟 Firefox 147 内容进程的测试框架中，模型完成 181 次成功利用，另有 29 次仅取得寄存器控制；该框架未包含浏览器进程沙箱及其他纵深防护。正文另述真实软件案例，条件不能与该基准混同。发布时逾 99% 的发现尚未修补，许多细节未公开；这些是公司测试结果，本笔记未独立复现。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 能力提升覆盖不同任务层次
 

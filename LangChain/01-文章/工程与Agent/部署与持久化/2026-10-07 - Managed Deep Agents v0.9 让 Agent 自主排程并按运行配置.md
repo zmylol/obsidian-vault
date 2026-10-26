@@ -18,7 +18,7 @@ tags:
 - lc
 - AI
 - 部署与持久化
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 ---
@@ -36,7 +36,7 @@ translation_status: not_requested
 
 Managed Deep Agents v0.9 新增三类能力：Agent 可在对话中创建一次性或周期排程，排程以发起者的权限运行并把结果返回原频道；同一部署可在每次运行开始时按用户、频道或仓库选择模型、指令、Skills、MCP 与沙箱；Slack 频道还能用反应表明已接收消息并按内容选择表情。文章展示了 SDK 和配置示例，但产品仍标为 Public Beta，权限继承、配置选择和消息渠道需要结合实际部署验证，示例没有提供性能或可靠性对照。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 机制与触发边界
 

@@ -12,7 +12,7 @@ last_checked: '2026-10-19'
 category: 安全与对齐/网络能力与漏洞研究
 source_section: Research
 tags: []
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-10-19T09:00:00+08:00'
@@ -51,13 +51,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#网络能力与漏洞研究)
 
 > [官方原文](https://www.anthropic.com/research/ecdsa-curve-origins) · Claude reveals ECDSA curve origins · 2026-10-16
-> 中文摘要＋重点图文解读；关键内容及配图节选。关联论文、PDF、数据附件和外部报告未单独精读。
+> 中文摘要＋重点文字解读；关键内容及配图节选。关联论文、PDF、数据附件和外部报告未单独精读。
 
 ## 摘要
 
 Anthropic 研究团队用 Claude 调查 ECDSA 椭圆曲线标准中长期未解释的 seed 参数来源，追踪公开历史记录与时间戳后提出一种与 NSA 早期标准化工作一致的解释。文章把结果定位为密码学史上的问题收束，并明确没有新的安全操作建议：多数研究者原本就信任这些曲线。它是历史溯源与证据拼接，不是发现可利用漏洞，也没有改变现行 ECDSA 使用方式。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 问题是参数来源，不是曲线被攻破
 

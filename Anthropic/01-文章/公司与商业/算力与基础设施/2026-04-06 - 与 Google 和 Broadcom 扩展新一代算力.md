@@ -12,7 +12,7 @@ category: 公司与商业/算力与基础设施
 source_section: News
 tags:
 - company
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -56,13 +56,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E7%AE%97%E5%8A%9B%E4%B8%8E%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD)
 
 > [官方原文](https://www.anthropic.com/news/google-broadcom-partnership-compute) · Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute · 2026-04-06
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2026 年 4 月宣布与 Google、Broadcom 签订新协议，扩展数吉瓦的新一代 TPU 算力，预计从 2027 年开始上线，绝大部分位于美国。公司称这是为满足 Claude 需求增长作出的算力承诺，而非宣布这些容量已可使用。合作延续其多芯片策略，AWS 仍被列为主要云与训练伙伴；公告没有给出确切吉瓦数、协议金额或最终交付时间表。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 供给计划对应需求增长
 

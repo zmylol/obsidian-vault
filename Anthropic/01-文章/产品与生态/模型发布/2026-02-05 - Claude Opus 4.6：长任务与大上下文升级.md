@@ -13,7 +13,7 @@ tags:
 - products
 - context-engineering
 - agents
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -53,13 +53,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83)
 
 > [官方原文](https://www.anthropic.com/news/claude-opus-4-6) · Introducing Claude Opus 4.6 · 2026-02-05
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2026 年 2 月发布 Opus 4.6，改进长程编程，并在发布时仅向 Claude 开发平台提供百万 token 上下文测试版。官方在 MRCR v2 百万上下文、八目标检索测试中报告得分 76%，Sonnet 4.5 为 18.5%，不等于所有长文任务的准确率。配套推出自适应思考、上下文压缩和代理团队预览；普通 API 单价保持每百万输入 5 美元、输出 25 美元，超过 20 万 token 的提示另收高价。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 知识工作与长上下文均有改善
 

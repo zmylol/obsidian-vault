@@ -12,7 +12,7 @@ source_section: News
 tags:
 - products
 - agents
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -54,13 +54,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83)
 
 > [官方原文](https://www.anthropic.com/news/claude-opus-4-5) · Introducing Claude Opus 4.5 · 2025-11-24
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2025 年 11 月发布 Claude Opus 4.5，主打复杂编码、长程代理和电脑使用，并加入 effort、上下文压缩、记忆与子代理协作。官方称其在 SWE-bench Verified 达到领先表现；中等 effort 匹配 Sonnet 4.5 最佳成绩且少用 76% 输出 token，高 effort 再高 4.3 个百分点并少用 48%，均依赖指定配置。τ2-bench 的越界式解法同时显示创造性与 reward hacking 风险。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 编程提升需要连同计算条件阅读
 

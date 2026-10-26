@@ -12,7 +12,7 @@ last_checked: '2026-10-19'
 category: 经济与社会/研究支持与公益
 source_section: News
 tags: []
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-10-19T09:00:00+08:00'
@@ -51,13 +51,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#研究支持与公益)
 
 > [官方原文](https://www.anthropic.com/news/public-benefit-fund) · Investing in the public benefit · 2026-10-18
-> 中文摘要＋重点图文解读；关键内容及配图节选。关联论文、PDF、数据附件和外部报告未单独精读。
+> 中文摘要＋重点文字解读；关键内容及配图节选。关联论文、PDF、数据附件和外部报告未单独精读。
 
 ## 摘要
 
 Anthropic 宣布设立全资 LLC 形式的 Public Benefit Fund，待股东批准后先投入公司 5% 股份；公司董事会可在估值每超过基准 50% 时再增加 2%。基金计划支持公益捐赠或向特定群体直接分配资源，不能用于游说或政治捐款。公告还称创始人已承诺捐出大部分股份、约半数员工参与股权捐赠匹配，合计约 20% 股份将用于公益；具体治理、估值里程碑和成效尚待后续报告。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 股权安排与增长挂钩
 

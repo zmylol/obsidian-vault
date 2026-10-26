@@ -19,7 +19,7 @@ tags:
 - lc
 - AI
 - 部署与持久化
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 ---
@@ -37,7 +37,7 @@ translation_status: not_requested
 
 Managed Deep Agents 的 Connections 把凭据集中保存在 LangSmith 工作区，工具运行时可读取部署共享的凭据，或按实际调用者解析个人授权。这样，同一部署能根据各人的访问权查询资源，并以请求者身份创建问题，而不必让所有操作都使用同一服务账号。缺少用户授权或令牌过期时，运行会暂停并请求授权；共享密钥轮换也不必把新值打进代码包。发布时功能仍属预发布版，凭据归属在创建时确定，部署共享连接须先有部署。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 归属与类型分别建模
 

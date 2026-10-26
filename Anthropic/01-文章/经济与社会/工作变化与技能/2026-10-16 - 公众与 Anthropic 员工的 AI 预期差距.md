@@ -12,7 +12,7 @@ last_checked: '2026-10-19'
 category: 经济与社会/工作变化与技能
 source_section: Research
 tags: []
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-10-19T09:00:00+08:00'
@@ -51,13 +51,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#工作变化与技能)
 
 > [官方原文](https://www.anthropic.com/research/ai-expectations-gap) · The AI expectations gap · 2026-10-16
-> 中文摘要＋重点图文解读；关键内容及配图节选。关联论文、PDF、数据附件和外部报告未单独精读。
+> 中文摘要＋重点文字解读；关键内容及配图节选。关联论文、PDF、数据附件和外部报告未单独精读。
 
 ## 摘要
 
 Anthropic 比较近 1.1 万名美国成年人和公司员工对 AI 能力、工作与失业的预期。到 2030 年，39% 的美国成年人、91% 的员工认为 AI 能做出诺贝尔级发现；认为 AI 能完成自己至少 80% 工作的比例，员工超过一半，美国劳动者为 5%。在工作中使用 AI 的人里，26% 美国人称任务可缩短到四分之一或更少，员工为 59%。两组人都把更高的个人工作覆盖与更高失业联系起来，但预期不能替代实际能力或劳动市场结果。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 能力预期差距
 

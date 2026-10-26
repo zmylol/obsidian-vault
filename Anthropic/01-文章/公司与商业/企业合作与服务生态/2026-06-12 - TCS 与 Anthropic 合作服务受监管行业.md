@@ -12,7 +12,7 @@ source_section: News
 tags:
 - company
 - economics
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -56,13 +56,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E4%BC%81%E4%B8%9A%E5%90%88%E4%BD%9C%E4%B8%8E%E6%9C%8D%E5%8A%A1%E7%94%9F%E6%80%81)
 
 > [官方原文](https://www.anthropic.com/news/tcs-anthropic-partnership) · TCS and Anthropic partner to bring Claude to regulated industries · 2026-06-12
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 TCS 与 Anthropic 在 2026 年 6 月宣布合作，计划向 56 个国家的 5 万名员工提供 Claude，并为金融、医疗和公共服务等受监管行业建设产品。TCS 将先在内部工程、财务和法律等团队应用，再由专门团队把经验用于客户交付，并开发理赔、贷款咨询相关的 Claude Code 技能与插件。旗下 Diligenta、银行产品团队和 TCS iON 分别承担业务应用、工程改进及培训认证。公告主要描述推进安排，没有提供统一提效结果；既有保单客户和考试规模也不等于 Claude 已覆盖的人数。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 内部实践支撑对外交付
 

@@ -12,7 +12,7 @@ source_section: News
 tags:
 - policy
 - company
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -58,13 +58,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#AI%E6%94%BF%E7%AD%96%E4%B8%8E%E5%85%AC%E5%85%B1%E4%BA%8B%E5%8A%A1)
 
 > [官方原文](https://www.anthropic.com/news/donation-public-first-action) · Anthropic is donating another $20 million to Public First Action · 2026-07-21
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2026 年 7 月 21 日宣布再向 Public First Action 捐赠 2,000 万美元，累计支持达到 4,000 万美元。公司称，两次捐款均仅用于该组织的公众教育和政策工作，不得用于影响联邦、州或地方候选人的选举。公告借此支持前沿模型独立评估、验证安全声明、违规处罚及必要时限制部署等政策方向。捐赠用途限制是公司披露的安排，文中的监管框架属于政策倡议，不能写成相关制度已全部生效。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 资金用途增加明确说明
 

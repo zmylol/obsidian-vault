@@ -11,7 +11,7 @@ last_checked: '2026-10-09'
 category: 科学与具身智能/科研Agent与基础设施
 source_section: News
 tags: []
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 quality_evidence:
@@ -54,7 +54,7 @@ body_sha256: 2657b4850723828c8bc4776d80b2206f0ec6075848a28e8b6d647805a61a3d54
 
 Anthropic 宣布未来三年向美国 Genesis Mission 投入 1.5 亿美元，为超过 15 个联邦机构和国家实验室合作项目提供 Claude、Claude Code、API 额度、培训与技术支持。首批安排面向数百个研究项目，并优先支持聚变能源、量子计算等政府科研方向。该公告描述的是资助与部署承诺，不是已经完成的科研成果；实际影响取决于项目落地、机构采用和后续评估。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 资金与机构覆盖
 

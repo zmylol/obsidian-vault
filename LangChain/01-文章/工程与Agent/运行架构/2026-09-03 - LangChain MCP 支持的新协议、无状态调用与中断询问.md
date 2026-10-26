@@ -18,7 +18,7 @@ tags:
 - lc
 - AI
 - 运行架构
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 ---
@@ -36,7 +36,7 @@ translation_status: not_requested
 
 LangChain 将 MCP 工具接入并入 Python 主包，由 FastMCP 为每个连接协商新旧协议。新版无状态请求减少会话绑定，工具目录可按服务端给出的有效期缓存；工具缺少参数或需要确认时，可通过 LangGraph 中断暂停，收到回答后重试。使用中断仍需配置状态保存器，缓存也应按调用者分开。2026 年 9 月发布时，这套接口要求 langchain[mcp]>=1.4.0，仍为测试版，TypeScript 支持尚待推出，不能把新版特征套到所有旧服务器。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 无状态核心改变连接方式
 

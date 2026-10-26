@@ -12,7 +12,7 @@ source_section: News
 tags:
 - products
 - company
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -54,13 +54,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E7%BC%96%E7%A8%8B%E4%B8%8E%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7)
 
 > [官方原文](https://www.anthropic.com/news/claude-in-microsoft-foundry) · Claude now available in Microsoft Foundry and Microsoft 365 Copilot · 2025-11-18
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2025 年 11 月宣布 Claude 进入 Microsoft Foundry 与 Microsoft 365 Copilot。Foundry 以 serverless 方式提供模型公共预览并沿用 Azure 采购与认证；Copilot Studio、Researcher 和 Excel Agent Mode 面向 Microsoft 业务入口。Global Standard 先上线，US DataZone 尚待推出；这是可用性公告，没有统一成功率或独立对照。
 
-## 重点图文解读
+## 重点文字解读
 
 ### Foundry 降低采购与接入成本
 

@@ -12,7 +12,7 @@ source_section: News
 tags:
 - company
 - reliability
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -54,13 +54,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E7%BB%84%E7%BB%87%E6%B2%BB%E7%90%86%E4%B8%8E%E5%85%A8%E7%90%83%E5%B8%83%E5%B1%80)
 
 > [官方原文](https://www.anthropic.com/news/rahul-patil-joins-anthropic) · Rahul Patil joins Anthropic as Chief Technology Officer · 2025-10-07
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2025 年 10 月任命前 Stripe 首席技术官 Rahul Patil 为 CTO，统筹产品、算力、基础设施、推理、数据科学和安全工程。原 CTO、联合创始人 Sam McCandlish 同时转任首席架构师，继续负责预训练，并扩大到研究生产力和强化学习基础设施。调整将企业产品与规模化工程的统筹职责，同模型训练架构的重点分工区分开来。公告以服务全球企业需求为背景说明人事安排，没有给出这次调整已改善可靠性或性能的量化结果。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 工程运营与研究平台分工
 

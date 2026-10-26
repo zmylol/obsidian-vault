@@ -13,7 +13,7 @@ source_section: Research
 tags:
 - cybersecurity
 - reliability
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -58,13 +58,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E7%BD%91%E7%BB%9C%E9%98%B2%E5%BE%A1%E4%B8%8E%E6%BB%A5%E7%94%A8%E8%BF%BD%E8%B8%AA)
 
 > [官方原文](https://www.anthropic.com/research/mozilla-firefox-security) · Partnering with Mozilla to improve Firefox’s security · 2026-03-06
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 在与 Mozilla 的合作中，Claude Opus 4.6 两周内发现 22 个 Firefox 漏洞，其中 14 个被 Mozilla 判为高严重性；发布时多数问题已在 Firefox 148 修复，其余计划后续处理。团队强调以可复现证据支持报告，并在另项研究中分别验证补丁是否消除漏洞和保留正常功能。另一次利用评测经过数百次尝试，仅在两种情况下成功，且测试环境移除了沙箱等部分防护，因此不能解释成攻破完整浏览器。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 22 个漏洞由维护者确定严重性
 

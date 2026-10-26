@@ -16,7 +16,7 @@ tags:
 - 企业合作
 - 金融
 - Claude Code
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-10-02'
@@ -63,13 +63,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E4%BC%81%E4%B8%9A%E5%90%88%E4%BD%9C%E4%B8%8E%E6%9C%8D%E5%8A%A1%E7%94%9F%E6%80%81)
 
 > [官方原文](https://www.anthropic.com/news/barclays-scales-claude) · Barclays scales Claude to upgrade operations and improve client experience · 发布于 2026-10-01
-> 中文摘要与重点图文解读，关键内容与配图节选；关联论文、代码与附件未单独精读或复现。
+> 中文摘要与重点文字解读，关键内容与配图节选；关联论文、代码与附件未单独精读或复现。
 
 ## 摘要
 
 Barclays 于 2026 年 10 月宣布扩大与 Anthropic 的合作，将 Claude 用于软件开发、旧系统改造和运营流程。公告称其英国业务的员工知识助手自 2025 年上线后已被一万六千多名员工采用、处理超过百万次查询；全球市场业务另用模型分类和补充信息，每天处理约十二万封邮件。银行计划在 2026 年底让一半开发人员采用 Claude Code，2027 年扩大至多数工程师。现有采用量与未来目标应分开理解，效率提升为合作方描述，未提供独立对照验证。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 开发工具采用仍有分阶段目标
 

@@ -13,7 +13,7 @@ source_section: Research
 tags:
 - cybersecurity
 - reliability
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -64,13 +64,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E7%BD%91%E7%BB%9C%E9%98%B2%E5%BE%A1%E4%B8%8E%E6%BB%A5%E7%94%A8%E8%BF%BD%E8%B8%AA)
 
 > [官方原文](https://www.anthropic.com/research/glasswing-initial-update) · Project Glasswing: An initial update · 2026-05-22
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 汇报 Project Glasswing 的早期进展：Mythos Preview 在一千多个开源项目中报告 23,019 个候选漏洞，其中 6,202 个被模型评为高危或严重。该组中有 1,752 个已获复核，主要由独立安全公司完成；其中 1,587 个确认有效，1,094 个达到高危或严重等级。按当前复核比例外推的约 3,900 个高危或严重漏洞并非逐一确认。发现、验证、披露及部署修复之间仍有瓶颈，候选数量不能当作已实现的防护效果。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 候选与已确认不能混写
 

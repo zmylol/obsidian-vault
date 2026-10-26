@@ -18,7 +18,7 @@ tags:
 - lc
 - AI
 - 上下文管理
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 ---
@@ -36,7 +36,7 @@ translation_status: not_requested
 
 Deep Agents 把长任务的上下文管理放进 Agent 运行框架：大工具结果与长用户消息先落到文件，模型只看预览；对话接近窗口上限时压缩旧消息，但保留可读回的原始记录。Skills 按需加载完整指令，子 Agent 在独立上下文中处理噪声工作，长期记忆则以文件跨会话保存。原文给出的约 2 万 token 工具结果、5 万 token 用户消息和 85% 摘要触发点是当前默认示例，可配置；文章解释机制，没有提供这些做法对准确率的受控比较。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 两类问题：阻止进入与整理已有上下文
 

@@ -12,7 +12,7 @@ source_section: News
 tags:
 - alignment
 - policy
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -57,13 +57,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E5%89%8D%E6%B2%BF%E9%A3%8E%E9%99%A9%E4%B8%8E%E5%8F%91%E5%B8%83%E6%B2%BB%E7%90%86)
 
 > [官方原文](https://www.anthropic.com/news/responsible-scaling-policy-v3) · Anthropic’s Responsible Scaling Policy: Version 3.0 · 2026-02-24
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2026 年 2 月发布第三版自愿安全政策 RSP，将公司能够独立推进的防护与需要行业共同实施的建议分开，以应对能力阈值难以判定、高等级防护难以单独实现的问题。新版要求公布安全路线图，其目标不是硬性承诺，而是公开评估进度的计划；另每三至六个月发布风险报告，说明能力、威胁和现有防护如何对应。外部审查只在特定条件下成为要求，公告称当时模型尚未触发。本文解释修订思路，没有证明新增透明度已经降低实际风险。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 旧框架遇到阈值模糊问题
 

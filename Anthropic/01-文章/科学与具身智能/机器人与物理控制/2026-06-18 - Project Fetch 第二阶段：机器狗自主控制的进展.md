@@ -12,7 +12,7 @@ source_section: Research
 tags:
 - cybersecurity
 - agents
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -57,13 +57,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B8%8E%E7%89%A9%E7%90%86%E6%8E%A7%E5%88%B6)
 
 > [官方原文](https://www.anthropic.com/research/project-fetch-phase-two) · Project Fetch: Phase two · 2026-06-18
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Project Fetch 第二阶段让 Claude Opus 4.7 通过电脑编写程序，连接并控制一只机器狗。在此前两个人类团队都完成的四项任务上，模型三次试验平均用时 9 分 35 秒，约为使用旧版 Claude 的团队耗时的十九分之一。不过，研究者仍需接入设备、审批命令和推进任务；模型也没能完成自主将球推回起点。结果说明这组软件接入和控制编程任务进步明显，不能据此认为机器狗已能可靠地独立行动。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 比较的是明确的任务子集
 

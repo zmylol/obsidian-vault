@@ -20,7 +20,7 @@ tags:
 - lc
 - AI
 - 部署与持久化
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 ---
@@ -38,7 +38,7 @@ translation_status: not_requested
 
 LangChain 用运行在 Managed Deep Agents 与 Slack 上的 Restock 示例展示 Agent 如何在两次人工批准后完成支付：Zinc 负责商品搜索和下单，Machine Payments Protocol 通过 402 Payment Required 交换支付请求，Link 保存用户钱包并单独确认付款。模型不接触支付秘密，用户先审阅购物车和预算，工具再在沙箱中使用一次性共享支付令牌并校验订单与新鲜审批。示例实测订单支付22.18美元并退回0.82美元，但仅支持美国、美元和单办公室部署，属于样例而非普遍支付能力。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 运行机制与证据范围
 

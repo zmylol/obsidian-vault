@@ -20,7 +20,7 @@ tags:
 - lc
 - AI
 - 评估与可靠性
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 ---
@@ -38,7 +38,7 @@ translation_status: not_requested
 
 LangSmith AI Search 允许用自然语言描述“泄露 PII”“用户放弃”或“Agent 声称完成但实际没有”等行为，再从轨迹中找出匹配运行。它先用结构化过滤缩小候选，再让决策模型读取 SmithDB 整理的统一轨迹；每条轨迹按优先级填充 8K token，先保留用户与 Agent 消息。在随机抽取的 150 条 Open SWE 会话中，中位会话约 72K token，其中用户与 Agent 回复约 2K，工具输出约占 85%。功能只在 LangSmith Cloud 的 GCP 美、欧、亚太区域公测，需管理员启用；工具证据可能被截断，原文未给出分类准确率。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 从行为问题到候选轨迹
 

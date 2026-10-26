@@ -16,7 +16,7 @@ source_section: "Google Cloud Blog · AI & Machine Learning"
 tags: ["Google Cloud", "MCP", "Agent", "gcloud", "BigQuery"]
 status: "saved"
 detail_status: "completed"
-note_depth: "中文摘要与重点图文解读"
+note_depth: "中文摘要与重点文字解读"
 ---
 
 # 用 Google Cloud CLI 远程 MCP 服务增强 Agent
@@ -30,7 +30,7 @@ note_depth: "中文摘要与重点图文解读"
 
 Google Cloud 将 gcloud 与 bq 命令封装成公共预览版远程 MCP 服务，让 Agent 调用两个工具管理云资源和 BigQuery 作业。命令在云端隔离环境中按调用者的身份、IAM 权限和组织策略执行，可配置 Model Armor 与数据访问审计日志。该设计减少 Agent 本地维护 CLI 的工作；服务本身不额外收费，创建的云资源和适用数据传输仍计费，本次未接入或执行命令。
 
-## 重点图文解读
+## 重点文字解读
 
 ### CLI 能力作为远程工具
 

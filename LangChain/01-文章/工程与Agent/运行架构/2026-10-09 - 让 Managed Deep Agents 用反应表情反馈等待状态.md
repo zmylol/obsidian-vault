@@ -18,7 +18,7 @@ tags:
 - lc
 - AI
 - 运行架构
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 ---
@@ -36,7 +36,7 @@ translation_status: not_requested
 
 LangChain 在 Managed Deep Agents v0.9 的 Slack channel 中加入 reactions 属性，让 Agent 根据消息上下文返回固定表情或由函数动态选择表情，以便在长任务等待时向用户确认已收到请求。文章给出静态规则和 Jev TypeSafe Classifier 两种做法：用描述定义 bug、事故、代码审查、阻塞等类别，并在置信度低于 0.25 时回退到 👀；同一表情的含义仍取决于工作区语境。示例是产品设计与代码说明，没有提供用户信任、延迟或质量的对照实验。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 反应表情作为 Agent 的等待反馈
 

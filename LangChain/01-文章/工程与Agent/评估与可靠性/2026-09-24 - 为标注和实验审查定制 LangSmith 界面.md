@@ -20,7 +20,7 @@ tags:
 - lc
 - AI
 - 评估与可靠性
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 ---
@@ -38,7 +38,7 @@ translation_status: not_requested
 
 LangSmith Custom Apps 让团队用聊天或代码围绕调用轨迹、实验和标注数据构建共享审核界面，由平台处理托管、认证与权限。界面默认使用文章称已开源的 Macaw 设计系统，也可自定义外观；Chime 引述展示了审核、编辑后将结果加入数据集的流程，但只是客户定性反馈，未给出效率实测。发布说明仅面向 Plus 与 Enterprise：前者每组织包含一个应用，后者数量不限，均含聊天生成入口。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 把重复审查做成共享界面
 

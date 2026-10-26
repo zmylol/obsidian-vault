@@ -12,7 +12,7 @@ source_section: Research
 tags:
 - science
 - evaluations
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -61,13 +61,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E7%94%9F%E5%91%BD%E7%A7%91%E5%AD%A6%E4%B8%8E%E5%AE%9E%E9%AA%8C%E6%96%B9%E6%B3%95)
 
 > [官方原文](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench) · Evaluating Claude’s bioinformatics research capabilities with BioMysteryBench · 2026-04-29
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 BioMysteryBench 用真实生物信息数据构建 99 道有可核验答案的问题，允许模型调用工具，并按最终答案评分。每题最多由五名专家尝试，76 题被至少一人解出，另 23 题经检查保留为专家困难题；模型对每题各尝试五次。Mythos Preview 在两组上的平均准确率分别为 82.6% 和约 30%，能解出部分受试专家未解出的题，但困难题上的成功更不稳定。验证数据含有信号并不能保证可从头求出答案，基准成绩也不代表开放式科研全流程已可靠。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 基准把数据分析落到可验证答案
 

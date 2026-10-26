@@ -11,7 +11,7 @@ category: 产品与生态/Claude应用与行业方案
 source_section: News
 tags:
 - products
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -58,13 +58,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#Claude%E5%BA%94%E7%94%A8%E4%B8%8E%E8%A1%8C%E4%B8%9A%E6%96%B9%E6%A1%88)
 
 > [官方原文](https://www.anthropic.com/news/claude-design-anthropic-labs) · Introducing Claude Design by Anthropic Labs · 2026-04-17
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic Labs 于 2026 年 4 月推出 Claude Design 研究预览，用 Opus 4.7 将文字要求、设计资料和品牌规范转为原型、演示稿等视觉成果。用户可用对话、局部批注和调节控件反复修改，再导出文件或交给 Claude Code 实现。发布时面向 Pro、Max、Team、Enterprise，消耗套餐用量；Enterprise 默认关闭，须管理员启用。文中的提速来自早期客户自述，不能当作所有设计任务的稳定效果或生产质量保证。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 从描述到可调节设计
 

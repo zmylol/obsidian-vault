@@ -18,7 +18,7 @@ tags:
 - lc
 - AI
 - 评估与可靠性
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 ---
@@ -36,7 +36,7 @@ translation_status: not_requested
 
 Snyk 将基于 LangChain、LangGraph 和 LangSmith 的 Snyk Assist 从内部客服工具逐步推向支持门户和核心产品，并用同一运行时服务 Slack、网页和 API。系统按用户权限在请求时注册工具，用 PostgreSQL checkpointer 保存会话状态，再以离线问答与红队集、CI 阈值和线上定时评估构成发布门槛。公司称自2026年4月面向客户后已处理6万多次查询，85%以上会话未产生支持工单，但这些是企业案例自述，不能外推为通用 Agent 效果。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 运行机制与证据范围
 

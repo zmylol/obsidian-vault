@@ -13,7 +13,7 @@ tags:
 - science
 - tool-use
 - reliability
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -60,13 +60,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#Claude%E5%BA%94%E7%94%A8%E4%B8%8E%E8%A1%8C%E4%B8%9A%E6%96%B9%E6%A1%88)
 
 > [官方原文](https://www.anthropic.com/news/claude-science-ai-workbench) · Claude Science, an AI workbench for scientists, is now available · 2026-06-30
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 发布 Claude Science 测试版，把科研数据库、专业工具、计算资源与可追溯的图表和代码放进同一工作台。协调代理可调用专业代理，审阅代理检查引用和计算；分析在研究者原有设备或集群上运行，但必要上下文仍会发送给 Claude。发布时支持 macOS、Linux 及 Pro、Max、Team、Enterprise 套餐，后两种套餐需管理员开启。文中提速来自早期使用案例，不能视为所有研究任务的受控效果证明。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 成果同时携带复现信息
 

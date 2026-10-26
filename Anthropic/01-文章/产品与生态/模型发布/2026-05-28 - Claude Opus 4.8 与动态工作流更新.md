@@ -12,7 +12,7 @@ source_section: News
 tags:
 - products
 - agents
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -52,13 +52,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83)
 
 > [官方原文](https://www.anthropic.com/news/claude-opus-4-8) · Introducing Claude Opus 4.8 · 2026-05-28
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2026 年 5 月发布 Opus 4.8，常规价格保持每百万输入 5 美元、输出 25 美元，并加入努力程度控制、Claude Code 动态工作流和更快的 Fast Mode。动态工作流可在研究预览中并行运行数百个子代理，帮助完成大规模代码迁移；官方还称它让模型更少放过自己代码中的缺陷，并在对齐评估中较 Opus 4.7 有更低的不对齐行为。Fast Mode 提速约 2.5 倍，按每百万输入 10 美元、输出 50 美元计费；相关评测和安全结论仍取决于具体配置与评测环境。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 能力改善并非每个榜单都领先
 

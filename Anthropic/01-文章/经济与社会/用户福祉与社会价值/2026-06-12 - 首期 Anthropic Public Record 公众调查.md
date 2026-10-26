@@ -13,7 +13,7 @@ tags:
 - societal-impacts
 - policy
 - evaluations
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -51,13 +51,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E7%94%A8%E6%88%B7%E7%A6%8F%E7%A5%89%E4%B8%8E%E7%A4%BE%E4%BC%9A%E4%BB%B7%E5%80%BC)
 
 > [官方原文](https://www.anthropic.com/news/anthropic-public-record) · Results from the first Anthropic Public Record · 2026-06-12
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 首轮 Anthropic Public Record 汇总 2025 年末对 51,993 名美国居民的加权调查：受访者希望 AI 促进医疗等进步，同时普遍担忧失业、认知依赖和错误信息。对政府参与和企业责任的支持较高；这是公众态度的基线，不能当作未来经济影响已经发生的证据。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 希望与担忧使用不同问法，百分比不能直接对比
 

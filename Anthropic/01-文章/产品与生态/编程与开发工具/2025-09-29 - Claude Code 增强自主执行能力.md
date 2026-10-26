@@ -12,7 +12,7 @@ source_section: News
 tags:
 - agents
 - reliability
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -53,13 +53,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E7%BC%96%E7%A8%8B%E4%B8%8E%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7)
 
 > [官方原文](https://www.anthropic.com/news/enabling-claude-code-to-work-more-autonomously) · Enabling Claude Code to work more autonomously · 2025-09-29
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2025 年 9 月为 Claude Code 增加 VS Code 扩展、终端 2.0、检查点和 Agent SDK，让同一套工具、上下文与权限框架支持更长的自主开发。扩展提供侧栏和行内 diff，SDK 加入子代理与 hooks，后台任务可并行运行。检查点不覆盖用户改动或 bash 外部副作用，仍需配合版本控制和权限审查。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 图形界面与终端共同展示工作状态
 

@@ -12,7 +12,7 @@ category: 公司与商业/组织治理与全球布局
 source_section: News
 tags:
 - company
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -56,13 +56,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E7%BB%84%E7%BB%87%E6%B2%BB%E7%90%86%E4%B8%8E%E5%85%A8%E7%90%83%E5%B8%83%E5%B1%80)
 
 > [官方原文](https://www.anthropic.com/news/anthropic-expands-global-leadership-in-enterprise-ai-naming-chris-ciauri-as-managing-director-of) · Anthropic expands global leadership in enterprise AI, naming Chris Ciauri as Managing Director of International · 2025-09-26
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 在 2025 年 9 月任命 Chris Ciauri 为国际业务负责人，配合欧洲与亚太市场扩张。公告披露在都柏林、伦敦及以研究为主的苏黎世办公室增加一百多个职位，并推进东京首个亚洲办公室，后续还计划公布更多欧洲地点。公司以企业客户超过三十万、2025 年 8 月年化收入运行率超过五十亿美元等数据解释扩张背景。这些是当时的公司披露，年化运行率不是全年已实现收入，所列客户案例也不能代表全部企业的平均收益。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 领导职责对应地区扩张
 

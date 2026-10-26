@@ -16,7 +16,7 @@ tags:
 - 科研Agent
 - BootLoops
 - 科研协作
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-10-02'
@@ -64,13 +64,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E7%A7%91%E7%A0%94Agent%E4%B8%8E%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD)
 
 > [官方原文](https://www.anthropic.com/research/claude-shaped-science) · Claude-shaped science · 发布于 2026-10-01
-> 中文摘要与重点图文解读，关键内容与配图节选；关联论文、代码与附件未单独精读或复现。
+> 中文摘要与重点文字解读，关键内容与配图节选；关联论文、代码与附件未单独精读或复现。
 
 ## 摘要
 
 物理学家 Matthew Schwartz 在客座文章中报告，他让 Claude 围绕可检验的定量问题积累 BootLoops 工具，再请各领域专家把技术上正确的计算引向有研究价值的问题。作者自述三个月从约四百个候选问题发展出十八个领域的三十六份稿件，案例包括生态模型和群体遗传分析；这些经历不是受控效率试验，各项结果仍需验证。文章强调人工选题、结果核查和计算成本，BootLoops 由作者维护，虽作者当时在 Anthropic 访学，项目并不属于 Anthropic。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 从模型擅长的计算中寻找可检验问题
 

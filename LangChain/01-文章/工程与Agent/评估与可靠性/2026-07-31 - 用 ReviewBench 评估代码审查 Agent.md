@@ -18,7 +18,7 @@ tags:
 - lc
 - AI
 - 评估与可靠性
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 ---
@@ -36,7 +36,7 @@ translation_status: not_requested
 
 ReviewBench 把 LangSmith 仓库真实合并请求中的有效审查意见，整理成 59 个可复现任务、64 个基准缺陷，评估 Agent 找回缺陷的覆盖率与所报问题的准确率。LangChain 报告，在统一基础框架、没有专门审查提示、每题尝试三次的条件下，最强配置仍只找回约三成基准缺陷。另一个 20 题试验中，Luna 在高推理强度下改用结构化审查提示后得分上升，表明审查配置会影响结果；这不能当作跨代码库通用能力或纯模型排名。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 把审查意见筛成可验证缺陷
 

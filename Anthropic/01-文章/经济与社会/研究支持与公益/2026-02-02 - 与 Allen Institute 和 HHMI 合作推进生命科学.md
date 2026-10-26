@@ -13,7 +13,7 @@ source_section: News
 tags:
 - science
 - company
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -60,13 +60,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E7%A0%94%E7%A9%B6%E6%94%AF%E6%8C%81%E4%B8%8E%E5%85%AC%E7%9B%8A)
 
 > [官方原文](https://www.anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute) · Anthropic partners with Allen Institute and Howard Hughes Medical Institute to accelerate scientific discovery · 2026-02-02
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 与 Allen Institute、霍华德·休斯医学研究所合作，探索让 AI 代理帮助生命科学研究。HHMI 侧重把实验知识、仪器与分析流程连接起来，Allen 侧重让多个代理分工整合不同类型的生物数据、管理知识图谱并辅助实验设计。文章提出保持推理可追踪、由科学家指导系统的发展方向；缩短分析周期仍是合作目标，尚无已验证的科研提速结果。
 
-## 重点图文解读
+## 重点文字解读
 
 ### HHMI 侧重实验基础设施
 

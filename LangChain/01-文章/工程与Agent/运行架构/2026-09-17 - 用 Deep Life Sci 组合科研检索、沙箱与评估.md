@@ -20,7 +20,7 @@ tags:
 - lc
 - AI
 - 运行架构
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 ---
@@ -38,7 +38,7 @@ translation_status: not_requested
 
 Deep Life Sci 是基于 Deep Agents 的开源生命科学助手模板，将临床试验记录检索、文献检索、文件处理和沙箱分析组合到同一工作流。它可把文档阅读分给子 Agent，并允许机构接入内部资料、更换模型和加入审批环节。运行过程记录到用户自己的 LangSmith 账户，附带可扩展的默认评估集，用于比较提示词或模型修改前后的表现。文章给出研究与文档处理示例，没有报告量化评估结果；这些能力和日志不等于已完成临床或合规验证。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 把领域资料交给专职分析角色
 

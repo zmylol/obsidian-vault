@@ -15,7 +15,7 @@ tags:
 - lc
 - AI
 - 运行架构
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 authors:
@@ -30,13 +30,13 @@ authors_source: 原文页首署名
 
 > [原文：Doubling down on Deep Agents](https://www.langchain.com/blog/doubling-down-on-deepagents) · 发布于 2025-10-28 · 收录于 2026-09-09  
 > 作者：The LangChain Team · LangChain 官方博客署名文章  
-> 中文摘要与重点图文解读，内容与配图为节选；示例代码未运行，关联论文未精读。历史文章中的产品状态与性能数据以原文条件为准。  
+> 中文摘要与重点文字解读，内容与配图为节选；示例代码未运行，关联论文未精读。历史文章中的产品状态与性能数据以原文条件为准。
 
 ## 摘要
 
 Deep Agents 0.2 将原先只存于 LangGraph 状态的虚拟文件系统改成可插拔后端，内置状态存储、跨线程存储和本地文件系统，并允许按目录组合不同后端。它同时加入大工具结果转存、旧对话压缩，以及对中断工具调用所留消息历史的修复，用于支撑更长的任务。文章把 Deep Agents、LangChain、LangGraph 分别定位为带现成能力的执行框架、核心 Agent 循环和底层运行时，三者逐层构建。S3 是自定义后端示例，跨会话保存取决于后端选择，不能由文件接口本身推定。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 文件接口可连接不同存储
 

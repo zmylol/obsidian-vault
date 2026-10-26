@@ -14,7 +14,7 @@ tags:
 - company
 - agents
 - economics
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -58,13 +58,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E4%BC%81%E4%B8%9A%E5%90%88%E4%BD%9C%E4%B8%8E%E6%9C%8D%E5%8A%A1%E7%94%9F%E6%80%81)
 
 > [官方原文](https://www.anthropic.com/news/dxc-anthropic-alliance) · DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on · 2026-06-11
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 DXC 与 Anthropic 在 2026 年 6 月宣布多年全球联盟，计划培训并认证数万名驻场工程师，把 Claude 接入银行、保险、航空等客户的关键系统。DXC 已先在自有运维平台 OASIS 使用 Claude，并称平台超过 95% 的代码由模型生成、经过工程师审核，目前服务 50 多家客户。合作将从保险、旧代码改造、网络安全和应用运维展开。代码占比与十倍开发提速均是特定平台的公司披露，不能当作所有项目的效果，也不意味着计划中的工程师培训已完成。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 以自身平台建立经验
 

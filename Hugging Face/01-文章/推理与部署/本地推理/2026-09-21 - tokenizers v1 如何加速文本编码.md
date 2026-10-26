@@ -14,7 +14,7 @@ last_checked: "2026-09-23"
 category: "推理与部署/本地推理"
 source_section: "Hugging Face 团队技术文章；作者 Rust 候选版基准"
 tags: ["tokenizers", "CPU", "推理"]
-note_depth: "中文摘要与重点图文解读"
+note_depth: "中文摘要与重点文字解读"
 detail_status: "completed"
 ---
 
@@ -23,13 +23,13 @@ detail_status: "completed"
 <!-- AUTO:BEGIN -->
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E6%9C%AC%E5%9C%B0%E6%8E%A8%E7%90%86)
 
-> [原文](https://huggingface.co/blog/tokenizers-v1) · tokenizers v1: encode, decode and scaling, measured · 2026-09-21 · Arthur Zucker、Simon Brandeis、Luc Georges、Lysandre。中文摘要与重点图文解读，Rust候选版作者基准。
+> [原文](https://huggingface.co/blog/tokenizers-v1) · tokenizers v1: encode, decode and scaling, measured · 2026-09-21 · Arthur Zucker、Simon Brandeis、Luc Georges、Lysandre。中文摘要与重点文字解读，Rust候选版作者基准。
 
 ## 摘要
 
 Hugging Face 的 tokenizers v1 候选版通过位流切分、词缓存和可复用缓冲区，减少文本转为 token 编号时的重复工作，同时保持与0.23版相同的 token 编号。作者在 Apple M4 Max 上测试10个模型家族，单线程编码速度为0.23版的约3–30倍；主结果使用不同文档流，而非反复编码同一篇已缓存文档。这些是 Rust 库测量，不含 Python 调用开销，也不能直接换算成模型推理加速；未匹配切分模式仍走正则路径，低重复输入未必受益于缓存。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 结果先限定为编码吞吐量
 

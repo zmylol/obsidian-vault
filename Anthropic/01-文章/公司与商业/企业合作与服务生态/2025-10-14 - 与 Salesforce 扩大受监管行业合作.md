@@ -13,7 +13,7 @@ source_section: News
 tags:
 - company
 - tool-use
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -59,13 +59,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E4%BC%81%E4%B8%9A%E5%90%88%E4%BD%9C%E4%B8%8E%E6%9C%8D%E5%8A%A1%E7%94%9F%E6%80%81)
 
 > [官方原文](https://www.anthropic.com/news/salesforce-anthropic-expanded-partnership) · Anthropic and Salesforce expand partnership to bring Claude to regulated industries · 2025-10-14
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 与 Salesforce 在 2025 年 10 月扩大合作，让 Claude 经 Amazon Bedrock 成为 Agentforce 的优选模型之一，并深化与 Slack 的双向集成。公告称相关 Claude 流量留在 Salesforce 的虚拟私有云内；发布时 Agentforce 接入仅面向部分客户，Slack 双向集成已可用。Salesforce 同时正在工程团队部署 Claude Code，双方还拟从金融服务开始开发行业方案。新的行业方案及把 Agentforce 360 接入 Claude 的更完整能力当时仍在开发，不能把合作公告中的所有功能都视为已经上线。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 先确定数据与运行边界
 

@@ -12,7 +12,7 @@ source_section: Research
 tags:
 - cybersecurity
 - agents
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -49,13 +49,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B8%8E%E7%89%A9%E7%90%86%E6%8E%A7%E5%88%B6)
 
 > [官方原文](https://www.anthropic.com/research/project-fetch-robot-dog) · Project Fetch: Can Claude train a robot dog? · 2025-11-12
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 八名非机器人专家分为有无 Claude 的两队编程控制机器狗，实验显示 AI 能帮助连接硬件和处理传感器，但未完成自主取球。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 在共同完成的任务上约节省一半时间
 

@@ -15,7 +15,7 @@ tags:
 - science
 - biology
 - agents
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-24'
@@ -61,13 +61,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E7%94%9F%E5%91%BD%E7%A7%91%E5%AD%A6%E4%B8%8E%E5%AE%9E%E9%AA%8C%E6%96%B9%E6%B3%95)
 
 > [官方原文](https://www.anthropic.com/news/claude-discovers-novel-enzyme-system) · Claude discovers a novel enzyme system with CRISPR-like repeats · 发布于 2026-09-23
-> 中文摘要与重点图文解读，关键内容与配图节选；关联论文、代码与附件未单独精读或复现。
+> 中文摘要与重点文字解读，关键内容与配图节选；关联论文、代码与附件未单独精读或复现。
 
 ## 摘要
 
 Anthropic 公布生命科学研究组的早期成果：Claude 在人类给定研究方向后搜索序列数据库，发现一种与重复 DNA 阵列相邻的逆转录酶系统，团队称其为 ART。其核心逆转录酶此前已被识别，新发现是相关重复阵列和辅助蛋白构成的系统特征；人工实验进一步观察到阵列会产生不同的短 RNA。研究展示了代理发现异常、提出候选的能力，实验仍由人类完成。ART 的主要功能尚不明确，类似 CRISPR 的排列不能证明它已是可编程基因编辑工具。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 新颖之处是组合特征
 

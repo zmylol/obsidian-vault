@@ -14,7 +14,7 @@ last_checked: "2026-10-23"
 category: "安全与治理/模型与推理安全"
 source_section: "OpenAI News · Security · Product"
 tags: ["OpenAI", "Patch the Planet", "漏洞响应", "网络安全"]
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 status: "saved"
 detail_status: "pending"
 summary_review_status: "passed"
@@ -36,7 +36,7 @@ body_sha256: "abba392ef75f5647dca15d1abcf1d56907d8119cc75731f6abcf8af5023e2a07"
 
 OpenAI 介绍 Patch the Planet 如何与 PHP 维护者、Wiz、Cloudflare 等协作，使用 GPT‑5.6 Sol 发现关键漏洞并在公开披露前组织修复、供应商缓解和政府网络安全协调。文章提出五阶段响应：验证并修复上游漏洞、给受影响组织准备时间、协调政府伙伴、准备各产品更新、发布指导并支持部署；同时强调 AI 找漏洞也可能帮助攻击者，防御能力需要配合访问控制和滥用缓解。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 发现与修复
 

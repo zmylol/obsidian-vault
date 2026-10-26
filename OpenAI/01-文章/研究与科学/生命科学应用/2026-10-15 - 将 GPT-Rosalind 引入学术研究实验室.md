@@ -14,7 +14,7 @@ last_checked: "2026-10-19"
 category: "研究与科学/生命科学应用"
 source_section: "OpenAI News · Research · Product"
 tags: ["OpenAI", "GPT-Rosalind", "生命科学"]
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 status: "saved"
 detail_status: "pending"
 summary_review_status: "passed"
@@ -36,7 +36,7 @@ body_sha256: "0ee96ca995e4b8e8fac8fff5552d34cf7e9097151b08d9ad7ff35587af1b5b99"
 
 OpenAI 推出 Rosalind 学术计划，为符合条件的美国高校实验室提供最多 30 个 Business Standard 席位，最长 12 个月免费使用 GPT‑Rosalind 与工作台。模型面向药物与蛋白设计、疾病检测、疫苗、基因与 RNA 疗法、农业、生态和抗菌药物等生命科学任务，需可信访问审批。研究数据默认不用于训练，计划不含 API，官方案例和安全演示仍需独立科学验证。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 计划把模型、工作台和访问审批放在同一条科研入口
 

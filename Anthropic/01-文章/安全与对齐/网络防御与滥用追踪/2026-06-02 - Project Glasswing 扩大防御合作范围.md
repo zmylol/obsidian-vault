@@ -12,7 +12,7 @@ source_section: News
 tags:
 - cybersecurity
 - company
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -50,13 +50,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E7%BD%91%E7%BB%9C%E9%98%B2%E5%BE%A1%E4%B8%8E%E6%BB%A5%E7%94%A8%E8%BF%BD%E8%B8%AA)
 
 > [官方原文](https://www.anthropic.com/news/expanding-project-glasswing) · Expanding Project Glasswing · 2026-06-02
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Glasswing 宣布向约 150 家新组织扩展，重点覆盖关键基础设施，并把支持重点从发现逐步移向验证与修补。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 新组织需先满足安全要求
 

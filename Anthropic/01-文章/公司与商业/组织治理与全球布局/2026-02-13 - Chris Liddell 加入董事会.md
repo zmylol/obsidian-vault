@@ -12,7 +12,7 @@ source_section: News
 tags:
 - company
 - policy
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -56,13 +56,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E7%BB%84%E7%BB%87%E6%B2%BB%E7%90%86%E4%B8%8E%E5%85%A8%E7%90%83%E5%B8%83%E5%B1%80)
 
 > [官方原文](https://www.anthropic.com/news/chris-liddell-appointed-anthropic-board) · Chris Liddell appointed to Anthropic’s board of directors · 2026-02-13
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2026 年 2 月任命 Chris Liddell 加入董事会。他曾担任 Microsoft、通用汽车和 International Paper 的首席财务官，也曾在特朗普首届政府担任白宫副幕僚长，公司强调其企业管理、公共服务与治理经验。公告说明 Anthropic 是公共利益公司，董事由股东和长期利益信托选举，但没有注明 Liddell 对应哪一方的席位。这次任命本身不能证明未来政策取向或治理成效。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 经历覆盖企业与政府
 

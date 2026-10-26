@@ -13,7 +13,7 @@ source_section: News
 tags:
 - company
 - economics
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -58,13 +58,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E4%BC%81%E4%B8%9A%E5%90%88%E4%BD%9C%E4%B8%8E%E6%9C%8D%E5%8A%A1%E7%94%9F%E6%80%81)
 
 > [官方原文](https://www.anthropic.com/news/services-track-partner-hub) · Introducing the Services Track and Partner Hub of the Claude Partner Network · 2026-06-03
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 在 2026 年 6 月为 Claude 合作伙伴网络推出服务商分级 Services Track 和查询门户 Partner Hub，以活跃认证人员、生产部署客户及公开案例衡量交付经验。等级分 Select、Preferred、Global Premier；其中 Select 至少需要 10 名活跃认证人员、过去 12 个月内 2 个已将 Claude 投入生产的共同客户，以及 1 个公开客户案例。Hub 每日更新进度并公开目录，等级资格按季核验，晋级另有固定日期，业务转介奖励单独计算。新申请方从 Registered 起步，申请或个人取得认证不等于企业已获服务商等级。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 三级门槛由交付证据构成
 

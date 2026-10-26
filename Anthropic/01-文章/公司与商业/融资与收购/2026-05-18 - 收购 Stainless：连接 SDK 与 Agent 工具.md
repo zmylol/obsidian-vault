@@ -12,7 +12,7 @@ source_section: News
 tags:
 - company
 - tool-use
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -57,13 +57,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E8%9E%8D%E8%B5%84%E4%B8%8E%E6%94%B6%E8%B4%AD)
 
 > [官方原文](https://www.anthropic.com/news/anthropic-acquires-stainless) · Anthropic acquires Stainless · 2026-05-18
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2026 年 5 月 18 日宣布收购 Stainless，以加强开发者和 AI 代理连接外部系统的工具。Stainless 能依据 API 规格生成软件开发工具包、命令行工具及 MCP 服务，Anthropic 官方开发工具包从 API 早期起已由它生成。此次交易将已有合作纳入同一团队，文章没有宣布新的协议或 API 版本。交易价格、产品迁移时间和外部客户安排未在公告中披露。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 从 API 规格生成多语言工具
 

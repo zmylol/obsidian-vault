@@ -18,7 +18,7 @@ tags:
 - lc
 - AI
 - 评估与可靠性
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 ---
@@ -36,7 +36,7 @@ translation_status: not_requested
 
 Orange Business 在约20家云与AI厂商中选择 LangChain 作为模型中立、可移植的 Agent 基础，并用 LangSmith 负责评估与可观测性。其 Live Intelligence 将 Studio、Portal、Console 与 Agent/MCP Registry 组合起来：工程师构建跨系统流程，员工使用受治理的 Agent，管理员监控用量和合规。平台在生产中分别评估 RAG 检索与依据、Agent 行为及 trace 的延迟和失败，并在发布前回放历史轨迹做回归检查；这些是 Orange 的产品案例和自述，没有公开受控准确率或成本对照。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 选型与平台分工
 

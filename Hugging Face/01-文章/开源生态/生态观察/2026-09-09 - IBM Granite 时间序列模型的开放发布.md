@@ -5,7 +5,7 @@ original_title: "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with
 authors: [Roman Vaculin, Wesley M. Gifford, Jiri Navratil, Chandra Reddy, Ayhan Sebin]
 published: 2026-09-09
 category: "开源生态/生态观察"
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: pending
 source_aliases: []
 authors_source: "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series"
@@ -28,7 +28,7 @@ source_section: "IBM Research 企业文章"
 
 IBM 发布约 3.85 亿参数的 PatchTST-FM-r2，用结合注意力与时序卷积的网络和重叠分块，支持无需任务专门训练的时间序列预测，并输出预测区间所需的分位数。IBM 报告，截至 2026 年 9 月 8 日，该模型在 GIFT-Eval 无测试泄漏、可复现的零样本组中，两项预测误差指标 CRPS、MASE 均列第二，在该组宽松许可模型中领先。权重与复现代码已开放，可选择 Apache 2.0 或 OpenMDW 1.0 许可；榜单成绩不代表任意业务序列都能达到同样效果。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 先辨别评测集合
 

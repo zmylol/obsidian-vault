@@ -13,7 +13,7 @@ tags:
 - societal-impacts
 - tool-use
 - products
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -60,13 +60,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#Claude%E5%BA%94%E7%94%A8%E4%B8%8E%E8%A1%8C%E4%B8%9A%E6%96%B9%E6%A1%88)
 
 > [官方原文](https://www.anthropic.com/news/claude-for-teachers) · Introducing Claude for Teachers · 2026-07-14
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 发布 Claude for Teachers，向经验证的美国中小学教师免费提供高级功能、教学技能及与各州标准对应的课程资源，支持备课、分层教学和材料分析。公告规定在 2027 年 6 月 30 日前注册可获一年访问，产品供教师个人使用。课堂效果评估仍待开展；8 月补充说明强调，可识别学生记录需要学校或学区授权，教育数据使用还受当地政策约束，不能把免费访问当作处理学生资料的许可。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 把教学材料与课程标准联系起来
 

@@ -13,7 +13,7 @@ source_section: News
 tags:
 - company
 - agents
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -57,13 +57,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E4%BC%81%E4%B8%9A%E5%90%88%E4%BD%9C%E4%B8%8E%E6%9C%8D%E5%8A%A1%E7%94%9F%E6%80%81)
 
 > [官方原文](https://www.anthropic.com/news/snowflake-anthropic-expanded-partnership) · Snowflake and Anthropic announce $200 million partnership to bring agentic AI to global enterprises · 2025-12-03
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Snowflake 与 Anthropic 在 2025 年 12 月宣布多年期、2 亿美元合作，计划向 Snowflake 超过 1.26 万家客户提供 Claude，并共同推广企业智能体。方案将模型放入已有的数据治理环境，支持自然语言分析、通过 SQL 使用模型及构建多步数据代理。公告称复杂自然语言转 SQL 任务的准确率超过 90%，依据是 Snowflake 内部基准，不能推广到任意企业数据集。已有客户使用案例与下一阶段推广计划并存；合同规模不代表全部客户已部署，客户引述也不能替代独立效果验证。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 让分析靠近原有数据治理
 

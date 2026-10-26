@@ -19,7 +19,7 @@ tags:
 - AI
 - 运行架构
 detail_status: completed
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 translation_status: not_requested
 ---
 
@@ -36,7 +36,7 @@ translation_status: not_requested
 
 Deep Agents 0.7 移除隐藏的基础提示、缩短工具说明，并把待办列表改为可选，将默认单轮的基础输入从约 6,000 减到 2,000 tokens，降幅约 65%。团队对比 0.6.12，在三类任务、四个模型上观察到总体奖励表现接近，但奖励差异的置信区间均跨零，成本也并非全部下降。新版还允许替换内置中间件，write_file 改为覆盖已有文件，并默认加入删除工具。65% 指基础输入而非任务总费用，迁移时仍须检查文件操作和旧接口兼容性。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 减少的是基础输入
 

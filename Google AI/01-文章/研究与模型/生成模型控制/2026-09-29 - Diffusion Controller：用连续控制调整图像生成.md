@@ -16,7 +16,7 @@ source_section: "Google Research · Machine Intelligence"
 tags: ["Google Research", "扩散模型", "PPO", "偏好对齐"]
 status: "saved"
 detail_status: "completed"
-note_depth: "中文摘要与重点图文解读"
+note_depth: "中文摘要与重点文字解读"
 ---
 
 # Diffusion Controller：用连续控制调整图像生成
@@ -30,7 +30,7 @@ note_depth: "中文摘要与重点图文解读"
 
 Google Research 用 Diffusion Controller 把图像去噪过程表述为连续控制问题，并通过奖励加权损失或 PPO 训练轻量控制网络。灰盒方案冻结骨干，但需取得中间反向均值等信号；白盒方案可联合或分别调整骨干。在 Stable Diffusion v1.4 与 HPS-v2 提示测试中，作者报告部分方案优于 LoRA，白盒版本相对预训练基线的胜率达 90%；这一结果不是任意闭源 API 都可复用的保证，本次未复现。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 把去噪轨迹作为控制问题
 

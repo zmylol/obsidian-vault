@@ -23,9 +23,17 @@ if git remote get-url origin >/dev/null 2>&1; then
 fi
 
 # Keep the remote repository text-first even if an automation writes a file
-# before .gitignore is refreshed.  The exclude rules also protect already
-# tracked paths during the transition commit.
-git add -u -- .
+# before .gitignore is refreshed.  Apply the same exclusions to tracked
+# updates so legacy media paths cannot be staged during the transition.
+git add -u -- \
+  . \
+  ':(exclude)**/98-附件/**' \
+  ':(exclude)**/附件/**' \
+  ':(exclude)**/99-管理/.运行记录/**' \
+  ':(exclude)**/99-管理/图片来源清单.*' \
+  ':(exclude).obsidian/plugins/*/main.js' \
+  ':(exclude).obsidian/plugins/*/*.css' \
+  ':(exclude).obsidian/plugins/*/obsidian_askpass.sh'
 git add -A -- \
   . \
   ':(exclude)**/98-附件/**' \

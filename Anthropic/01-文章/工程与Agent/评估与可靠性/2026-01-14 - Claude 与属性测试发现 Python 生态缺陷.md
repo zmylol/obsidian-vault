@@ -13,7 +13,7 @@ source_section: Research
 tags:
 - evaluations
 - reliability
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -57,13 +57,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E8%AF%84%E4%BC%B0%E4%B8%8E%E5%8F%AF%E9%9D%A0%E6%80%A7)
 
 > [官方原文](https://www.anthropic.com/research/property-based-testing) · Finding bugs across the Python ecosystem with Claude and property-based testing · 2026-01-14
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 与合作研究者让 Claude 从 Python 代码和文档推导应成立的性质，再用 Hypothesis 自动生成输入、寻找反例，并反思测试假设是否合理。Opus 4.1 产生的 984 份报告中，人工选出的 50 份有 56% 被判为有效缺陷；按评分筛出的高分组有效比例为 86%，这不是全量报告的准确率。部分发现已有维护者合并补丁，但也出现把预期行为当成错误、提出错误修复的案例。方法可补充人工测试，仍需验证性质语义与报告质量。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 循环检查代码和测试假设
 

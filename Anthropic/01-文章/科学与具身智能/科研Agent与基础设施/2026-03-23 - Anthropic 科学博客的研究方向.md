@@ -11,7 +11,7 @@ category: 科学与具身智能/科研Agent与基础设施
 source_section: Research
 tags:
 - science
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -56,13 +56,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E7%A7%91%E7%A0%94Agent%E4%B8%8E%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD)
 
 > [官方原文](https://www.anthropic.com/research/introducing-anthropic-science) · Introducing our Science Blog · 2026-03-23
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2026 年 3 月推出科学博客，计划通过研究专题、实际工作流和领域札记，介绍 AI 参与科学发现的过程及研究者可用的方法。首批配套文章分别记录受专家监督的理论物理计算，以及长时间科学计算任务的组织方法。博客也将讨论科研训练、文献信任和研究组织的变化；开篇明确指出模型仍会虚构结果、迎合用户或卡在简单问题上，因此其科学能力仍需专业人员判断与验证。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 三种文章对应不同阅读目的
 

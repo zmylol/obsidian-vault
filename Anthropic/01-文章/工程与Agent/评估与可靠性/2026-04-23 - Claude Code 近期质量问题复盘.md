@@ -12,7 +12,7 @@ source_section: Engineering
 tags:
 - reliability
 - evaluations
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -51,13 +51,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E8%AF%84%E4%BC%B0%E4%B8%8E%E5%8F%AF%E9%9D%A0%E6%80%A7)
 
 > [官方原文](https://www.anthropic.com/engineering/april-23-postmortem) · An update on recent Claude Code quality reports · 2026-04-23
-> 中文摘要＋重点图文解读；关键内容及配图节选。
+> 中文摘要＋重点文字解读；关键内容及配图节选。
 
 ## 摘要
 
 Anthropic 将 2026 年春季 Claude Code、Agent SDK 和 Cowork 的部分质量下降追溯到三项产品改动：降低默认推理强度、会话闲置超过一小时后因故障在每轮持续清除旧推理，以及压缩回复长度的系统提示。它们影响的模型和时间段不同，总体表现为遗忘、重复和编码质量波动；公司称 API 与推理服务层未受影响。相关改动已回退或修复，截至 4 月 20 日在 v2.1.116 中全部处理。后续措施包括扩大公开版本内部试用、跨仓库审查和逐模型提示词评测，这次复盘不能解释所有质量波动。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 默认强度改变了质量与延迟取舍
 

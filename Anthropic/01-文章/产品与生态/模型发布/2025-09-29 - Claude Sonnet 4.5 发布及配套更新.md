@@ -13,7 +13,7 @@ tags:
 - products
 - agents
 - context-engineering
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -54,13 +54,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83)
 
 > [官方原文](https://www.anthropic.com/news/claude-sonnet-4-5) · Introducing Claude Sonnet 4.5 · 2025-09-29
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2025 年 9 月发布 Claude Sonnet 4.5，主打编码、电脑操作和长时代理，并同步推出 Agent SDK、检查点与上下文管理。官方报告 SWE-bench Verified 77.2%、OSWorld 61.4%，复杂开发任务可持续超过 30 小时；数字依赖特定提示、工具和预算，另有并行尝试的 82.0% 口径。模型按 ASL-3 防护发布，客户体验不等同于普遍稳定能力。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 编程成绩要区分单次与并行计算
 

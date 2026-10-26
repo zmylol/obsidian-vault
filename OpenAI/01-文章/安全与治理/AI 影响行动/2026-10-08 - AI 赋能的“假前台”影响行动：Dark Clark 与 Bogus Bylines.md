@@ -13,7 +13,7 @@ last_checked: "2026-10-13"
 category: "安全与治理/AI 影响行动"
 source_section: "OpenAI News · Safety"
 tags: ["OpenAI"]
-note_depth: "中文摘要与重点图文解读"
+note_depth: "中文摘要与重点文字解读"
 status: "saved"
 detail_status: "pending"
 title: "AI 赋能的“假前台”影响行动：Dark Clark 与 Bogus Bylines"
@@ -36,7 +36,7 @@ body_hash_type: "normalized_official_crawled_article_text"
 
 OpenAI 报告封禁了俄罗斯 Dark Clark 与伊朗 Bogus Bylines 两个影响行动的相关账号。行动者借助模型处理内部报告、改写和翻译，再以伪研究机构或记者身份向外传播内容。公司将俄罗斯行动评为 Breakout Scale 5；伊朗的媒体投稿达到 4，而社交评论仅为 2。判断来自平台调查与公开线索，部分自报传播无法核实，也不能把所有相关内容都归为 AI 生成。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 分发渠道与破圈等级
 

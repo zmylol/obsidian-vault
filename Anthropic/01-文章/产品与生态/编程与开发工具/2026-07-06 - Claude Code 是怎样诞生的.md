@@ -13,7 +13,7 @@ tags:
 - agents
 - reliability
 - company
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 published_source: 官网 News 推荐列表（正文未标明完整日级日期）
 published_evidence: https://www.anthropic.com/news
@@ -58,14 +58,14 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E7%BC%96%E7%A8%8B%E4%B8%8E%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7)
 
 > [官方原文](https://www.anthropic.com/features/making-of-claude-code) · The Making of Claude Code · 2026-07-06
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 > 日期依据：https://www.anthropic.com/news
 
 ## 摘要
 
 这篇访谈回顾 Claude Code 从早期编码助手、持久 shell 和 clide 原型，到 2024 年 CLI 团队及 2025 年对外发布的过程。受访者强调，简单工具循环、内部用户反馈、短迭代和小团队共同把代理变成可用产品，也记录了启动慢、工具不合习惯和团队扩张的压力。材料是 Anthropic 员工的回顾性叙述，含个人经历和事后解释，不是产品性能评测或行业生产率统计。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 代理基础设施早于成熟产品
 

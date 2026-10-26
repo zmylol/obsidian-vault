@@ -17,7 +17,7 @@ tags:
 - 企业合作
 - AI人才
 - Claude Frontier Academy
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-10-03'
@@ -64,13 +64,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#企业合作与服务生态)
 
 > [官方原文](https://www.anthropic.com/news/claude-frontier-academy) · Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap · 2026-10-02
-> 中文摘要＋重点图文解读，关键内容及配图节选；合作方数字和反馈按原文归述，未独立复现。
+> 中文摘要＋重点文字解读，关键内容及配图节选；合作方数字和反馈按原文归述，未独立复现。
 
 ## 摘要
 
 Anthropic 于 2026 年 10 月推出 Claude Frontier Academy，投入 1 亿美元，目标到 2027 年底培养 1 万名 Frontier Deployed Engineers。训练先模拟企业部署、安审和交接，再让工程师在本组织带领真实 Claude 项目并考核，首批认证预计 2027 年初。项目按组织提名、在三座城市开展，规模数字和客户反馈由 Anthropic 或合作方公布，尚无独立成效对照。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 以训练和实战衔接企业部署
 

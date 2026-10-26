@@ -16,7 +16,7 @@ source_section: "Google Blog · Gemini models"
 tags: ["Google DeepMind", "Gemini", "模型评测", "长时程任务"]
 status: "saved"
 detail_status: "completed"
-note_depth: "中文摘要与重点图文解读"
+note_depth: "中文摘要与重点文字解读"
 source_updates: ["https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/", "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/", "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/", "https://cloud.google.com/blog/products/ai-machine-learning/gemini-4-argon-available-on-google-cloud"]
 ---
 
@@ -33,7 +33,7 @@ source_updates: ["https://blog.google/innovation-and-ai/models-and-research/gemi
 
 Google 的 Gemini 4 Argon 从早期受限测试扩展为全球开放：开发者可通过 Gemini API 付费层使用，消费端按 AI Pro/Ultra 套餐开放。10 月 13 日新公告将 API 长任务额度表述为 100 万统一输入输出 token，并提示开发者参考新的续接协议配置；这与 9 月 30 日预告的“输出上限”口径不同。官方展示代码重构与专业工作案例，但效果属于发布方自述，本次未接入或复现。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 从受限预告到进一步开放
 

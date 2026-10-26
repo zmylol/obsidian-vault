@@ -14,7 +14,7 @@ last_checked: "2026-09-24"
 category: "推理与部署/本地推理"
 source_section: "Hugging Face 团队技术文章；作者本地推理基准"
 tags: ["GGUF", "Metal", "Transformers"]
-note_depth: "中文摘要与重点图文解读"
+note_depth: "中文摘要与重点文字解读"
 detail_status: "completed"
 ---
 
@@ -23,13 +23,13 @@ detail_status: "completed"
 <!-- AUTO:BEGIN -->
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E6%9C%AC%E5%9C%B0%E6%8E%A8%E7%90%86)
 
-> [原文](https://huggingface.co/blog/transformers-llama-cpp-quants) · Transformers now runs llama.cpp quants · 2026-09-22 · Marc Sun、Arthur Zucker、Lysandre。中文摘要与重点图文解读，性能为作者报告。
+> [原文](https://huggingface.co/blog/transformers-llama-cpp-quants) · Transformers now runs llama.cpp quants · 2026-09-22 · Marc Sun、Arthur Zucker、Lysandre。中文摘要与重点文字解读，性能为作者报告。
 
 ## 摘要
 
 Hugging Face 为 Transformers 接入 ggml 的 Metal 算子，并减少生成循环中的同步等待，使 Python/PyTorch 能直接运行压缩存储的 GGUF 权重。作者在32GB内存的 M2 Max 上测试三个 Qwen 检查点，报告速度接近 llama.cpp；但 Transformers 含预填充、取预热后三次运行的最好值，llama-bench只测解码并取三次平均，不能视为同条件胜负。发布时需 Transformers 主分支及兼容的 PyTorch、kernels，压缩权重路径仅支持 Apple Silicon 的 MPS 与 Qwen3.5架构（含兼容Qwen3.8），优化面向单个交互会话，带填充的批处理尚不能享受全部优化。缺少兼容量化算子会解量化并增加内存占用。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 接入保留标准接口，回退路径要分清
 

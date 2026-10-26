@@ -12,7 +12,7 @@ source_section: News
 tags:
 - policy
 - alignment
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -60,13 +60,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#AI%E6%94%BF%E7%AD%96%E4%B8%8E%E5%85%AC%E5%85%B1%E4%BA%8B%E5%8A%A1)
 
 > [官方原文](https://www.anthropic.com/news/position-open-weights-models) · Our position on open-weights models · 2026-07-27
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 在 2026 年 7 月的政策声明中，Dario Amodei 否认 Anthropic 主张全面禁用开放权重模型，并认为不具危险能力的开放模型有公共价值。他主张限制先进芯片及制造设备流向中国、打击大规模模型蒸馏，并对足够强的开放和封闭模型统一开展发布前安全测试。理由是禁用美国企业手中的开放模型不足以阻止恶意使用，而权重公开后难以撤回或持续监督。这是公司提出的政策立场与风险判断，并非已实施的统一法规，也未证明开放模型必然比封闭模型危险。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 开放价值与不可撤回风险并存
 

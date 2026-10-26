@@ -13,7 +13,7 @@ tags:
 - products
 - alignment
 - science
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 published_source: 官网 News 推荐列表（正文未标明完整日级日期）
 published_evidence: https://www.anthropic.com/news
@@ -58,14 +58,14 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83)
 
 > [官方原文](https://www.anthropic.com/claude-fable-and-mythos-5-1) · Introducing Claude Fable 5.1 and Claude Mythos 5.1 · 2026-09-01
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 > 日期依据：https://www.anthropic.com/news
 
 ## 摘要
 
 Anthropic 发布 Fable 5.1 与 Mythos 5.1：前者面向一般使用，后者通过可信访问支持网络安全和生命科学等高风险任务，二者采用不同防护与可用范围。文章报告缓存读取价降至每百万 0.25 美元、典型工作成本约低 25%，并给出终端科学、代理任务和科研案例；部分研究结果来自公司或合作方测试。EFS、自有云数据控制和专业访问将分阶段推出，评测受防护干预、回退路由和任务版本影响，不能直接视为普遍生产表现。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 科研示例同时看输入与验证
 

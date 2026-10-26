@@ -12,7 +12,7 @@ source_section: News
 tags:
 - policy
 - company
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -59,13 +59,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#AI%E6%94%BF%E7%AD%96%E4%B8%8E%E5%85%AC%E5%85%B1%E4%BA%8B%E5%8A%A1)
 
 > [官方原文](https://www.anthropic.com/news/donate-public-first-action) · Anthropic is donating $20 million to Public First Action · 2026-02-12
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2026 年 2 月宣布向 Public First Action 捐赠 2,000 万美元，支持围绕 AI 治理的公众教育与政策倡议。公司提出的方向包括对最强模型开发者实行透明度要求、建立联邦治理框架，以及关注出口管制和近期风险；它反对在缺少更强联邦保护时排除州级规则。这篇文章说明了捐款用途和公司的监管立场，并未证明这些主张已获跨党派共识或已写入法律，也没有报告捐款带来的政策成效。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 捐赠对象与目的明确
 

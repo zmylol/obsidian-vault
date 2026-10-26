@@ -14,7 +14,7 @@ tags:
 - company
 - agents
 - reliability
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -58,13 +58,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E4%BC%81%E4%B8%9A%E5%90%88%E4%BD%9C%E4%B8%8E%E6%9C%8D%E5%8A%A1%E7%94%9F%E6%80%81)
 
 > [官方原文](https://www.anthropic.com/news/cognizant-anthropic) · Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients · 2026-07-27
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Cognizant 与 Anthropic 在 2026 年 7 月扩大合作，把 Claude 接入工程和运维平台，并成为 Global Premier 伙伴；公告称已有超过三万名员工完成培训。Flowsource 用项目规格、编码标准和架构约束指导 Claude Code，并在投产前评估输出。公司披露的一项生物医药合同系统部署，将审查时间最多缩短 40%，信息抽取准确率超过 88%。这些是特定客户项目的结果，不能概括为所有部署的平均收益，培训人数也不代表全部人员已经获得认证。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 规格约束模型输出
 

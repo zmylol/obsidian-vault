@@ -12,7 +12,7 @@ source_section: Engineering
 tags:
 - alignment
 - agents
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -51,13 +51,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E6%89%A7%E8%A1%8C%E5%AE%89%E5%85%A8%E4%B8%8E%E6%9D%83%E9%99%90)
 
 > [官方原文](https://www.anthropic.com/engineering/claude-code-auto-mode) · How we built Claude Code auto mode: a safer way to skip permissions · 2026-03-25
-> 中文摘要＋重点图文解读；关键内容及配图节选。
+> 中文摘要＋重点文字解读；关键内容及配图节选。
 
 ## 摘要
 
 Claude Code 的 Auto mode 用分类器代替部分人工审批，以减少频繁确认造成的疲劳。输入侧检查工具结果中的提示注入并附加警告；动作侧只看用户消息和工具调用，先快速筛查，再对可疑动作详细判断，避免被智能体自己的理由说服。Anthropic 报告，包含 1 万次员工真实工具调用的测试中，完整流程误拦了 0.4% 的良性动作；在另行整理的 52 条真实越界动作样本中，仍漏放约 17%。这是降低摩擦与漏判之间的取舍，适合替代完全跳过审批，不能等同于对高影响操作的仔细人工审查。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 输入与动作分别检查
 

@@ -12,7 +12,7 @@ category: 公司与商业/组织治理与全球布局
 source_section: News
 tags:
 - company
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -57,13 +57,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E7%BB%84%E7%BB%87%E6%B2%BB%E7%90%86%E4%B8%8E%E5%85%A8%E7%90%83%E5%B8%83%E5%B1%80)
 
 > [官方原文](https://www.anthropic.com/news/anthropic-appoints-irina-ghose-as-managing-director-of-india) · Anthropic appoints Irina Ghose as Managing Director of India ahead of Bengaluru office opening · 2026-01-16
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2026 年 1 月任命前 Microsoft India 董事总经理 Irina Ghose 负责印度业务，当时班加罗尔办公室仍在筹备开业。当地团队将加强企业合作、开发者联系，以及与政策制定者和学术机构的合作。公告引用第四期经济指数，称印度为 Claude.ai 全球第二大市场，当地接近一半使用集中于计算机和数学任务。这些使用特征解释了业务重心，但不等于印度收入排名或任命后的经营成效。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 经验对应企业采用需求
 

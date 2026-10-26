@@ -14,7 +14,7 @@ last_checked: "2026-10-24"
 category: "开发者与模型使用/模型使用策略"
 source_section: "OpenAI News · Engineering"
 tags: ["OpenAI", "Habitat", "Azure Cosmos DB", "基础设施"]
-note_depth: "中文摘要与重点图文解读"
+note_depth: "中文摘要与重点文字解读"
 status: "saved"
 detail_status: "pending"
 summary_review_status: "passed"
@@ -36,7 +36,7 @@ body_sha256: "87855091e6c6fc36850c0626a1781ec2d89dfa65d210c7de294295a4f8ad6b69"
 
 OpenAI 介绍 Habitat 如何支撑 ChatGPT、API、Codex 等产品在 40 个地区访问超过 500 PB 数据。团队从共享容器、专用容器再回到默认多租户，通过热点限流、请求优先级和改进的无服务器模式降低噪声邻居风险；复制、缓存、CDC 与 Rust 重写把全球读延迟中位数从约 120 毫秒降至约 10 毫秒。文中经验依赖 Azure Cosmos DB 与 OpenAI 规模，容量和地域约束仍需单独评估。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 从隔离到多租户
 

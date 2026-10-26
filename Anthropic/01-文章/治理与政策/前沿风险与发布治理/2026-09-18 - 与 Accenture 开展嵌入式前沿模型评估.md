@@ -14,7 +14,7 @@ source_section: News
 tags:
 - governance
 - evaluations
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-19'
@@ -59,13 +59,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E5%89%8D%E6%B2%BF%E9%A3%8E%E9%99%A9%E4%B8%8E%E5%8F%91%E5%B8%83%E6%B2%BB%E7%90%86)
 
 > [官方原文](https://www.anthropic.com/news/accenture-embedded-evaluation) · Partnering with Accenture on embedded evaluation · 发布于 2026-09-18
-> 中文摘要与重点图文解读，关键内容与配图节选；关联论文、代码与附件未单独精读或复现。
+> 中文摘要与重点文字解读，关键内容与配图节选；关联论文、代码与附件未单独精读或复现。
 
 ## 摘要
 
 Anthropic 于 2026 年 9 月宣布与 Accenture 开展嵌入式前沿 AI 评估，由其 AI 业务 Faculty 牵头，让评估者以接近员工的访问权限观察训练、部署决策并测试模型。双方预计未来五年各投入至少十亿美元建设相关能力；此次评估由 Anthropic 直接付费，合作不排他。公告希望用持续观察核验安全承诺，但访问范围、报告方式和长期资金机制尚无统一标准，具体运行细节仍在制定。独立评估不转移模型公司的安全责任，公告也尚未报告评估结果。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 观察范围延伸到模型形成过程
 

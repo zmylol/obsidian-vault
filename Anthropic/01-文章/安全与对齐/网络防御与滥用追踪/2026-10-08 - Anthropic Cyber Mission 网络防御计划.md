@@ -11,7 +11,7 @@ last_checked: '2026-10-09'
 category: 安全与对齐/网络防御与滥用追踪
 source_section: News
 tags: []
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 quality_evidence:
@@ -54,7 +54,7 @@ body_sha256: 086d0b25dfdd164a2a637b8e4be1f6bf6f2d9c6094d045483a08360260a3849c
 
 Anthropic 于 2026 年 10 月宣布 Anthropic Cyber Mission，先从关键基础设施和开源软件两条线支持防御者：通过 Critical Infrastructure Defense Program 向电力、水务、交通和政府系统提供模型、现场工程师与威胁研究，并以 OSS Scanner 为开源项目提供免费周期扫描。公告称 Glasswing 伙伴发现了许多漏洞，但整体网络风险尚未充分降低；验证、披露和修补仍受人工资源、设备运行安全和维护者能力限制，开源服务还会发送未经人工复核的模型报告。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 两条防御主线
 

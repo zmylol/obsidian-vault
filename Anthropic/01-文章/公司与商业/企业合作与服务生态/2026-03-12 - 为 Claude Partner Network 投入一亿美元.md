@@ -12,7 +12,7 @@ source_section: News
 tags:
 - company
 - economics
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -56,13 +56,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E4%BC%81%E4%B8%9A%E5%90%88%E4%BD%9C%E4%B8%8E%E6%9C%8D%E5%8A%A1%E7%94%9F%E6%80%81)
 
 > [官方原文](https://www.anthropic.com/news/claude-partner-network) · Anthropic invests $100 million into the Claude Partner Network · 2026-03-12
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 在 2026 年 3 月推出 Claude Partner Network，承诺当年初始投入 1 亿美元，支持帮助企业采用 Claude 的服务机构。资源包括培训、专门技术支持、联合市场活动、合作门户及代码现代化工具包；首项 Claude 架构师认证在发布时已向伙伴开放，其他认证计划于 2026 年内推出。面向市场推广 Claude 的机构可免费申请加入，合格伙伴可进入服务商目录。资金承诺不等于已全部发放，加入网络也不代表必然获得投资、认证或目录资格。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 投入覆盖交付能力
 

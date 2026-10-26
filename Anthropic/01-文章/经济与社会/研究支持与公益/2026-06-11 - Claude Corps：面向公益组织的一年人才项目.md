@@ -12,7 +12,7 @@ source_section: News
 tags:
 - economics
 - societal-impacts
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -60,13 +60,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E7%A0%94%E7%A9%B6%E6%94%AF%E6%8C%81%E4%B8%8E%E5%85%AC%E7%9B%8A)
 
 > [官方原文](https://www.anthropic.com/news/claude-corps) · Introducing Claude Corps · 2026-06-11
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 宣布首期投入 1.5 亿美元启动 Claude Corps，计划培训 1,000 名职业早期人员，让其在美国公益组织带薪全职驻点一年，帮助机构建设 AI 工具，并培养自身技能。Anthropic 负责资金和技术，CodePath 雇用与培训学员，Social Finance 负责评价和扩展机制。公告计划首批 100 人于 2026 年 10 月开始；申请人须超过 18 岁、全职工作经验不足两年，具有美国工作资格、能适应使用 Claude，并愿意按需搬迁。项目成效仍待后续评估。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 三个机构分工承担项目
 

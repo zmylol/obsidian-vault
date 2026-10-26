@@ -20,7 +20,7 @@ tags:
 - lc
 - AI
 - 评估与可靠性
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 ---
@@ -38,7 +38,7 @@ translation_status: not_requested
 
 LangChain 发布 Tuned Evaluators，由平台维护面向特定目标的评估器，判断与解释直接附在调用记录上。首款 Perceived Error 用专门后训练的模型，从用户纠正、反复请求等线索识别疑似错误；公司内部基准报告其判别效果优于所测前沿模型且成本更低，但它仍是待调查信号。2026 年 8 月发布时，该款仅面向美国区 Plus 和 Cloud Enterprise。对话至少包含两组人机消息并达到设定的空闲时间后才符合条件，评估在此后 12 小时内完成。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 把裁判维护交给平台
 

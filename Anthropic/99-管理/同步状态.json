@@ -238,7 +238,7 @@
         "sha256": "5db514b0006ba3fbed7d48859d0138a0863d24d47e2532f446cf155cb35db6b0",
         "comparable_previous_snapshot": true
       },
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T10:03:31+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-19T09:11:25+08:00",
@@ -295,7 +295,7 @@
       "collected": "2026-09-09",
       "body_sha256": "9cb25f1b0d139da4f37c1315da2a0e818ab24d87b479047a8380fb075450cc33",
       "last_substantive_update": "2026-10-03",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "last_body_check": {
@@ -378,7 +378,7 @@
         "sha256": "041e34a23a8452a252a0f33f97607b19844b2551bcdba306291f7dea5de1d6fe",
         "comparable_previous_snapshot": true
       },
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:57:27+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-19T09:11:25+08:00",
@@ -507,7 +507,7 @@
       "collected": "2026-09-09",
       "body_sha256": "4a55756f769e5ebb61977938daee655b503920834b4438a7db73758785303ae7",
       "last_substantive_update": "2026-10-03",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "last_body_check": {
@@ -590,7 +590,7 @@
         "sha256": "2ca8bca815bd88ffed8712e87859c4b0938d52b735979e466750680524206662",
         "comparable_previous_snapshot": false
       },
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:40:09+08:00",
       "quality_evidence": {
         "checked_at": "2026-10-01T09:23:51+08:00",
@@ -659,7 +659,7 @@
         "sha256": "1f7c4d502b3fe5e5308860280e9ba36540d96a6dfec59a62311c42bebe22ab5f",
         "comparable_previous_snapshot": true
       },
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:40:09+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-20T09:11:21+08:00",
@@ -731,7 +731,7 @@
         "sha256": "629b7eb45633958c82c47758da1bae4896c3999f0501dfd9ad0ca213f1592bb8",
         "comparable_previous_snapshot": false
       },
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:40:09+08:00",
       "quality_evidence": {
         "checked_at": "2026-10-01T09:23:51+08:00",
@@ -791,7 +791,7 @@
       "body_sha256": "4edacb8a633342ae041bcb28c03925dcd79421f93b022a8acc80f5399f1b8afd",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-19",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "last_body_check": {
@@ -872,7 +872,7 @@
         "sha256": "3b736138b438ec61bc3174e5fcc31c0968bf96eece57da96136dd1027f8fa6de",
         "comparable_previous_snapshot": false
       },
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-10-03T09:26:19+08:00",
       "quality_evidence": {
         "checked_at": "2026-10-03T09:26:19+08:00",
@@ -933,7 +933,7 @@
       "body_sha256": "45566bed062a27fbe58dc21cf36c17d864345f3005839e668ed6184990048a12",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-15",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "last_body_check": {
@@ -1008,7 +1008,7 @@
         "sha256": "9fb6b32f87db8c080bd29445c913a3779c006c28704024f4f7596cb61d21513c",
         "comparable_previous_snapshot": false
       },
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T10:23:38+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-20T09:11:21+08:00",
@@ -1076,7 +1076,7 @@
         "sha256": "fc715beeb786f2a114fafa453fd67d2c3ced64a73a61d76e37c9711a5a34d089",
         "comparable_previous_snapshot": false
       },
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T10:12:14+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-20T09:11:21+08:00",
@@ -1135,7 +1135,7 @@
       "collected": "2026-09-09",
       "body_sha256": "807d1d1a41e26d2306231281e3867361b0ca4da19e2064922de03ac38d17d5fd",
       "last_substantive_update": "2026-10-03",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "last_body_check": {
@@ -1216,7 +1216,7 @@
         "sha256": "4a087cab7ace5f8de3788e084e3f35a29c7daab31eafae05e7ced67ce59f30e2",
         "comparable_previous_snapshot": false
       },
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:31:20+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-22T09:16:37+08:00",
@@ -1280,7 +1280,7 @@
         "sha256": "73681e96529ba9210be86fb686dca8f3c8a9bf3bc5651c998aa9be34502e19d2",
         "comparable_previous_snapshot": false
       },
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-10-03T09:26:19+08:00",
       "quality_evidence": {
         "checked_at": "2026-10-03T09:26:19+08:00",
@@ -1350,7 +1350,7 @@
         "sha256": "15a6914764341b110bd5e03b52dece5663e703a902c7f1ce50c04826e7ebec0a",
         "comparable_previous_snapshot": false
       },
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T10:07:28+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-20T09:11:21+08:00",
@@ -1415,7 +1415,7 @@
       "last_substantive_update": "2026-09-24",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:35:15+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-24T09:18:38+08:00",
@@ -1485,7 +1485,7 @@
       "last_substantive_update": "2026-09-18",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:28:39+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-11T09:28:39+08:00",
@@ -1551,7 +1551,7 @@
       "body_sha256": "180cc319f3ae87d3a1e45b6c8c7cf47517f720da7077e3262f2f4c2937b6e9fa",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-20",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:12:14+08:00",
@@ -1623,7 +1623,7 @@
       "collected": "2026-09-09",
       "body_sha256": "704ff741fbf31c7ea24f3437013d140cf48c3c4cfe619dde307617baf3f1635d",
       "last_substantive_update": "2026-10-03",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-10-03T09:26:19+08:00",
@@ -1697,7 +1697,7 @@
       "last_substantive_update": "2026-09-27",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:40:09+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-27T09:17:34+08:00",
@@ -1768,7 +1768,7 @@
       "last_substantive_update": "2026-09-30",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:48:13+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-30T09:23:23+08:00",
@@ -1835,7 +1835,7 @@
       "last_substantive_update": "2026-09-24",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:35:15+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-24T09:18:38+08:00",
@@ -1901,7 +1901,7 @@
       "last_substantive_update": "2026-09-28",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:40:09+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-28T09:27:50+08:00",
@@ -1968,7 +1968,7 @@
       "body_sha256": "1a193cf89bf444c595ae1276e4ebe729a486b2852a273f41c2a827eb08c408b9",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-21",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:21:16+08:00",
@@ -2036,7 +2036,7 @@
       "last_substantive_update": "2026-09-30",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:48:13+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-30T09:23:23+08:00",
@@ -2105,7 +2105,7 @@
       "collected": "2026-09-09",
       "body_sha256": "688f8a184b31f7c4edd57cbef91ac95a0825b1c3d3d54632a5090de770c53038",
       "last_substantive_update": "2026-09-28",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T09:40:09+08:00",
@@ -2172,7 +2172,7 @@
       "body_sha256": "5fe8be2464855d48ece2bed8cd5bdd028b2316082d4c20c703dda60c43db5115",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-21",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:31:09+08:00",
@@ -2238,7 +2238,7 @@
       "body_sha256": "b59ff9bca97cbcf22edf36eda5d7e03a91016bc3f8e3922a2aabbd09cb78e579",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-21",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:12:14+08:00",
@@ -2306,7 +2306,7 @@
       "last_substantive_update": "2026-09-18",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:28:39+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-11T09:28:39+08:00",
@@ -2372,7 +2372,7 @@
       "last_substantive_update": "2026-10-01",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:48:13+08:00",
       "quality_evidence": {
         "checked_at": "2026-10-01T09:23:51+08:00",
@@ -2439,7 +2439,7 @@
       "last_substantive_update": "2026-10-03",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-10-03T09:26:19+08:00",
       "quality_evidence": {
         "checked_at": "2026-10-03T09:26:19+08:00",
@@ -2507,7 +2507,7 @@
       "last_substantive_update": "2026-09-22",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:31:20+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-22T09:16:37+08:00",
@@ -2569,7 +2569,7 @@
       "last_substantive_update": "2026-09-21",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T10:03:31+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-21T09:15:00+08:00",
@@ -2633,7 +2633,7 @@
       ],
       "body_sha256": "d972af17567ef68137e6b4abc4120f252f7467e4dee2ecfa92f003b43ea0a3da",
       "published_source": "官网正文日期",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:04:58+08:00",
@@ -2705,7 +2705,7 @@
       "last_substantive_update": "2026-10-03",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-10-03T09:26:19+08:00",
       "quality_evidence": {
         "checked_at": "2026-10-03T09:26:19+08:00",
@@ -2775,7 +2775,7 @@
       "collected": "2026-09-09",
       "body_sha256": "a8472d96716f97192bd47f9744222c685c357368d08690fc98ae61ac7f09e1cb",
       "last_substantive_update": "2026-10-03",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-10-03T09:26:19+08:00",
@@ -2847,7 +2847,7 @@
       "collected": "2026-09-09",
       "body_sha256": "8ecf163a0da85af3789839b2c4a7204e9d30b7f5cababf623e865c5ac940929e",
       "last_substantive_update": "2026-10-07",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:03:31+08:00",
@@ -2901,7 +2901,7 @@
       "collected": "2026-09-09",
       "body_sha256": "3abb50b36a3e6886e41a99143c2097fa9d8beb679922d34a5d7fd7eaba205ef7",
       "last_substantive_update": "2026-10-07",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T09:36:42+08:00",
@@ -2963,7 +2963,7 @@
       "collected": "2026-09-09",
       "body_sha256": "ee2d43f4106258f6fae5bc82205916602ad165616ac3567556b5f34824a10989",
       "last_substantive_update": "2026-10-06",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T09:54:24+08:00",
@@ -3017,7 +3017,7 @@
       "collected": "2026-09-09",
       "body_sha256": "1279048ddf3efc7831581c8a39811096317334e83c51d8e3a8af211af82b7a1c",
       "last_substantive_update": "2026-10-01",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T09:48:13+08:00",
@@ -3088,7 +3088,7 @@
       "body_sha256": "4530b2760ddb8eeabfa917938afa4a5d4e970769a8dbceac46c2429c0746e378",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-22",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:21:16+08:00",
@@ -3156,7 +3156,7 @@
       "last_substantive_update": "2026-10-01",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:48:13+08:00",
       "quality_evidence": {
         "checked_at": "2026-10-01T09:23:51+08:00",
@@ -3221,7 +3221,7 @@
       "body_sha256": "56516fd8ff709f3246e104f478033bf65def34c696a17ca1b36b5eacd245cb71",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-22",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:12:14+08:00",
@@ -3289,7 +3289,7 @@
       "last_substantive_update": "2026-09-22",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:31:20+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-22T09:16:37+08:00",
@@ -3353,7 +3353,7 @@
       "body_sha256": "e71507026400bd9492460e495208904abe2b6778327010758ca52670ebd15b7b",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-16",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:23:38+08:00",
@@ -3421,7 +3421,7 @@
       "last_substantive_update": "2026-09-18",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:28:39+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-11T09:28:39+08:00",
@@ -3487,7 +3487,7 @@
       "last_substantive_update": "2026-09-27",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:36:42+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-27T09:17:34+08:00",
@@ -3554,7 +3554,7 @@
       "last_substantive_update": "2026-10-07",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T10:31:09+08:00",
       "quality_evidence": {
         "checked_at": "2026-10-07T09:20:00+08:00",
@@ -3608,7 +3608,7 @@
       "last_substantive_update": "2026-09-18",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:28:39+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-11T09:28:39+08:00",
@@ -3674,7 +3674,7 @@
       "last_substantive_update": "2026-09-28",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:40:09+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-28T09:27:50+08:00",
@@ -3743,7 +3743,7 @@
       "body_sha256": "c895fb16b58b056fcd585837963028ef32a2b3d91a971cebefe7ea026a21a3f8",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-10-06",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T09:54:24+08:00",
@@ -3797,7 +3797,7 @@
       "body_sha256": "41666e866035642c2f655c23de6f8e2420a01d4f150d1d65978bdb59a7112417",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-22",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:07:28+08:00",
@@ -3863,7 +3863,7 @@
       "body_sha256": "9d56ff9ba1d3e7cee9bf9cb3afe48651a5223a186059ac264763af73ebd11b75",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-22",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:17:16+08:00",
@@ -3929,7 +3929,7 @@
       "body_sha256": "42015996f9e8cbaa92f157d82de4717f92d8e0faade1ed6fd0c541763fc69f24",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-22",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:17:16+08:00",
@@ -3997,7 +3997,7 @@
       "last_substantive_update": "2026-09-23",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T10:10:25+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-23T09:17:38+08:00",
@@ -4068,7 +4068,7 @@
       "last_substantive_update": "2026-09-23",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T10:10:25+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-23T09:17:38+08:00",
@@ -4134,7 +4134,7 @@
       "last_substantive_update": "2026-09-17",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:28:39+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-11T09:28:39+08:00",
@@ -4200,7 +4200,7 @@
       "last_substantive_update": "2026-10-07",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T10:10:25+08:00",
       "quality_evidence": {
         "checked_at": "2026-10-07T09:20:00+08:00",
@@ -4254,7 +4254,7 @@
       "last_substantive_update": "2026-10-07",
       "translation_status": "not_requested",
       "enriched_at": "2026-09-09T21:40:11+08:00",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "quality_evidence": {
         "checked_at": "2026-10-07T09:20:00+08:00",
         "source_read": true,
@@ -4314,7 +4314,7 @@
       "last_substantive_update": "2026-09-24",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:35:15+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-24T09:18:38+08:00",
@@ -4380,7 +4380,7 @@
       "last_substantive_update": "2026-10-06",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:54:24+08:00",
       "quality_evidence": {
         "checked_at": "2026-10-06T09:20:00+08:00",
@@ -4436,7 +4436,7 @@
       "body_sha256": "1999212c20a9752ab7b46a0b0580c08f6c4f4b9427d8222a1c6c77b8d0eb5713",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-23",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:23:38+08:00",
@@ -4508,7 +4508,7 @@
       "last_substantive_update": "2026-09-22",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:31:20+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-22T09:16:37+08:00",
@@ -4570,7 +4570,7 @@
       "last_substantive_update": "2026-09-22",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:31:20+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-22T09:16:37+08:00",
@@ -4632,7 +4632,7 @@
       "last_substantive_update": "2026-09-11",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T10:31:09+08:00",
       "quality_evidence": {
         "checked_at": "2026-10-08T09:20:00+08:00",
@@ -4686,7 +4686,7 @@
       "body_sha256": "f9fd19e69578d7f15bfd9ea3ffccee93810a86f84c003a98223506e952ffd88b",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-14",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T09:13:15+08:00",
@@ -4752,7 +4752,7 @@
       "body_sha256": "9cfde418a986e4a125aee50d9b43336d3f3b413ce310c6d1e6ace03ab2f62227",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-25",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:10:25+08:00",
@@ -4819,7 +4819,7 @@
       "body_sha256": "71f4198d329b47721c78312a15b1057bbdd255e5d0b954279f78ceb72dae0fa1",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-25",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:07:28+08:00",
@@ -4892,7 +4892,7 @@
       "last_substantive_update": "2026-09-11",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T10:31:09+08:00",
       "quality_evidence": {
         "checked_at": "2026-10-08T09:20:00+08:00",
@@ -4948,7 +4948,7 @@
       "last_substantive_update": "2026-09-17",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:28:39+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-11T09:28:39+08:00",
@@ -5014,7 +5014,7 @@
       "last_substantive_update": "2026-09-23",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:35:15+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-23T09:17:38+08:00",
@@ -5076,7 +5076,7 @@
       "last_substantive_update": "2026-09-24",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:35:15+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-24T09:18:38+08:00",
@@ -5146,7 +5146,7 @@
       "last_substantive_update": "2026-09-17",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:28:39+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-11T09:28:39+08:00",
@@ -5212,7 +5212,7 @@
       "last_substantive_update": "2026-09-28",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:40:09+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-28T09:27:50+08:00",
@@ -5279,7 +5279,7 @@
       "last_substantive_update": "2026-10-01",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:48:13+08:00",
       "quality_evidence": {
         "checked_at": "2026-10-01T09:23:51+08:00",
@@ -5348,7 +5348,7 @@
       "body_sha256": "41b80d746eeef027bf8319b4e81f3f49f677bb17bdb46813309529cae2e3bd0d",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-24",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T09:57:12+08:00",
@@ -5418,7 +5418,7 @@
       "body_sha256": "5634bb14f375e5bc375ae69205868e9feb2f9193dd886b4bbf89f74191b7e60e",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-24",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "enriched_at": "2026-09-09T21:40:11+08:00",
       "quality_evidence": {
@@ -5489,7 +5489,7 @@
       "last_substantive_update": "2026-09-17",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:57:12+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-11T09:57:12+08:00",
@@ -5555,7 +5555,7 @@
       "last_substantive_update": "2026-09-24",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:35:15+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-24T09:18:38+08:00",
@@ -5623,7 +5623,7 @@
       "body_sha256": "96075b7e78b2fe679cab0d02d60715b137f7a397ee61bdf6254b2bca5483bc03",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-23",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T09:31:20+08:00",
@@ -5691,7 +5691,7 @@
       "last_substantive_update": "2026-10-01",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:48:13+08:00",
       "quality_evidence": {
         "checked_at": "2026-10-01T09:23:51+08:00",
@@ -5762,7 +5762,7 @@
       "last_substantive_update": "2026-09-14",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:27:00+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-11T09:27:00+08:00",
@@ -5826,7 +5826,7 @@
       "body_sha256": "7b9aec6fdecb383d8f2955f6262ffb6fc3327b1979f3140083af3e66f9dd1e5a",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-25",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:28:57+08:00",
@@ -5897,7 +5897,7 @@
       "body_sha256": "b13d90a6327dfbc5d2e5cc5864eadfc7c3eb91605511ae91510fa50a42ff16eb",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-24",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:17:16+08:00",
@@ -5969,7 +5969,7 @@
       "last_substantive_update": "2026-10-02",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:48:13+08:00",
       "quality_evidence": {
         "checked_at": "2026-10-02T09:17:21+08:00",
@@ -6040,7 +6040,7 @@
       "last_substantive_update": "2026-09-21",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:31:20+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-21T09:15:00+08:00",
@@ -6108,7 +6108,7 @@
       "body_sha256": "bd3bb71f50a6735cdef5d4750fd8033e872ce7a875b5a07ad52a255efc3e942e",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-25",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T09:35:15+08:00",
@@ -6177,7 +6177,7 @@
       "last_substantive_update": "2026-09-14",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:27:00+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-11T09:27:00+08:00",
@@ -6241,7 +6241,7 @@
       "body_sha256": "f490cfd8a0a40b49f3d07f8107f2851a40af9ad34a41f7317e42d108089bd68e",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-14",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T09:13:15+08:00",
@@ -6308,7 +6308,7 @@
       "last_substantive_update": "2026-09-26",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T10:21:16+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-26T09:24:56+08:00",
@@ -6373,7 +6373,7 @@
       "body_sha256": "074e1447a1a8cb655f663157bd7bc810f957d597e31eb672398f922c71dbf2ad",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-26",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:21:16+08:00",
@@ -6446,7 +6446,7 @@
       "last_substantive_update": "2026-09-21",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:31:20+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-21T09:15:00+08:00",
@@ -6516,7 +6516,7 @@
       "last_substantive_update": "2026-10-02",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:48:13+08:00",
       "quality_evidence": {
         "checked_at": "2026-10-02T09:17:21+08:00",
@@ -6585,7 +6585,7 @@
       "body_sha256": "6d2cf56ddafc960c83be96dd64aaf1b6c0a2d25a905b082b2731d644904d3b8b",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-10-06",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T09:54:24+08:00",
@@ -6643,7 +6643,7 @@
       "body_sha256": "97bdf6ac66bf58b01214e11d388126e2a985a6248a41c766e7aa36db2a6bf70e",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-17",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T09:57:12+08:00",
@@ -6715,7 +6715,7 @@
       "last_substantive_update": "2026-09-21",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:31:20+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-21T09:15:00+08:00",
@@ -6781,7 +6781,7 @@
       "last_substantive_update": "2026-09-26",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:36:42+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-26T09:24:56+08:00",
@@ -6850,7 +6850,7 @@
       "body_sha256": "c4e89c80a361f6121245ddae664f59796ddd9bbfd1ce2b31d1573f5da7944072",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-14",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T09:13:15+08:00",
@@ -6917,7 +6917,7 @@
       "last_substantive_update": "2026-09-26",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T10:07:28+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-26T09:24:56+08:00",
@@ -6988,7 +6988,7 @@
       "last_substantive_update": "2026-09-21",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:31:20+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-21T09:15:00+08:00",
@@ -7052,7 +7052,7 @@
       "body_sha256": "9f29b7b36db7188d8f59df888604d3400ea43f9dd2586541bb50d2327fa43585",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-27",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:04:58+08:00",
@@ -7123,7 +7123,7 @@
       "body_sha256": "1129d59417afbbfd100aa44eb75ef086221127bd63f5a9c1063a4dc11a180bc4",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-27",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:21:16+08:00",
@@ -7196,7 +7196,7 @@
       "last_substantive_update": "2026-09-25",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:35:15+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-25T09:25:15+08:00",
@@ -7261,7 +7261,7 @@
       "body_sha256": "714746f783f7b02fd417c4c931605bd6e2e96474d814dc4ac9e5978f2ce99362",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-14",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T09:13:15+08:00",
@@ -7326,7 +7326,7 @@
       "body_sha256": "28d1e9735bf4d948258d530dc7d76948b9af3c49309059e2c0dc7df891367d06",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-27",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:19:35+08:00",
@@ -7397,7 +7397,7 @@
       "body_sha256": "9cc35b2026a3892d74c240e40815571d7341d044eb394e2c883d2bb89e023ce5",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-14",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T09:13:15+08:00",
@@ -7462,7 +7462,7 @@
       "body_sha256": "b6323ae7ee4a8b3bd3c56335d828e3d5b4a2a040f97a25edb105174b16c4fc60",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-27",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:12:14+08:00",
@@ -7533,7 +7533,7 @@
       "body_sha256": "4df505798126cfec8a92a540c7afcf2337ceae795191f42200bde715165db843",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-27",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:17:16+08:00",
@@ -7602,7 +7602,7 @@
       "last_substantive_update": "2026-09-28",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T10:17:16+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-28T09:27:50+08:00",
@@ -7667,7 +7667,7 @@
       "body_sha256": "4bf4704b77a103f8500fb44fdbaf9db279c6939a8d0de6a2b5af99c728e91441",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-28",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:04:58+08:00",
@@ -7740,7 +7740,7 @@
       "last_substantive_update": "2026-09-16",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:27:00+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-11T09:27:00+08:00",
@@ -7806,7 +7806,7 @@
       "last_substantive_update": "2026-09-28",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:40:09+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-28T09:27:50+08:00",
@@ -7873,7 +7873,7 @@
       "last_substantive_update": "2026-09-21",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:31:20+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-21T09:15:00+08:00",
@@ -7934,7 +7934,7 @@
       "body_sha256": "e252595a26e960ada6c423bbd73acb5f29a5bef5416cc2e2fd3292121e1dd0f7",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-28",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:10:25+08:00",
@@ -8003,7 +8003,7 @@
       "last_substantive_update": "2026-09-28",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T10:07:28+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-28T09:27:50+08:00",
@@ -8120,7 +8120,6 @@
       "last_body_check": {
         "at": "2026-10-13T09:06:05+08:00",
         "result": "unchanged_main_body",
-        "baseline": "Anthropic/99-管理/.运行记录/2026-09-13/42468eb1c49ef4da.txt",
         "method": "main-text-v1;去除推荐与订阅部分后比较；OSS新增curl引述不改变机制与结论"
       }
     },
@@ -8142,7 +8141,7 @@
       "body_sha256": "21f6e908379707239317beb32d4e9dba1cb38d9fae3fe2d5f1d16da146ad761a",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-28",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:23:38+08:00",
@@ -8215,7 +8214,7 @@
       "last_substantive_update": "2026-09-26",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:35:15+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-26T09:24:56+08:00",
@@ -8282,7 +8281,7 @@
       "last_substantive_update": "2026-09-25",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:35:15+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-25T09:25:15+08:00",
@@ -8349,7 +8348,7 @@
       "last_substantive_update": "2026-09-26",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:35:15+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-26T09:24:56+08:00",
@@ -8416,7 +8415,7 @@
       "last_substantive_update": "2026-09-29",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:57:12+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-29T09:15:52+08:00",
@@ -8487,7 +8486,7 @@
       "last_substantive_update": "2026-09-23",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:35:15+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-23T09:17:38+08:00",
@@ -8553,7 +8552,7 @@
       "last_substantive_update": "2026-09-27",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:36:42+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-27T09:17:34+08:00",
@@ -8618,7 +8617,7 @@
       "body_sha256": "0baf36c25863b75dc5801cb87013a818c339af9c45c7b0ef144526ac50af619c",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-29",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T09:57:12+08:00",
@@ -8687,7 +8686,7 @@
       "last_substantive_update": "2026-10-06",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T10:03:31+08:00",
       "quality_evidence": {
         "checked_at": "2026-10-06T09:20:00+08:00",
@@ -8741,7 +8740,7 @@
       "last_substantive_update": "2026-10-05",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:54:24+08:00",
       "quality_evidence": {
         "checked_at": "2026-10-05T09:20:00+08:00",
@@ -8793,7 +8792,7 @@
       "body_sha256": "89f15eb38da0f32f5d18eac5cbd2c57374efbc01958fc4a24fd8b0ed387951ac",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-16",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:28:57+08:00",
@@ -8859,7 +8858,7 @@
       "body_sha256": "eccee210257bd02de7763e9adea25896b5a9edcfe3d7d4478f1ad47d304d8e3f",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-10-05",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T09:54:24+08:00",
@@ -8919,7 +8918,7 @@
       "last_substantive_update": "2026-09-29",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:40:09+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-29T09:15:52+08:00",
@@ -8986,7 +8985,7 @@
       "last_substantive_update": "2026-09-16",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:27:00+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-11T09:27:00+08:00",
@@ -9050,7 +9049,7 @@
       "body_sha256": "39acdc956091f74a9d0ae2bddcc9ca750c5e2f1376a220e5e5b4359b1b3a3480",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-29",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:19:35+08:00",
@@ -9123,7 +9122,7 @@
       "last_substantive_update": "2026-09-20",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:31:20+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-20T09:11:21+08:00",
@@ -9193,7 +9192,7 @@
       "last_substantive_update": "2026-09-20",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:31:20+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-20T09:11:21+08:00",
@@ -9259,7 +9258,7 @@
       "last_substantive_update": "2026-09-29",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:40:09+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-29T09:15:52+08:00",
@@ -9326,7 +9325,7 @@
       "last_substantive_update": "2026-09-25",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:35:15+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-25T09:25:15+08:00",
@@ -9393,7 +9392,7 @@
       "last_substantive_update": "2026-09-23",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:35:15+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-23T09:17:38+08:00",
@@ -9459,7 +9458,7 @@
       "last_substantive_update": "2026-09-17",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:28:39+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-11T09:28:39+08:00",
@@ -9525,7 +9524,7 @@
       "last_substantive_update": "2026-09-30",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T10:07:28+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-30T09:23:23+08:00",
@@ -9594,7 +9593,7 @@
       "body_sha256": "ed735ca532e66ebe6201fbb2cc087a72e43a76b6eb79b6545a3b3dd107ed202c",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-10-05",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T09:54:24+08:00",
@@ -9700,7 +9699,6 @@
       "last_body_check": {
         "at": "2026-10-13T09:06:05+08:00",
         "result": "unchanged_main_body",
-        "baseline": "Anthropic/99-管理/.运行记录/2026-09-13/c78d84ac1a7e3d92.txt",
         "method": "main-text-v1;去除推荐与订阅部分后比较；OSS新增curl引述不改变机制与结论"
       }
     },
@@ -9769,7 +9767,6 @@
       "last_body_check": {
         "at": "2026-10-13T09:06:05+08:00",
         "result": "unchanged_main_body",
-        "baseline": "Anthropic/99-管理/.运行记录/2026-09-13/1eba12a4a8fa384c.txt",
         "method": "main-text-v1;去除推荐与订阅部分后比较；OSS新增curl引述不改变机制与结论"
       }
     },
@@ -9793,7 +9790,7 @@
       "last_substantive_update": "2026-10-02",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:48:13+08:00",
       "quality_evidence": {
         "checked_at": "2026-10-02T09:17:21+08:00",
@@ -9864,7 +9861,7 @@
       "last_substantive_update": "2026-10-04",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-10-04T09:23:21+08:00",
       "quality_evidence": {
         "checked_at": "2026-10-04T09:23:21+08:00",
@@ -9923,7 +9920,7 @@
       "last_substantive_update": "2026-09-29",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:40:09+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-29T09:15:52+08:00",
@@ -9994,7 +9991,7 @@
       "last_substantive_update": "2026-09-16",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T10:23:38+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-11T10:23:38+08:00",
@@ -10060,7 +10057,7 @@
       "last_substantive_update": "2026-09-30",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T10:28:57+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-30T09:23:23+08:00",
@@ -10131,7 +10128,7 @@
       "last_substantive_update": "2026-09-16",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:27:00+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-11T09:27:00+08:00",
@@ -10197,7 +10194,7 @@
       "last_substantive_update": "2026-09-29",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:40:09+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-29T09:15:52+08:00",
@@ -10265,7 +10262,7 @@
       "last_substantive_update": "2026-09-30",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:57:12+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-30T09:23:23+08:00",
@@ -10336,7 +10333,7 @@
       "last_substantive_update": "2026-09-20",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:31:20+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-20T09:11:21+08:00",
@@ -10402,7 +10399,7 @@
       "last_substantive_update": "2026-09-29",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:40:09+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-29T09:15:52+08:00",
@@ -10515,7 +10512,6 @@
       "last_body_check": {
         "at": "2026-10-13T09:06:05+08:00",
         "result": "unchanged_main_body",
-        "baseline": "Anthropic/99-管理/.运行记录/2026-09-13/2ab0d2c099317874.txt",
         "method": "main-text-v1;去除推荐与订阅部分后比较；OSS新增curl引述不改变机制与结论"
       }
     },
@@ -10537,7 +10533,7 @@
       "body_sha256": "209d9dde47305fe19acfd5f1ce9e30bd94ba405cef3a3138858c2c250b4a96ff",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-10-01",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:04:58+08:00",
@@ -10610,7 +10606,7 @@
       "last_substantive_update": "2026-10-02",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T10:07:28+08:00",
       "quality_evidence": {
         "checked_at": "2026-10-02T09:17:21+08:00",
@@ -10681,7 +10677,7 @@
       "last_substantive_update": "2026-09-20",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:31:20+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-20T09:11:21+08:00",
@@ -10746,7 +10742,7 @@
       "body_sha256": "92a06284035a017c4b44f55947ba38016df6e4c3319d8192452e1a12c209e96b",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-11",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:19:35+08:00",
@@ -10803,7 +10799,7 @@
       "body_sha256": "f275c6024b5608ccbc1c9fcb38fdc56fb5ccf1e8e045f8c4d9cf1016a005b470",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-11",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:19:35+08:00",
@@ -10861,7 +10857,7 @@
       "last_substantive_update": "2026-09-11",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T10:17:16+08:00",
       "quality_evidence": {
         "checked_at": "2026-10-08T09:20:00+08:00",
@@ -10915,7 +10911,7 @@
       "body_sha256": "5a62960711563faefaf3e2292e82179d241a397c4c7e863b7daaba9363a529f5",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-15",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:10:25+08:00",
@@ -10983,7 +10979,7 @@
       "last_substantive_update": "2026-09-20",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:31:20+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-20T09:11:21+08:00",
@@ -11047,7 +11043,7 @@
       "body_sha256": "6b58a7e7b1657b9d063bb04eb479fa0178d5088439090626e676ddcfeaac6a64",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-10-02",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T09:48:13+08:00",
@@ -11120,7 +11116,7 @@
       "last_substantive_update": "2026-10-02",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T10:03:31+08:00",
       "quality_evidence": {
         "checked_at": "2026-10-02T09:17:21+08:00",
@@ -11257,7 +11253,7 @@
       "last_substantive_update": "2026-10-02",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T10:10:25+08:00",
       "quality_evidence": {
         "checked_at": "2026-10-02T09:17:21+08:00",
@@ -11326,7 +11322,7 @@
       "body_sha256": "59c2bdce963b186fd22d3a4cf2b17a638a58905b0bbe92289a113d4d288f5f9d",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-17",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T09:57:12+08:00",
@@ -11394,7 +11390,7 @@
       "last_substantive_update": "2026-09-25",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:35:15+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-25T09:25:15+08:00",
@@ -11459,7 +11455,7 @@
       "body_sha256": "afa36add6ee77fd3733902aea7486bd7e27dcbe11eaa9d648352c5a4ddc3921e",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-16",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:10:25+08:00",
@@ -11525,7 +11521,7 @@
       "body_sha256": "d39e50d7cc26c22c5cc3643917c138e3ba976ce7e0013062ff58d9be296f57d6",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-11",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:28:57+08:00",
@@ -11582,7 +11578,7 @@
       "last_substantive_update": "2026-09-30",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:40:09+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-30T09:23:23+08:00",
@@ -11647,7 +11643,7 @@
       "body_sha256": "1617f71d7acf9c9c1717e14eb41a9d3cadb220bb2a85a31a03fc525e7dd2e985",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-10-04",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-10-04T09:23:21+08:00",
@@ -11708,7 +11704,7 @@
       "last_substantive_update": "2026-09-15",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:27:00+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-11T09:27:00+08:00",
@@ -11772,7 +11768,7 @@
       "body_sha256": "2b4cb88eeda9bdd245fe97c2c6ac2a629f9d31c9f120c9db7c1273131e6929c4",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-11",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:23:38+08:00",
@@ -11829,7 +11825,7 @@
       "last_substantive_update": "2026-09-15",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:27:00+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-11T09:27:00+08:00",
@@ -11895,7 +11891,7 @@
       "last_substantive_update": "2026-09-23",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:35:15+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-23T09:17:38+08:00",
@@ -11955,7 +11951,7 @@
       "body_sha256": "c558b0bf4a30c9bf45841a8bcbb6393665e8be21ef3d7d85716c609189e9e73e",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-11",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:23:38+08:00",
@@ -12010,7 +12006,7 @@
       "body_sha256": "b9d0c6ea0b94fcf9da4e426a392a9e6c38bf975a2d5699d0a28f4183f09af7cd",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-10-02",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T09:48:13+08:00",
@@ -12081,7 +12077,7 @@
       "body_sha256": "50bc14fc6ebdec0a2ad0ff9b5485c837f33e532d4a274ad0bc426c13f7c101a6",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-11",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:07:28+08:00",
@@ -12202,7 +12198,7 @@
       "body_sha256": "fa4b57fb9fa05ce54c5dd11acadcde3131ce2b8bbf74ff86dc7456a1a251bd72",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-11",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:19:35+08:00",
@@ -12257,7 +12253,7 @@
       "body_sha256": "5ca68bf021fa0d98551fb3d2a0db5960675176c89df6d565704a76e45655a0a4",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-16",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:03:31+08:00",
@@ -12323,7 +12319,7 @@
       "body_sha256": "93d14488c6ad7b79cacc9b09b4beab0c3063a571107506c808a599ba76246712",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-10-04",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-10-04T09:23:21+08:00",
@@ -12429,7 +12425,6 @@
       "last_body_check": {
         "at": "2026-10-13T09:06:05+08:00",
         "result": "unchanged_main_body",
-        "baseline": "Anthropic/99-管理/.运行记录/2026-09-13/eafa6e2f9f229d66.txt",
         "method": "main-text-v1;去除推荐与订阅部分后比较；OSS新增curl引述不改变机制与结论"
       }
     },
@@ -12451,7 +12446,7 @@
       "body_sha256": "4abddc89373fea204d544bb61c1e5602367c79e17279926ade606d8262b97c88",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-17",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T09:57:12+08:00",
@@ -12519,7 +12514,7 @@
       "last_substantive_update": "2026-09-30",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:40:09+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-30T09:23:23+08:00",
@@ -12590,7 +12585,7 @@
       "last_substantive_update": "2026-09-17",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:28:39+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-11T09:28:39+08:00",
@@ -12656,7 +12651,7 @@
       "last_substantive_update": "2026-10-04",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-10-04T09:23:21+08:00",
       "quality_evidence": {
         "checked_at": "2026-10-04T09:23:21+08:00",
@@ -12713,7 +12708,7 @@
       "body_sha256": "028d036c86a915d39566b243035733e6da23fec3881d3ffc33db4448773502c8",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-11",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:28:57+08:00",
@@ -12770,7 +12765,7 @@
       "last_substantive_update": "2026-09-27",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:36:42+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-27T09:17:34+08:00",
@@ -12835,7 +12830,7 @@
       "body_sha256": "f5eeddac38de4603d72277186666d0ea20dbfebada628d2ce0031eadf712fb14",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-11",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:10:25+08:00",
@@ -12890,7 +12885,7 @@
       "body_sha256": "28eec9bd9534e23bc9d335a13ce83d33043409f2b2a79b004a27dc00934dfa14",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-11",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:12:14+08:00",
@@ -12947,7 +12942,7 @@
       "last_substantive_update": "2026-09-16",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:28:39+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-11T09:28:39+08:00",
@@ -13013,7 +13008,7 @@
       "last_substantive_update": "2026-09-19",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:31:20+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-19T09:11:25+08:00",
@@ -13079,7 +13074,7 @@
       "last_substantive_update": "2026-09-30",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:40:09+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-30T09:23:23+08:00",
@@ -13146,7 +13141,7 @@
       "last_substantive_update": "2026-10-05",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:57:12+08:00",
       "quality_evidence": {
         "checked_at": "2026-10-05T09:20:00+08:00",
@@ -13196,7 +13191,7 @@
       "last_substantive_update": "2026-09-15",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:27:00+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-11T09:27:00+08:00",
@@ -13262,7 +13257,7 @@
       "last_substantive_update": "2026-09-27",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:36:42+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-27T09:17:34+08:00",
@@ -13374,8 +13369,7 @@
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "1e8d992313f962eb22a3565aacd5beba07269ff437be5f87f21786c0fecb9c0e",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-09-13/9b88bfec4a46afeb.txt"
+        "sha256": "1e8d992313f962eb22a3565aacd5beba07269ff437be5f87f21786c0fecb9c0e"
       }
     },
     {
@@ -13396,7 +13390,7 @@
       "body_sha256": "6610bd947d083262b3c004ee697685b1fa59ba86c63b681a6a734d4af602c0ae",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-10-15",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:04:58+08:00",
@@ -13444,8 +13438,7 @@
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "74d6ad1904bc17c76810c777e7b02341db8127ec2aa7f644c53f9cbe08529ebe",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-10/9bf6ddc329075d0e.txt"
+        "sha256": "74d6ad1904bc17c76810c777e7b02341db8127ec2aa7f644c53f9cbe08529ebe"
       }
     },
     {
@@ -13468,7 +13461,7 @@
       "last_substantive_update": "2026-09-19",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:31:20+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-19T09:11:25+08:00",
@@ -13532,7 +13525,7 @@
       "body_sha256": "a3536e35e29af9d16a9c6e0e1ea7f4e7f35534c21f3d24a5d08366d34c0b2b49",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-10-04",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-10-04T09:23:21+08:00",
@@ -13593,7 +13586,7 @@
       "last_substantive_update": "2026-09-19",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:31:20+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-19T09:11:25+08:00",
@@ -13659,7 +13652,7 @@
       "last_substantive_update": "2026-09-16",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:28:39+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-11T09:28:39+08:00",
@@ -13725,7 +13718,7 @@
       "last_substantive_update": "2026-09-26",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:35:15+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-26T09:24:56+08:00",
@@ -13794,7 +13787,7 @@
       "body_sha256": "5ec496f2a4de2cfe77fc045616c3e4b105c8feaed37e40af4b59d2b19d175ab4",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-10-04",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-10-04T09:23:21+08:00",
@@ -13900,8 +13893,7 @@
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "03958deed6b43e5ae07b1cf155ef2fcf7d794c5f08e124530a88c22368a94c12",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-09-13/c765441e9673d957.txt"
+        "sha256": "03958deed6b43e5ae07b1cf155ef2fcf7d794c5f08e124530a88c22368a94c12"
       }
     },
     {
@@ -13925,7 +13917,7 @@
       "last_substantive_update": "2026-10-04",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-10-04T09:23:21+08:00",
       "quality_evidence": {
         "checked_at": "2026-10-04T09:23:21+08:00",
@@ -14029,8 +14021,7 @@
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "eddb57e356553f5b48b8fffb0c533956414bb2654c6c77e8822776124f234365",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-09-13/2e50ab69ebea3b2c.txt"
+        "sha256": "eddb57e356553f5b48b8fffb0c533956414bb2654c6c77e8822776124f234365"
       }
     },
     {
@@ -14051,7 +14042,7 @@
       "body_sha256": "9f1a2a1038d18d42a58ca14269faf93ee92c772bd1b65e75c1978e640edad8a8",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-10-04",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-10-04T09:23:21+08:00",
@@ -14112,7 +14103,7 @@
       "last_substantive_update": "2026-09-26",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:35:15+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-26T09:24:56+08:00",
@@ -14183,7 +14174,7 @@
       "last_substantive_update": "2026-09-15",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:27:00+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-11T09:27:00+08:00",
@@ -14247,7 +14238,7 @@
       "body_sha256": "c7af0a030eeff588d61e160853e8f2162e790098f47120f096815ae6236d2b1d",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-10-05",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:03:31+08:00",
@@ -14307,7 +14298,7 @@
       "last_substantive_update": "2026-09-19",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:31:20+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-19T09:11:25+08:00",
@@ -14369,7 +14360,7 @@
       "last_substantive_update": "2026-09-19",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:31:20+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-19T09:11:25+08:00",
@@ -14433,7 +14424,7 @@
       "body_sha256": "dbbbe7aee65f94e4b10f850309bda1db65718cc7fbb41f6f95952eacac534c8c",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-17",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T09:57:12+08:00",
@@ -14501,7 +14492,7 @@
       "last_substantive_update": "2026-09-15",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:27:00+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-11T09:27:00+08:00",
@@ -14566,7 +14557,7 @@
       "body_sha256": "e50fe100f5a268f71d62f05b7f7e2eee08f41ff8953e172ec00a1ec0cb18604e",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-10-15",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:07:28+08:00",
@@ -14614,8 +14605,7 @@
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "f00c8bedd51df99faed8d7b9adb931802474cd3dd09c3a32d1f8bf68c550b22f",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-10/482b7139a29a7e0d.txt"
+        "sha256": "f00c8bedd51df99faed8d7b9adb931802474cd3dd09c3a32d1f8bf68c550b22f"
       }
     },
     {
@@ -14636,7 +14626,7 @@
       "body_sha256": "40d8a573fa1d4bbdb0ed17671c5d95625ed5848682a2b2f9c26524e87b723f1b",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-10-04",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-10-04T09:23:21+08:00",
@@ -14695,7 +14685,7 @@
       "body_sha256": "9155975522f5a89152dfdbac73dacc1cd4d241ad58cca02542fb28f3a5030e4a",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-10-04",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-10-04T09:23:21+08:00",
@@ -14822,7 +14812,7 @@
       "last_substantive_update": "2026-09-18",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:31:20+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-11T09:31:20+08:00",
@@ -14933,8 +14923,7 @@
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "fd7e2966d52f4ac4a0dd0b25e3be705155f2a329674664f42bed1eca00d729e8",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-09-13/955bc6c93f35e54a.txt"
+        "sha256": "fd7e2966d52f4ac4a0dd0b25e3be705155f2a329674664f42bed1eca00d729e8"
       }
     },
     {
@@ -14956,7 +14945,7 @@
       "body_sha256": "70334a003a34ca66d9d8957c95568e9bea7ca7486cc3245e128821dbd8c79f88",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-14",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T09:13:15+08:00",
@@ -15022,7 +15011,7 @@
       "body_sha256": "a1288353b648773ef91899696bc4633c831fa2c3bbb69c0edc47b5b5f5bf927d",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-11",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T10:19:35+08:00",
@@ -15063,8 +15052,7 @@
       "last_body_check": {
         "at": "2026-10-16T09:00:00+08:00",
         "result": "body_unchanged_source_reverified",
-        "sha256": "a1288353b648773ef91899696bc4633c831fa2c3bbb69c0edc47b5b5f5bf927d",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-16/99d3d029848cb1e2.txt"
+        "sha256": "a1288353b648773ef91899696bc4633c831fa2c3bbb69c0edc47b5b5f5bf927d"
       }
     },
     {
@@ -15085,7 +15073,7 @@
       "body_sha256": "fa9c913581f001e8aedbb836c6bdcf621fd13225cd20286cbaa6cca45085a8fa",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-14",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-09-11T09:13:15+08:00",
@@ -15152,7 +15140,7 @@
       "last_substantive_update": "2026-09-14",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-09-11T09:13:15+08:00",
       "quality_evidence": {
         "checked_at": "2026-09-11T09:13:15+08:00",
@@ -15215,7 +15203,7 @@
       "body_sha256": "47efb7f6afb8cb37406507f36d916c10702ce81610437dbd484c0e990b9875fa",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-09-13",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "enriched_at": "2026-09-09T21:40:11+08:00",
       "quality_evidence": {
@@ -15258,8 +15246,7 @@
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "47efb7f6afb8cb37406507f36d916c10702ce81610437dbd484c0e990b9875fa",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-09-13/1399aec680791f78.txt"
+        "sha256": "47efb7f6afb8cb37406507f36d916c10702ce81610437dbd484c0e990b9875fa"
       }
     },
     {
@@ -15279,7 +15266,7 @@
       "published_source": "官网正文日期",
       "last_checked": "2026-10-03T09:26:19+08:00",
       "last_substantive_update": "2026-09-23",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "detail_status": "completed",
       "translation_status": "not_requested",
       "enriched_at": "2026-09-11T09:13:15+08:00",
@@ -15349,7 +15336,7 @@
       "published_evidence": "News 首页同名推荐卡片明确标注 Sep 10, 2026；报告正文未显示完整发布日期。",
       "last_checked": "2026-10-16T09:00:00+08:00",
       "last_substantive_update": "2026-09-12",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "detail_status": "completed",
       "translation_status": "not_requested",
       "enriched_at": "2026-09-11T09:13:15+08:00",
@@ -15390,8 +15377,7 @@
       "last_body_check": {
         "at": "2026-10-16T09:00:00+08:00",
         "result": "body_unchanged_source_reverified",
-        "sha256": "d0ff97dc8dcdb137f67ac3c6cc64087e6a169b88729ed375789f41a34e09c9e5",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-16/d957d6c999575906.txt"
+        "sha256": "d0ff97dc8dcdb137f67ac3c6cc64087e6a169b88729ed375789f41a34e09c9e5"
       },
       "updated": "2026-10-16"
     },
@@ -15418,7 +15404,7 @@
       "last_substantive_update": "2026-10-15",
       "translation_status": "not_requested",
       "enriched_at": "2026-09-12T09:12:05+08:00",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "detail_status": "completed",
       "quality_evidence": {
         "checked_at": "2026-10-15T09:03:38+08:00",
@@ -15464,8 +15450,7 @@
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "a07fd3b35b7d023621cf4429895a25ac4125f667075b8645a7dd6b324db630e9",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-10/d1d0b9b5760b3667.txt"
+        "sha256": "a07fd3b35b7d023621cf4429895a25ac4125f667075b8645a7dd6b324db630e9"
       }
     },
     {
@@ -15488,7 +15473,7 @@
       "last_substantive_update": "2026-09-18",
       "translation_status": "not_requested",
       "enriched_at": "2026-09-18T09:19:24+08:00",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "detail_status": "completed",
       "quality_evidence": {
         "checked_at": "2026-09-18T09:19:24+08:00",
@@ -15530,8 +15515,7 @@
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "da2b70da34320b3e768b18511130b61f2fd09a623028c99b5bb8a004daefa088",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/b44c829b27028fd7.txt"
+        "sha256": "da2b70da34320b3e768b18511130b61f2fd09a623028c99b5bb8a004daefa088"
       }
     },
     {
@@ -15554,7 +15538,7 @@
       "last_substantive_update": "2026-09-18",
       "translation_status": "not_requested",
       "enriched_at": "2026-09-18T09:19:24+08:00",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "detail_status": "completed",
       "quality_evidence": {
         "checked_at": "2026-09-18T09:19:24+08:00",
@@ -15596,8 +15580,7 @@
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "badf2ca063d1f8596abca0b967f572aadcf49809197a5d852a5bca65ea1ca85c",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/044e6af5229b5573.txt"
+        "sha256": "badf2ca063d1f8596abca0b967f572aadcf49809197a5d852a5bca65ea1ca85c"
       }
     },
     {
@@ -15620,7 +15603,7 @@
       "last_substantive_update": "2026-10-01",
       "translation_status": "not_requested",
       "enriched_at": "2026-09-18T09:19:24+08:00",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "detail_status": "completed",
       "quality_evidence": {
         "checked_at": "2026-10-01T09:23:51+08:00",
@@ -15667,8 +15650,7 @@
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "ce2f57df37254c3355e651e7bbd33f9d8c6aa6ba62d9ce8d33b183ed4c7f968f",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/a3c8e138d995ff55.txt"
+        "sha256": "ce2f57df37254c3355e651e7bbd33f9d8c6aa6ba62d9ce8d33b183ed4c7f968f"
       }
     },
     {
@@ -15691,7 +15673,7 @@
       "last_substantive_update": "2026-09-19",
       "translation_status": "not_requested",
       "enriched_at": "2026-09-19T09:11:25+08:00",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "detail_status": "completed",
       "quality_evidence": {
         "checked_at": "2026-09-19T09:11:25+08:00",
@@ -15733,8 +15715,7 @@
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "ae82b9d86e0d4b7da62afd510a3ce09b5a9cf3b56eda1d737fc1f64a9cd1df6b",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/5ec4e61a2a5169eb.txt"
+        "sha256": "ae82b9d86e0d4b7da62afd510a3ce09b5a9cf3b56eda1d737fc1f64a9cd1df6b"
       }
     },
     {
@@ -15757,7 +15738,7 @@
       "last_substantive_update": "2026-09-29",
       "translation_status": "not_requested",
       "enriched_at": "2026-09-23T09:17:38+08:00",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "detail_status": "completed",
       "quality_evidence": {
         "checked_at": "2026-09-23T09:17:38+08:00",
@@ -15803,8 +15784,7 @@
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "4da3d4379f2b058b4f8e8fd00c08823bbef7b8428198721fb7adf284940ec6c2",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/0dd3bed5c7dd1c27.txt"
+        "sha256": "4da3d4379f2b058b4f8e8fd00c08823bbef7b8428198721fb7adf284940ec6c2"
       }
     },
     {
@@ -15827,7 +15807,7 @@
       "last_substantive_update": "2026-09-24",
       "translation_status": "not_requested",
       "enriched_at": "2026-09-24T09:18:38+08:00",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "detail_status": "completed",
       "quality_evidence": {
         "checked_at": "2026-09-24T09:18:38+08:00",
@@ -15869,8 +15849,7 @@
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "7b452cf17d42c0155d7bc739d5159c43d7eeca38c74bb2251ab469f737233f34",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/ef1b3a4772eab837.txt"
+        "sha256": "7b452cf17d42c0155d7bc739d5159c43d7eeca38c74bb2251ab469f737233f34"
       }
     },
     {
@@ -15893,7 +15872,7 @@
       "last_substantive_update": "2026-09-24",
       "translation_status": "not_requested",
       "enriched_at": "2026-09-24T09:18:38+08:00",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "detail_status": "completed",
       "quality_evidence": {
         "checked_at": "2026-09-24T09:18:38+08:00",
@@ -15939,8 +15918,7 @@
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "779b29cabfe4570402d746bd9ca76acb4174a83474038e4dcfd29b5356d4c783",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/2e55831155014269.txt"
+        "sha256": "779b29cabfe4570402d746bd9ca76acb4174a83474038e4dcfd29b5356d4c783"
       }
     },
     {
@@ -15963,7 +15941,7 @@
       "last_substantive_update": "2026-09-25",
       "translation_status": "not_requested",
       "enriched_at": "2026-09-25T09:25:15+08:00",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "detail_status": "completed",
       "quality_evidence": {
         "checked_at": "2026-09-25T09:25:15+08:00",
@@ -16010,8 +15988,7 @@
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "bc92d76019125400b8188104fa572b4b93c3f61473638e58f334b0ce9700cd06",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/c4f6b71acc4936ff.txt"
+        "sha256": "bc92d76019125400b8188104fa572b4b93c3f61473638e58f334b0ce9700cd06"
       }
     },
     {
@@ -16033,7 +16010,7 @@
       "last_checked": "2026-09-26T09:24:56+08:00",
       "last_substantive_update": "2026-09-26",
       "translation_status": "not_requested",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "detail_status": "completed",
       "quality_evidence": {
         "checked_at": "2026-09-26T09:24:56+08:00",
@@ -16147,14 +16124,13 @@
       "last_substantive_update": "2026-09-26",
       "last_checked": "2026-10-15T09:04:41+08:00",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "body_sha256": "6948a3fb71d179d18167a3515190e486f8ed1cf65a563489a5c8d85d94dfa961",
       "body_hash_method": "main-text-v1",
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "97ffa60b493cf76b4585a50d73135b1205bc9986276b19e64d1e1fb121b0e181",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/e49faaf95243e182.txt"
+        "sha256": "97ffa60b493cf76b4585a50d73135b1205bc9986276b19e64d1e1fb121b0e181"
       }
     },
     {
@@ -16177,7 +16153,7 @@
       "last_substantive_update": "2026-09-29",
       "translation_status": "not_requested",
       "enriched_at": "2026-09-29T09:15:52+08:00",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "detail_status": "completed",
       "quality_evidence": {
         "checked_at": "2026-09-29T09:15:52+08:00",
@@ -16224,8 +16200,7 @@
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "209adf1006b3cc5bf98e13af5cf03d5822c974877c87ad90260de956aeb83a54",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/4e3ca8a95d366330.txt"
+        "sha256": "209adf1006b3cc5bf98e13af5cf03d5822c974877c87ad90260de956aeb83a54"
       }
     },
     {
@@ -16248,7 +16223,7 @@
       "last_substantive_update": "2026-09-30",
       "translation_status": "not_requested",
       "enriched_at": "2026-09-30T09:23:23+08:00",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "detail_status": "completed",
       "quality_evidence": {
         "checked_at": "2026-09-30T09:23:23+08:00",
@@ -16295,8 +16270,7 @@
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "60f312ec5721ed2bd7fed0da246187ef6e0969aae67622a9b12e68fd1a85b907",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/853629b69b653c9d.txt"
+        "sha256": "60f312ec5721ed2bd7fed0da246187ef6e0969aae67622a9b12e68fd1a85b907"
       }
     },
     {
@@ -16319,7 +16293,7 @@
       "last_substantive_update": "2026-09-30",
       "translation_status": "not_requested",
       "enriched_at": "2026-09-30T09:23:23+08:00",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "detail_status": "completed",
       "quality_evidence": {
         "checked_at": "2026-09-30T09:23:23+08:00",
@@ -16366,8 +16340,7 @@
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "6ba7feba110eea27d3b9b4fac046dc83a1dd3f1daf584090c7844810a8a825d5",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/f98597eae81f4380.txt"
+        "sha256": "6ba7feba110eea27d3b9b4fac046dc83a1dd3f1daf584090c7844810a8a825d5"
       }
     },
     {
@@ -16390,7 +16363,7 @@
       "last_substantive_update": "2026-10-01",
       "translation_status": "not_requested",
       "enriched_at": "2026-10-01T09:23:51+08:00",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "detail_status": "completed",
       "quality_evidence": {
         "checked_at": "2026-10-01T09:23:51+08:00",
@@ -16437,8 +16410,7 @@
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "de7104fc2b39be51a17c00e1863243e42105fd887b779f3f3d5d1946fa6c070c",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/ce43ddffc7da364d.txt"
+        "sha256": "de7104fc2b39be51a17c00e1863243e42105fd887b779f3f3d5d1946fa6c070c"
       }
     },
     {
@@ -16461,7 +16433,7 @@
       "last_substantive_update": "2026-10-02",
       "translation_status": "not_requested",
       "enriched_at": "2026-10-02T09:17:21+08:00",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "detail_status": "completed",
       "quality_evidence": {
         "checked_at": "2026-10-02T09:17:21+08:00",
@@ -16508,8 +16480,7 @@
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "0f932ddcd29b263e689d1457411fc0f9f267ce0574d925ca9b7b2f0cdeeb0c08",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/0a1a9915f1bf1a41.txt"
+        "sha256": "0f932ddcd29b263e689d1457411fc0f9f267ce0574d925ca9b7b2f0cdeeb0c08"
       }
     },
     {
@@ -16532,7 +16503,7 @@
       "last_substantive_update": "2026-10-02",
       "translation_status": "not_requested",
       "enriched_at": "2026-10-02T09:17:21+08:00",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "detail_status": "completed",
       "quality_evidence": {
         "checked_at": "2026-10-02T09:17:21+08:00",
@@ -16579,8 +16550,7 @@
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "e0c6dca01eb80a95ec1e5bebb920c7fe71ecd897dc6e7fd9a73c06c9ce3402f4",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/c08402b8f22a4b15.txt"
+        "sha256": "e0c6dca01eb80a95ec1e5bebb920c7fe71ecd897dc6e7fd9a73c06c9ce3402f4"
       }
     },
     {
@@ -16603,7 +16573,7 @@
       "last_substantive_update": "2026-10-03",
       "translation_status": "not_requested",
       "detail_status": "completed",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "enriched_at": "2026-10-03T09:26:19+08:00",
       "quality_evidence": {
         "checked_at": "2026-10-03T09:26:19+08:00",
@@ -16645,8 +16615,7 @@
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "5851dcdcb9d94901fe7d8d2913dadb83be22d719c29743512aef73b4f1947816",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/bfc4355d370530a8.txt"
+        "sha256": "5851dcdcb9d94901fe7d8d2913dadb83be22d719c29743512aef73b4f1947816"
       }
     },
     {
@@ -16669,13 +16638,12 @@
       "last_substantive_update": "2026-10-07",
       "translation_status": "not_requested",
       "enriched_at": "2026-10-07T09:20:00+08:00",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "detail_status": "completed",
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "43d143d0f91df8c1aa4eb86d2ab548052936dd05a353aceac802e38c6e7126e4",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/2bd8707fdab8226a.txt"
+        "sha256": "43d143d0f91df8c1aa4eb86d2ab548052936dd05a353aceac802e38c6e7126e4"
       },
       "quality_evidence": {
         "checked_at": "2026-10-07T09:20:00+08:00",
@@ -16738,13 +16706,12 @@
       "last_substantive_update": "2026-10-09",
       "translation_status": "not_requested",
       "enriched_at": "2026-10-09T09:20:00+08:00",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "detail_status": "completed",
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "62026c95c89bc242f288ce73f348474c100b531c86ba9d912ca5d0839991067c",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/8a91476189cc19d3.txt"
+        "sha256": "62026c95c89bc242f288ce73f348474c100b531c86ba9d912ca5d0839991067c"
       },
       "quality_evidence": {
         "checked_at": "2026-10-09T09:20:00+08:00",
@@ -16799,13 +16766,12 @@
       "last_substantive_update": "2026-10-09",
       "translation_status": "not_requested",
       "enriched_at": "2026-10-09T09:20:00+08:00",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "detail_status": "completed",
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "15c8bd1eb8848b854e7c57de35bb79f6bd63855af5f522d291185a682afa723d",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/4d1871c0e2f96e26.txt"
+        "sha256": "15c8bd1eb8848b854e7c57de35bb79f6bd63855af5f522d291185a682afa723d"
       },
       "quality_evidence": {
         "checked_at": "2026-10-09T09:20:00+08:00",
@@ -16860,13 +16826,12 @@
       "last_substantive_update": "2026-10-09",
       "translation_status": "not_requested",
       "enriched_at": "2026-10-09T09:20:00+08:00",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "detail_status": "completed",
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "64934a086074e637987d84013070f392206106422659082a88997f4348831044",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/c4a1f46e5a98744a.txt"
+        "sha256": "64934a086074e637987d84013070f392206106422659082a88997f4348831044"
       },
       "quality_evidence": {
         "checked_at": "2026-10-09T09:20:00+08:00",
@@ -16921,13 +16886,12 @@
       "last_substantive_update": "2026-10-09",
       "translation_status": "not_requested",
       "enriched_at": "2026-10-09T09:20:00+08:00",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "detail_status": "completed",
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "6d7a392da1b2ebcfac288ae5fe80cfbb2a532f6641cd195c0061fbbf8786ec86",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/6c062b861d6d205b.txt"
+        "sha256": "6d7a392da1b2ebcfac288ae5fe80cfbb2a532f6641cd195c0061fbbf8786ec86"
       },
       "quality_evidence": {
         "checked_at": "2026-10-09T09:20:00+08:00",
@@ -16982,13 +16946,12 @@
       "last_substantive_update": "2026-10-09",
       "translation_status": "not_requested",
       "enriched_at": "2026-10-09T09:20:00+08:00",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "detail_status": "completed",
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "b7874e36441b6536735f12f1862df1522b626433aa2e1ed1806523d1ace7387c",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/4e66a7e453a3193b.txt"
+        "sha256": "b7874e36441b6536735f12f1862df1522b626433aa2e1ed1806523d1ace7387c"
       },
       "quality_evidence": {
         "checked_at": "2026-10-09T09:20:00+08:00",
@@ -17037,7 +17000,7 @@
       "category": "安全与对齐/对齐研究与模型行为",
       "source_section": "Research",
       "tags": [],
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "detail_status": "completed",
       "translation_status": "not_requested",
       "quality_evidence": {
@@ -17091,8 +17054,7 @@
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "9d79aea58e499c54cf458f94f186ed1344afd6d6ade9ebbac9d5e692418530ce",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/e53d362bf380fa3a.txt"
+        "sha256": "9d79aea58e499c54cf458f94f186ed1344afd6d6ade9ebbac9d5e692418530ce"
       }
     },
     {
@@ -17109,7 +17071,7 @@
       "category": "安全与对齐/攻击与模型防护",
       "source_section": "Research",
       "tags": [],
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "detail_status": "completed",
       "translation_status": "not_requested",
       "quality_evidence": {
@@ -17163,8 +17125,7 @@
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "0b456723d90814be4dfaf080985d73b8185da8a5ed9642aa0abfdefe7d7432b5",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/4204414603744d96.txt"
+        "sha256": "0b456723d90814be4dfaf080985d73b8185da8a5ed9642aa0abfdefe7d7432b5"
       }
     },
     {
@@ -17180,7 +17141,6 @@
       "original_title": "AI models may be capable of self-replicating without access to a datacenter",
       "source_section": "Research",
       "discovered_at": "2026-10-13T09:06:05+08:00",
-      "source_snapshot": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-13/c044b31b2af17828.txt",
       "missing_requirements": [
         "完整正文摘要及独立复核",
         "交互图表核对与逐图说明"
@@ -17190,8 +17150,7 @@
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "717496628e1d124a67d1190b3b6707f713e820a87f89f571f5077eef63067c5f",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/c044b31b2af17828.txt"
+        "sha256": "717496628e1d124a67d1190b3b6707f713e820a87f89f571f5077eef63067c5f"
       }
     },
     {
@@ -17207,7 +17166,6 @@
       "original_title": "Claude Haiku 5.5",
       "source_section": "News",
       "discovered_at": "2026-10-13T09:06:05+08:00",
-      "source_snapshot": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-13/cdb1d51fae043110.txt",
       "missing_requirements": [
         "完整正文摘要及独立复核",
         "交互图表核对与逐图说明"
@@ -17217,8 +17175,7 @@
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "47e0d9808ee8f575d03b876db02174d794a0c7a225f53aa84ed936e8670cd5a7",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/cdb1d51fae043110.txt"
+        "sha256": "47e0d9808ee8f575d03b876db02174d794a0c7a225f53aa84ed936e8670cd5a7"
       }
     },
     {
@@ -17241,7 +17198,7 @@
       "last_substantive_update": "2026-10-14",
       "translation_status": "not_requested",
       "enriched_at": "2026-10-14T12:37:50+08:00",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "detail_status": "completed",
       "summary": "Anthropic 说明，内部每天合并的代码变化从 2026 年 5 月约 2,500 次增至 9 月超过 30,000 次，Git 的完整副本、镜像和检查流程因此成为瓶颈。团队在五个月内把单体仓库迁移到自研 Scion：让客户端默认在线、只按需取数据，由服务端完成提交、合并、历史查询和派生数据计算，并用可横向扩展的变化集取代需要维护的完整仓库副本。文章还介绍稀疏或虚拟检出、无锁增量提交等设计，目标是让 Agent 和 CI 的大量并行工作不再被源码管理基础设施限制。",
       "quality_evidence": {
@@ -17275,8 +17232,7 @@
       "last_body_check": {
         "at": "2026-10-15T09:04:41+08:00",
         "result": "body_unchanged",
-        "sha256": "0419533ef91948604e8d4c0a7694c0273de9e3d917db26d47e6ea6b2e45d43cb",
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/56ee56e48ed29025.txt"
+        "sha256": "0419533ef91948604e8d4c0a7694c0273de9e3d917db26d47e6ea6b2e45d43cb"
       }
     },
     {
@@ -17300,7 +17256,7 @@
       "status": "saved",
       "path": "01-文章/公司与商业/组织治理与全球布局/2026-10-14 - 新加坡办公室启用与政府合作备忘录.md",
       "translation_status": "not_requested",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "detail_status": "completed",
       "summary": "Anthropic 于 2026 年 10 月 14 日启用新加坡办公室，作为其亚太地区第五个办公室，并与新加坡数码发展及新闻部签署合作备忘录。合作范围包括 AI 安全与评估、采用影响研究及公私部门负责任部署，后续计划围绕测试标准和事件响应开展技术交流，并支持技能提升。公告列举 GovTech、DBS、Grab 等采用案例；相关规模与效率数字来自公司及合作方，备忘录列出的未来合作尚不能视作已取得的成效。",
       "error": null,
@@ -17362,7 +17318,7 @@
       "status": "saved",
       "path": "01-文章/治理与政策/AI政策与公共事务/2026-10-14 - 美国中期选举的信息服务与防滥用安排.md",
       "translation_status": "not_requested",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "detail_status": "completed",
       "summary": "Anthropic 在美国中期选举前公布投票信息与防滥用安排：计划于2026年10月稍晚在美国Claude.ai回答中接入Democracy Works汇集的官方投票信息，并从选举夜起显示最新官方结果。其对9月一周约25万段美国Claude.ai消费者对话的分析称，约0.51%涉及选举或投票。外部压力测试发现，模型可拒绝单个有害请求，却可能漏掉拆成多步的恶意活动；团队据此增加分类器，并加强威胁监测和违规处置。这些是平台样本与特定测试结果，不能证明政治偏见或选举滥用已被消除。",
       "error": null,
@@ -17425,7 +17381,7 @@
       "body_sha256": "7bdb4568ccfed2364cb051de7208c273baece6219230ecf2e16d9953e13ce758",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-10-16",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-10-16T09:00:00+08:00",
@@ -17490,7 +17446,7 @@
       "body_sha256": "3594f0728e0a5b167fa650d1fe60901ec335123f288a0d5abc59e9cf5996f1a5",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-10-19",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-10-19T09:00:00+08:00",
@@ -17529,8 +17485,7 @@
       "last_body_check": {
         "at": "2026-10-19T09:00:00+08:00",
         "result": "source_read_summary_completed",
-        "sha256": "3594f0728e0a5b167fa650d1fe60901ec335123f288a0d5abc59e9cf5996f1a5",
-        "baseline": "Anthropic/99-管理/.运行记录/2026-10-19/674c86d905c0f32e.txt"
+        "sha256": "3594f0728e0a5b167fa650d1fe60901ec335123f288a0d5abc59e9cf5996f1a5"
       }
     },
     {
@@ -17551,7 +17506,7 @@
       "body_sha256": "c856d0da86ba0dba37b680067f28a841ad5e4339971db9ff32c8097836b62de0",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-10-19",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-10-19T09:00:00+08:00",
@@ -17590,8 +17545,7 @@
       "last_body_check": {
         "at": "2026-10-19T09:00:00+08:00",
         "result": "source_read_summary_completed",
-        "sha256": "c856d0da86ba0dba37b680067f28a841ad5e4339971db9ff32c8097836b62de0",
-        "baseline": "Anthropic/99-管理/.运行记录/2026-10-19/ac92bb3d5c094ace.txt"
+        "sha256": "c856d0da86ba0dba37b680067f28a841ad5e4339971db9ff32c8097836b62de0"
       }
     },
     {
@@ -17612,7 +17566,7 @@
       "body_sha256": "95b0a6480215f1b0fde30256cb648b8a75775c0deb04f871128a8bced3fbb38d",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-10-19",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-10-19T09:00:00+08:00",
@@ -17651,8 +17605,7 @@
       "last_body_check": {
         "at": "2026-10-19T09:00:00+08:00",
         "result": "source_read_summary_completed",
-        "sha256": "95b0a6480215f1b0fde30256cb648b8a75775c0deb04f871128a8bced3fbb38d",
-        "baseline": "Anthropic/99-管理/.运行记录/2026-10-19/f67896274fc0d873.txt"
+        "sha256": "95b0a6480215f1b0fde30256cb648b8a75775c0deb04f871128a8bced3fbb38d"
       }
     },
     {
@@ -17673,7 +17626,7 @@
       "body_sha256": "c6b9e02b0a91cdb36a09236ff0e364a0705e0a2ed2fe7fb1122c12fd5bda48b2",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-10-19",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-10-19T09:00:00+08:00",
@@ -17712,8 +17665,7 @@
       "last_body_check": {
         "at": "2026-10-19T09:00:00+08:00",
         "result": "source_read_summary_completed",
-        "sha256": "c6b9e02b0a91cdb36a09236ff0e364a0705e0a2ed2fe7fb1122c12fd5bda48b2",
-        "baseline": "Anthropic/99-管理/.运行记录/2026-10-19/918cdd953ecffda0.txt"
+        "sha256": "c6b9e02b0a91cdb36a09236ff0e364a0705e0a2ed2fe7fb1122c12fd5bda48b2"
       }
     },
     {
@@ -17734,7 +17686,7 @@
       "body_sha256": "b9bbcc730f6a877759c2d70f026227f7575d37c089a15b5579980b917715c631",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-10-19",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-10-19T09:00:00+08:00",
@@ -17773,8 +17725,7 @@
       "last_body_check": {
         "at": "2026-10-19T09:00:00+08:00",
         "result": "source_read_summary_completed",
-        "sha256": "b9bbcc730f6a877759c2d70f026227f7575d37c089a15b5579980b917715c631",
-        "baseline": "Anthropic/99-管理/.运行记录/2026-10-19/d0817155767aa3ab.txt"
+        "sha256": "b9bbcc730f6a877759c2d70f026227f7575d37c089a15b5579980b917715c631"
       }
     },
     {
@@ -17795,7 +17746,7 @@
       "body_sha256": "5ebcba03949b1ced5a62895a541704beed9b6b52085358e7cab8fd5c2a4baa6f",
       "published_source": "官网正文日期",
       "last_substantive_update": "2026-10-19",
-      "note_depth": "中文摘要与重点图文解读",
+      "note_depth": "中文摘要与重点文字解读",
       "translation_status": "not_requested",
       "detail_status": "completed",
       "enriched_at": "2026-10-19T09:00:00+08:00",
@@ -17834,8 +17785,7 @@
       "last_body_check": {
         "at": "2026-10-19T09:00:00+08:00",
         "result": "source_read_summary_completed",
-        "sha256": "5ebcba03949b1ced5a62895a541704beed9b6b52085358e7cab8fd5c2a4baa6f",
-        "baseline": "Anthropic/99-管理/.运行记录/2026-10-19/a0595c813318ccae.txt"
+        "sha256": "5ebcba03949b1ced5a62895a541704beed9b6b52085358e7cab8fd5c2a4baa6f"
       }
     }
   ],
@@ -17966,7 +17916,7 @@
     "revision": "summary-key-figures-v1",
     "requested_at": "2026-09-09T20:49:47+08:00",
     "status": "in_progress",
-    "goal": "全部历史文章和后续新增文章均完成中文摘要与重点图文解读；按原文选择关键图并就近解释，无适用图时核实后保留具体文字解读",
+    "goal": "全部历史文章和后续新增文章均完成中文摘要与重点文字解读；按原文选择关键图并就近解释，无适用图时核实后保留具体文字解读",
     "completed_urls": {
       "count": 268,
       "urls": [
@@ -18259,7 +18209,7 @@
     },
     "previous_scope": {
       "changed_at": "2026-09-09T21:40:11+08:00",
-      "goal": "逐篇补齐具体中文摘要、事实与方法、原文顺序的重点图文解读；全文翻译须有用户提供原文或适用许可",
+      "goal": "逐篇补齐具体中文摘要、事实与方法、原文顺序的重点文字解读；全文翻译须有用户提供原文或适用许可",
       "translation_status": "awaiting_user_source_or_license"
     },
     "scope": "all_existing_and_future_articles",
@@ -19761,259 +19711,222 @@
       {
         "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/b44c829b27028fd7.txt",
         "diff": "",
         "sha256": "da2b70da34320b3e768b18511130b61f2fd09a623028c99b5bb8a004daefa088"
       },
       {
         "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/044e6af5229b5573.txt",
         "diff": "",
         "sha256": "badf2ca063d1f8596abca0b967f572aadcf49809197a5d852a5bca65ea1ca85c"
       },
       {
         "url": "https://www.anthropic.com/news/life-sciences-verification-program",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/a3c8e138d995ff55.txt",
         "diff": "",
         "sha256": "ce2f57df37254c3355e651e7bbd33f9d8c6aa6ba62d9ce8d33b183ed4c7f968f"
       },
       {
         "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/5ec4e61a2a5169eb.txt",
         "diff": "",
         "sha256": "ae82b9d86e0d4b7da62afd510a3ce09b5a9cf3b56eda1d737fc1f64a9cd1df6b"
       },
       {
         "url": "https://www.anthropic.com/claude-opus-5-5",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/0dd3bed5c7dd1c27.txt",
         "diff": "",
         "sha256": "4da3d4379f2b058b4f8e8fd00c08823bbef7b8428198721fb7adf284940ec6c2"
       },
       {
         "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/ef1b3a4772eab837.txt",
         "diff": "",
         "sha256": "7b452cf17d42c0155d7bc739d5159c43d7eeca38c74bb2251ab469f737233f34"
       },
       {
         "url": "https://www.anthropic.com/features/ebola-response",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/2e55831155014269.txt",
         "diff": "",
         "sha256": "779b29cabfe4570402d746bd9ca76acb4174a83474038e4dcfd29b5356d4c783"
       },
       {
         "url": "https://www.anthropic.com/research/project-swap",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/c4f6b71acc4936ff.txt",
         "diff": "",
         "sha256": "bc92d76019125400b8188104fa572b4b93c3f61473638e58f334b0ce9700cd06"
       },
       {
         "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/e49faaf95243e182.txt",
         "diff": "",
         "sha256": "97ffa60b493cf76b4585a50d73135b1205bc9986276b19e64d1e1fb121b0e181"
       },
       {
         "url": "https://www.anthropic.com/claude-sonnet-5-5",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/4e3ca8a95d366330.txt",
         "diff": "",
         "sha256": "209adf1006b3cc5bf98e13af5cf03d5822c974877c87ad90260de956aeb83a54"
       },
       {
         "url": "https://www.anthropic.com/research/your-thoughts-on-ai",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/853629b69b653c9d.txt",
         "diff": "",
         "sha256": "60f312ec5721ed2bd7fed0da246187ef6e0969aae67622a9b12e68fd1a85b907"
       },
       {
         "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/f98597eae81f4380.txt",
         "diff": "",
         "sha256": "6ba7feba110eea27d3b9b4fac046dc83a1dd3f1daf584090c7844810a8a825d5"
       },
       {
         "url": "https://www.anthropic.com/research/what-work-can-robots-do",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/ce43ddffc7da364d.txt",
         "diff": "",
         "sha256": "de7104fc2b39be51a17c00e1863243e42105fd887b779f3f3d5d1946fa6c070c"
       },
       {
         "url": "https://www.anthropic.com/research/claude-shaped-science",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/0a1a9915f1bf1a41.txt",
         "diff": "",
         "sha256": "0f932ddcd29b263e689d1457411fc0f9f267ce0574d925ca9b7b2f0cdeeb0c08"
       },
       {
         "url": "https://www.anthropic.com/news/barclays-scales-claude",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/c08402b8f22a4b15.txt",
         "diff": "",
         "sha256": "e0c6dca01eb80a95ec1e5bebb920c7fe71ecd897dc6e7fd9a73c06c9ce3402f4"
       },
       {
         "url": "https://www.anthropic.com/news/claude-frontier-academy",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/bfc4355d370530a8.txt",
         "diff": "",
         "sha256": "5851dcdcb9d94901fe7d8d2913dadb83be22d719c29743512aef73b4f1947816"
       },
       {
         "url": "https://www.anthropic.com/news/cyber-verification-program",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/2bd8707fdab8226a.txt",
         "diff": "",
         "sha256": "43d143d0f91df8c1aa4eb86d2ab548052936dd05a353aceac802e38c6e7126e4"
       },
       {
         "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/8a91476189cc19d3.txt",
         "diff": "",
         "sha256": "62026c95c89bc242f288ce73f348474c100b531c86ba9d912ca5d0839991067c"
       },
       {
         "url": "https://www.anthropic.com/research/the-missing-map-of-the-sky",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/4d1871c0e2f96e26.txt",
         "diff": "",
         "sha256": "15c8bd1eb8848b854e7c57de35bb79f6bd63855af5f522d291185a682afa723d"
       },
       {
         "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/c4a1f46e5a98744a.txt",
         "diff": "",
         "sha256": "64934a086074e637987d84013070f392206106422659082a88997f4348831044"
       },
       {
         "url": "https://www.anthropic.com/news/genesis-mission-commitment",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/6c062b861d6d205b.txt",
         "diff": "",
         "sha256": "6d7a392da1b2ebcfac288ae5fe80cfbb2a532f6641cd195c0061fbbf8786ec86"
       },
       {
         "url": "https://www.anthropic.com/news/2026-usage-policy-update",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/4e66a7e453a3193b.txt",
         "diff": "",
         "sha256": "b7874e36441b6536735f12f1862df1522b626433aa2e1ed1806523d1ace7387c"
       },
       {
         "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/e53d362bf380fa3a.txt",
         "diff": "",
         "sha256": "9d79aea58e499c54cf458f94f186ed1344afd6d6ade9ebbac9d5e692418530ce"
       },
       {
         "url": "https://www.anthropic.com/research/distillation-defenses",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/4204414603744d96.txt",
         "diff": "",
         "sha256": "0b456723d90814be4dfaf080985d73b8185da8a5ed9642aa0abfdefe7d7432b5"
       },
       {
         "url": "https://www.anthropic.com/research/self-replicating-ai",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/c044b31b2af17828.txt",
         "diff": "",
         "sha256": "717496628e1d124a67d1190b3b6707f713e820a87f89f571f5077eef63067c5f"
       },
       {
         "url": "https://www.anthropic.com/claude-haiku-5-5",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/cdb1d51fae043110.txt",
         "diff": "",
         "sha256": "47e0d9808ee8f575d03b876db02174d794a0c7a225f53aa84ed936e8670cd5a7"
       },
       {
         "url": "https://www.anthropic.com/engineering/redesigning-source-control",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-14/56ee56e48ed29025.txt",
         "diff": "",
         "sha256": "0419533ef91948604e8d4c0a7694c0273de9e3d917db26d47e6ea6b2e45d43cb"
       },
       {
         "url": "https://www.anthropic.com/research/introspection",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-10/9bf6ddc329075d0e.txt",
         "diff": "",
         "sha256": "74d6ad1904bc17c76810c777e7b02341db8127ec2aa7f644c53f9cbe08529ebe"
       },
       {
         "url": "https://www.anthropic.com/research/building-ai-cyber-defenders",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-10/482b7139a29a7e0d.txt",
         "diff": "",
         "sha256": "f00c8bedd51df99faed8d7b9adb931802474cd3dd09c3a32d1f8bf68c550b22f"
       },
       {
         "url": "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-10/99d3d029848cb1e2.txt",
         "diff": "",
         "sha256": "8321f3c37d36bbe30df8d052ab857d9d39946d1eadf082119be4cb13c76d77a3"
       },
       {
         "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-10/d957d6c999575906.txt",
         "diff": "",
         "sha256": "d0ff97dc8dcdb137f67ac3c6cc64087e6a169b88729ed375789f41a34e09c9e5"
       },
       {
         "url": "https://academy.claude.com/tutorials/the-ai-fluency-index",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-10-10/d1d0b9b5760b3667.txt",
         "diff": "",
         "sha256": "a07fd3b35b7d023621cf4429895a25ac4125f667075b8645a7dd6b324db630e9"
       },
       {
         "url": "https://www.anthropic.com/engineering/code-execution-with-mcp",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-09-13/9b88bfec4a46afeb.txt",
         "diff": "",
         "sha256": "1e8d992313f962eb22a3565aacd5beba07269ff437be5f87f21786c0fecb9c0e"
       },
       {
         "url": "https://www.anthropic.com/engineering/claude-code-sandboxing",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-09-13/c765441e9673d957.txt",
         "diff": "",
         "sha256": "03958deed6b43e5ae07b1cf155ef2fcf7d794c5f08e124530a88c22368a94c12"
       },
       {
         "url": "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-09-13/2e50ab69ebea3b2c.txt",
         "diff": "",
         "sha256": "eddb57e356553f5b48b8fffb0c533956414bb2654c6c77e8822776124f234365"
       },
       {
         "url": "https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-09-13/955bc6c93f35e54a.txt",
         "diff": "",
         "sha256": "fd7e2966d52f4ac4a0dd0b25e3be705155f2a329674664f42bed1eca00d729e8"
       },
       {
         "url": "https://www.anthropic.com/engineering/writing-tools-for-agents",
         "body_unchanged": true,
-        "baseline": "/Users/Zhuanz/Documents/Obsidian Vault/Anthropic/99-管理/.运行记录/2026-09-13/1399aec680791f78.txt",
         "diff": "",
         "sha256": "47efb7f6afb8cb37406507f36d916c10702ce81610437dbd484c0e990b9875fa"
       }

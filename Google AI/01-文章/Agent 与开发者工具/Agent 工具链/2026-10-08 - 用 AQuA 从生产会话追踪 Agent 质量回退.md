@@ -16,7 +16,7 @@ source_section: "Google Developers Blog · AI"
 tags: ["AQuA", "Agent", "质量评测"]
 status: "saved"
 detail_status: "completed"
-note_depth: "中文摘要与重点图文解读"
+note_depth: "中文摘要与重点文字解读"
 ---
 
 # 用 AQuA 从生产会话追踪 Agent 质量回退
@@ -30,7 +30,7 @@ note_depth: "中文摘要与重点图文解读"
 
 Google Developers 开源 AQuA，作为旁路质量 Agent 抽样读取生产会话，经审阅、聚类、独立模型核验和问题跟踪，发现健康检查仍正常时的任务失败。按需诊断会结合部署时的源码快照提出有行号依据的修复建议，但不会自动修改代码。作者在 32 个脚本重放会话中演示，人工修改两处提示后通过会话由 5 个升至 13 个；该案例本次未独立复现，抽样与有限核验也不能证明所有会话都可靠。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 旁路读取生产证据
 

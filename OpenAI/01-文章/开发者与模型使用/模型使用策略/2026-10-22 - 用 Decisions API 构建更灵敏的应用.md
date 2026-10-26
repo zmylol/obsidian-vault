@@ -14,7 +14,7 @@ last_checked: "2026-10-23"
 category: "开发者与模型使用/模型使用策略"
 source_section: "OpenAI News · Product"
 tags: ["OpenAI", "Decisions API", "GPT-6 Luna", "API"]
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 status: "saved"
 detail_status: "pending"
 summary_review_status: "passed"
@@ -36,7 +36,7 @@ body_sha256: "6f7506369692937012cad57e07826857ae0b3b20b448ea135acc4845bb46fb71"
 
 OpenAI 宣布 Decisions API 正式可用，用 GPT‑6 Luna 处理答案范围受限的判断，面向文本、图像和结构化输入，官方称相较 Responses API 可快至 10 倍。接口支持概率、选项和评分三类结果，并加入 GPT‑Live、提示缓存、原生 JSON、美国与欧盟推理驻留及每次最多 400 个问题。定价只收输入 token，实际效果仍取决于问题定义、候选答案和业务评测。
 
-## 重点图文解读
+## 重点文字解读
 
 ### API 定位与速度
 

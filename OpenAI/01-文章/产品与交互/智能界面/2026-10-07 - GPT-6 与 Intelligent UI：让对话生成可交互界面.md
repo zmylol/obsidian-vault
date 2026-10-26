@@ -13,7 +13,7 @@ last_checked: "2026-10-12"
 category: "产品与交互/智能界面"
 source_section: "OpenAI News · Product"
 tags: ["OpenAI"]
-note_depth: "中文摘要与重点图文解读"
+note_depth: "中文摘要与重点文字解读"
 status: "saved"
 detail_status: "pending"
 title: "GPT-6 与 Intelligent UI：让对话生成可交互界面"
@@ -36,7 +36,7 @@ body_hash_type: "normalized_official_crawled_article_text"
 
 OpenAI 为 ChatGPT 推出 GPT-6 和 Intelligent UI，让模型按问题组合文字、图形、按钮及可操作界面。系统用原生流式组件库和编译器逐步显示输出，并训练模型判断何时交互更有帮助。公司称需要搜索的问题平均更早开始回答 44%，比较对象是 GPT-5.6 Instant。发布先覆盖付费层再扩展到 Free/Go；这次变化限于 ChatGPT 的 Chat 体验，Work 和 Codex 的模型不随之改变。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 输出形式随任务变化
 

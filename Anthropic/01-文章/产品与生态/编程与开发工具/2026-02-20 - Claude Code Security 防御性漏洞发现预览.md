@@ -12,7 +12,7 @@ source_section: News
 tags:
 - cybersecurity
 - products
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -50,13 +50,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E7%BC%96%E7%A8%8B%E4%B8%8E%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7)
 
 > [官方原文](https://www.anthropic.com/news/claude-code-security) · Making frontier cybersecurity capabilities available to defenders · 2026-02-20
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2026 年 2 月面向 Enterprise 和 Team 客户开放 Claude Code Security 限量研究预览，开源维护者可申请免费加速准入。工具读取代码、追踪数据流，经过多阶段自查后给出漏洞严重性、置信度和修复建议，所有修复均须人工批准。公司报告团队借助 Opus 4.6 在生产开源代码中发现逾 500 个漏洞，当时仍在分诊和负责任披露；这不是该预览产品的检出率或零误报证明。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 从规则匹配扩展到上下文推理
 

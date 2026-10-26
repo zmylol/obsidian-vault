@@ -12,7 +12,7 @@ source_section: News
 tags:
 - products
 - alignment
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -50,13 +50,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83)
 
 > [官方原文](https://www.anthropic.com/news/claude-fable-5-mythos-5) · Claude Fable 5 and Claude Mythos 5 · 2026-06-09
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2026 年 6 月推出 Fable 5 与受限访问的 Mythos 5，把更强的编码、科学和长程代理能力与新的安全分流机制一起发布。Fable 5 面向一般用户，标价每百万输入 10 美元、输出 50 美元；涉及网络安全、生物化学或模型蒸馏的请求可能由分类器转交 Opus 4.8，早期数据称超过 95% 会话无需回退。Mythos 5 初期通过 Project Glasswing 向网络安全伙伴开放，并计划向少量生物学研究者扩展；相关蛋白设计和科学假设结果仍属内部评估或早期研究，不能视作普遍成功率。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 能力表包含防护配置差异
 

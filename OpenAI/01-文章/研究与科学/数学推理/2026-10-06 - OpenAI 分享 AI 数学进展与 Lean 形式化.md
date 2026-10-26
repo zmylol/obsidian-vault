@@ -13,7 +13,7 @@ last_checked: "2026-10-12"
 category: "研究与科学/数学推理"
 source_section: "OpenAI News · Research / Publication"
 tags: ["OpenAI"]
-note_depth: "中文摘要与重点图文解读"
+note_depth: "中文摘要与重点文字解读"
 status: "saved"
 detail_status: "completed"
 title: "OpenAI 分享 AI 数学进展与 Lean 形式化"
@@ -36,7 +36,7 @@ body_hash_type: "normalized_official_crawled_article_text"
 
 OpenAI 在 GitHub 发布内部前沿模型产生的一批数学结果，配套修订和引用协议、部分 Lean 证明形式化，以及计算过程信息。披露内容包括 10 个推理摘要、尝试题目统计和以 ChatGPT Pro 用量表达的计算估计，平均每个结果约相当于三小时 Pro 思考。公司参考独立数学顾问组的意见制定披露方式，并承诺继续改善论文表述；本文是发布说明，未独立验证各项数学结论。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 结果配套验证入口
 

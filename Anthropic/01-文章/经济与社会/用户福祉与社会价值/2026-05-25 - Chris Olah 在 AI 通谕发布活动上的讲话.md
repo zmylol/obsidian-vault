@@ -13,7 +13,7 @@ source_section: News
 tags:
 - societal-impacts
 - policy
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -51,13 +51,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E7%94%A8%E6%88%B7%E7%A6%8F%E7%A5%89%E4%B8%8E%E7%A4%BE%E4%BC%9A%E4%BB%B7%E5%80%BC)
 
 > [官方原文](https://www.anthropic.com/news/chris-olah-pope-leo-encyclical) · Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas" · 2026-05-25
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 这篇文章记录 Chris Olah 在教宗 Leo XIV 发布有关人工智能的通谕时的讲话。他强调 AI 实验室受到商业、竞争与地缘政治激励影响，需要外部有知识、愿意批评的声音；讲话提出全球利益分配、人类福祉和理解模型性质三组需要公共讨论的问题。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 外部批评的作用是补充实验室的视角
 

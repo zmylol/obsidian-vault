@@ -19,7 +19,7 @@ tags:
 - lc
 - AI
 - 运行架构
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 ---
@@ -37,7 +37,7 @@ translation_status: not_requested
 
 LangChain 用 Jev 与 LangGraph 将文档审核拆成受代码控制的流程：Jev 并行判断文档是否相关、是否含个人信息、是否可能受法律特权保护，图根据结果转交语言模型脱敏或暂停等待律师审核。作者在同一图中比较 Jev 与 Sonnet，报告分类步骤快5–6倍；这是试验中的局部耗时，文中未给完整样本与版本，不能等同端到端提速或判断更准确。LangGraph 用状态、检查点和人工中断组织执行，语言模型仍承担开放式处理，决策模型的输出也需要可观察和可测试。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 让代码管理流程，让模型判断语义
 

@@ -11,7 +11,7 @@ last_checked: '2026-10-14'
 category: 工程与Agent/工具与上下文
 source_section: Engineering
 tags: []
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 ---
@@ -27,7 +27,7 @@ translation_status: not_requested
 
 Anthropic 说明，内部每天合并的代码变化从 2026 年 5 月约 2,500 次增至 9 月超过 30,000 次，Git 的完整副本、镜像和检查流程因此成为瓶颈。团队在五个月内把单体仓库迁移到自研 Scion：让客户端默认在线、只按需取数据，由服务端完成提交、合并、历史查询和派生数据计算，并用可横向扩展的变化集取代需要维护的完整仓库副本。文章还介绍稀疏或虚拟检出、无锁增量提交等设计，目标是让 Agent 和 CI 的大量并行工作不再被源码管理基础设施限制。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 合并速率先压垮了旧工具链
 

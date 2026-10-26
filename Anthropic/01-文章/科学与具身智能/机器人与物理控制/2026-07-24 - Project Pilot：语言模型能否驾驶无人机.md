@@ -12,7 +12,7 @@ source_section: Research
 tags:
 - agents
 - evaluations
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -58,13 +58,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B8%8E%E7%89%A9%E7%90%86%E6%8E%A7%E5%88%B6)
 
 > [官方原文](https://www.anthropic.com/research/project-pilot) · Project Pilot: Can AI control a drone? · 2026-07-24
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 与 Andon Labs 用 Drone-Bench 将室内无人机寻找并跟随知情参与者的任务拆成五项，以人机共同开发的算法作基线。15 个模型的测试显示，Fable 5 在十次模拟中取最佳表现时有四项达到基线，按平均表现却只有三项达标；环境重建仍是主要短板。真实无人机也因地图错误无法自主跨房间导航，说明子任务成绩不能替代完整任务的可靠性。实验仅覆盖单一办公室、低速和少数人员，尚不足以判断复杂真实环境中的能力。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 基线是人机协作实现
 

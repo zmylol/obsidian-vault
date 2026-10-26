@@ -18,7 +18,7 @@ tags:
 - lc
 - AI
 - 部署与持久化
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 ---
@@ -36,7 +36,7 @@ translation_status: not_requested
 
 LangChain 的 Kubernetes 运维 Agent 把例行巡检与深入调查分开：前者先用 Python 收集集群状态，再由小模型生成报告；后者才启动协调者和多个专职子 Agent。作者报告，这使内部每次巡检成本降低 95%–99%，但该数字不代表所有运维任务。系统能自主读取集群，所有写操作仍须人工批准，并由工具隔离和集群权限共同限制。调用追踪和审批反馈用于形成回归测试，发现问题后再验证修复效果。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 巡检走快速路径，复杂问题才调查
 

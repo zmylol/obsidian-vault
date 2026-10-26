@@ -12,7 +12,7 @@ source_section: News
 tags:
 - products
 - agents
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -50,13 +50,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83)
 
 > [官方原文](https://www.anthropic.com/news/claude-sonnet-5) · Introducing Claude Sonnet 5 · 2026-06-30
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2026 年 6 月发布 Sonnet 5，定位为更具代理性的 Sonnet，在编码、工具使用、知识工作和长任务上接近 Opus 4.8，同时将价格降至每百万输入 2 美元、输出 10 美元。官方称其安全性整体优于 Sonnet 4.6，并默认启用网络安全防护；但在开发软件漏洞利用等复杂网络安全任务上明显弱于 Opus 级模型。页面还说明更新后的 tokenizer 可能让相同输入增加约 1.0–1.35 倍 token，部分旧基准也因评测方法变化而被重算。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 比较完整成本曲线而非一个最高分
 

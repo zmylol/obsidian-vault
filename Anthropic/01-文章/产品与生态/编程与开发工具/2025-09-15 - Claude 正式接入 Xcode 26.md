@@ -12,7 +12,7 @@ source_section: News
 tags:
 - products
 - agents
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -51,13 +51,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E7%BC%96%E7%A8%8B%E4%B8%8E%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7)
 
 > [官方原文](https://www.anthropic.com/news/claude-in-xcode) · Claude is now generally available in Xcode · 2025-09-15
-> 中文摘要＋重点图文解读；关键内容及配图节选。
+> 中文摘要＋重点文字解读；关键内容及配图节选。
 
 ## 摘要
 
 Anthropic 在 2025 年 9 月宣布 Claude Sonnet 4 正式接入 Xcode 26，开发者可在苹果的开发环境中用自然语言理解和修改项目代码。助手会收集项目上下文，并支持对话历史、附件、代码解释、文档生成及 SwiftUI 预览等功能。发布时支持包含 Claude Code 的 Pro、Max 订阅，以及 Team 和 Enterprise 的高级席位；Xcode 使用消耗跨平台共享额度的一部分。文章没有提供开发效率的量化测试，这些套餐和模型条件应按当时的发布快照理解。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 对话直接结合项目代码
 

@@ -11,7 +11,7 @@ category: 公司与商业/算力与基础设施
 source_section: News
 tags:
 - company
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -56,13 +56,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E7%AE%97%E5%8A%9B%E4%B8%8E%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD)
 
 > [官方原文](https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships) · Microsoft, NVIDIA, and Anthropic announce strategic partnerships · 2025-11-18
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 2025 年 11 月，Anthropic、微软与英伟达宣布扩大算力、技术和产品合作。Anthropic 承诺购买 300 亿美元 Azure 算力并承诺签约额外最高一吉瓦容量，与英伟达联合优化模型及硬件，同时扩大 Claude 在 Microsoft Foundry 中的接入，微软则承诺在 Copilot 产品中继续提供 Claude。英伟达和微软分别承诺最高投资 100 亿、50 亿美元；这些是投资与容量承诺，不表示资金和算力全部交付，也不能把采购额计为融资。公告同时确认 Amazon 仍是 Anthropic 的主要云服务商和训练伙伴。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 算力采购与技术协同
 

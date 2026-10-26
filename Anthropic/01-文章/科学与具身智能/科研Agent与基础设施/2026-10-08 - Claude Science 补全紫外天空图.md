@@ -11,7 +11,7 @@ last_checked: '2026-10-09'
 category: 科学与具身智能/科研Agent与基础设施
 source_section: Research
 tags: []
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 quality_evidence:
@@ -54,7 +54,7 @@ body_sha256: 3433d3dd836618c82570e5d9930a20b9110d7457f1b327a642a23f9473774b4f
 
 Anthropic 研究员 Brice Ménard 介绍如何与 Claude Science 汇总 GALEX、Swift 等紫外观测，校准不同仪器数据，并用可见光、红外和射电信息填补约三分之一未观测天空，制作完整紫外天空图。Claude 通过多代理并行处理约 38,000 次 GALEX 观测，并在遮蔽已有数据的回测中把预测误差控制在约 10%。结果仍包含模型填补和不确定度，且项目经历多轮人工发现并修正大气余辉造成的圆斑伪影，不能把预测区域当作直接观测。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 把分散观测统一到同一张图
 

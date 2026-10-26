@@ -16,7 +16,7 @@ tags:
 - agents
 - multi-agent
 - economics
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 quality_evidence:
@@ -66,13 +66,13 @@ enriched_at: '2026-09-26'
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E9%95%BF%E7%A8%8B%E4%B8%8E%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93)
 
 > [官方原文](https://www.anthropic.com/features/project-deal) · Project Deal: our Claude-run marketplace experiment · 发布于 2026-04-24
-> 中文摘要与重点图文解读，关键内容与配图节选；关联论文、代码与附件未单独精读或复现。
+> 中文摘要与重点文字解读，关键内容与配图节选；关联论文、代码与附件未单独精读或复现。
 
 ## 摘要
 
 Anthropic 的 Project Deal 让 69 名员工委托 Claude 代理买卖闲置物品，用四个平行市场比较模型能力。只有全 Opus 4.5 的 Run A 实际结算，共达成 186 笔交易，总额超过 4,000 美元。在混用 Opus 与 Haiku 的场次中，Opus 代理通常成交更多、议价结果更好，但参与者对交易公平性的评分几乎相同。混合场次未实际结算，价格分析也只覆盖已成交物品，不能把差异直接推广为现实市场中的普遍损失；员工样本和每人 100 美元补贴进一步限制了外推。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 四个市场只有一场实际结算
 

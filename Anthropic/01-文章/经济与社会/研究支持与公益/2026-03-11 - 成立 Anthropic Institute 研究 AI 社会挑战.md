@@ -13,7 +13,7 @@ tags:
 - societal-impacts
 - economics
 - policy
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -58,13 +58,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E7%A0%94%E7%A9%B6%E6%94%AF%E6%8C%81%E4%B8%8E%E5%85%AC%E7%9B%8A)
 
 > [官方原文](https://www.anthropic.com/news/the-anthropic-institute) · Introducing The Anthropic Institute · 2026-03-11
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 成立由联合创始人 Jack Clark 领导的 Anthropic Institute，整合前沿红队、社会影响和经济研究三个团队，研究强大 AI 对就业、社会风险与治理的影响。机构计划公开利用开发前沿模型获得的信息，并把劳动者和社区的反馈带回研究与公司决策，同时拓展 AI 进展预测和法律制度研究。公告另宣布扩充由 Sarah Heck 领导的公共政策团队；这是组织与研究计划，关于未来两年 AI 加速发展的判断是公司预测，而非已经验证的结果。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 研究组织与公共利益职责结合
 

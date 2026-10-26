@@ -12,7 +12,7 @@ source_section: News
 tags:
 - tool-use
 - products
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -59,13 +59,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#Claude%E5%BA%94%E7%94%A8%E4%B8%8E%E8%A1%8C%E4%B8%9A%E6%96%B9%E6%A1%88)
 
 > [官方原文](https://www.anthropic.com/news/claude-for-creative-work) · Claude for Creative Work · 2026-04-28
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2026 年 4 月发布一组创意软件连接器，让 Claude 通过文档查询、工具调用和代码扩展参与图像、三维与音乐制作。不同连接器能力不同：有的主要检索说明，有的可在获授权的软件中修改场景或批处理素材；部分功能仍需对应软件订阅。公告还介绍 Blender 的开放连接器、一次性捐赠及院校合作，重点是减少重复制作和跨工具交接，并未证明 AI 能替代创作者的审美判断，也未报告统一的效率测试结果。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 连接器能力并不相同
 

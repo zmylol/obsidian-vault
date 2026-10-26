@@ -13,7 +13,7 @@ tags:
 - alignment
 - policy
 - products
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -57,13 +57,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E6%94%BB%E5%87%BB%E4%B8%8E%E6%A8%A1%E5%9E%8B%E9%98%B2%E6%8A%A4)
 
 > [官方原文](https://www.anthropic.com/news/enterprise-frontier-safeguards) · Developing Enterprise Frontier Safeguards with our customers · 2026-09-01
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2026 年 9 月提出 Enterprise Frontier Safeguards，试图兼顾企业数据控制与跨会话滥用检测。方案允许监测日志保存在客户云账户，由客户掌握密钥和访问策略；自动系统分析一段时间内的活动，将异常交给客户人员审核，无须 Anthropic 员工人工查看。客户存储、客户密钥和全自动审核分别自愿启用，因此零留存并非整个系统不保存日志。发布时仍计划于当年秋季分阶段推出；Anthropic 不另收费，但客户云端存储及读写等费用仍由云商收取。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 跨会话监测需要一定的数据窗口
 

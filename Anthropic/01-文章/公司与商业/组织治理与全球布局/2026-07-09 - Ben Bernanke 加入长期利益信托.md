@@ -13,7 +13,7 @@ tags:
 - company
 - economics
 - policy
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -56,13 +56,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E7%BB%84%E7%BB%87%E6%B2%BB%E7%90%86%E4%B8%8E%E5%85%A8%E7%90%83%E5%B8%83%E5%B1%80)
 
 > [官方原文](https://www.anthropic.com/news/ben-bernanke) · Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust · 2026-07-09
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2026 年 7 月宣布，前美联储主席 Ben Bernanke 加入长期利益信托，将为公司的经济研究提供建议。该信托由独立于公司管理层和投资者的成员组成，拥有任命董事的权力，并就长期风险和社会影响向董事会及公司负责人提供意见。此次变化是增加信托成员，并非直接任命他为公司董事或管理者。公告说明了治理安排与预期作用，没有提供这次任命已改善治理效果的证据。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 受托人与管理层分离
 

@@ -13,7 +13,7 @@ source_section: News
 tags:
 - tool-use
 - company
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -54,13 +54,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E5%BC%80%E6%94%BE%E5%8D%8F%E8%AE%AE%E4%B8%8E%E6%A0%87%E5%87%86)
 
 > [官方原文](https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation) · Donating the Model Context Protocol and establishing the Agentic AI Foundation · 2025-12-09
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2025 年 12 月将 MCP 捐赠给 Linux Foundation 旗下 Agentic AI Foundation，由 Anthropic、Block 和 OpenAI 发起。公告称 MCP 已有超过 10,000 个活跃公开服务器、被多个 AI 平台采用，Python 与 TypeScript SDK 月下载量超过 9,700 万，并与 goose、AGENTS.md 成为初始项目。治理模式不变；这些发布时统计不等同于质量或安全保证。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 从单厂商协议扩展为生态基础设施
 

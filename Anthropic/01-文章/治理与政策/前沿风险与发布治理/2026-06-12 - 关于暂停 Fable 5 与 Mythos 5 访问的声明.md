@@ -14,7 +14,7 @@ tags:
 - policy
 - products
 - alignment
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -59,13 +59,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E5%89%8D%E6%B2%BF%E9%A3%8E%E9%99%A9%E4%B8%8E%E5%8F%91%E5%B8%83%E6%B2%BB%E7%90%86)
 
 > [官方原文](https://www.anthropic.com/news/fable-mythos-access) · Statement on the US government directive to suspend access to Fable 5 and Mythos 5 · 2026-06-12
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 在 2026 年 6 月 12 日声明，美国政府以国家安全为由要求暂停外国国民访问 Fable 5 和 Mythos 5，公司宣布为合规暂停所有客户对这两款模型的访问，其他模型不受影响。公司认为政府所指的潜在绕过只展示了其他模型也具备的有限能力，并主张用防护、监测和快速处置共同降低风险。关于技术严重性及指令依据，这篇文章呈现的是公司立场，未提供政府完整证据；暂停是当时措施，不能据此判断当前可用性。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 暂停范围大于指令对象
 

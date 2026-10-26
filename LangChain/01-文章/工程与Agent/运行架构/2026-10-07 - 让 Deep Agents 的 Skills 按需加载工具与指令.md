@@ -18,7 +18,7 @@ tags:
 - lc
 - AI
 - 运行架构
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 ---
@@ -36,7 +36,7 @@ translation_status: not_requested
 
 LangChain 为 Deep Agents 的 Skills 增加三组能力：工具可绑定到技能并在读取技能后才披露，用户显式点名的技能可在首次模型调用前预加载，长线程也能重新扫描技能库。文章以渐进式披露解释设计：系统提示只放名称和描述，完整 SKILL.md 及脚本、参考和资源按任务逐级读取，从而控制上下文增长。工具绑定还可按运行时权限返回工具，但技能重载会改变系统提示并可能使提示缓存失效；这些是产品机制说明，文中没有给出统一延迟或质量实验。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 机制与触发边界
 

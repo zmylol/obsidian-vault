@@ -11,7 +11,7 @@ category: 公司与商业/算力与基础设施
 source_section: News
 tags:
 - company
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -55,13 +55,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E7%AE%97%E5%8A%9B%E4%B8%8E%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD)
 
 > [官方原文](https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services) · Expanding our use of Google Cloud TPUs and Services · 2025-10-23
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 在 2025 年 10 月宣布扩大 Google Cloud 使用计划，规模涉及数百亿美元、最多 100 万颗 TPU，并预计在 2026 年上线超过 1 吉瓦的容量。公司希望借此满足 Claude 客户增长，同时支持模型研发、安全测试和对齐研究。算力策略仍同时采用 Google TPU、Amazon Trainium 与 NVIDIA GPU，Amazon 在公告中继续是主要训练伙伴和云提供商。这些数字描述扩容上限与预计交付，不能当作发布时已运行的硬件或已完成的容量。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 芯片数量与供电容量分别记录
 

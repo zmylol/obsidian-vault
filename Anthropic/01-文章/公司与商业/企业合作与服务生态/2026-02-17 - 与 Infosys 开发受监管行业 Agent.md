@@ -13,7 +13,7 @@ source_section: News
 tags:
 - company
 - agents
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -57,13 +57,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E4%BC%81%E4%B8%9A%E5%90%88%E4%BD%9C%E4%B8%8E%E6%9C%8D%E5%8A%A1%E7%94%9F%E6%80%81)
 
 > [官方原文](https://www.anthropic.com/news/anthropic-infosys) · Anthropic and Infosys collaborate to build AI agents for telecommunications and other regulated industries · 2026-02-17
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 与 Infosys 在 2026 年 2 月宣布，将 Claude 与 Infosys Topaz 结合，为电信、金融和制造等行业开发智能体。双方计划用 Claude Agent SDK 支持持续多步任务，以 Topaz 和 Claude 改造遗留系统，另用 Cowork 处理文档与报告。公告称 Infosys 开发者已使用 Claude Code，但更广的行业方案主要仍是开发方向，未披露统一准确率、客户部署规模或独立验证的生产收益。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 从领域流程选择代理任务
 

@@ -19,7 +19,7 @@ tags:
 - lc
 - AI
 - 上下文管理
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 ---
@@ -37,7 +37,7 @@ translation_status: not_requested
 
 Deep Agents 为子 Agent 提供两种上下文模式：默认 isolated 只接收任务描述，fork 则继承主 Agent 的状态和对话，完成后都只把结果交回主流程。作者建议让接续实现的执行者继承已收集的资料，让独立审查者从任务与待审材料出发，减少受到先前判断的影响。继承上下文可复用提示缓存并减少重复读取，但也会带入更长历史；文章没有给出跨任务的统一速度或成本提升。这里调整的是信息传递方式，访问权限仍需另行配置。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 独立上下文适合核验
 

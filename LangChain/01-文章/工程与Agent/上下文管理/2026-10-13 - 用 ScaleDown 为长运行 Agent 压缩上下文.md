@@ -20,7 +20,7 @@ tags:
 - lc
 - AI
 - 上下文管理
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 ---
@@ -38,7 +38,7 @@ translation_status: not_requested
 
 ScaleDown 为 LangChain 与 Deep Agents 提供受限解码模型和三类中间件，把长任务中的狭窄上下文决策交给专用模型：Summarize 压缩旧历史、Compress 按查询裁剪工具结果、Extract 从用户消息复制字段并可分类。文章称模型最多接受 100 万 token；ScaleDown 自有公开数据集基准称，相对 GPT-5.5、GPT-5.4 Mini 和 Nano 的平均值，Summarize 便宜 41 倍、快 2.7 倍，Compress 便宜 138 倍、快 1.8 倍。摘要失败时原历史保留，但真实 Agent 的准确率、重取行为和端到端收益仍需验证。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 将狭窄决策从主模型分离
 

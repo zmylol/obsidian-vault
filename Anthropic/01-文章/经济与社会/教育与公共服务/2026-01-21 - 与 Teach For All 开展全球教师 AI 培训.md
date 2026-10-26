@@ -13,7 +13,7 @@ source_section: News
 tags:
 - societal-impacts
 - company
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -58,13 +58,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E6%95%99%E8%82%B2%E4%B8%8E%E5%85%AC%E5%85%B1%E6%9C%8D%E5%8A%A1)
 
 > [官方原文](https://www.anthropic.com/news/anthropic-teach-for-all) · Anthropic and Teach For All launch global AI training initiative for educators · 2026-01-21
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 与 Teach For All 推出教师 AI 培训合作，其覆盖 63 国的网络中逾十万名教师及校友可参与。项目结合六场培训、同伴交流社区与 Claude 工具试用，让教师把课堂经验反馈到产品设计。首轮培训有逾 530 人参加，交流社区吸引了 60 多国逾千名教师；这些是参与规模，文中的课程案例尚不能证明学生学习效果提高。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 教师可以制作本地教学资源
 

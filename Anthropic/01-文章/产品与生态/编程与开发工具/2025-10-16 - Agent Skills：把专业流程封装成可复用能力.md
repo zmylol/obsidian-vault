@@ -14,7 +14,7 @@ tags:
 - agents
 - context-engineering
 - tool-use
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -55,13 +55,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E7%BC%96%E7%A8%8B%E4%B8%8E%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7)
 
 > [官方原文](https://claude.com/blog/skills) · Introducing Agent Skills · 2025-10-16
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2025 年 10 月推出 Agent Skills，把指令、脚本和资源封装为文件夹，由 Claude 按需加载；同一格式可用于 Claude 应用、Claude Code 和 API，并支持组合、版本管理与代码执行。应用侧自动调用，API 通过 /v1/skills 管理版本但依赖 Code Execution Tool，Claude Code 可经插件安装。12 月更新加入组织管理、伙伴目录和开放标准；使用时需核验来源与权限。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 按需加载减少上下文负担
 

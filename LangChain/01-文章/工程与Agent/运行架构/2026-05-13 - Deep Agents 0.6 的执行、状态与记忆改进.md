@@ -15,7 +15,7 @@ tags:
 - lc
 - AI
 - 运行架构
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 authors:
@@ -30,13 +30,13 @@ authors_source: 原文页首署名
 
 > [原文：New in Deep Agents v0.6](https://www.langchain.com/blog/deep-agents-0-6) · 发布于 2026-05-13 · 收录于 2026-09-09  
 > 作者：Sydney Runkle · LangChain 官方博客署名文章  
-> 中文摘要与重点图文解读，内容与配图为节选；示例代码未运行，关联论文未精读。历史文章中的产品状态与性能数据以原文条件为准。  
+> 中文摘要与重点文字解读，内容与配图为节选；示例代码未运行，关联论文未精读。历史文章中的产品状态与性能数据以原文条件为准。
 
 ## 摘要
 
 Deep Agents 0.6 把性能改进分布在五处：可选代码解释器减少工具调用间的模型往返，模型专用配置调整提示与工具，类型化事件支持过程展示，增量检查点压缩状态存储，Context Hub 保存可版本化的提示、技能和记忆等文件。团队在模拟 200 轮多文件编码会话中，将检查点占用从 5.27 GB 降至 129 MB，这只对应该负载，不能当作所有任务的固定降幅。解释器用于循环内编排，不能替代操作系统沙箱；本次介绍的版本化文件后端由 LangSmith Context Hub 提供。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 中间计算留在解释器
 

@@ -12,7 +12,7 @@ source_section: News
 tags:
 - products
 - evaluations
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -55,13 +55,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83)
 
 > [官方原文](https://www.anthropic.com/news/claude-opus-5) · Introducing Claude Opus 5 · 2026-07-24
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Claude Opus 5 以每百万输入 5 美元、输出 25 美元的基础价格，主打编码、知识工作和长任务中的验证能力，并以 effort 等级与工具协作控制每任务成本。Anthropic 报告其在 Frontier-Bench、GDPval、OSWorld、ARC-AGI3 等评测中领先部分模型，自动行为审计得分为 2.30。评测依赖框架、尝试次数和回退路由，防护较 Fable 宽松但仍阻断部分高风险操作，榜单不能替代真实环境验收。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 性能主张以具体任务成本衡量
 

@@ -13,7 +13,7 @@ source_section: Research
 tags:
 - societal-impacts
 - economics
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -50,13 +50,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E5%B7%A5%E4%BD%9C%E5%8F%98%E5%8C%96%E4%B8%8E%E6%8A%80%E8%83%BD)
 
 > [官方原文](https://www.anthropic.com/research/anthropic-interviewer) · Introducing Anthropic Interviewer: What 1,250 professionals told us about working with AI · 2025-12-04
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic Interviewer 在人类研究者设计和审查下开展自适应访谈，首轮覆盖 1,250 名专业人士。受访者常报告节省时间，同时保留与专业身份相关的工作，并表达对可靠性、同行评价及未来岗位的担忧。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 访谈分为计划、提问和分析
 

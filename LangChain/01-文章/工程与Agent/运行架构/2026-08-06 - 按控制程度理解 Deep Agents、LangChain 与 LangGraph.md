@@ -19,7 +19,7 @@ tags:
 - AI
 - 运行架构
 detail_status: completed
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 translation_status: not_requested
 ---
 
@@ -36,7 +36,7 @@ translation_status: not_requested
 
 LangChain 团队把三套工具解释为可以组合的不同层次：Deep Agents 内置文件系统、子 Agent、技能和记忆等上下文管理能力，LangChain 提供较轻的模型与工具循环，LangGraph 则负责可自定义的图式运行流程。一般任务可从现成能力起步，需要控制循环时加中间件，需要明确规定流程分支时再使用自定义图。上层 Agent 能嵌入图中，图也能作为子 Agent 使用，不必一次选定后放弃其他层。这是维护团队按控制需求提出的选型建议，不能当作性能或可靠性排名。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 预设能力与最小循环
 

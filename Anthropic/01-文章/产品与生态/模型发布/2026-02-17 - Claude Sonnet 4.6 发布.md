@@ -13,7 +13,7 @@ tags:
 - products
 - agents
 - context-engineering
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -53,13 +53,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83)
 
 > [官方原文](https://www.anthropic.com/news/claude-sonnet-4-6) · Introducing Claude Sonnet 4.6 · 2026-02-17
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2026 年 2 月发布 Sonnet 4.6，升级编程、电脑操作和长上下文推理，提供百万 token 上下文测试版，起价仍为每百万输入 3 美元、输出 15 美元。在公司早期 Claude Code 测试中，用户约 70% 的比较偏好它而非 Sonnet 4.5，59% 偏好它而非 Opus 4.5；这些是偏好结果，不是任务成功率。电脑操作基准仍局限于受控任务，模型尚落后于最熟练的人类，实际部署仍须防范提示注入。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 电脑操作进步但仍有真实环境差距
 

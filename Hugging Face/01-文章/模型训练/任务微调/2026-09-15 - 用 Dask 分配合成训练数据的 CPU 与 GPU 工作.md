@@ -15,7 +15,7 @@ category: "模型训练/任务微调"
 source_section: "Hanno Labs 社区教程；作者提供实现示例"
 tags: []
 detail_status: "completed"
-note_depth: "中文摘要与重点图文解读"
+note_depth: "中文摘要与重点文字解读"
 ---
 
 # 用 Dask 分配合成训练数据的 CPU 与 GPU 工作
@@ -29,7 +29,7 @@ note_depth: "中文摘要与重点图文解读"
 
 Hanno Labs 的 Stephen Solka 用 hfdask 将 Hugging Face Jobs 组成临时 Dask 集群，让 CPU 准备和校验数据、GPU 复用已加载的 vLLM 模型生成问答。示例从 AG News 抽取128篇新闻，用 Qwen3-0.6B 生成带原文引句的问答记录，再检查格式、引句和重复问题，分别保存合格与拒绝结果。这提供了一套可追溯的数据生成流程，但通过规则不代表答案正确或适合训练，文中也未报告实测成本或训练收益；示例依赖付费 Jobs，并固定 hfdask 0.1.1 与 vLLM 0.29.0。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 用临时集群承载一张任务图
 

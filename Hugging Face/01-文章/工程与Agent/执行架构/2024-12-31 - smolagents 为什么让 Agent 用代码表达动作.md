@@ -15,7 +15,7 @@ tags:
 - hf
 - AI
 - 执行架构
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 authors:
@@ -32,13 +32,13 @@ authors_source: 原文页首署名
 
 > [原文：Introducing smolagents , a simple library to build agents](https://huggingface.co/blog/smolagents) · 发布于 2024-12-31 · 收录于 2026-09-09  
 > 作者：Aymeric Roucher、Merve、Thomas Wolf · Hugging Face 博客署名技术文章  
-> 中文摘要与重点图文解读，内容与配图为节选；示例代码未运行，关联论文未精读。历史文章中的产品状态与性能数据以原文条件为准。  
+> 中文摘要与重点文字解读，内容与配图为节选；示例代码未运行，关联论文未精读。历史文章中的产品状态与性能数据以原文条件为准。
 
 ## 摘要
 
 Hugging Face 在 2024 年底发布 smolagents，让语言模型用 Python 代码组合工具、保存中间对象并控制多步任务，也保留 JSON 式工具调用。作者展示了旅行规划等示例，并在混合任务基准中报告开放模型可与领先闭源模型竞争，但这不表示所有任务或今天的版本都有同样表现。代码执行可接入 E2B 沙箱；若流程能预先确定，作者建议直接编写固定流程，只有需要动态决定下一步时才引入 Agent。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 先判断是否需要自主决策
 

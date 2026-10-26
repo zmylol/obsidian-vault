@@ -18,7 +18,7 @@ tags:
 - lc
 - AI
 - 评估与可靠性
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 ---
@@ -36,7 +36,7 @@ translation_status: not_requested
 
 LangSmith 已将 TypeSafe 的 Jev 接入在线评估：用户提供运行记录或对话，再用是非概率、选项和有序评分三类问题定义标准，每个问题形成可筛选、统计和告警的反馈指标。一次调用可并行评估多个问题，适合大量、判定明确的任务；需要文字推理的开放式评估仍可使用语言模型裁判。使用时需配置 TypeSafe API 密钥；2026年10月2日回查时，正文和新版配置截图未说明数据留存政策，不能据此认定已支持零数据保留。文中引用的性能结果只来自单一 Agent 实验，不能推定其他任务也有相同收益。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 把评估标准变成类型化问题
 

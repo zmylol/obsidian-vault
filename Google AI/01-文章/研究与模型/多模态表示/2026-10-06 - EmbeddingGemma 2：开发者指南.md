@@ -16,7 +16,7 @@ source_section: "Google Developers Blog · AI"
 tags: ["Google Developers", "EmbeddingGemma", "Gemma", "多模态检索", "RAG"]
 status: "saved"
 detail_status: "completed"
-note_depth: "中文摘要与重点图文解读"
+note_depth: "中文摘要与重点文字解读"
 ---
 
 # EmbeddingGemma 2：开发者指南
@@ -30,7 +30,7 @@ note_depth: "中文摘要与重点图文解读"
 
 EmbeddingGemma 2 将文本、代码、图像、视频和音频映射到兼容的 768 维向量空间，按需加载 270M 至 740M 参数的编码器。开发指南给出任务提示、跨模态输入与 Matryoshka 降维方法：256 维约占原向量三分之一存储，原文称图像、视频和语音检索约保留 95% 的质量；降到 128 维的损失更大，应在目标数据上验证。模型采用 Apache 2.0 授权，示例代码和视频本次未运行或观看。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 按模态加载，共享表示
 

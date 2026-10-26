@@ -19,7 +19,7 @@ tags:
 - AI
 - 上下文管理
 detail_status: completed
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 translation_status: not_requested
 ---
 
@@ -36,7 +36,7 @@ translation_status: not_requested
 
 OpenWiki 0.1.0 把原有的代码仓库文档能力扩展为通用记忆：Personal Brain 根据用户关注范围，从已连接的信息源提取内容，写成本地 Markdown 知识库并按计划刷新。邮件和代码提交等来源可按固定方式拉取，Notion 与网页搜索则由 Agent 带着目标检索；Code Brain 仍单独负责仓库知识。发布时首批连接器包括 Gmail、Notion、Git、X、Hacker News 和网页搜索，Slack 及更完善的检索仍是后续计划，不能把路线图当作已有功能。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 先指定记忆应关心什么
 

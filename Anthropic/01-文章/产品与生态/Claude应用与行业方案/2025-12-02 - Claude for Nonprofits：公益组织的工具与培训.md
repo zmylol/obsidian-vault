@@ -12,7 +12,7 @@ source_section: News
 tags:
 - societal-impacts
 - tool-use
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -59,13 +59,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#Claude%E5%BA%94%E7%94%A8%E4%B8%8E%E8%A1%8C%E4%B8%9A%E6%96%B9%E6%A1%88)
 
 > [官方原文](https://www.anthropic.com/news/claude-for-nonprofits) · Claude for Nonprofits · 2025-12-02
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 与 GivingTuesday 推出 Claude for Nonprofits，将最高 75% 的 Team、Enterprise 订阅优惠、公益数据连接器和免费培训组合为组织采用方案。Benevity、Blackbaud 与 Candid 分别帮助查找公益组织、管理筹款资料及发现资助机会，课程则覆盖申请书、项目评估和捐赠者沟通。公告还介绍六十多家受助组织的试点及客户案例。优惠是“最高”幅度，案例中的提速来自机构自述，不能推广为所有公益组织的效率或社会成效。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 优惠与公益数据配套
 

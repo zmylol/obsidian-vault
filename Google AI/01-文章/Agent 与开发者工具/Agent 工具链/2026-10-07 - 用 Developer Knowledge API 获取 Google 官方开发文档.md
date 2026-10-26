@@ -16,7 +16,7 @@ source_section: "Google Developers Blog · AI"
 tags: ["Developer Knowledge API", "MCP", "官方文档"]
 status: "saved"
 detail_status: "completed"
-note_depth: "中文摘要与重点图文解读"
+note_depth: "中文摘要与重点文字解读"
 ---
 
 # 用 Developer Knowledge API 获取 Google 官方开发文档
@@ -30,7 +30,7 @@ note_depth: "中文摘要与重点图文解读"
 
 Google Developers 介绍 Developer Knowledge API 的 CLI、Agent 技能、客户端库与交互式 API Explorer，供开发工具检索 Google Cloud、Firebase、Android 等官方文档。工作流先搜索相关片段，再按需读取 Markdown 全页或生成带依据的回答；批量接口一次可取最多 20 份文档。文章强调减少过期训练知识和抓取网页的依赖，但调用仍需相应认证，检索结果也要核对适用版本；本文未实测接口。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 官方文档成为可检索输入
 

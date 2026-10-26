@@ -12,7 +12,7 @@ source_section: News
 tags:
 - products
 - tool-use
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -59,13 +59,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#Claude%E5%BA%94%E7%94%A8%E4%B8%8E%E8%A1%8C%E4%B8%9A%E6%96%B9%E6%A1%88)
 
 > [官方原文](https://www.anthropic.com/news/claude-for-small-business) · Introducing Claude for Small Business · 2026-05-13
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 推出 Claude for Small Business，通过 Cowork 连接 QuickBooks、PayPal、HubSpot 等现有工具，提供十五个预设工作流和十五项技能，处理工资规划、对账、催款和营销准备。方案减少重复整理资料的步骤，发送、发布或支付前仍须用户批准，原有工具权限也继续适用。公告同时推出培训及公益合作；客户感言和资源投入不是统一测量的节省工时或经营增长结果。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 围绕实际业务结果组织任务
 

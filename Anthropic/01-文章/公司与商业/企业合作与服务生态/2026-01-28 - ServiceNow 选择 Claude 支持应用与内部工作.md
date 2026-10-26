@@ -13,7 +13,7 @@ source_section: News
 tags:
 - company
 - agents
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -57,13 +57,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E4%BC%81%E4%B8%9A%E5%90%88%E4%BD%9C%E4%B8%8E%E6%9C%8D%E5%8A%A1%E7%94%9F%E6%80%81)
 
 > [官方原文](https://www.anthropic.com/news/servicenow-anthropic-claude) · ServiceNow chooses Claude to power customer apps and increase internal productivity · 2026-01-28
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 ServiceNow 在 2026 年 1 月宣布，Claude 已成为 Build Agent 的默认模型及其 AI 平台的优选模型之一，用于在现有访问控制和监测下开发应用与自动化。公司也正向超过 2.9 万名员工推广 Claude 和 Claude Code；销售准备工具的早期测试报告最高节省 95% 准备时间。客户实施周期缩短 50% 则是未来目标，医疗等行业方案也仍在推进。员工覆盖规模不等于实际使用人数，最佳测试结果也不能推广为所有客户或工作流程的收益。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 模型嵌入流程平台
 

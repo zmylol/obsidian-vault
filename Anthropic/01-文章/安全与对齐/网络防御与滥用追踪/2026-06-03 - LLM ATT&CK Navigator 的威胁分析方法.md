@@ -12,7 +12,7 @@ source_section: Research
 tags:
 - cybersecurity
 - evaluations
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -61,13 +61,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E7%BD%91%E7%BB%9C%E9%98%B2%E5%BE%A1%E4%B8%8E%E6%BB%A5%E7%94%A8%E8%BF%BD%E8%B8%AA)
 
 > [官方原文](https://www.anthropic.com/research/attack-navigator) · Mapping AI-enabled cyber threats: Insights from the LLM ATT&CK Navigator · 2026-06-03
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 将 2025 年 3 月至 2026 年 3 月间 832 个被封禁恶意账户的活动，映射到网络攻击技术分类 ATT&CK，并设计 ARiES 分数来安排调查优先级。样本中，中等及以上风险账户占比从前半年约 33% 升至后半年约 56%；参与真实网络操作与较高风险相关，单看技术数量或操作者熟练程度则解释有限。作者认为还需记录代理如何串联行动和自主决策。封禁样本有选择偏差，检测改进也可能影响趋势；分数不是攻击成功概率，变化不能证明 AI 导致了风险上升。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 样本只覆盖足够可分析的封禁账户
 

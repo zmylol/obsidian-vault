@@ -12,7 +12,7 @@ source_section: News
 tags:
 - products
 - tool-use
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -53,13 +53,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#Claude%E5%BA%94%E7%94%A8%E4%B8%8E%E8%A1%8C%E4%B8%9A%E6%96%B9%E6%A1%88)
 
 > [官方原文](https://www.anthropic.com/news/advancing-claude-for-financial-services) · Advancing Claude for Financial Services · 2025-10-27
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2025 年 10 月扩展 Claude for Financial Services，推出 Excel 研究预览、市场连接器和 6 个金融 Skills，覆盖 DCF、可比公司、尽调和盈利分析。Claude for Excel 可读取、修改和创建工作簿；LSEG、Moody’s、Aiera 等连接器提供金融数据。55.3% 是 Vals AI 基准，客户反馈来自公司或合作方，不能代表所有任务。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 在单元格层面解释修改
 

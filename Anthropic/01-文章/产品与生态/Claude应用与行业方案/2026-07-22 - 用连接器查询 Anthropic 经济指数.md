@@ -12,7 +12,7 @@ source_section: News
 tags:
 - economics
 - tool-use
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -57,13 +57,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#Claude%E5%BA%94%E7%94%A8%E4%B8%8E%E8%A1%8C%E4%B8%9A%E6%96%B9%E6%A1%88)
 
 > [官方原文](https://www.anthropic.com/news/anthropic-economic-index-connector) · Ask Claude about the Anthropic Economic Index · 2026-07-22
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2026 年 7 月推出经济指数连接器，让用户在 Claude 对话中直接查询 AI 的职业、地区和任务使用数据。在 claude.ai 的连接器目录启用后，可逐步追问并要求展示回答依据，无须另外安装软件。这个功能降低了探索指数的门槛，但数据反映的是 Claude 使用模式，不能直接代表整个劳动市场或判断某个职业将被取代。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 从宽问题逐步追问到数据
 

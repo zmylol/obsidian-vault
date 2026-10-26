@@ -12,7 +12,7 @@ source_section: News
 tags:
 - company
 - reliability
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -56,13 +56,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E8%9E%8D%E8%B5%84%E4%B8%8E%E6%94%B6%E8%B4%AD)
 
 > [官方原文](https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone) · Anthropic acquires Bun as Claude Code reaches $1B milestone · 2025-12-03
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2025 年 12 月 3 日宣布收购 JavaScript 工具链 Bun，目标是加强 Claude Code 的运行、安装和开发基础设施；双方此前已合作改进原生安装器。公告承诺 Bun 继续开源并采用 MIT 许可。公司同时称，Claude Code 在 11 月达到 10 亿美元年化收入运行率，距 5 月正式推出约半年。运行率不是这半年已经取得的累计收入，收购带来的性能收益也尚未通过同条件测试量化。
 
-## 重点图文解读
+## 重点文字解读
 
 ### Bun 支持开发和分发基础设施
 

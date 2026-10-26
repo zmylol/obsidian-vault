@@ -13,7 +13,7 @@ tags:
 - tool-use
 - agents
 - science
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -56,13 +56,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E5%BC%80%E6%94%BE%E5%8D%8F%E8%AE%AE%E4%B8%8E%E6%A0%87%E5%87%86)
 
 > [官方原文](https://www.anthropic.com/news/model-hardware-standard-research-preview) · Previewing the Model Hardware Standard · 2026-08-27
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Model Hardware Standard（MHS）研究预览为实验室和制造设备规定统一驱动、设备说明与读写接口，目标是把跨厂商集成从数周或数月压缩到数小时或数分钟。正文展示代理经 MCP、命令行或代码协调液体处理器、机械臂、酶标仪和显微镜，并根据状态反馈调整实验；合作案例包括约 3 倍加速和 99.3% 的激光锁定恢复率。项目仍在早期，部分数字是伙伴自报，尚未正式开源；设备必须有可编程接口，物理推理和安全边界仍需专家监督。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 标准化的不只是命令
 

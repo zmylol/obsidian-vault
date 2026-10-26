@@ -12,7 +12,7 @@ source_section: News
 tags:
 - products
 - agents
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -53,13 +53,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83)
 
 > [官方原文](https://www.anthropic.com/news/claude-haiku-4-5) · Introducing Claude Haiku 4.5 · 2025-10-15
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2025 年 10 月发布 Claude Haiku 4.5，把接近 Sonnet 4 的编码水平放到更低成本档位：API 价格为每百万输入 1 美元、输出 5 美元，官方称速度超过两倍。SWE-bench Verified 报告 73.3%，基于 500 题平均 50 次、无测试时计算和 128K 思考预算；文章还提出 Sonnet 拆解计划、多个 Haiku 并行执行。安全评估按 ASL-2 发布，仍需按工作负载验证。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 成本下降与能力接近同时出现
 

@@ -14,7 +14,7 @@ last_checked: "2026-10-23"
 category: "Agent 与专业工作/持续协作"
 source_section: "OpenAI News · AI Adoption"
 tags: ["OpenAI", "FDE", "Codex", "企业部署"]
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 status: "saved"
 detail_status: "pending"
 summary_review_status: "passed"
@@ -36,7 +36,7 @@ body_sha256: "b7dc4d78dca8a7b99a22e321612f0ce457261be20b38bbccf1e5eac63e548c21"
 
 OpenAI 的前线部署工程（FDE）团队把模型能力转成可在真实业务中依赖的系统：先围绕客户结果嵌入领域流程，再用评测和生产指标找出模型缺口，最后把有效做法抽成 Codex 技能、插件和通用工具。文章以半导体验证、农业、税务和客服案例说明，定制代码可减少约 90%，某些部署从首个团队两个月缩到第二个团队一天；这些数字来自官方案例，仍需按业务独立复核。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 从部署差距开始
 

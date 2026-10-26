@@ -15,7 +15,7 @@ tags:
 - agents
 - multi-agent
 - economics
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 quality_evidence:
@@ -68,13 +68,13 @@ enriched_at: '2026-09-25'
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E9%95%BF%E7%A8%8B%E4%B8%8E%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93)
 
 > [官方原文](https://www.anthropic.com/research/project-swap) · Project Swap: What happens when agents trade for us? · 发布于 2026-09-24
-> 中文摘要与重点图文解读，关键内容与配图节选；关联论文、代码与附件未单独精读或复现。
+> 中文摘要与重点文字解读，关键内容与配图节选；关联论文、代码与附件未单独精读或复现。
 
 ## 摘要
 
 Anthropic 让 201 名员工的代理在受控市场中换书，再模拟重跑比较交易表现。Claude 推断的排序与 188 名参与者自行排序在两本书先后次序上的一致率为 61%。在 80 场中性指令重跑、并对未排序图书插补评分后，研究将相对最优分配的效率差距约 85% 归于偏好表征，15% 归于分散谈判。更强模型的优势主要体现在 Claude 生成的排序上，不能直接等同人类获益。员工样本、低风险场景和部分实物未交付限制了外推。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 先理解人，再进入市场
 

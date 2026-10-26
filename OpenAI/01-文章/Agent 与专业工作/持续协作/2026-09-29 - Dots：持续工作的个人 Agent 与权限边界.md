@@ -14,7 +14,7 @@ last_checked: "2026-10-12"
 category: "Agent 与专业工作/持续协作"
 source_section: "OpenAI News · Product"
 tags: ["OpenAI"]
-note_depth: "中文摘要与重点图文解读"
+note_depth: "中文摘要与重点文字解读"
 status: "saved"
 detail_status: "pending"
 summary_review_status: "passed"
@@ -35,7 +35,7 @@ body_hash_type: "normalized_official_crawled_article_text"
 
 OpenAI 发布 Dots：由 Astra 驱动、拥有云端计算机的持续工作 Agent，可通过连接的应用和聊天渠道协作，并接受反馈。文章区分后台“主动研究”的只读工具与用户任务中的执行能力，配有自定义规则、动作审查及监控暂停。发布初期面向符合地区条件的 Pro、Business Premium，企业需管理员开启测试；委派到 Work/Codex 的任务仍计入相应额度。能力和开放范围是发布方说明，尚需实际任务检验。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 持续工作依赖连接与上下文
 

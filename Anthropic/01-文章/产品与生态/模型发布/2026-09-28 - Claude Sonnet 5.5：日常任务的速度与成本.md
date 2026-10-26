@@ -15,7 +15,7 @@ tags:
 - Anthropic
 - Claude
 - 模型发布
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-29'
@@ -64,13 +64,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83)
 
 > [官方原文](https://www.anthropic.com/claude-sonnet-5-5) · Claude Sonnet 5.5 · 发布于 2026-09-28
-> 中文摘要与重点图文解读，关键内容与配图节选；关联论文、代码与附件未单独精读或复现。
+> 中文摘要与重点文字解读，关键内容与配图节选；关联论文、代码与附件未单独精读或复现。
 
 ## 摘要
 
 Anthropic 于 2026 年 9 月 28 日发布 Sonnet 5.5，定位日常编程与知识工作，复杂开放任务仍更适合 Opus 5.5。公司报告新模型输出速度比 Sonnet 5 快逾 30%，测试中每任务费用最多低 30%，原因是用量减少，token 单价未变。模型已在主要平台提供；高风险网络安全任务会回退到 Sonnet 5，原先关闭思考的开发者迁移时须改用 between_tools 设置。这些性能和成本收益取决于任务及推理设置。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 分数要与推理强度、任务成本一起看
 

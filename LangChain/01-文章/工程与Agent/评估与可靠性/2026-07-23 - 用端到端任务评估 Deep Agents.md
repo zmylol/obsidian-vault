@@ -15,7 +15,7 @@ tags:
 - lc
 - AI
 - 评估与可靠性
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 authors:
@@ -31,13 +31,13 @@ authors_source: 原文页首署名
 
 > [原文：How We Benchmark Deep Agents](https://www.langchain.com/blog/how-we-benchmark-deep-agents) · 发布于 2026-07-23 · 收录于 2026-09-09  
 > 作者：Nick Hollon、Harrison Chase · LangChain 官方博客署名文章  
-> 中文摘要与重点图文解读，内容与配图为节选；示例代码未运行，关联论文未精读。历史文章中的产品状态与性能数据以原文条件为准。  
+> 中文摘要与重点文字解读，内容与配图为节选；示例代码未运行，关联论文未精读。历史文章中的产品状态与性能数据以原文条件为准。
 
 ## 摘要
 
 LangChain 为检验 Deep Agents 的提示、工具和执行框架选择，把端到端评估扩展为带运行环境、任务指令和评分脚本的 Harbor 测试，同时检查产物及状态变化。发布时采用三组任务：82 题自主工作、30 题模拟用户对话、30 题资料检索，避免只用最终回答衡量通用能力。团队还重复运行任务、用固定轻量子集加快迭代，并保留确定性能力测试；其自述轻量版约快 8 倍、便宜 6 倍，但完整测试仍需保留，也未证明适用于其他任务集合。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 环境也是测试输入
 

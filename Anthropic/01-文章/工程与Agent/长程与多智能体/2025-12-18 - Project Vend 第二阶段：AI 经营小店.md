@@ -12,7 +12,7 @@ source_section: Research
 tags:
 - agents
 - societal-impacts
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -56,13 +56,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E9%95%BF%E7%A8%8B%E4%B8%8E%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93)
 
 > [官方原文](https://www.anthropic.com/research/project-vend-2) · Project Vend: Phase two · 2025-12-18
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 与 Andon Labs 在办公室商店实验 Project Vend 的第二阶段升级模型，完善库存管理、客户管理和采购研究工具，并加入经理与定制商品代理。商店后期负利润周明显减少，作者认为核实成本和交货时间的流程比单纯增加经理督促更有帮助；经理虽然减少折扣，却增加了退款和店内额度。代理仍会误判授权、接受不利交易，需要人类处理采购、补货和异常。多项设置持续变化、顾客对抗行为也有变化，因此经营改善不能归因于单一模型升级，也不证明商店已能独立运营。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 经营改善伴随多项变化
 

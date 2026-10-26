@@ -12,7 +12,7 @@ last_checked: '2026-10-19'
 category: 经济与社会/工作变化与技能
 source_section: Research
 tags: []
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-10-19T09:00:00+08:00'
@@ -51,13 +51,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#工作变化与技能)
 
 > [官方原文](https://www.anthropic.com/research/employment-at-anthropic) · How employment is changing at Anthropic · 2026-10-16
-> 中文摘要＋重点图文解读；关键内容及配图节选。关联论文、PDF、数据附件和外部报告未单独精读。
+> 中文摘要＋重点文字解读；关键内容及配图节选。关联论文、PDF、数据附件和外部报告未单独精读。
 
 ## 摘要
 
 这份报告用 Anthropic 的就业、agent 使用、产出和招聘记录，并辅以 17 次访谈，分析 AI 密集型公司的工作变化。初级技术员工占比从 21% 降至 14%，初级技术招聘从 27% 降至 9%；到 2026 年 8 月，交互式 AI agent 工作时长约为员工六倍。代码、销售和合同处理指标上升，但采用 agent 的员工本就可能处于上升轨道，不能直接归因于 AI。agent 输出让人类注意力成为瓶颈，员工转向监控和岗位调动。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 初级技术岗位收缩
 

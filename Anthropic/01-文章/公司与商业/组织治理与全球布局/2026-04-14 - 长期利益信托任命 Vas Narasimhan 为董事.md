@@ -13,7 +13,7 @@ source_section: News
 tags:
 - company
 - policy
-note_depth: 中文摘要与重点图文解读
+note_depth: 中文摘要与重点文字解读
 detail_status: completed
 translation_status: not_requested
 enriched_at: '2026-09-11'
@@ -57,13 +57,13 @@ quality_evidence:
 [← 首页](../../../00-首页.md) · [本分类文章](../../../99-管理/收录清单.md#%E7%BB%84%E7%BB%87%E6%B2%BB%E7%90%86%E4%B8%8E%E5%85%A8%E7%90%83%E5%B8%83%E5%B1%80)
 
 > [官方原文](https://www.anthropic.com/news/narasimhan-board) · Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors · 2026-04-14
-> 中文摘要＋重点图文解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
+> 中文摘要＋重点文字解读，关键内容及配图节选；产品与政策安排需结合发布时间及后续更新理解。关联论文与附件未单独精读。
 
 ## 摘要
 
 Anthropic 于 2026 年 4 月宣布，长期利益信托任命诺华当时的首席执行官、医生科学家 Vas Narasimhan 为董事。此次任命后，信托任命的董事在董事会中占多数，是这篇公告最直接的治理变化。公司希望借助其医药研发与受监管行业经验，兼顾股东利益和长期公共利益使命；任命本身并不证明这一治理机制已产生效果，也不是 Anthropic 与诺华达成商业合作的公告。
 
-## 重点图文解读
+## 重点文字解读
 
 ### 董事构成出现明确变化
 
