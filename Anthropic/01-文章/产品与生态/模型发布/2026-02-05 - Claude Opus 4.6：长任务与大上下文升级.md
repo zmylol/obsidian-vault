@@ -65,7 +65,7 @@ Anthropic 于 2026 年 2 月发布 Opus 4.6，改进长程编程，并在发布�
 
 GDPval-AA 的 Elo 为 1606，高于图中 Opus 4.5 的 1416；8-needle、1M 的 MRCR v2 得分为 76%，说明指定长文本检索任务改善。Elo 与正确率不是同一指标。 [原文依据](https://www.anthropic.com/news/claude-opus-4-6)
 
-![GDPval-AA 知识工作 Elo 比较：Opus 4.6 为 1606。这是相对评判形成的分数，不是 1606 个任务或百分比准确率。](../../../98-附件/原文配图/cfbecd927462974bcc13.png)
+图示：GDPval-AA 知识工作 Elo 比较：Opus 4.6 为 1606。这是相对评判形成的分数，不是 1606 个任务或百分比准确率。
 
 *GDPval-AA 知识工作 Elo 比较：Opus 4.6 为 1606。这是相对评判形成的分数，不是 1606 个任务或百分比准确率。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/6e29759b50e8b3a8363b38b1f573d854df968671-3840x2160.png) · [文章出处](https://www.anthropic.com/news/claude-opus-4-6)
 

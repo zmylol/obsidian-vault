@@ -71,7 +71,7 @@ Anthropic 比较近 1.1 万名美国成年人和公司员工对 AI 能力、工�
 
 不论群体，认为 AI 能完成更多自己工作的人都更常预期失业上升，说明个人工作暴露与宏观担忧之间存在相近的主观模型。调查测量的是信念，不能替代能力评测或劳动市场结果。 [原文依据](https://www.anthropic.com/research/ai-expectations-gap)
 
-![原文图：美国成年人和 Anthropic 员工对 AI 能力与自身工作覆盖的预期比较；百分比是调查回答，不是实际完成率。](../../../98-附件/原文配图/ai-expectations-gap-2026-10-1.png)
+图示：原文图：美国成年人和 Anthropic 员工对 AI 能力与自身工作覆盖的预期比较；百分比是调查回答，不是实际完成率。
 
 *原文图：美国成年人和 Anthropic 员工对 AI 能力与自身工作覆盖的预期比较；百分比是调查回答，不是实际完成率。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/0f1da70f67b1d1106cf896237abb69033ff810e5-1920x1262.png) · [文章出处](https://www.anthropic.com/research/ai-expectations-gap)
 

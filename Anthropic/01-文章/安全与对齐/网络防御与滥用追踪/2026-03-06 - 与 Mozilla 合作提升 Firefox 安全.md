@@ -70,7 +70,7 @@ quality_evidence:
 
 Opus 4.6 在两周内发现 22 个 Firefox 漏洞，其中 14 个被 Mozilla 定为高严重性，发布时多数问题已在 Firefox 148 修复，其余计划后续版本处理。112 份独立报告是提交量，不等于 112 个安全漏洞。 [原文依据](https://www.anthropic.com/research/mozilla-firefox-security)
 
-![横轴为 2025 年 1 月至 2026 年 2 月，纵轴为当月发现的 CVE 数，颜色区分严重性。2026 年 2 月全部来源合计 52 个，括号内 22 个是 Opus 4.6 的贡献，其中 14 个为高严重性；月份之间并非投入相同的对照实验。](../../../98-附件/原文配图/28ac4cd92528460efc5d.png)
+图示：横轴为 2025 年 1 月至 2026 年 2 月，纵轴为当月发现的 CVE 数，颜色区分严重性。2026 年 2 月全部来源合计 52 个，括号内 22 个是 Opus 4.6 的贡献，其中 14 个为高严重性；月份之间并非投入相同的对照实验。
 
 *横轴为 2025 年 1 月至 2026 年 2 月，纵轴为当月发现的 CVE 数，颜色区分严重性。2026 年 2 月全部来源合计 52 个，括号内 22 个是 Opus 4.6 的贡献，其中 14 个为高严重性；月份之间并非投入相同的对照实验。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/c3fe844b8a437af0e44027bad81523c88b89b1ab-4584x2580.png) · [文章出处](https://www.anthropic.com/research/mozilla-firefox-security)
 

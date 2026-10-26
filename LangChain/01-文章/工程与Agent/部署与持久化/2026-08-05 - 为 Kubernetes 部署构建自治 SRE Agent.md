@@ -42,7 +42,7 @@ LangChain 的 Kubernetes 运维 Agent 把例行巡检与深入调查分开：前
 
 定时任务用 Kubernetes 客户端采样，再进行一次 Haiku 调用；深入调查才交给 Sonnet 协调者和只读专家。
 
-![上方为调查与逐次写入审批，下方为定时采样加单次模型调用；两条路径最终连接 Kubernetes API，报告回到 Slack。](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/13b52cbdc0e125aef42a.png)
+图示：上方为调查与逐次写入审批，下方为定时采样加单次模型调用；两条路径最终连接 Kubernetes API，报告回到 Slack。
 
 *上方为调查与逐次写入审批，下方为定时采样加单次模型调用；两条路径最终连接 Kubernetes API，报告回到 Slack。* [原图](https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6a7360fed14e0b1304caaf08_Agent%20architecture%20diagram%402x.png) · [文章出处](https://www.langchain.com/blog/how-we-build-an-autonomous-sre-agent-for-kubernetes-deployments)
 

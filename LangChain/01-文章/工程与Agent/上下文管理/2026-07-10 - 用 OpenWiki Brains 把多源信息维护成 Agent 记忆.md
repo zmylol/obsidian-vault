@@ -46,7 +46,7 @@ Personal Brain 依据用户关注范围选择信息；它可主动从已连接�
 
 邮件和提交记录可按固定规则拉取；Notion 与网页搜索缺少统一相关信息流，需要在摄取时提供工具和目标。
 
-![Personal Brain 从连接器取得资料，依次执行摄取任务并更新 wiki；右侧回路表示持续刷新，不表示自动拥有所有外部账户访问权。](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/8484e0829bc219a30df0.png)
+图示：Personal Brain 从连接器取得资料，依次执行摄取任务并更新 wiki；右侧回路表示持续刷新，不表示自动拥有所有外部账户访问权。
 
 *Personal Brain 从连接器取得资料，依次执行摄取任务并更新 wiki；右侧回路表示持续刷新，不表示自动拥有所有外部账户访问权。* [原图](https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6a5121d3278e8d2d001a4475_openwiki_brain_langchain_dark%201.png) · [文章出处](https://www.langchain.com/blog/introducing-openwiki-brains-general-purpose-wiki-memory-for-agents)
 

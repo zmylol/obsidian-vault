@@ -1,10 +1,10 @@
 {
   "library": "Hacker News",
   "timezone": "Asia/Shanghai",
-  "last_run": "2026-10-25T10:57:43.892+08:00",
-  "last_successful_sync": "2026-10-25T10:57:43.892+08:00",
-  "window_start": "2026-10-23T03:18:50.787+00:00",
-  "window_end": "2026-10-25T02:57:43.892+00:00",
+  "last_run": "2026-10-26T11:03:33.055+08:00",
+  "last_successful_sync": "2026-10-26T11:03:33.055+08:00",
+  "window_start": "2026-10-24T02:57:43.892+00:00",
+  "window_end": "2026-10-26T03:03:33.055+00:00",
   "articles_collected": [
     50035530,
     50052638,
@@ -51,7 +51,9 @@
     50227739,
     50227655,
     50227356,
-    50227798
+    50227798,
+    50237896,
+    50237920
   ],
   "pending_retry": [
     {
@@ -132,18 +134,18 @@
   ],
   "failed_sources": [],
   "last_failure_signature": null,
-  "recent_window_start": "2026-10-24T02:57:43.892+00:00",
+  "recent_window_start": "2026-10-25T03:03:33.055+00:00",
   "last_run_result": {
-    "new_articles": 4,
-    "recent_24h": 4,
+    "new_articles": 2,
+    "recent_24h": 2,
     "overlap_backfill": 0,
     "recovered_articles": 0,
-    "total_articles": 46,
+    "total_articles": 48,
     "pending": 4,
     "new_read_failures": [],
     "recovered_read_failures": [],
     "discovery_complete": true,
-    "digest": "03-简报/2026-10-25 - Hacker News 每日简报.md"
+    "digest": "03-简报/2026-10-26 - Hacker News 每日简报.md"
   },
   "source_status": {
     "firebase_topstories": "ok",
@@ -336,12 +338,20 @@
     "50227798": {
       "path": "01-文章/安全与隐私/证书与信任/2026-10-25 - OpenJDK 移除 eMudhra 根证书.md",
       "normalized_original_url": "https://github.com/openjdk/jdk/pull/33554"
+    },
+    "50237896": {
+      "path": "01-文章/安全与隐私/移动设备安全/2026-10-26 - iPhone Duo 拆解：最易维修的折叠机仍有巨大的内屏问题.md",
+      "normalized_original_url": "https://www.ifixit.com/news/119895/iphone-duo-teardown"
+    },
+    "50237920": {
+      "path": "01-文章/AI 与 Agent/模型发布与评估/2026-10-26 - Grokking：777 参数 Transformer 学会真正的数学.md",
+      "normalized_original_url": "https://themenonlab.blog/blog/grokking-777-parameter-transformer"
     }
   },
   "validation": {
-    "at": "2026-10-25T10:57:43.892+08:00",
+    "at": "2026-10-26T11:03:33.055+08:00",
     "result": "passed",
-    "articles": 46,
+    "articles": 48,
     "user_content_preserved": true,
     "outside_auto_preserved": true
   },
@@ -381,5 +391,11 @@
       "firebase_item_metadata": "failed",
       "algolia_incremental": "failed"
     }
+  },
+  "storage_policy": {
+    "content": "markdown_summary_and_source_links",
+    "media": "omit",
+    "run_snapshots": "omit",
+    "retention": "short_state_only"
   }
 }

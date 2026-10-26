@@ -71,7 +71,7 @@ quality_evidence:
 
 交互会话约 80% 时间在等待人工输入；非技术团队读取全部 agent 输出可能超过半个工作周。公司设置岗位风险预警、内部调动和 agent 管线监控，显示“管理 agent”本身成为新工作。 [原文依据](https://www.anthropic.com/research/employment-at-anthropic)
 
-![图 1：初级技术员工和招聘占比均下降；图中是 Anthropic 内部份额变化，不能外推到所有企业。](../../../98-附件/原文配图/employment-at-anthropic-2026-10-1.png)
+图示：图 1：初级技术员工和招聘占比均下降；图中是 Anthropic 内部份额变化，不能外推到所有企业。
 
 *图 1：初级技术员工和招聘占比均下降；图中是 Anthropic 内部份额变化，不能外推到所有企业。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/e5dc89d3bceb2fcb9509ec35aa22f11131a9d8eb-1920x1080.png) · [文章出处](https://www.anthropic.com/research/employment-at-anthropic)
 

@@ -67,7 +67,7 @@ Anthropic 于 2025 年 10 月推出 Agent Skills，把指令、脚本和资源�
 
 模型先识别相关 Skills，再读取当前需要的信息和文件。不同 Skills 可组合，确定性工作可执行脚本，同一格式可用于 Claude 应用、Claude Code 与 API。 [原文依据](https://claude.com/blog/skills)
 
-![Skills 设置示例展示品牌规范、内部沟通和画布设计等独立技能开关，体现专业工作说明按需启用的组织方式。](../../../98-附件/原文配图/4bf2d5907d0b5635d305.webp)
+图示：Skills 设置示例展示品牌规范、内部沟通和画布设计等独立技能开关，体现专业工作说明按需启用的组织方式。
 
 *Skills 设置示例展示品牌规范、内部沟通和画布设计等独立技能开关，体现专业工作说明按需启用的组织方式。* [原图](https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/690267e194f8fd4618cb330e_image.webp) · [文章出处](https://claude.com/blog/skills)
 

@@ -42,7 +42,7 @@ LangChain 在 Managed Deep Agents v0.9 的 Slack channel 中加入 reactions 属
 
 原文把 Slack reactions 作为长任务的界面反馈：静态字符串适合固定规则，函数则可读取消息上下文后决定表情。配图展示了反应状态在用户界面中的位置，未提供效果对照。
 
-![Slack 中用户请求 Content Studio 为视频建议推文标题，下方显示自定义表情反应；截图并不展示任务完成进度。](../../../98-附件/原文配图/3c9c3aef8e7a9c1d.png)
+图示：Slack 中用户请求 Content Studio 为视频建议推文标题，下方显示自定义表情反应；截图并不展示任务完成进度。
 
 *Slack 中用户请求 Content Studio 为视频建议推文标题，下方显示自定义表情反应；截图并不展示任务完成进度。* [原图](https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6ac8344140d93b440491e6a2_Content%20Studio%201.png) · [文章出处](https://www.langchain.com/blog/slack-sdk-managed-deep-agents)
 

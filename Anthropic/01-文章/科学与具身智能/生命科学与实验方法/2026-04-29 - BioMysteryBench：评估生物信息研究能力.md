@@ -77,7 +77,7 @@ BioMysteryBench 用真实生物信息数据构建 99 道有可核验答案的问
 
 研究以参与测试的专家是否解出题目分组，每个模型每题重复五次。Mythos Preview 在两组的表现差距很大，说明一般分析能力提升与攻克困难研究问题仍是不同层次。 [原文依据](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)
 
-![专家至少一人解出的 76 题：横轴为准确率，Mythos Preview 平均 82.6%；每题运行五次，误差线按题内重复抽样估计，反映本评测的不确定性。](../../../98-附件/原文配图/0d8d5c75106a5d53a1ea.png)
+图示：专家至少一人解出的 76 题：横轴为准确率，Mythos Preview 平均 82.6%；每题运行五次，误差线按题内重复抽样估计，反映本评测的不确定性。
 
 *专家至少一人解出的 76 题：横轴为准确率，Mythos Preview 平均 82.6%；每题运行五次，误差线按题内重复抽样估计，反映本评测的不确定性。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/291077c3785708a54dbb4421db3751b1d1c4ba84-1920x1080.png) · [文章出处](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)
 
@@ -85,7 +85,7 @@ BioMysteryBench 用真实生物信息数据构建 99 道有可核验答案的问
 
 困难题常只在部分尝试成功，研究讨论了领域知识与多种分析策略的组合。这里的人类困难是特定专家在给定条件下未解出，不能说所有人类都无法解决。 [原文依据](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)
 
-![另 23 道专家困难题：Mythos Preview 平均准确率为 29.6%，每题运行五次；分母与上一图不同，不能把两组百分比直接相加。](../../../98-附件/原文配图/aca11a8b02c7712f69b4.png)
+图示：另 23 道专家困难题：Mythos Preview 平均准确率为 29.6%，每题运行五次；分母与上一图不同，不能把两组百分比直接相加。
 
 *另 23 道专家困难题：Mythos Preview 平均准确率为 29.6%，每题运行五次；分母与上一图不同，不能把两组百分比直接相加。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/0aed26a846ccd67d813a2c14f78069216671c8e3-1920x1080.png) · [文章出处](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)
 
@@ -93,7 +93,7 @@ BioMysteryBench 用真实生物信息数据构建 99 道有可核验答案的问
 
 原图进一步分解每题五次尝试的成功次数：Mythos 在专家已解组有 60 题五次全对，困难组仅 4 题五次全对。分组大小不同，比较时需同时看题数与分母。
 
-![每行对应一个模型，横轴为题数，颜色表示每题五次尝试成功 0–5 次；左侧共 76 题、右侧共 23 题，困难组中稳定成功的题目明显更少。](../../../98-附件/原文配图/bdfcef4ec065b6939e65.png)
+图示：每行对应一个模型，横轴为题数，颜色表示每题五次尝试成功 0–5 次；左侧共 76 题、右侧共 23 题，困难组中稳定成功的题目明显更少。
 
 *每行对应一个模型，横轴为题数，颜色表示每题五次尝试成功 0–5 次；左侧共 76 题、右侧共 23 题，困难组中稳定成功的题目明显更少。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/3840cd87380589c9f00c31d5b9334639ebfb5303-1920x1080.png) · [文章出处](https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench)
 

@@ -43,7 +43,7 @@ Deep Agents 为子 Agent 提供两种上下文模式：默认 isolated 只接收
 
 isolated 模式不继承前面的诊断过程，适合 reviewer 或能独立描述的研究问题，减少被监督 Agent 的判断引导。它也可能重复收集已有资料；上下文隔离本身不等于权限或隐私隔离。
 
-![isolated：右侧子 Agent 只收到任务描述，未继承左侧蓝色历史；旧图注把这张图误写成 fork，本次已纠正。](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/fdeec42d5acda9771a3a.png)
+图示：isolated：右侧子 Agent 只收到任务描述，未继承左侧蓝色历史；旧图注把这张图误写成 fork，本次已纠正。
 
 *isolated：右侧子 Agent 只收到任务描述，未继承左侧蓝色历史；旧图注把这张图误写成 fork，本次已纠正。* [原图](https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6a9f9ebb18c02828b5e69194_image.png) · [文章出处](https://www.langchain.com/blog/organizing-context-in-a-multi-agent-harness)
 
@@ -51,7 +51,7 @@ isolated 模式不继承前面的诊断过程，适合 reviewer 或能独立描�
 
 fork 复制监督 Agent 状态，移除尾部发起子任务的工具调用，把任务描述转成新用户消息；完成后只把最终消息返回主流程。作者认为复用缓存和已读资料能减少重复工作，但没有给出统一收益保证。
 
-![fork：右侧也带有蓝色历史上下文，再附任务描述；主 Agent 最后只接收子任务结果。](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/30ac1e194053c91edb69.png)
+图示：fork：右侧也带有蓝色历史上下文，再附任务描述；主 Agent 最后只接收子任务结果。
 
 *fork：右侧也带有蓝色历史上下文，再附任务描述；主 Agent 最后只接收子任务结果。* [原图](https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6a9f9f279199d5bb6100d84e_image.png) · [文章出处](https://www.langchain.com/blog/organizing-context-in-a-multi-agent-harness)
 

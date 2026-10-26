@@ -65,7 +65,7 @@ Anthropic 于 2025 年 10 月扩展 Claude for Financial Services，推出 Excel
 
 Excel 插件研究预览可读写工作簿、追踪变更并用单元格引用解释工作。截图把硬编码输入标蓝、公式保留黑色，方便分析师区分数据与计算。 [原文依据](https://www.anthropic.com/news/advancing-claude-for-financial-services)
 
-![Excel 示例展示 ACME GRILLE 利润表及右侧修改说明：输入与公式按颜色区分，并可定位到具体单元格区域。](../../../98-附件/原文配图/6aca9f967d34688201f7.png)
+图示：Excel 示例展示 ACME GRILLE 利润表及右侧修改说明：输入与公式按颜色区分，并可定位到具体单元格区域。
 
 *Excel 示例展示 ACME GRILLE 利润表及右侧修改说明：输入与公式按颜色区分，并可定位到具体单元格区域。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/450687b3c7a1189eb1a650ade77588c56ca01461-2560x1440.png) · [文章出处](https://www.anthropic.com/news/advancing-claude-for-financial-services)
 

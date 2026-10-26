@@ -66,7 +66,7 @@ Anthropic 于 2025 年 9 月发布 Claude Sonnet 4.5，主打编码、电脑操�
 
 SWE-bench Verified 主分数 77.2% 来自 500 题、10 次试验平均及指定工具与提示。82.0% 采用多次并行尝试、可见回归测试过滤和评分选择，两者不能混为同一次执行能力。 [原文依据](https://www.anthropic.com/news/claude-sonnet-4-5)
 
-![SWE-bench Verified 比较：实色为主结果，浅色带星号部分使用额外并行测试时计算。Sonnet 4.5 的 77.2% 与 82.0% 对应不同计算配置。](../../../98-附件/原文配图/5203e605b66ae01da13d.png)
+图示：SWE-bench Verified 比较：实色为主结果，浅色带星号部分使用额外并行测试时计算。Sonnet 4.5 的 77.2% 与 82.0% 对应不同计算配置。
 
 *SWE-bench Verified 比较：实色为主结果，浅色带星号部分使用额外并行测试时计算。Sonnet 4.5 的 77.2% 与 82.0% 对应不同计算配置。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/6421e7049ff8b2c4591497ec92dc4157b2ac1b30-3840x2160.png) · [文章出处](https://www.anthropic.com/news/claude-sonnet-4-5)
 

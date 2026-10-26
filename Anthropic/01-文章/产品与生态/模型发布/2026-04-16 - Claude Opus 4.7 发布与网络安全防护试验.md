@@ -69,7 +69,7 @@ Anthropic 于 2026 年 4 月发布 Opus 4.7，主打更强的长程编程、视�
 
 自动行为审计显示总体异常分数略低于 Opus 4.6，但不及 Mythos Preview；诚实性和抗提示注入改善，部分减害建议评测略弱。网络能力防护也作为发布条件测试。 [原文依据](https://www.anthropic.com/news/claude-opus-4-7)
 
-![自动行为审计的 1–10 分比较，分数越低越好；Opus 4.7 略优于 Opus 4.6，但 Mythos Preview 在该测试上更低。误差棒提醒读者区别幅度与不确定性。](../../../98-附件/原文配图/1bb75aebab223ed93f26.png)
+图示：自动行为审计的 1–10 分比较，分数越低越好；Opus 4.7 略优于 Opus 4.6，但 Mythos Preview 在该测试上更低。误差棒提醒读者区别幅度与不确定性。
 
 *自动行为审计的 1–10 分比较，分数越低越好；Opus 4.7 略优于 Opus 4.6，但 Mythos Preview 在该测试上更低。误差棒提醒读者区别幅度与不确定性。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/3a5b5c3eedb539fe20bc8dd1ecfc952c447000b8-1920x1080.png) · [文章出处](https://www.anthropic.com/news/claude-opus-4-7)
 

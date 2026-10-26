@@ -35,7 +35,7 @@ Hanno Labs 的 Stephen Solka 用 hfdask 将 Hugging Face Jobs 组成临时 Dask 
 
 hfdask 根据 YAML 配置创建协调器与工作进程，接管提交、依赖安装、连接和清理。应用仍使用普通 Dask 任务图：数据准备与输出校验放在 CPU 上，批量生成请求 GPU 资源。数据质量规则由应用自行定义。
 
-![Dask 任务图与临时 Jobs 架构](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/hfdask-architecture.png)
+图示：Dask 任务图与临时 Jobs 架构
 
 本地工具读取集群配置、工作目录与依赖锁文件，向 Jobs 提交协调器和工作进程。CPU 与 GPU 阶段共用一张 Dask 任务图，通过经认证的加密 Iroh 网络连接，数据、模型与输出存储分别挂载。图示为部署职责划分，不是性能测试结果。 [原图](https://cdn-uploads.huggingface.co/production/uploads/63fccb965d2bea4588be8fb1/I_LS35NX-cjzv08PvoS3l.png) · [文章出处](https://huggingface.co/blog/Hanno-Labs/generating-synthetic-training-data-with-dask-on-hu)
 

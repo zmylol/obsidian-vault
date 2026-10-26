@@ -44,7 +44,7 @@ LangSmith Custom Apps 让团队用聊天或代码围绕调用轨迹、实验和�
 
 Custom Apps 让自定义界面在 LangSmith 工作区内运行，继续连接原有数据。入口包括聊天生成与模板开发，平台承担发布后的托管、认证和权限工作。
 
-![左侧用 LangSmith Chat 描述需求，右侧预览自定义成本界面；图中费用与身份数量是演示数据，不是产品定价。](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/c2066fcdfe67b1d3a520.png)
+图示：左侧用 LangSmith Chat 描述需求，右侧预览自定义成本界面；图中费用与身份数量是演示数据，不是产品定价。
 
 *左侧用 LangSmith Chat 描述需求，右侧预览自定义成本界面；图中费用与身份数量是演示数据，不是产品定价。* [原图](<https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6ab3f9503d7414691994f24d_Custom%20Apps%20blog.png>) · [文章出处](https://www.langchain.com/blog/langsmith-custom-apps)
 

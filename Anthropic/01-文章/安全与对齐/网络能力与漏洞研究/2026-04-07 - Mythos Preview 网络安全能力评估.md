@@ -80,7 +80,7 @@ Anthropic 报告 Mythos Preview 在隔离环境中寻找软件漏洞、构建利
 
 复用旧 Firefox 独立 shell 基准时，Mythos Preview 产生 181 次成功利用、29 次仅寄存器控制。该测试框架未包含浏览器进程沙箱及其他纵深防护，不能和文中另述完整防护案例混为一谈。 [原文依据](https://www.anthropic.com/research/mythos-preview)
 
-![在 Firefox JS shell 基准中，Mythos Preview 的试次成功利用比例为 72.4%，另有 11.6% 仅取得寄存器控制。此图并非完整浏览器沙箱逃逸成功率。](../../../98-附件/原文配图/d3f15bf70718d4200c00.png)
+图示：在 Firefox JS shell 基准中，Mythos Preview 的试次成功利用比例为 72.4%，另有 11.6% 仅取得寄存器控制。此图并非完整浏览器沙箱逃逸成功率。
 
 *在 Firefox JS shell 基准中，Mythos Preview 的试次成功利用比例为 72.4%，另有 11.6% 仅取得寄存器控制。此图并非完整浏览器沙箱逃逸成功率。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/4c1e111d571b5f3699204293a1bf3d5c9d1da97f-3840x2160.png) · [文章出处](https://www.anthropic.com/research/mythos-preview)
 

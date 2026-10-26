@@ -48,7 +48,7 @@ LangSmith AI Search 允许用自然语言描述“泄露 PII”“用户放弃�
 
 不同 SDK 的 trace 格式各异，而且每次模型调用常重复带上此前对话。SmithDB 在接收时把同一会话整理为按时序排列、每条消息和工具结果只出现一次的 trajectory。图中三次模型调用反复出现的“Fix test”“Run tests”在右侧仅保留一次，因此检索模型能看到整段行为而少读重复内容。
 
-![原文图：原始 trace 中重复的消息被整理为单一轨迹](../../../98-附件/原文配图/b30294740858483ca675.png)
+图示：原文图：原始 trace 中重复的消息被整理为单一轨迹
 
 *图注：左侧三次调用反复包含早先消息；右侧 trajectory 按顺序保留一次消息、工具调用和结果。* [原图](https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6acd659f6471e6e5be9d22c2_ai-search-trajectory-view.png) · [文章出处](https://www.langchain.com/blog/agent-traces-ai-search-langsmith)
 

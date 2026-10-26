@@ -50,7 +50,7 @@ FilesystemMiddleware 遇到约 20,000 token 以上的工具结果时，把全文
 
 SummarizationMiddleware 在每次模型调用前检查占用，默认接近窗口 85% 时把旧消息压成一段摘要，近期消息原样保留；原文称旧消息存入 `/conversation_history/{session_id}.md`，可再读取。下图的尖峰由 offloading 截下，慢速增长则由摘要重置；曲线为机制示意，不能当成实测性能结果。
 
-![原文图：卸载大结果与摘要旧历史分别处理上下文尖峰和慢速增长](../../../98-附件/原文配图/24e97e4f73be0f099afc.png)
+图示：原文图：卸载大结果与摘要旧历史分别处理上下文尖峰和慢速增长
 
 *图注：黑点表示大结果在进入窗口前卸载；蓝线在示例 85% 阈值触发摘要后下降。坐标展示机制示意，并非本库运行数据。* [原图](https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6ac7d1ec1e9634285e74f7ec_context-management-light-1.png) · [文章出处](https://www.langchain.com/blog/context-engineering-deep-agents-remember)
 

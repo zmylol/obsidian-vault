@@ -76,7 +76,7 @@ Anthropic 于 2026 年 9 月 28 日发布 Sonnet 5.5，定位日常编程与知�
 
 原文用成本曲线比较各档设置。低强度适合日常迭代，提高强度通常会增加成本；个别评测也可能因超时或额外修改而降分，不能据最高分推断所有任务都更好。
 
-![Terminal-Bench 4.0：横轴为每次尝试成本（美元，对数刻度），纵轴为得分百分比。蓝色 Sonnet 5.5、橙色 Opus 5.5、浅绿 Sonnet 5、灰色 GPT-5.6 Sol；蓝线标记推理强度。Sonnet 5.5 的 Med 与 Max 是不同成本和得分的设置，不能合并比较。](../../../98-附件/原文配图/73b50d2d01fe5ab78ea6.svg)
+图示：Terminal-Bench 4.0：横轴为每次尝试成本（美元，对数刻度），纵轴为得分百分比。蓝色 Sonnet 5.5、橙色 Opus 5.5、浅绿 Sonnet 5、灰色 GPT-5.6 Sol；蓝线标记推理强度。Sonnet 5.5 的 Med 与 Max 是不同成本和得分的设置，不能合并比较。
 
 *Terminal-Bench 4.0：横轴为每次尝试成本（美元，对数刻度），纵轴为得分百分比。蓝色 Sonnet 5.5、橙色 Opus 5.5、浅绿 Sonnet 5、灰色 GPT-5.6 Sol；蓝线标记推理强度。Sonnet 5.5 的 Med 与 Max 是不同成本和得分的设置，不能合并比较。* [原图所在章节](https://www.anthropic.com/claude-sonnet-5-5#performance) · [文章出处](https://www.anthropic.com/claude-sonnet-5-5)
 

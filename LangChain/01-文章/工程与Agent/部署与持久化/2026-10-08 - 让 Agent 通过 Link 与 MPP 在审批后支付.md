@@ -44,7 +44,7 @@ LangChain 用运行在 Managed Deep Agents 与 Slack 上的 Restock 示例展示
 
 原文给出产品架构和案例流程；以下只保留可以由正文直接支持的机制、指标和限制。
 
-![Restock 从 Slack 请求到确认订单需要两次批准：先在 Slack 审阅购物车和金额，再在 Link 钱包确认支付；金额示例来自文章。](../../../98-附件/原文配图/e5eb1d3620505cc4dc16.png)
+图示：Restock 从 Slack 请求到确认订单需要两次批准：先在 Slack 审阅购物车和金额，再在 Link 钱包确认支付；金额示例来自文章。
 
 *Restock 从 Slack 请求到确认订单需要两次批准：先在 Slack 审阅购物车和金额，再在 Link 钱包确认支付；金额示例来自文章。* [原图](https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6ac7183293d25dfd3da1d336_restock-payment-flow-v2.png) · [文章出处](https://www.langchain.com/blog/agents-that-can-pay-with-stripe-link)
 

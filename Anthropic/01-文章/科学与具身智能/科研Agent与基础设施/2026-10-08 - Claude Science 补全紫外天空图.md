@@ -60,7 +60,7 @@ Anthropic 研究员 Brice Ménard 介绍如何与 Claude Science 汇总 GALEX、
 
 Claude Science 组织多代理搜索并下载 GALEX、Swift、FIMS/SPEAR 等公开数据，完成亮星余辉校正、跨仪器标定、统一分辨率和坐标，再合成紫外天空图。GALEX 覆盖约三分之二天空，仍有约三分之一需要估计。
 
-![完整紫外天空图](../../../98-附件/原文配图/sky-map-2026-10-08-1.png)
+图示：完整紫外天空图
 
 *图 1｜结合远紫外 154 nm 和近紫外 232 nm 的全天图；标注的预测区域并非直接观测，来源：[Anthropic 原文](https://www.anthropic.com/research/the-missing-map-of-the-sky)。*
 
@@ -68,7 +68,7 @@ Claude Science 组织多代理搜索并下载 GALEX、Swift、FIMS/SPEAR 等公�
 
 模型用已有紫外区域学习紫外亮度与可见光、红外和射电信号的关系，再推断缺失区域，并为每个像素提供不确定度。遮蔽已有数据的回测中，预测约在真实值 10% 内，但这是作者项目中的验证，不能替代新观测。
 
-![数据流](../../../98-附件/原文配图/sky-map-2026-10-08-3.png)
+图示：数据流
 
 *图 2｜从公共数据输入、确定性处理、统计学习到成品地图的数据流，来源：[Anthropic 原文](https://www.anthropic.com/research/the-missing-map-of-the-sky)。*
 

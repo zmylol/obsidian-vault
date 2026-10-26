@@ -69,7 +69,7 @@ Anthropic 与合作研究者让 Claude 从 Python 代码和文档推导应成立
 
 代理读代码、文档和现有测试，提出性质，生成并运行性质测试；失败后判断是程序缺陷还是性质不成立，通过后也检查是否测试过于空洞。 [原文依据](https://www.anthropic.com/research/property-based-testing)
 
-![流程从代码、文档和既有测试推导性质，再通过执行和反思返回修订；只有合理失败才转成缺陷报告。](../../../98-附件/原文配图/f6af7671a048a54f0845.png)
+图示：流程从代码、文档和既有测试推导性质，再通过执行和反思返回修订；只有合理失败才转成缺陷报告。
 
 *流程从代码、文档和既有测试推导性质，再通过执行和反思返回修订；只有合理失败才转成缺陷报告。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/2cac5914e526becbfb506a035f11f758b9f10010-1999x1126.png) · [文章出处](https://www.anthropic.com/research/property-based-testing)
 

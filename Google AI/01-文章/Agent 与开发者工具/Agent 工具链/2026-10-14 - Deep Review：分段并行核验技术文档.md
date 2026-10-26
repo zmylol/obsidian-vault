@@ -40,7 +40,7 @@ Google Research 公开 Deep Review，以文档分段、按信息密度分配算�
 
 PAT 试点与正式会议评审分离，下图统计规模和受访作者反馈；调查意见不等于独立测得的错误检出率。
 
-![PAT 不同会议试点的规模和作者调查反馈。](../../../98-附件/原文配图/deep-review-pilot-feedback.png)
+图示：PAT 不同会议试点的规模和作者调查反馈。
 
 *图：各行对应不同会议和系统阶段，反馈比例有不同调查口径；[原图](https://storage.googleapis.com/gweb-research2023-media/original_images/DeepReviewTable.png)。*
 
@@ -48,7 +48,7 @@ PAT 试点与正式会议评审分离，下图统计规模和受访作者反馈�
 
 审阅代理聚焦各自片段，同时可访问全文；综合代理去重、复查跨段一致性并调用外部依据核验。
 
-![分段、自适应算力预算、并行审阅与全局综合四阶段。](../../../98-附件/原文配图/deep-review-pipeline.png)
+图示：分段、自适应算力预算、并行审阅与全局综合四阶段。
 
 *图：复杂证明分配较多算力，最后综合并检查依据；[原图](https://storage.googleapis.com/gweb-research2023-media/original_images/DeepReview3_pipeline.png)。*
 

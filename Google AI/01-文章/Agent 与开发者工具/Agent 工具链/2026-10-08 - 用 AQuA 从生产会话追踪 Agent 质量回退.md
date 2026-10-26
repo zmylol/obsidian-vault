@@ -36,7 +36,7 @@ Google Developers 开源 AQuA，作为旁路质量 Agent 抽样读取生产会�
 
 AQuA 从 Cloud Trace、Cloud Logging 或 BigQuery 抽样读取轨迹，并用部署时保存的源码快照支持诊断。它运行在请求链路之外，向问题库写入发现，原始会话与快照留在用户的 Google Cloud 项目内。
 
-![旁路读取生产证据](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/aqua-architecture.png)
+图示：旁路读取生产证据
 
 *AQuA 从会话遥测和部署源码快照取得证据，将发现写入 BigQuery；不在请求路径中回写生产 Agent。* [原图](https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Figure-4-AQuA-Sidecar-Architecture.original.png) · [原文](https://developers.googleblog.com/en/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent/)
 
@@ -44,7 +44,7 @@ AQuA 从 Cloud Trace、Cloud Logging 或 BigQuery 抽样读取轨迹，并用部
 
 五阶段为抽样、审阅、聚类、核验、跟踪。独立模型检查每簇最多三份完整会话，证据不足的簇被丢弃；根因诊断按需触发，只提出对应源码位置的建议。
 
-![从候选问题到核验发现](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/aqua-pipeline.png)
+图示：从候选问题到核验发现
 
 *核验位于聚类与问题跟踪之间。有限抽样确认的是问题模式，不能证明每个簇成员均已核查。* [原图](https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Figure-5-Five-Stage-Sweep-and-Verification-Pipe.original.png) · [原文](https://developers.googleblog.com/en/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent/)
 

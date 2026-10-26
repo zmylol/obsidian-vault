@@ -69,7 +69,7 @@ Project Fetch 第二阶段让 Claude Opus 4.7 通过电脑编写程序，连接�
 
 对摄像头、激光雷达、控制程序和定位四项共同任务，模型三次平均约 9 分 35 秒，旧有 AI 团队为 181 分钟，无 AI 团队为 361 分钟。旧团队使用的最高版本是 Opus 4.1；四项之外的最终自主推球返回任务仍失败。 [原文依据](https://www.anthropic.com/research/project-fetch-phase-two)
 
-![四项共同完成的任务总用时：Opus 4.7 三次平均 9 分 35 秒，旧 Team Claude 为 181 分钟，无 AI 团队为 361 分钟；后者含一次提示。18.9 倍对比限于这四项任务，不包含自主取球。](../../../98-附件/原文配图/9345a9088f6e598850fd.png)
+图示：四项共同完成的任务总用时：Opus 4.7 三次平均 9 分 35 秒，旧 Team Claude 为 181 分钟，无 AI 团队为 361 分钟；后者含一次提示。18.9 倍对比限于这四项任务，不包含自主取球。
 
 *四项共同完成的任务总用时：Opus 4.7 三次平均 9 分 35 秒，旧 Team Claude 为 181 分钟，无 AI 团队为 361 分钟；后者含一次提示。18.9 倍对比限于这四项任务，不包含自主取球。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/0424a5a4ed31f7891e4048d091aefa52f36862cf-1999x1092.png) · [文章出处](https://www.anthropic.com/research/project-fetch-phase-two)
 

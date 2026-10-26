@@ -42,7 +42,7 @@ Snyk 将基于 LangChain、LangGraph 和 LangSmith 的 Snyk Assist 从内部客�
 
 原文给出产品架构和案例流程；以下只保留可以由正文直接支持的机制、指标和限制。
 
-![Snyk Assist 以同一 LangGraph 运行时承载多种入口，并把权限工具、middleware、checkpointer 与 LangSmith 评估接在运行框架周围。](../../../98-附件/原文配图/8cdec12fec067050438d.png)
+图示：Snyk Assist 以同一 LangGraph 运行时承载多种入口，并把权限工具、middleware、checkpointer 与 LangSmith 评估接在运行框架周围。
 
 *Snyk Assist 以同一 LangGraph 运行时承载多种入口，并把权限工具、middleware、checkpointer 与 LangSmith 评估接在运行框架周围。* [原图](https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6ac8102db53bcadc6cc0f006_snyk-assist-architecture%404x.png) · [文章出处](https://www.langchain.com/blog/how-snyk-turned-an-internal-support-agent-into-a-customer-feature)
 

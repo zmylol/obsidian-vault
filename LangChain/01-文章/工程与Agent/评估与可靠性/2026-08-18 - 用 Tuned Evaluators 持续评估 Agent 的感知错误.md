@@ -48,7 +48,7 @@ LangChain 发布 Tuned Evaluators，由平台维护面向特定目标的评估�
 
 公司在已标注对话上训练窄目标裁判，内部基准报告成本下降 82%；早期客户的节省幅度随对话构成变化。
 
-![公司基准：横轴为每百次评估美元成本，纵轴为准确率；专用裁判位于左上方。这里只比较图中对话任务，不能外推所有业务。](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/9389917395a4ea91d09d.png)
+图示：公司基准：横轴为每百次评估美元成本，纵轴为准确率；专用裁判位于左上方。这里只比较图中对话任务，不能外推所有业务。
 
 *公司基准：横轴为每百次评估美元成本，纵轴为准确率；专用裁判位于左上方。这里只比较图中对话任务，不能外推所有业务。* [原图](https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6a829d6d3cc6bbfb5da277e5_tuned-evaluators-perceived-error-benchmark.png) · [文章出处](https://www.langchain.com/blog/introducing-langsmith-tuned-evaluators-starting-with-perceived-error)
 

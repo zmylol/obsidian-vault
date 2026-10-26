@@ -44,7 +44,7 @@ Deep Life Sci 是基于 Deep Agents 的开源生命科学助手模板，将临�
 
 模板连接 ClinicalTrials.gov、PubMed 和 PMC，支持上传文档、表格及序列文件，并把阅读任务分给子 Agent。架构图进一步区分摘要、全文、试验记录、图片和上传文档五类分析角色，由根 Agent 汇总；沙箱用于运行分析代码。
 
-![原图展示根 Agent、五类只读分析角色，以及 PubMed、PMC、ClinicalTrials.gov 与网页检索工具。数据库规模是原图标注，本笔记未实测覆盖量；PMC全文与开放获取子集的口径说明见下文。](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/36d20efcc1edc2baba04.png)
+图示：原图展示根 Agent、五类只读分析角色，以及 PubMed、PMC、ClinicalTrials.gov 与网页检索工具。数据库规模是原图标注，本笔记未实测覆盖量；PMC全文与开放获取子集的口径说明见下文。
 
 *原图展示根 Agent、五类只读分析角色，以及 PubMed、PMC、ClinicalTrials.gov 与网页检索工具。数据库规模是原图标注，本笔记未实测覆盖量；PMC全文与开放获取子集的口径说明见下文。* [原图](<https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6aab29a6fca89c643a61f39e_inside-deep-life-sci-agent.png>) · [文章出处](https://www.langchain.com/blog/agent-harness-life-sciences)
 
@@ -52,7 +52,7 @@ Deep Life Sci 是基于 Deep Agents 的开源生命科学助手模板，将临�
 
 工作流示例包括上传筛选结果表后分析并查找文献，以及按标准筛选试验记录、提取终点、样本量、受试者特征和随访时间。重点在于把不同来源整理成可核对的结构化表格；界面产物属于示例，不能替代逐项检查原始研究。
 
-![界面示例把试验来源、终点和样本信息整理进表格。截图位于原文上传分析段之后，实际展示的是试验记录提取；其中研究数字未由本任务复核，不作为医疗判断依据。](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/b6ede6782efb93e2e27d.png)
+图示：界面示例把试验来源、终点和样本信息整理进表格。截图位于原文上传分析段之后，实际展示的是试验记录提取；其中研究数字未由本任务复核，不作为医疗判断依据。
 
 *界面示例把试验来源、终点和样本信息整理进表格。截图位于原文上传分析段之后，实际展示的是试验记录提取；其中研究数字未由本任务复核，不作为医疗判断依据。* [原图](<https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6aab29d09a13262062d8e0f1_Deef%20Life%20Sci%20UI%201.png>) · [文章出处](https://www.langchain.com/blog/agent-harness-life-sciences)
 

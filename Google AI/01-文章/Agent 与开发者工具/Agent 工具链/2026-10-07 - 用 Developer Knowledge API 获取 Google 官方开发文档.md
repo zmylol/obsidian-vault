@@ -40,7 +40,7 @@ API 面向 Google Cloud、Firebase、Android 等官方开发文档，返回 Mark
 
 技能采用先搜索相关片段、再读取完整文档的流程。客户端提供单份、批量读取与问答，BatchGetDocuments 最多一次取 20 份；API Explorer 用于核对请求和返回结构。
 
-![先搜索片段，再取完整页](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/knowledge-api-methods.jpg)
+图示：先搜索片段，再取完整页
 
 *四类接口分别处理片段搜索、单页读取、批量读取和有依据问答；生成回答与取得原文是不同操作。* [原图](https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/DK_API_blog_draft.original.jpg) · [原文](https://developers.googleblog.com/en/supercharge-your-development-with-the-google-developer-knowledge-api-ecosystem/)
 

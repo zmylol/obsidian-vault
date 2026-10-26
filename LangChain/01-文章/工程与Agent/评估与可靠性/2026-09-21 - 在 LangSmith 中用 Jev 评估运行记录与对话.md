@@ -43,7 +43,7 @@ LangSmith 已将 TypeSafe 的 Jev 接入在线评估：用户提供运行记录�
 Jev 读取运行轨迹、消息或其他上下文，直接返回结构化判断。Noul 判断是非概率，Choice 从选项中选择，Score 在有序等级上评分；一个请求可并行处理多个问题。作者把它定位于大量、范围明确的判断，需要文字解释的开放式标准仍可交给语言模型裁判。
 
 
-![三类输出分别表示个人信息泄露概率、意图分类和情绪程度。概率、置信度和有序评分含义不同，图中示例数值不能合并为准确率。](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/5d2ccbc377221ab0081d.png)
+图示：三类输出分别表示个人信息泄露概率、意图分类和情绪程度。概率、置信度和有序评分含义不同，图中示例数值不能合并为准确率。
 
 *三类输出分别表示个人信息泄露概率、意图分类和情绪程度。概率、置信度和有序评分含义不同，图中示例数值不能合并为准确率。* [原图](<https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6ab0be9512e026354354a719_jev-primitives-light-blog.png>) · [文章出处](https://www.langchain.com/blog/jev-is-now-available-in-langsmith-evals)
 
@@ -56,7 +56,7 @@ Jev 读取运行轨迹、消息或其他上下文，直接返回结构化判断�
 在工作区 Provider secrets 添加 TypeSafe API 密钥，再从追踪项目的 Evaluators 创建 LLM-as-a-Judge Evaluator，选择 TypeSafe 与 jev-latest。这个入口复用了已有评估流程；2026年10月2日回查的正文和新版配置截图不再显示数据留存提示。该变化不能证明提供方已支持零数据保留，实际送评政策需另行核实。
 
 
-![新版配置截图选择 TypeSafe 与 jev-latest，未显示原图中的数据留存提示；截图变化本身不能证明提供方已支持零数据保留。](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/790d96f4c3bc122fe744.png)
+图示：新版配置截图选择 TypeSafe 与 jev-latest，未显示原图中的数据留存提示；截图变化本身不能证明提供方已支持零数据保留。
 
 *新版配置截图选择 TypeSafe 与 jev-latest，未显示原图中的数据留存提示；截图变化本身不能证明提供方已支持零数据保留。* [原图](<https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6abc4457b1de1ac91e791ddd_Jev%20Model%20configuration.png>) · [文章出处](https://www.langchain.com/blog/jev-is-now-available-in-langsmith-evals)
 
@@ -65,7 +65,7 @@ Jev 读取运行轨迹、消息或其他上下文，直接返回结构化判断�
 State 通过运行或对话变量提供输入、输出等材料，不放评分指令；标准写入 Questions。是非问题要让高概率对应“是”，选项题要列全选项，有序评分要按低到高排列。每个问题成为一个反馈指标，避免把材料内容和裁判规则混在一起。
 
 
-![每个问题定义独立反馈指标。此例用 Noul 询问输出是否包含个人可识别信息，越接近1越倾向肯定，0.5附近表示不确定；阈值仍需结合任务验证。](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/4195c7fa629bd45e8c18.png)
+图示：每个问题定义独立反馈指标。此例用 Noul 询问输出是否包含个人可识别信息，越接近1越倾向肯定，0.5附近表示不确定；阈值仍需结合任务验证。
 
 *每个问题定义独立反馈指标。此例用 Noul 询问输出是否包含个人可识别信息，越接近1越倾向肯定，0.5附近表示不确定；阈值仍需结合任务验证。* [原图](<https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6ab0bf852da68cef127cf36b_Jev%20Tutorial%20-%20(4)%20Add%20questions.png>) · [文章出处](https://www.langchain.com/blog/jev-is-now-available-in-langsmith-evals)
 
@@ -74,7 +74,7 @@ State 通过运行或对话变量提供输入、输出等材料，不放评分�
 保存后，评估器为进入的运行记录或对话生成反馈，每个问题对应独立指标。团队可据此筛选、制图、设置告警或自动化；这些能力提供后续分析入口，并不保证判定本身正确。
 
 
-![同一运行记录可显示情绪、意图和个人信息泄露等多个反馈指标，并查看类型化原始结果。这里是界面示例，不是准确率或效果验证。](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/8da608245c3a2f827c92.png)
+图示：同一运行记录可显示情绪、意图和个人信息泄露等多个反馈指标，并查看类型化原始结果。这里是界面示例，不是准确率或效果验证。
 
 *同一运行记录可显示情绪、意图和个人信息泄露等多个反馈指标，并查看类型化原始结果。这里是界面示例，不是准确率或效果验证。* [原图](<https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6ab0bfa356be7bcca073c6f2_Jev%20Tutorial%20-%20(5)%20Feedback.png>) · [文章出处](https://www.langchain.com/blog/jev-is-now-available-in-langsmith-evals)
 

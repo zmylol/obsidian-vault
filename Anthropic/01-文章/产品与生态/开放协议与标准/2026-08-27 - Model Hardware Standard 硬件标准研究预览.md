@@ -72,7 +72,7 @@ Model Hardware Standard（MHS）研究预览为实验室和制造设备规定统
 
 示例让一个代理协调液体处理器、机械臂与酶标仪，结合状态回传调整实验；其他合作方展示显微镜整合和量子激光锁定恢复。 [原文依据](https://www.anthropic.com/news/model-hardware-standard-research-preview)
 
-![MHS 协调示意：科学家提出目标，Claude 经各设备的标准驱动发送操作并接收状态；橙色回路展示测量反馈后的参数调整。](../../../98-附件/原文配图/41091d07d8dfb15fde70.png)
+图示：MHS 协调示意：科学家提出目标，Claude 经各设备的标准驱动发送操作并接收状态；橙色回路展示测量反馈后的参数调整。
 
 *MHS 协调示意：科学家提出目标，Claude 经各设备的标准驱动发送操作并接收状态；橙色回路展示测量反馈后的参数调整。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/0aa7623ba0e545ce39e0de725583c0445ce6b76d-1999x1250.png) · [文章出处](https://www.anthropic.com/news/model-hardware-standard-research-preview)
 

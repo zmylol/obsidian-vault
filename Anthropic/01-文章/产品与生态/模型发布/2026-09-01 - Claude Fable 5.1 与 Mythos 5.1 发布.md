@@ -71,11 +71,11 @@ Anthropic 发布 Fable 5.1 与 Mythos 5.1：前者面向一般使用，后者通
 
 文章报告蛋白结合设计经外部实验验证，也用 Magellan 雷达与既有高程资料训练模型，生成覆盖约三分之一金星的新高程图。地形细节改善到约 2–3 公里；图中的 300 米网格不是同义的有效分辨率。 [原文依据](https://www.anthropic.com/claude-fable-and-mythos-5-1)
 
-![金星火山的 Magellan 雷达输入，比例尺 10 公里；亮度反映雷达回波特征，不能直接当作地面高度。](../../../98-附件/原文配图/a3548ae85126b60dc788.png)
+图示：金星火山的 Magellan 雷达输入，比例尺 10 公里；亮度反映雷达回波特征，不能直接当作地面高度。
 
 *金星火山的 Magellan 雷达输入，比例尺 10 公里；亮度反映雷达回波特征，不能直接当作地面高度。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/4d8f06a743ecfc6ec87ccde0b1964e48175a141e-800x800.png) · [文章出处](https://www.anthropic.com/claude-fable-and-mythos-5-1)
 
-![同一区域的新数字高程模型示例，显示约 15 公里宽的火山结构。页面标注 300 米网格，正文所述有效地形细节约为 2–3 公里，不能混同。](../../../98-附件/原文配图/aacb9f234ee32077badc.png)
+图示：同一区域的新数字高程模型示例，显示约 15 公里宽的火山结构。页面标注 300 米网格，正文所述有效地形细节约为 2–3 公里，不能混同。
 
 *同一区域的新数字高程模型示例，显示约 15 公里宽的火山结构。页面标注 300 米网格，正文所述有效地形细节约为 2–3 公里，不能混同。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/3dd626b47b88feb72082646cdea87944d49a3c7f-800x800.png) · [文章出处](https://www.anthropic.com/claude-fable-and-mythos-5-1)
 

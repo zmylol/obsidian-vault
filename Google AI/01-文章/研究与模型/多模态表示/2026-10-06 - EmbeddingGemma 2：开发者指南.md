@@ -36,7 +36,7 @@ EmbeddingGemma 2 将文本、代码、图像、视频和音频映射到兼容的
 
 270M 的文本/代码基础模型可增加视觉与音频编码器，完整配置为 740M。它们来自同一检查点并输出兼容向量，文本查询能够与媒体文档进行相似度比较。
 
-![按模态加载，共享表示](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/embed-architecture.png)
+图示：按模态加载，共享表示
 
 *文本和代码直接进入骨干，视觉与音频经过可选编码器；各模态共同映射到语义空间。* [原图](https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/embeddinggemma2.original.png) · [原文](https://developers.googleblog.com/en/embeddinggemma-2-the-developer-guide/)
 
@@ -48,7 +48,7 @@ EmbeddingGemma 2 将文本、代码、图像、视频和音频映射到兼容的
 
 原文报告 MTEB Code 相对第一代提高 14%。图中纵轴是任务平均分，横轴是模型规模，不能读成单次查询正确率或所有检索任务的收益。
 
-![读取基准的比较条件](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/embed-code-benchmark.png)
+图示：读取基准的比较条件
 
 *EmbeddingGemma 2 在模型规模与代码检索平均分之间的比较位置；不同模型并非等规模对比。* [原图](https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Massive_Text_Embedding_Benchmark_Code_1.original.png) · [原文](https://developers.googleblog.com/en/embeddinggemma-2-the-developer-guide/)
 

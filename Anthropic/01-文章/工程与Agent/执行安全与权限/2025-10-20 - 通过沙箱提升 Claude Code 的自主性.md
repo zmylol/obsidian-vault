@@ -62,14 +62,14 @@ Anthropic 在 2025 年 10 月为 Claude Code 推出沙箱化命令工具和云�
 ## 两条边界必须同时存在
 文件系统边界限制可读写目录，网络边界限制可连接的主机；只做其中一条，提示注入后的 Agent 仍可能通过另一条边界泄露文件或下载恶意内容。
 
-![Claude Code 沙箱结构：文件系统与网络边界共同限制 Agent 的操作范围。](../../../98-附件/原文配图/5907c0f2fad2e2a0fd1f.png)
+图示：Claude Code 沙箱结构：文件系统与网络边界共同限制 Agent 的操作范围。
 
 *图注：原图同时展示文件系统和网络两种隔离，核心不是“少弹窗”，而是缩小被接管后的活动范围。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/0d1c612947c798aef48e6ab4beb7e8544da9d41a-4096x2305.png) · [文章出处](https://www.anthropic.com/engineering/claude-code-sandboxing)
 
 ## 自主性与权限的取舍
 内部使用中，沙箱使权限提示减少约 84%。这表示预先定义边界能让安全操作更顺畅，不表示操作本身不需要审查；复杂动作仍要确认影响范围。
 
-![Claude Code Web 的代理结构：自定义代理处理 Git 交互，把代码环境与外部操作分开。](../../../98-附件/原文配图/800665a7cf0ed94395b5.png)
+图示：Claude Code Web 的代理结构：自定义代理处理 Git 交互，把代码环境与外部操作分开。
 
 *图注：原图把代码工作区、代理和 Git 交互拆开，说明云端环境如何隔离版本操作。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/e8f66bcf73d9d23cae67e67776b2d31373c13050-4096x2305.png) · [文章出处](https://www.anthropic.com/engineering/claude-code-sandboxing)
 

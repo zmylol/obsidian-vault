@@ -47,7 +47,7 @@ Google 的 Gemini 4 Argon 从早期受限测试扩展为全球开放：开发者
 
 下表来自 9 月 30 日预告，DeepSWE v1.1 的 77.9% 对应长时程软件工程任务。新公告主要补充开放与案例，不能把旧表标成新增评测。
 
-![9 月 30 日 Gemini 4 Argon 预告中的官方基准表。](../../../98-附件/原文配图/gemini-argon-benchmarks.gif)
+图示：9 月 30 日 Gemini 4 Argon 预告中的官方基准表。
 
 *图：发布方历史基准表，实际一帧；不同任务各有比较条件；[原图](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/gemini-4-argon_table_blog.gif)。*
 

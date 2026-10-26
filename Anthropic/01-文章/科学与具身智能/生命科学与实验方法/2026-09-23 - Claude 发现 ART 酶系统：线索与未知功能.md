@@ -77,7 +77,7 @@ Anthropic 公布生命科学研究组的早期成果：Claude 在人类给定研
 
 人类提出研究方向，代理搜索数据库、筛选候选；识别重复模式后，人类研究者继续实验，观察到阵列产生不同的短 RNA。计算筛选和实验确认承担不同环节。
 
-![原文动画在未标注序列与高亮重复片段之间切换，展示识别重复 DNA 阵列的线索；它不证明 ART 已具有可编程功能。](../../../98-附件/原文配图/6d157ef4c46ff0f60840.gif)
+图示：原文动画在未标注序列与高亮重复片段之间切换，展示识别重复 DNA 阵列的线索；它不证明 ART 已具有可编程功能。
 
 *原文动画在未标注序列与高亮重复片段之间切换，展示识别重复 DNA 阵列的线索；它不证明 ART 已具有可编程功能。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/0f6064436a364b73ce0d2a80848ac56be7ae9ddd-1360x1160.gif) · [文章出处](https://www.anthropic.com/news/claude-discovers-novel-enzyme-system)
 

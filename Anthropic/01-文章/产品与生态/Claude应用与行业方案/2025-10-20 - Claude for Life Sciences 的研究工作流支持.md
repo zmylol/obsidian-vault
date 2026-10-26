@@ -71,7 +71,7 @@ Anthropic 于 2025 年 10 月推出 Claude for Life Sciences，试图把 Claude 
 
 Benchling、PubMed、Wiley 等连接器提供实验和文献上下文；single-cell-rna-qc Skill 封装基于 scverse 的质控流程。示例会运行分析脚本、报告过滤阈值并输出带注释的数据文件。 [原文依据](https://www.anthropic.com/news/claude-for-life-sciences)
 
-![单细胞 RNA 质控演示：原始 2,700 个细胞中保留 2,434 个，并输出过滤数据与 QC 图。数值属于示例数据，不是通用过滤阈值。](../../../98-附件/原文配图/e9f8d2b7e53b44484228.png)
+图示：单细胞 RNA 质控演示：原始 2,700 个细胞中保留 2,434 个，并输出过滤数据与 QC 图。数值属于示例数据，不是通用过滤阈值。
 
 *单细胞 RNA 质控演示：原始 2,700 个细胞中保留 2,434 个，并输出过滤数据与 QC 图。数值属于示例数据，不是通用过滤阈值。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/07de700e38ef4d328ccdb5c15ab9e3df5286fc08-3840x2160.png) · [文章出处](https://www.anthropic.com/news/claude-for-life-sciences)
 

@@ -44,7 +44,7 @@ ScaleDown 为 LangChain 与 Deep Agents 提供受限解码模型和三类中间�
 
 LangChain 的 `langchain-scaledown` 集成提供三种中间件：Summarize 压缩旧消息，Compress 缩短工具输出，Extract 从用户消息复制字段；Classify 可在自定义中间件中用来识别循环或偏航。主 Agent 仍由通用模型负责开放式规划和生成；ScaleDown 的受限解码模型各自只处理指定任务，文章称输入上限为 100 万 token。
 
-![原文图：ScaleDown 在主 Agent 前后处理历史、字段和工具结果](../../../98-附件/原文配图/e826c19eac73937aa6b9.png)
+图示：原文图：ScaleDown 在主 Agent 前后处理历史、字段和工具结果
 
 *图注：蓝色框表示专用模型的位置；Classify 偏航拦截是原文给出的自定义示例，不是预装中间件。* [原图](https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6acdab828208336ba4c088f6_scaledown-overview.png) · [文章出处](https://www.langchain.com/blog/building-long-running-agents-with-scaledown-and-deep-agents)
 

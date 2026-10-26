@@ -46,7 +46,7 @@ Deep Agents 组合文件系统、按需 Skills、记忆与子任务等上下文�
 
 钩子可在模型、工具和 Agent 前后加入审批、摘要或校验。需要超出钩子表达范围的控制流时，再用 LangGraph 自定义图。
 
-![middleware 钩子围绕 Agent、模型和工具调用布置，使开发者可在标准循环内插入规则；更复杂的流程结构由 LangGraph 表达。](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/ed2aaffa9dc27776d71c.png)
+图示：middleware 钩子围绕 Agent、模型和工具调用布置，使开发者可在标准循环内插入规则；更复杂的流程结构由 LangGraph 表达。
 
 *middleware 钩子围绕 Agent、模型和工具调用布置，使开发者可在标准循环内插入规则；更复杂的流程结构由 LangGraph 表达。* [原图](https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6a74c8b56383b9c1a6301dbd_middleware_hooks.png) · [文章出处](https://www.langchain.com/blog/deep-agents-vs-langchain-vs-langgraph)
 

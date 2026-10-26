@@ -70,7 +70,7 @@ Anthropic Labs 于 2026 年 4 月推出 Claude Design 研究预览，用 Opus 4.
 
 用户可上传文档、图像或授权读取代码与设计文件，形成团队设计系统，再用行内评论、直接编辑和动态控制项调整布局、颜色与间距。 [原文依据](https://www.anthropic.com/news/claude-design-anthropic-labs)
 
-![Claude Design 的地图原型示例：右侧控制项直接调整主题、屏幕尺寸、连线颜色与密度，体现生成后继续精细修改的交互方式。](../../../98-附件/原文配图/5251e2fec57804350775.jpg)
+图示：Claude Design 的地图原型示例：右侧控制项直接调整主题、屏幕尺寸、连线颜色与密度，体现生成后继续精细修改的交互方式。
 
 *Claude Design 的地图原型示例：右侧控制项直接调整主题、屏幕尺寸、连线颜色与密度，体现生成后继续精细修改的交互方式。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/499e91975d880b35eac6e48ad43161de7d10416c-2876x1614.jpg) · [文章出处](https://www.anthropic.com/news/claude-design-anthropic-labs)
 

@@ -71,7 +71,7 @@ ECDSA 曲线由 seed 哈希确定系数，NIST 采用时给出了 seed 却没有
 
 文章把解释称为密码学社区长期疑问的结束章节，但没有给出新的攻击、密钥恢复或参数替换方案。读者不应把历史来源解释误读为安全性证明或漏洞披露。 [原文依据](https://www.anthropic.com/research/ecdsa-curve-origins)
 
-![原文图：ECDSA 曲线 seed、标准文档与时间线之间的对应关系，用于说明历史溯源链条，不是攻击流程。](../../../98-附件/原文配图/ecdsa-curve-origins-2026-10-1.png)
+图示：原文图：ECDSA 曲线 seed、标准文档与时间线之间的对应关系，用于说明历史溯源链条，不是攻击流程。
 
 *原文图：ECDSA 曲线 seed、标准文档与时间线之间的对应关系，用于说明历史溯源链条，不是攻击流程。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/e4948d016f5879d721c3297b1ee1073b1e6b5734-2912x1064.png) · [文章出处](https://www.anthropic.com/research/ecdsa-curve-origins)
 

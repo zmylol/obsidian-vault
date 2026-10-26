@@ -70,11 +70,11 @@ Anthropic 与 Teach For All 推出教师 AI 培训合作，其覆盖 63 国的�
 
 文章展示利比里亚气候课程和孟加拉国数学游戏两个案例，体现教师把年级、当地课程和学生需求转成应用。 [原文依据](https://www.anthropic.com/news/anthropic-teach-for-all)
 
-![利比里亚气候教育应用按四至九年级选择内容，并显示所选年级的单元主题与时长；它展示课程组织界面，不是学习成效图。](../../../98-附件/原文配图/88fe4c60611123afabe2.png)
+图示：利比里亚气候教育应用按四至九年级选择内容，并显示所选年级的单元主题与时长；它展示课程组织界面，不是学习成效图。
 
 *利比里亚气候教育应用按四至九年级选择内容，并显示所选年级的单元主题与时长；它展示课程组织界面，不是学习成效图。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/8e2e99d8b3534d5e1c4dcc950b1b0e0bbcd768cd-1920x1080.png) · [文章出处](https://www.anthropic.com/news/anthropic-teach-for-all)
 
-![数学游戏把加减乘除划为逐步解锁的区域，显示进度、关卡和排行榜入口；图中的零进度是示例界面状态，不是试点统计。](../../../98-附件/原文配图/4060b72796260b452966.png)
+图示：数学游戏把加减乘除划为逐步解锁的区域，显示进度、关卡和排行榜入口；图中的零进度是示例界面状态，不是试点统计。
 
 *数学游戏把加减乘除划为逐步解锁的区域，显示进度、关卡和排行榜入口；图中的零进度是示例界面状态，不是试点统计。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/8745b5fa855dfeca249bdd8b7696b5440da72ac7-1920x1080.png) · [文章出处](https://www.anthropic.com/news/anthropic-teach-for-all)
 

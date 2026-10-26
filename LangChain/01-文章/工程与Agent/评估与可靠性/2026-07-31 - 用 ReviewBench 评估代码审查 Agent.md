@@ -46,7 +46,7 @@ ReviewBench 把 LangSmith 仓库真实合并请求中的有效审查意见，整
 
 裁判判断是否命中相同代码路径的底层问题；额外有效发现计入所报问题的准确率，但不增加基准覆盖率。
 
-![59 题、每题三次的基础配置结果：列出总分、覆盖率、准确率及成本；最强配置也仅覆盖约三成基准问题。](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/8f27884cd360bb083b49.png)
+图示：59 题、每题三次的基础配置结果：列出总分、覆盖率、准确率及成本；最强配置也仅覆盖约三成基准问题。
 
 *59 题、每题三次的基础配置结果：列出总分、覆盖率、准确率及成本；最强配置也仅覆盖约三成基准问题。* [原图](https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6a6ba744762aa18868def61c_langchain-reviewbench-baseline%20(2).png) · [文章出处](https://www.langchain.com/blog/evaluating-code-review-agents-with-reviewbench)
 
@@ -54,7 +54,7 @@ ReviewBench 把 LangSmith 仓库真实合并请求中的有效审查意见，整
 
 20 题子集上，Luna 的结构化提示配置采用高推理强度，F1 达 0.32。工具仍限于读取和搜索，不能据此归因于新工具或单独的模型能力。
 
-![20 题匹配比较：结构化审查提示与高推理强度的 Luna 得分 0.32，原配置为 0.13；这是配置比较，表中区间并不支持任意模型优劣断言。](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/c0d18f8af8e067d342d5.png)
+图示：20 题匹配比较：结构化审查提示与高推理强度的 Luna 得分 0.32，原配置为 0.13；这是配置比较，表中区间并不支持任意模型优劣断言。
 
 *20 题匹配比较：结构化审查提示与高推理强度的 Luna 得分 0.32，原配置为 0.13；这是配置比较，表中区间并不支持任意模型优劣断言。* [原图](https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6a6ba72d38921933f2f2ed9d_langchain-reviewbench-prompting%20(1).png) · [文章出处](https://www.langchain.com/blog/evaluating-code-review-agents-with-reviewbench)
 

@@ -61,7 +61,7 @@ quality_evidence:
 
 两队分别完成 8 项中的 7 项和 6 项；六项共同任务总时间为 193 与 392 分钟，较大差异来自连接和传感器工作。 [原文依据](https://www.anthropic.com/research/project-fetch-robot-dog)
 
-![六项共同完成任务的总耗时比较：193 分钟对 392 分钟。图未包含任何一方都未完成的最终自主取球，不能说明端到端任务已经成功。](../../../98-附件/原文配图/9c8115218c73143e37c6.png)
+图示：六项共同完成任务的总耗时比较：193 分钟对 392 分钟。图未包含任何一方都未完成的最终自主取球，不能说明端到端任务已经成功。
 
 *六项共同完成任务的总耗时比较：193 分钟对 392 分钟。图未包含任何一方都未完成的最终自主取球，不能说明端到端任务已经成功。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/0d073513d5be90d96cfe696c6b15f4501bfbacfc-4584x2580.png) · [文章出处](https://www.anthropic.com/research/project-fetch-robot-dog)
 

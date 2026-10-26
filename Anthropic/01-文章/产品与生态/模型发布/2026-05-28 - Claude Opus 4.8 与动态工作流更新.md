@@ -64,7 +64,7 @@ Anthropic 于 2026 年 5 月发布 Opus 4.8，常规价格保持每百万输入 
 
 发布表中 SWE-Bench Pro 为 69.2%，高于 Opus 4.7 的 64.3%；Terminal-Bench 2.1 为 74.6%，低于图中 GPT-5.5 的 78.2%。比较时要逐任务看条件。 [原文依据](https://www.anthropic.com/news/claude-opus-4-8)
 
-![Opus 4.8 发布表逐项比较编码、推理、电脑使用和知识工作。HLE 分为有工具与无工具两种条件，各行指标不能互换。](../../../98-附件/原文配图/4eb782f8d51a6503fb44.png)
+图示：Opus 4.8 发布表逐项比较编码、推理、电脑使用和知识工作。HLE 分为有工具与无工具两种条件，各行指标不能互换。
 
 *Opus 4.8 发布表逐项比较编码、推理、电脑使用和知识工作。HLE 分为有工具与无工具两种条件，各行指标不能互换。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/a9007019094f217e98cb8261a2765d7646c01708-2600x1392.png) · [文章出处](https://www.anthropic.com/news/claude-opus-4-8)
 

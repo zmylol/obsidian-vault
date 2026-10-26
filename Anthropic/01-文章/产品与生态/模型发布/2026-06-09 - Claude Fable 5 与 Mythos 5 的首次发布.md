@@ -62,7 +62,7 @@ Anthropic 于 2026 年 6 月推出 Fable 5 与受限访问的 Mythos 5，把更�
 
 发布表显示编码、知识工作和科研等多项进步，但合并列通常取两模型较高分；带星号项目的差距可能更大，Fable 回退后更接近 Opus 4.8，不能把全部分数都归给普通 Fable 使用。 [原文依据](https://www.anthropic.com/news/claude-fable-5-mythos-5)
 
-![Fable 5/Mythos 5 合并基准表：顶部同列不表示所有使用配置相同。表下注明取较高分，星号项目受防护回退影响尤其明显。](../../../98-附件/原文配图/db05fe7524179386d0aa.png)
+图示：Fable 5/Mythos 5 合并基准表：顶部同列不表示所有使用配置相同。表下注明取较高分，星号项目受防护回退影响尤其明显。
 
 *Fable 5/Mythos 5 合并基准表：顶部同列不表示所有使用配置相同。表下注明取较高分，星号项目受防护回退影响尤其明显。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/1e65982497d7d4891219ed0e83141625a291b860-2600x2870.png) · [文章出处](https://www.anthropic.com/news/claude-fable-5-mythos-5)
 

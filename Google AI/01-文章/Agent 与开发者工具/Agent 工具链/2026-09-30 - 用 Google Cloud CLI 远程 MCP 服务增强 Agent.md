@@ -40,7 +40,7 @@ Google Cloud 将 gcloud 与 bq 命令封装成公共预览版远程 MCP 服务�
 
 执行仍受调用者身份、IAM 和组织策略约束；Model Armor 与数据访问日志可配置。第一段演示展示查询错误日志并依据工具返回解释连接超时。
 
-![调用者权限与日志诊断](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/cloud-mcp-gcloud.gif)
+图示：调用者权限与日志诊断
 
 *原始 GIF 演示从自然语言请求到 gcloud 日志查询及解释。仅抽查六个时点帧，未逐帧观看或重放命令。* [原图](https://storage.googleapis.com/gweb-cloudblog-publish/original_images/1_IPA9ALa.gif) · [原文](https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-cli-remote-mcp-server-in-preview/)
 
@@ -48,7 +48,7 @@ Google Cloud 将 gcloud 与 bq 命令封装成公共预览版远程 MCP 服务�
 
 第二段演示设置定时查询并检查作业运行；服务为公共预览，使用前需要启用 Cloud CLI Execution API、授予角色并完成认证。
 
-![BigQuery 工作流与预览条件](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/cloud-mcp-bq.gif)
+图示：BigQuery 工作流与预览条件
 
 *原始 GIF 展示设置查询和检查作业；示例规模不能用作生产性能基准。抽查六个时点帧，未执行操作。* [原图](https://storage.googleapis.com/gweb-cloudblog-publish/original_images/2_JA5HWbH.gif) · [原文](https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-cli-remote-mcp-server-in-preview/)
 

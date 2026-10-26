@@ -70,7 +70,7 @@ Anthropic Interviewer 在人类研究者设计和审查下开展自适应访谈�
 
 创作者兼有提速体验和同行压力，科学家更担心核查成本，常把 AI 用于代码、写作与文献辅助。专业身份、责任和信任共同决定哪些任务愿意委派。 [原文依据](https://www.anthropic.com/research/anthropic-interviewer)
 
-![一般职业访谈的主题图：涵盖业务优化、项目流程、职业适应和内容可靠性等，并标示相对乐观与悲观倾向。](../../../98-附件/原文配图/bc2a5dd0391eaf20f33b.jpg)
+图示：一般职业访谈的主题图：涵盖业务优化、项目流程、职业适应和内容可靠性等，并标示相对乐观与悲观倾向。
 
 *一般职业访谈的主题图：涵盖业务优化、项目流程、职业适应和内容可靠性等，并标示相对乐观与悲观倾向。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/4ae319f2a488d12756eb79f9f0d4e4899bf8bcfe-2880x1950.jpg) · [文章出处](https://www.anthropic.com/research/anthropic-interviewer)
 

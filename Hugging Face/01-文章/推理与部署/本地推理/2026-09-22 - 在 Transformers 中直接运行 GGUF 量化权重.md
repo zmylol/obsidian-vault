@@ -39,7 +39,7 @@ Hugging Face 为 Transformers 接入 ggml 的 Metal 算子，并减少生成循�
 
 测量环境为插电M2 Max、macOS 26.6、PyTorch 2.12.1与kernels 0.17.0；两侧生成128个token，Transformers使用12-token提示。llama.cpp为b10200、ggml 0.18.0。统计差异已写入摘要。
 
-![GGUF对照图1](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/transformers-gguf-benchmark-comparison.svg)
+图示：GGUF对照图1
 
 在M2 Max／32GB上，Qwen3.5-4B Q4_K_M为70.4对71.8±0.4 tok/s；两列的预填充和统计口径不同，不能直接认定胜负。图内文件大小不等于运行峰值内存。 [原图](https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/transformers-llama-cpp-quants/benchmark-comparison.svg) · [文章出处](https://huggingface.co/blog/transformers-llama-cpp-quants)
 
@@ -47,7 +47,7 @@ Hugging Face 为 Transformers 接入 ggml 的 Metal 算子，并减少生成循�
 
 压缩矩阵运算、归一化、注意力等算子减少每步GPU工作；它们嵌入PyTorch模型，不是把整个模型交给另一套运行时。
 
-![GGUF对照图2](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/transformers-gguf-layer-kernel-benchmark.svg)
+图示：GGUF对照图2
 
 两组始终保留量化算子和压缩权重，只比较其余层算子的贡献。三个检查点的报告比值为1.59、1.51、2.09倍，不能解释为量化本身的收益。 [原图](https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/transformers-llama-cpp-quants/layer-kernel-benchmark.svg) · [文章出处](https://huggingface.co/blog/transformers-llama-cpp-quants)
 
@@ -55,7 +55,7 @@ Hugging Face 为 Transformers 接入 ggml 的 Metal 算子，并减少生成循�
 
 无填充输入可提前去掉多余掩码，受支持路径延后消费停止判断；两者让CPU调度与GPU执行重叠。因果约束仍保留，多算一步的结果会去掉。
 
-![GGUF对照图3](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/transformers-gguf-generation-loop-benchmark.svg)
+图示：GGUF对照图3
 
 两组均启用全部层算子，比较生成循环修改前后；三个检查点的报告比值为1.42、1.16、1.79倍。该对照与上一张图基线不同，不能直接相乘。 [原图](https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/transformers-llama-cpp-quants/generation-loop-benchmark.svg) · [文章出处](https://huggingface.co/blog/transformers-llama-cpp-quants)
 

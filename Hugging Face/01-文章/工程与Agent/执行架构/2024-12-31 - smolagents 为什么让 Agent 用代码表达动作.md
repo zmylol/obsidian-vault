@@ -48,7 +48,7 @@ Hugging Face 在 2024 年底发布 smolagents，让语言模型用 Python 代码
 
 循环、变量和对象能表达连续工具操作，减少逐条描述动作的负担；工具仍需明确的输入输出契约。
 
-![代码动作与 JSON 工具动作的对比，展示代码如何直接表达组合与流程控制。](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/70609e2e40c3855f406e.png)
+图示：代码动作与 JSON 工具动作的对比，展示代码如何直接表达组合与流程控制。
 
 *代码动作与 JSON 工具动作的对比，展示代码如何直接表达组合与流程控制。* [原图](https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/transformers/code_vs_json_actions.png) · [文章出处](https://huggingface.co/blog/smolagents)
 

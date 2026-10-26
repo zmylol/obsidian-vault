@@ -43,7 +43,7 @@ Deep Agents 用子 Agent 和 Skills 处理复杂任务中的上下文膨胀：�
 
 多次搜索和读文件产生的中间结果留在子 Agent 中，主 Agent 接收最终汇总；不同任务也可配置不同工具和模型。
 
-![主 Agent 把具体工作交给拥有独立上下文的子 Agent，只接收返回结果，减少探索信息占据主上下文。](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/1664a5c71865e1ed7782.png)
+图示：主 Agent 把具体工作交给拥有独立上下文的子 Agent，只接收返回结果，减少探索信息占据主上下文。
 
 *主 Agent 把具体工作交给拥有独立上下文的子 Agent，只接收返回结果，减少探索信息占据主上下文。* [原图](https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/69cbaa03649e3ebd9d135314_image--9--1.png) · [文章出处](https://www.langchain.com/blog/building-multi-agent-applications-with-deep-agents)
 
@@ -51,7 +51,7 @@ Deep Agents 用子 Agent 和 Skills 处理复杂任务中的上下文膨胀：�
 
 先提供技能名称和描述，确定需要后再读取正文，因此主要解决能力说明如何进入上下文的问题。
 
-![技能描述先进入上下文，详细指令在选中技能后才读取；这里变化的是信息加载时机。](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/f57308c52df3285bedcb.png)
+图示：技能描述先进入上下文，详细指令在选中技能后才读取；这里变化的是信息加载时机。
 
 *技能描述先进入上下文，详细指令在选中技能后才读取；这里变化的是信息加载时机。* [原图](https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/69cbaa03649e3ebd9d135318_image--10--1.png) · [文章出处](https://www.langchain.com/blog/building-multi-agent-applications-with-deep-agents)
 

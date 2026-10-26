@@ -1380,5 +1380,11 @@
     "world": 6,
     "collected": "2026-10-24T09:18:57+08:00",
     "validation": "passed"
+  },
+  "storage_policy": {
+    "content": "markdown_summary_and_source_links",
+    "media": "omit",
+    "run_snapshots": "omit",
+    "retention": "short_state_only"
   }
 }

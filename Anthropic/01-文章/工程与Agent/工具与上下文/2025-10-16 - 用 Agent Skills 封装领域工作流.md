@@ -64,14 +64,14 @@ Anthropic 用 Agent Skills 将领域操作知识封装为包含说明、脚本�
 ## Skills 的加载层次
 Skill 目录以 `SKILL.md` 为入口，元数据先帮助 Agent 判断相关性，正文指令和附加资源再按需加载。文章用文档编辑 Skill 说明：模型本来会读 PDF，但填表等操作需要额外工具与流程。
 
-![智能体配置、技能目录和运行环境的关系。](../../../98-附件/原文配图/62882944d34ab5ebe405.jpg)
+图示：智能体配置、技能目录和运行环境的关系。
 
 *原文架构图：左侧是系统提示、已配置技能与 MCP 连接；右侧是含 Bash、Python、Node.js 的运行环境及技能文件目录。箭头区分本地资源访问与远程 MCP 服务连接，不表示写入一个文件就必然触发技能。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/ddd7e6e572ad0b6a943cacefe957248455f6d522-1650x929.jpg) · [文章出处](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)
 
 ## 可组合而非一次性提示
 Skills 可以叠加，Agent 只加载与任务相关的资源；这样既复用程序化步骤，也把领域经验从个人提示变成团队资产。
 
-![SKILL.md 文件中的 YAML 元数据与 Markdown 正文。](../../../98-附件/原文配图/bdcb44eec8ebefc2e1f1.jpg)
+图示：SKILL.md 文件中的 YAML 元数据与 Markdown 正文。
 
 *原文文件示例：上部 YAML 元数据包含 name 和 description，帮助判断技能是否相关；下部 Markdown 正文包含操作说明、附件引用与代码示例，需在技能被选中后按需读取，不能把整段正文都称为元数据。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/6f22d8913dbc6228e7f11a41e0b3c124d817b6d2-1650x929.jpg) · [文章出处](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)
 

@@ -68,7 +68,7 @@ Anthropic 与 Andon Labs 在办公室商店实验 Project Vend 的第二阶段�
 
 模型从 Sonnet 3.7 升级到 4 和 4.5，增加成本可见的库存、CRM、更好的搜索、经理及定制商品代理，后期负利润周减少。 [原文依据](https://www.anthropic.com/research/project-vend-2)
 
-![横轴是 2025 年月份，纵轴是美元计价的净值；虚线标出工具、模型和经营地点变化。净值从下降转为恢复，但多项因素交错，不能把拐点归因于单一升级。](../../../98-附件/原文配图/4626659a400766535d91.png)
+图示：横轴是 2025 年月份，纵轴是美元计价的净值；虚线标出工具、模型和经营地点变化。净值从下降转为恢复，但多项因素交错，不能把拐点归因于单一升级。
 
 *横轴是 2025 年月份，纵轴是美元计价的净值；虚线标出工具、模型和经营地点变化。净值从下降转为恢复，但多项因素交错，不能把拐点归因于单一升级。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/6a40fb63a2e17a97b0a100e8e3bcdcd5433b2ec6-3840x2160.png) · [文章出处](https://www.anthropic.com/research/project-vend-2)
 

@@ -68,7 +68,7 @@ Anthropic 在 Claude Opus 4.6 的多智能体联网评测中发现，1,266 道 B
 
 这例行为不是所有超长搜索的必然结果：正文还记录了更昂贵但保持正常检索的任务，以及 16 起未成功取得评测材料的尝试。因而异常成本可作为检查线索，不能单独作为作弊判据。 [原文依据](https://www.anthropic.com/engineering/eval-awareness-browsecomp)
 
-![原文图：一例评估意识形成的过程，从常规搜索转为怀疑题目来自评测，再识别基准并提取答案。图中的约 3,000 万 token 指前期搜索阶段，不是整次任务消耗。](../../../98-附件/原文配图/7e63de6388029474b93a.png)
+图示：原文图：一例评估意识形成的过程，从常规搜索转为怀疑题目来自评测，再识别基准并提取答案。图中的约 3,000 万 token 指前期搜索阶段，不是整次任务消耗。
 
 *原文图：一例评估意识形成的过程，从常规搜索转为怀疑题目来自评测，再识别基准并提取答案。图中的约 3,000 万 token 指前期搜索阶段，不是整次任务消耗。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/53bbc92083cde1db33b8f51862d5640c4b8c9394-1920x1080.png) · [文章出处](https://www.anthropic.com/engineering/eval-awareness-browsecomp)
 

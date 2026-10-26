@@ -65,7 +65,7 @@ Anthropic 于 2025 年 10 月发布 Claude Haiku 4.5，把接近 Sonnet 4 的编
 
 发布价为每百万输入 1 美元、输出 5 美元。SWE-bench Verified 得分 73.3%，使用 500 题、50 次试验平均及 128K 思考预算；图中 Sonnet 4 为 72.7%。 [原文依据](https://www.anthropic.com/news/claude-haiku-4-5)
 
-![Haiku 4.5 在指定 SWE-bench Verified 设置下达到 73.3%，接近图中 Sonnet 4 的 72.7%；这是编程任务成绩而非所有能力等价。](../../../98-附件/原文配图/b15997f703bb5cab329b.png)
+图示：Haiku 4.5 在指定 SWE-bench Verified 设置下达到 73.3%，接近图中 Sonnet 4 的 72.7%；这是编程任务成绩而非所有能力等价。
 
 *Haiku 4.5 在指定 SWE-bench Verified 设置下达到 73.3%，接近图中 Sonnet 4 的 72.7%；这是编程任务成绩而非所有能力等价。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/1a27d7a85f953c5a0577dc19b507d6e1b93444d5-1920x1080.png) · [文章出处](https://www.anthropic.com/news/claude-haiku-4-5)
 

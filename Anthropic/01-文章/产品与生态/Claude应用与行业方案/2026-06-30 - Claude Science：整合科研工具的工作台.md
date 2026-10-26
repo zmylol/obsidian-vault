@@ -72,7 +72,7 @@ Anthropic 发布 Claude Science 测试版，把科研数据库、专业工具、
 
 生成图表、蛋白结构或文稿时，保留代码、输入、环境与消息历史，支持行内批注后修改生成代码。协调代理、专业代理与审核代理分工处理分析和引用核查。 [原文依据](https://www.anthropic.com/news/claude-science-ai-workbench)
 
-![科学图稿与生成代码并列显示：右侧包含输入文件、执行日志、环境和审核入口，图上批注可直接指向需要修改的标签。](../../../98-附件/原文配图/7425ea0587524d29c487.jpg)
+图示：科学图稿与生成代码并列显示：右侧包含输入文件、执行日志、环境和审核入口，图上批注可直接指向需要修改的标签。
 
 *科学图稿与生成代码并列显示：右侧包含输入文件、执行日志、环境和审核入口，图上批注可直接指向需要修改的标签。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/1c78d0a671cbf1715b3f09a790e6d1a90466de1a-2048x1257.jpg) · [文章出处](https://www.anthropic.com/news/claude-science-ai-workbench)
 
@@ -80,7 +80,7 @@ Anthropic 发布 Claude Science 测试版，把科研数据库、专业工具、
 
 工作台可运行于 macOS、Linux、本地或 SSH/HPC 环境，接入超过 60 个科学技能与连接器。使用新资源前形成计划并请求授权，长驻会话减少重复加载大型数据。 [原文依据](https://www.anthropic.com/news/claude-science-ai-workbench)
 
-![scVI 参数扫描示例展示八组远程任务及共享 Notebook 状态，说明工作台如何组织计算；不是八组任务结果均已验证的证明。](../../../98-附件/原文配图/8ae2cb410abefb024f23.jpg)
+图示：scVI 参数扫描示例展示八组远程任务及共享 Notebook 状态，说明工作台如何组织计算；不是八组任务结果均已验证的证明。
 
 *scVI 参数扫描示例展示八组远程任务及共享 Notebook 状态，说明工作台如何组织计算；不是八组任务结果均已验证的证明。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/901245fae3bee38a476732379e92adc0284c2519-2048x1257.jpg) · [文章出处](https://www.anthropic.com/news/claude-science-ai-workbench)
 

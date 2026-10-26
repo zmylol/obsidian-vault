@@ -80,7 +80,7 @@ Anthropic 汇报 Project Glasswing 的早期进展：Mythos Preview 在一千多
 
 截至 5 月 22 日，流程图列出 1,596 个已向维护者报告、1,451 个已获回应、97 个已在上游修复；这与最初发现数相差很大。 [原文依据](https://www.anthropic.com/research/glasswing-initial-update)
 
-![流程图覆盖全部严重级别：1,900 个外部复核候选中 1,726 个有效，另有按要求直接报告的路径。这个 90.8% 与正文高／严重子集的 90.6% 口径不同。](../../../98-附件/原文配图/6fdc241c59c6cfaaedd3.png)
+图示：流程图覆盖全部严重级别：1,900 个外部复核候选中 1,726 个有效，另有按要求直接报告的路径。这个 90.8% 与正文高／严重子集的 90.6% 口径不同。
 
 *流程图覆盖全部严重级别：1,900 个外部复核候选中 1,726 个有效，另有按要求直接报告的路径。这个 90.8% 与正文高／严重子集的 90.6% 口径不同。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/7af1880d305b982764cfefc7dce87c677f1b0254-1634x1008.png) · [文章出处](https://www.anthropic.com/research/glasswing-initial-update)
 

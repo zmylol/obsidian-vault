@@ -63,7 +63,7 @@ Anthropic 在 2025 年 9 月宣布 Claude Sonnet 4 正式接入 Xcode 26，开�
 
 编码助手自动收集项目上下文，并支持历史对话与附件；编码工具提供解释、文档生成、SwiftUI 预览和编辑。
 
-![原文界面左侧是 Sonnet 4 对 SwiftUI 导航代码的解释，右侧是编辑器；它说明问答嵌入 IDE 的交互位置，不代表生成代码已通过测试。](../../../98-附件/原文配图/cc64291c1cc525842a24.png)
+图示：原文界面左侧是 Sonnet 4 对 SwiftUI 导航代码的解释，右侧是编辑器；它说明问答嵌入 IDE 的交互位置，不代表生成代码已通过测试。
 
 *原文界面左侧是 Sonnet 4 对 SwiftUI 导航代码的解释，右侧是编辑器；它说明问答嵌入 IDE 的交互位置，不代表生成代码已通过测试。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/b980278079eb3c3ca177b99adf55e257696c13fd-1920x1080.png) · [出处](https://www.anthropic.com/news/claude-in-xcode)
 

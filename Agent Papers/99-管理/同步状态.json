@@ -5,22 +5,22 @@
   "created_at": "2026-10-19T08:54:44+08:00",
   "sources": {
     "ACL Anthology": {
-      "last_checked": "2026-10-25T11:25:14+08:00",
-      "coverage": "ACL 2026 Long Papers/Findings official pages and selected full texts checked; volume-wide pagination remains partial; selected GAM and InfiAgent",
+      "last_checked": "2026-10-26T11:27:47+08:00",
+      "coverage": "ACL 2026 Long Papers/Findings official pages and selected full texts checked; AgencyBench and AgeMem verified; volume-wide pagination remains partial",
       "status": "partial"
     },
     "NeurIPS proceedings": {
-      "last_checked": "2026-10-25T11:25:14+08:00",
-      "coverage": "NeurIPS 2025 Main Conference official page and full PDF checked; broader proceedings pagination remains partial; selected A-Mem",
+      "last_checked": "2026-10-26T11:27:47+08:00",
+      "coverage": "NeurIPS 2025 Main Conference official page and full PDFs checked; AgentAuditor verified; broader proceedings pagination remains partial",
       "status": "partial"
     },
     "ICLR/OpenReview": {
-      "last_checked": "2026-10-25T11:25:14+08:00",
+      "last_checked": "2026-10-26T11:27:47+08:00",
       "coverage": "ICLR 2026 official group still not providing stable paper list/full-text verification",
       "status": "retry"
     },
     "ICML/PMLR": {
-      "last_checked": "2026-10-25T11:25:14+08:00",
+      "last_checked": "2026-10-26T11:27:47+08:00",
       "coverage": "ICML 2026 PMLR volume checked; Agentic candidates found but PDFs not fully readable",
       "status": "partial"
     }
@@ -59,6 +59,24 @@
     {
       "paper_id": "2026.findings-acl.1787",
       "path": "01-文章/Agent 记忆与上下文/2026-10-25 - InfiAgent：用外部状态支撑无限时长 Agent.md",
+      "status": "saved",
+      "detail_status": "completed"
+    },
+    {
+      "paper_id": "2026.acl-long.337",
+      "path": "01-文章/Agent 评测与基准/2026-10-26 - AgencyBench：在百万 Token 真实场景中评测自主 Agent.md",
+      "status": "saved",
+      "detail_status": "completed"
+    },
+    {
+      "paper_id": "2026.acl-long.981",
+      "path": "01-文章/Agent 记忆与上下文/2026-10-26 - AgeMem：让 Agent 统一管理长短期记忆.md",
+      "status": "saved",
+      "detail_status": "completed"
+    },
+    {
+      "paper_id": "neurips-2025-3dc85735f6e2fcf093e67b134fa00d21",
+      "path": "01-文章/Agent 评测与基准/2026-10-26 - AgentAuditor：让 Agent 安全评测达到人类水平.md",
       "status": "saved",
       "detail_status": "completed"
     }
@@ -106,6 +124,11 @@
       "new_or_updated": 3,
       "status": "partial_sources",
       "weekly_report": "2026-W43"
+    },
+    {
+      "date": "2026-10-26",
+      "new_or_updated": 3,
+      "status": "partial_sources"
     }
   ],
   "validation": {
@@ -113,5 +136,11 @@
     "frontmatter": true,
     "stable_ids_unique": true,
     "user_blocks_preserved": true
+  },
+  "storage_policy": {
+    "content": "markdown_summary_and_source_links",
+    "media": "omit",
+    "run_snapshots": "omit",
+    "retention": "short_state_only"
   }
 }

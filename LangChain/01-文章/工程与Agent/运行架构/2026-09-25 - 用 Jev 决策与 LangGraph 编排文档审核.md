@@ -43,7 +43,7 @@ LangChain 用 Jev 与 LangGraph 将文档审核拆成受代码控制的流程：
 
 文章把 Jev 定位为返回结构化判断和概率的决策模型。与让语言模型安排每一步相比，这种设计把分支顺序保留在代码里，只把难以写成固定规则的判断交给模型；需要生成内容时仍可调用语言模型。
 
-![原图对比固定规则软件、由语言模型循环调工具的 Agent，以及代码流程中嵌入语义判断的组合方式；不是性能对照结果。](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/a2ab4444aebc12a3c8dd.png)
+图示：原图对比固定规则软件、由语言模型循环调工具的 Agent，以及代码流程中嵌入语义判断的组合方式；不是性能对照结果。
 
 *原图对比固定规则软件、由语言模型循环调工具的 Agent，以及代码流程中嵌入语义判断的组合方式；不是性能对照结果。* [原图](<https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6ab6bb0e4b0d8d8cdd3c84bf_agents-three-parts-light-v6-3200x1800.png>) · [文章出处](https://www.langchain.com/blog/building-prod-with-jev-and-langgraph)
 
@@ -51,7 +51,7 @@ LangChain 用 Jev 与 LangGraph 将文档审核拆成受代码控制的流程：
 
 LangGraph 的节点执行工作，状态传递结果，边决定下一步。检查点保存已经形成的状态，人工中断在动作前停下等待审核，调用轨迹则用于追溯决策。组件提供这些机制，不等于无需为具体流程设计测试。
 
-![语言模型生成文本，Jev 根据状态与问题输出结构化判断及概率；示意条形不表示不同模型的准确率排名。](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/2f8c036af2a952202783.png)
+图示：语言模型生成文本，Jev 根据状态与问题输出结构化判断及概率；示意条形不表示不同模型的准确率排名。
 
 *语言模型生成文本，Jev 根据状态与问题输出结构化判断及概率；示意条形不表示不同模型的准确率排名。* [原图](<https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6ab6bba9f4abbf2c6fbd82bb_llm-prose-vs-jev-decisions-v3-3840x1600%20(1).png>) · [文章出处](https://www.langchain.com/blog/building-prod-with-jev-and-langgraph)
 
@@ -59,7 +59,7 @@ LangGraph 的节点执行工作，状态传递结果，边决定下一步。检�
 
 诉讼资料审核示例对每页一次询问三个问题：是否响应请求、是否含个人信息、是否可能受法律特权保护。结果分别用于排除无关页、交给语言模型脱敏，或进入 attorney_review 节点暂停等待律师判断；文中说明实际可并行处理页面。
 
-![示例调用把页面和审核请求放入 State，并单独定义是否包含个人信息的问题；这里展示的是该次决策输入。](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/9850f0730461c0e236d9.png)
+图示：示例调用把页面和审核请求放入 State，并单独定义是否包含个人信息的问题；这里展示的是该次决策输入。
 
 *示例调用把页面和审核请求放入 State，并单独定义是否包含个人信息的问题；这里展示的是该次决策输入。* [原图](<https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6ab6bbc97846f7eab489f1d1_Screenshot%202026-09-24%20at%2010.14.01%E2%80%AFPM.png>) · [文章出处](https://www.langchain.com/blog/building-prod-with-jev-and-langgraph)
 
@@ -67,7 +67,7 @@ LangGraph 的节点执行工作，状态传递结果，边决定下一步。检�
 
 LangSmith 可显示决策输入、问题及概率输出，帮助检查页面为何走入某条分支。作者用同一个图比较 Jev 分类与 Sonnet 判断，报告分类步骤在各次试验中快5–6倍；原文未给出完整样本、版本或准确率对照。
 
-![contains_pii 在示例中输出0.98，表示这一问题的模型判断概率，不是整体审核准确率或实际验证的安全性。](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/51418a19e426a36ba291.png)
+图示：contains_pii 在示例中输出0.98，表示这一问题的模型判断概率，不是整体审核准确率或实际验证的安全性。
 
 *contains_pii 在示例中输出0.98，表示这一问题的模型判断概率，不是整体审核准确率或实际验证的安全性。* [原图](<https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6ab6bbd51882458652207b1b_Screenshot%202026-09-24%20at%2010.14.17%E2%80%AFPM.png>) · [文章出处](https://www.langchain.com/blog/building-prod-with-jev-and-langgraph)
 

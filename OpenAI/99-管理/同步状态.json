@@ -2,7 +2,7 @@
   "schema_version": 2,
   "timezone": "Asia/Shanghai",
   "created_at": "2026-10-12T10:33:02+08:00",
-  "updated_at": "2026-10-25T10:23:12+08:00",
+  "updated_at": "2026-10-26T10:23:03+08:00",
   "schedule": {
     "status": "ACTIVE",
     "automation_id": "openai",
@@ -15,9 +15,9 @@
     "first_weekly_report": "2026-10-18",
     "verified_at": "2026-10-12T10:20:00+08:00",
     "stagger_order": 5,
-    "last_run_at": "2026-10-25T10:22:44.842+08:00",
-    "next_scheduled_run": "2026-10-26 10:20",
-    "last_processed_run_at": "2026-10-25T10:23:12+08:00",
+    "last_run_at": "2026-10-26T10:22:32.633+08:00",
+    "next_scheduled_run": "2026-10-27 10:20",
+    "last_processed_run_at": "2026-10-26T10:23:03+08:00",
     "last_successful_run_at": null
   },
   "structure": {
@@ -45,8 +45,8 @@
   "sources": {
     "news": {
       "url": "https://openai.com/news/",
-      "last_attempt_at": "2026-10-24T11:38:10+08:00",
-      "last_listing_read_at": "2026-10-24T11:38:10+08:00",
+      "last_attempt_at": "2026-10-26T10:23:03+08:00",
+      "last_listing_read_at": "2026-10-26T10:23:03+08:00",
       "last_complete_scan_at": null,
       "lookback_start": "2026-09-28",
       "coverage_end": "2026-10-23",
@@ -56,17 +56,17 @@
       ],
       "status": "partial",
       "body_processing_complete": false,
-      "coverage": "首页可见 10-23 工程与安全条目及此前 10-22、10-21 条目；加载更多仍需补查目标窗口缺口。",
+      "coverage": "首页仍可见 10-23 至 10-21 条目，未发现 10-24 至 10-26 新条目；加载更多仍需补查目标窗口缺口。",
       "listing_sha256": "99f6417b5eb41409559ec8fba90eba19089f23d6786186f3057ea1c749c28b86",
       "listing_normalized_sha256_v2": "973ec4432e90578703471ce3aef1b6592e8f3d495a6b32e4def358e3a34d5ca2"
     },
     "research": {
       "url": "https://openai.com/research/index/",
-      "last_attempt_at": "2026-10-24T11:38:10+08:00",
-      "last_listing_read_at": "2026-10-24T11:38:10+08:00",
-      "last_complete_scan_at": "2026-10-24T11:38:10+08:00",
+      "last_attempt_at": "2026-10-26T10:23:03+08:00",
+      "last_listing_read_at": "2026-10-26T10:23:03+08:00",
+      "last_complete_scan_at": "2026-10-26T10:23:03+08:00",
       "lookback_start": "2026-09-28",
-      "coverage_end": "2026-10-24",
+      "coverage_end": "2026-10-26",
       "listing_oldest_visible": "2026-09-10",
       "pages": [
         "https://openai.com/research/index/"
@@ -79,11 +79,11 @@
     },
     "engineering": {
       "url": "https://openai.com/news/engineering/",
-      "last_attempt_at": "2026-10-24T11:38:10+08:00",
-      "last_listing_read_at": "2026-10-24T11:38:10+08:00",
-      "last_complete_scan_at": "2026-10-24T11:38:10+08:00",
+      "last_attempt_at": "2026-10-26T10:23:03+08:00",
+      "last_listing_read_at": "2026-10-26T10:23:03+08:00",
+      "last_complete_scan_at": "2026-10-26T10:23:03+08:00",
       "lookback_start": "2026-09-28",
-      "coverage_end": "2026-10-24",
+      "coverage_end": "2026-10-26",
       "listing_oldest_visible": "2026-05-04",
       "pages": [
         "https://openai.com/news/engineering/"
@@ -96,11 +96,11 @@
     },
     "safety": {
       "url": "https://openai.com/news/safety-alignment/",
-      "last_attempt_at": "2026-10-24T11:38:10+08:00",
-      "last_listing_read_at": "2026-10-24T11:38:10+08:00",
-      "last_complete_scan_at": "2026-10-24T11:38:10+08:00",
+      "last_attempt_at": "2026-10-26T10:23:03+08:00",
+      "last_listing_read_at": "2026-10-26T10:23:03+08:00",
+      "last_complete_scan_at": "2026-10-26T10:23:03+08:00",
       "lookback_start": "2026-09-28",
-      "coverage_end": "2026-10-24",
+      "coverage_end": "2026-10-26",
       "listing_oldest_visible": "2026-09-16",
       "pages": [
         "https://openai.com/news/safety-alignment/"
@@ -118,11 +118,11 @@
     },
     "security": {
       "url": "https://openai.com/news/security/",
-      "last_attempt_at": "2026-10-24T11:38:10+08:00",
-      "last_listing_read_at": "2026-10-24T11:38:10+08:00",
-      "last_complete_scan_at": "2026-10-24T11:38:10+08:00",
+      "last_attempt_at": "2026-10-26T10:23:03+08:00",
+      "last_listing_read_at": "2026-10-26T10:23:03+08:00",
+      "last_complete_scan_at": "2026-10-26T10:23:03+08:00",
       "lookback_start": "2026-09-28",
-      "coverage_end": "2026-10-24",
+      "coverage_end": "2026-10-26",
       "listing_oldest_visible": "2026-08-04",
       "pages": [
         "https://openai.com/news/security/"
@@ -135,11 +135,11 @@
     },
     "product": {
       "url": "https://openai.com/news/product-releases/",
-      "last_attempt_at": "2026-10-24T11:38:10+08:00",
-      "last_listing_read_at": "2026-10-24T11:38:10+08:00",
-      "last_complete_scan_at": "2026-10-24T11:38:10+08:00",
+      "last_attempt_at": "2026-10-26T10:23:03+08:00",
+      "last_listing_read_at": "2026-10-26T10:23:03+08:00",
+      "last_complete_scan_at": "2026-10-26T10:23:03+08:00",
       "lookback_start": "2026-09-28",
-      "coverage_end": "2026-10-24",
+      "coverage_end": "2026-10-26",
       "listing_oldest_visible": "2026-09-22",
       "pages": [
         "https://openai.com/news/product-releases/"
@@ -157,11 +157,11 @@
     },
     "applied_ai": {
       "url": "https://openai.com/news/applied-ai/",
-      "last_attempt_at": "2026-10-24T11:38:10+08:00",
-      "last_listing_read_at": "2026-10-24T11:38:10+08:00",
-      "last_complete_scan_at": "2026-10-24T11:38:10+08:00",
+      "last_attempt_at": "2026-10-26T10:23:03+08:00",
+      "last_listing_read_at": "2026-10-26T10:23:03+08:00",
+      "last_complete_scan_at": "2026-10-26T10:23:03+08:00",
       "lookback_start": "2026-09-28",
-      "coverage_end": "2026-10-24",
+      "coverage_end": "2026-10-26",
       "listing_oldest_visible": "2026-06-11",
       "pages": [
         "https://openai.com/news/applied-ai/"
@@ -174,11 +174,11 @@
     },
     "ai_adoption": {
       "url": "https://openai.com/news/ai-adoption/",
-      "last_attempt_at": "2026-10-24T11:38:10+08:00",
-      "last_listing_read_at": "2026-10-24T11:38:10+08:00",
-      "last_complete_scan_at": "2026-10-24T11:38:10+08:00",
+      "last_attempt_at": "2026-10-26T10:23:03+08:00",
+      "last_listing_read_at": "2026-10-26T10:23:03+08:00",
+      "last_complete_scan_at": "2026-10-26T10:23:03+08:00",
       "lookback_start": "2026-09-28",
-      "coverage_end": "2026-10-24",
+      "coverage_end": "2026-10-26",
       "listing_oldest_visible": "2026-03-05",
       "pages": [
         "https://openai.com/news/ai-adoption/"
@@ -226,10 +226,6 @@
             "statement_checked": "俄罗斯类别 5、伊朗媒体 4 与评论 2，以及证据局限"
           }
         ],
-        "media_status": "verified_local_images",
-        "media_note": "从原网页取得传播矩阵、Ervin Hoskins 身份截图及七署名时间线，并逐张目视核验，按原文顺序就近保存。只选择支撑主要讨论的三图，未把其他截图都列为必需附件。时间线生成日期与横轴范围不一致，保留来源日期待澄清，整篇暂不标记 completed。",
-        "selected_images": 3,
-        "all_videos_reviewed": false,
         "source_code_executed": false,
         "papers_close_read": false,
         "review_method": "主执行者逐句事实核对与单独可读性复核"
@@ -283,10 +279,6 @@
             "statement_checked": "44% 的比较口径及产品发布范围"
           }
         ],
-        "media_status": "retry_exhausted",
-        "media_note": "原文包含自行车交互拆解和界面演示。已读说明，但交互与关键可视化未能独立检查，保留媒体重试，不宣称原文无图。",
-        "selected_images": 0,
-        "all_videos_reviewed": false,
         "source_code_executed": false,
         "papers_close_read": false,
         "review_method": "主执行者逐句事实核对与单独可读性复核"
@@ -338,10 +330,6 @@
             "statement_checked": "10 个摘要、尝试题目统计与平均计算估计"
           }
         ],
-        "media_status": "checked_no_key_static_image",
-        "media_note": "已核对完整发布说明，未发现承担论证的关键静态图；GitHub 与 Lean 是主要证据入口。以文字解读完成，外部证明未执行。",
-        "selected_images": 0,
-        "all_videos_reviewed": false,
         "source_code_executed": false,
         "papers_close_read": false,
         "review_method": "主执行者逐句事实核对与单独可读性复核"
@@ -391,10 +379,6 @@
             "statement_checked": "不同推理设置、评分及模拟时间限定"
           }
         ],
-        "media_status": "checked_no_key_static_image",
-        "media_note": "完整正文中可用的核心证据为文本结果表，已在对应讨论处转写并注明原文；未发现需要保存的关键静态图。两段操作视频未播放，不能据此另作视频结论。",
-        "selected_images": 0,
-        "all_videos_reviewed": false,
         "source_code_executed": false,
         "papers_close_read": false,
         "review_method": "主执行者逐句事实核对与单独可读性复核"
@@ -444,10 +428,6 @@
             "statement_checked": "目标误报率、文本长度、领域与英文编辑测试条件"
           }
         ],
-        "media_status": "verified_local_images",
-        "media_note": "两张官方交互图已通过原网页的 Download PNG 导出，逐张目视核对标题、坐标、系列与正文条件，已就近保存。附带技术报告仅用于核对方法说明，未宣称完成全文证明复核。",
-        "selected_images": 2,
-        "all_videos_reviewed": false,
         "source_code_executed": false,
         "papers_close_read": false,
         "review_method": "主执行者逐句事实核对与单独可读性复核"
@@ -501,10 +481,6 @@
             "statement_checked": "规则一致性和长任务协作方式"
           }
         ],
-        "media_status": "checked_no_key_static_image",
-        "media_note": "核心内容为文字流程建议和价格卡片，未发现必要的关键静态图；以文字解读完成，不将客户示例当作独立复现。",
-        "selected_images": 0,
-        "all_videos_reviewed": false,
         "source_code_executed": false,
         "papers_close_read": false,
         "review_method": "主执行者逐句事实核对与单独可读性复核"
@@ -563,10 +539,6 @@
             "statement_checked": "归属不确定性与分层缓解措施"
           }
         ],
-        "media_status": "checked_no_key_static_image",
-        "media_note": "完整通报的关键证据在文字、数量及脚注中，未发现适用的关键静态图；以文字解读完成，外链论文未精读。",
-        "selected_images": 0,
-        "all_videos_reviewed": false,
         "source_code_executed": false,
         "papers_close_read": false,
         "review_method": "主执行者逐句事实核对与单独可读性复核"
@@ -618,10 +590,6 @@
             "statement_checked": "Work/Codex/API 范围、Chat 排除与研究环境差异"
           }
         ],
-        "media_status": "partially_verified",
-        "media_note": "DeepSWE、困难事实错误率和规避警告三张官方图已导出并逐张目视核验。原文另有专业工作、计算机使用、科学任务及安全部署的交互图；尚未逐张完成核验，维持 pending。",
-        "selected_images": 3,
-        "all_videos_reviewed": false,
         "source_code_executed": false,
         "papers_close_read": false,
         "review_method": "主执行者逐句事实核对与单独可读性复核"
@@ -673,10 +641,6 @@
             "statement_checked": "技术三层、调查与残余风险记录"
           }
         ],
-        "media_status": "checked_no_key_static_image",
-        "media_note": "已读完整指南及结尾声明，未发现承担论证的关键静态图；以文字解读完成。",
-        "selected_images": 0,
-        "all_videos_reviewed": false,
         "source_code_executed": false,
         "papers_close_read": false,
         "review_method": "主执行者逐句事实核对与单独可读性复核"
@@ -726,10 +690,6 @@
             "statement_checked": "地区、计划、管理员与 Work/Codex 额度限定"
           }
         ],
-        "media_status": "retry_exhausted",
-        "media_note": "正文产品演示的媒体尚未完成加载和核验。功能说明可由文字阅读支持，图文质量仍留待复查。",
-        "selected_images": 0,
-        "all_videos_reviewed": false,
         "source_code_executed": false,
         "papers_close_read": false,
         "review_method": "主执行者逐句事实核对与单独可读性复核"
@@ -783,10 +743,6 @@
             "statement_checked": "机构、负责人、预期用途核验与持续监控"
           }
         ],
-        "media_status": "pending",
-        "media_note": "页面包含实验室案例切换、生命科学领域卡片和安全访问流程等交互媒体，尚未独立导出与逐张目视核验。",
-        "selected_images": 0,
-        "all_videos_reviewed": false,
         "source_code_executed": false,
         "papers_close_read": false,
         "review_method": "主执行者逐段事实核对与单独可读性复核"
@@ -842,10 +798,6 @@
             "statement_checked": "官方给出 Box、Datadog、Ramp、Sierra、Speak 的早期案例；价格为每百万输入 token 0.10 美元、缓存输入 0.01 美元，不收输"
           }
         ],
-        "media_status": "pending",
-        "media_note": "正文含 GPT‑Live 语音演示、表情交互和示例代码；尚未独立导出与逐项目视核验，保留 pending，不把演示界面当作关键证据图。",
-        "selected_images": 0,
-        "all_videos_reviewed": false,
         "source_code_executed": false,
         "papers_close_read": false,
         "review_method": "主执行者逐句事实核对与单独可读性复核"
@@ -901,10 +853,6 @@
             "statement_checked": "团队将定制应用迁移到以 Codex 为核心的公共 harness，把功能做成技能和插件；文章称移除约 90% 定制代码，第二团队扩展从两个月缩短到一天。"
           }
         ],
-        "media_status": "pending",
-        "media_note": "页面含案例导航与动态内容，正文媒体尚未独立导出和目视核验，保留 pending。",
-        "selected_images": 0,
-        "all_videos_reviewed": false,
         "source_code_executed": false,
         "papers_close_read": false,
         "review_method": "主执行者逐句事实核对与单独可读性复核"
@@ -960,10 +908,6 @@
             "statement_checked": "更新后的 Usage Policies 计划于 11 月 20 日生效，要求模型路由器或 AI 网关先获审查批准；SafetyID 用于调查时区分终端用户而不暴"
           }
         ],
-        "media_status": "pending",
-        "media_note": "正文以文字政策说明为主，未确认有承担论证的关键静态图；页面媒体状态仍保留 pending，待后续独立核验。",
-        "selected_images": 0,
-        "all_videos_reviewed": false,
         "source_code_executed": false,
         "papers_close_read": false,
         "review_method": "主执行者逐句事实核对与单独可读性复核"
@@ -1019,10 +963,6 @@
             "statement_checked": "OpenAI 认为前沿 AI 在攻击者前发现漏洞可形成防御窗口，并承诺 10 亿美元补贴 Daybreak 访问、Codex for OSS 和 Patch t"
           }
         ],
-        "media_status": "pending",
-        "media_note": "正文主要为文字流程和外部安全入口，尚未独立核验关键媒体或代码演示，保留 pending。",
-        "selected_images": 0,
-        "all_videos_reviewed": false,
         "source_code_executed": false,
         "papers_close_read": false,
         "review_method": "主执行者逐句事实核对与单独可读性复核"
@@ -1078,10 +1018,6 @@
             "statement_checked": "在模型和资源固定的对照中，最大工作量时单 Agent 只引用 11 篇文献，分布式 Agent 超过 700 篇；盲评时专家 75% 更偏好分布式解释。"
           }
         ],
-        "media_status": "pending",
-        "media_note": "正文含视频及生物数据图示，尚未独立导出并逐项目视核验，保留 pending。",
-        "selected_images": 0,
-        "all_videos_reviewed": false,
         "source_code_executed": false,
         "papers_close_read": false,
         "review_method": "主执行者逐句事实核对与单独可读性复核"
@@ -1138,10 +1074,6 @@
             "statement_checked": "候选广告经历预算、政策、地域、重复去重、相关性和价值过滤，再进入竞价；即使服务器选中，若未及时到达当前回复，前端也不会展示。"
           }
         ],
-        "media_status": "pending",
-        "media_note": "正文含流程导航和动态系统演示，未完成媒体导出与逐项核验，保留 pending。",
-        "selected_images": 0,
-        "all_videos_reviewed": false,
         "source_code_executed": false,
         "papers_close_read": false,
         "review_method": "主执行者逐句事实核对与单独可读性复核"
@@ -1197,10 +1129,6 @@
             "statement_checked": "GPT‑6.1 Sol 低推理强度准确率 86.6%，高推理强度 97.9%；隐藏测试要求字节级可观察结果一致，低推理强度成本约为 GPT‑5.6 Sol 的 "
           }
         ],
-        "media_status": "pending",
-        "media_note": "正文含语言对比图和评测导航，尚未独立导出并逐项目视核验，保留 pending。",
-        "selected_images": 0,
-        "all_videos_reviewed": false,
         "source_code_executed": false,
         "papers_close_read": false,
         "review_method": "主执行者逐句事实核对与单独可读性复核"
@@ -1250,10 +1178,6 @@
             "statement_checked": "按原文顺序提取的第 1、2、3 项重点与适用条件。"
           }
         ],
-        "media_status": "pending",
-        "media_note": "正文含 Habitat 架构、分区、流量和延迟图示及交互内容；页面媒体尚未独立导出与逐张目视核验，保留 pending。",
-        "selected_images": 0,
-        "all_videos_reviewed": false,
         "source_code_executed": false,
         "papers_close_read": false,
         "review_method": "主执行者逐句事实核对与单独可读性复核"
@@ -1301,10 +1225,6 @@
             "statement_checked": "按原文顺序提取的第 1、2、3 项重点与适用条件。"
           }
         ],
-        "media_status": "pending",
-        "media_note": "正文含隔离架构与红队发现的流程导航，关键证据主要在文字；动态媒体和图示尚未独立导出与逐项目视核验，保留 pending。",
-        "selected_images": 0,
-        "all_videos_reviewed": false,
         "source_code_executed": false,
         "papers_close_read": false,
         "review_method": "主执行者逐句事实核对与单独可读性复核"
@@ -1352,10 +1272,6 @@
             "statement_checked": "按原文顺序提取的第 1、2、3 项重点与适用条件。"
           }
         ],
-        "media_status": "pending",
-        "media_note": "正文主要提供文字摘要并链接完整蓝图 PDF；蓝图附件和页面媒体尚未独立导出、完整阅读与目视核验，保留 pending。",
-        "selected_images": 0,
-        "all_videos_reviewed": false,
         "source_code_executed": false,
         "papers_close_read": false,
         "review_method": "主执行者逐句事实核对与单独可读性复核"
@@ -1374,20 +1290,18 @@
     "reason": "2026-W43 已在 2026-10-25 完成同步后生成并验证。"
   },
   "last_run": {
-    "at": "2026-10-25T10:22:44.842+08:00",
+    "at": "2026-10-26T10:22:32.633+08:00",
     "type": "scheduled_sync",
     "result": "completed_with_pending",
-    "completed_at": "2026-10-25T10:23:12+08:00",
+    "completed_at": "2026-10-26T10:23:03+08:00",
     "new_articles": 0,
     "articles": 21,
     "updated_articles": 0,
     "enriched_articles": 0,
     "updated_urls": [],
     "new_urls": [],
-    "weekly_reports_created": 1,
-    "weekly_report_urls": [
-      "03-周报/2026-W43.md"
-    ],
+    "weekly_reports_created": 0,
+    "weekly_report_urls": [],
     "source_lists_read": 8,
     "source_complete": 7,
     "source_partial": [
@@ -1397,8 +1311,7 @@
     "detail_pending": 15,
     "summary_reviews_passed": 21,
     "pending_candidates": 5,
-    "saved_images": 0,
-    "notification_reason": "weekly_report",
+    "notification_reason": "no_changes_pending_queues",
     "daily_budget": {
       "maximum": 10,
       "reserved_enrichment": 3,
@@ -1413,13 +1326,12 @@
     "summary_reviews_passed": 21,
     "summary_reviews_remaining": 0,
     "errors": [],
-    "checked_at": "2026-10-25T10:23:12+08:00",
+    "checked_at": "2026-10-26T10:23:03+08:00",
     "internal_links_passed": true,
     "metadata_passed": true,
     "source_url_unique": true,
     "user_blocks_preserved": true,
     "first_collected_preserved": true,
-    "images_verified": 6,
     "validation_scope": "正式文章、首页、周报、管理索引与媒体；模板中的路径占位符单独排除，模板未修改。",
     "weekly_report": "03-周报/2026-W43.md",
     "weekly_report_validated": true
@@ -1446,7 +1358,6 @@
       "last_attempt_at": "2026-10-13T14:19:33+08:00",
       "text_processing_status": "read_pending_media",
       "next_attempt": "2026-10-14",
-      "media_status": "retry_exhausted",
       "source_aliases": [
         "https://openai.com/zh-Hans-CN/index/teens-learn-and-plan/"
       ]
@@ -1536,5 +1447,11 @@
       "reason": "截图下载超时、ERR_CONNECTION_CLOSED；浏览器错误页未绕过。",
       "next_attempt": "2026-10-20"
     }
-  ]
+  ],
+  "storage_policy": {
+    "content": "markdown_summary_and_source_links",
+    "media": "omit",
+    "run_snapshots": "omit",
+    "retention": "short_state_only"
+  }
 }

@@ -33,7 +33,7 @@ Anthropic 说明，内部每天合并的代码变化从 2026 年 5 月约 2,500 
 
 Anthropic 的日合并变化量从 5 月约 2,500 次增长到 9 月超过 30,000 次；主分支历史接近 100 GB，压缩工作副本超过 25 GB，每天 CI 约 2,500 万次检出。继续依赖 Git 镜像和种子副本会带来维护、磁盘和历史查询压力。
 
-![每日合并变化量](../../../98-附件/原文配图/scion-source-control-2026-10-13-1.png)
+图示：每日合并变化量
 
 *图 1｜原文展示 2026 年 1 月至 9 月每天合并代码变化量的增长，说明瓶颈来自开发与 Agent 工作量的扩张；来源：[Anthropic Engineering](https://www.anthropic.com/engineering/redesigning-source-control)。*
 
@@ -45,7 +45,7 @@ Scion 假定客户端始终在线，服务端负责历史、差异、合并和 r
 
 Scion 用 changeset 记录相对于父提交改变的文件和内容指针，再从变化集计算 blame、路径历史和提交图等派生数据。提交不需要 packfile、锁或跨服务器协调，派生数据可按需或提前计算，便于在仓库增长时独立扩展。
 
-![Scion 数据结构](../../../98-附件/原文配图/scion-source-control-2026-10-13-2.png)
+图示：Scion 数据结构
 
 *图 2｜原文示意变化集如何引用压缩文件内容，并由派生数据结构支持 blame、路径历史和提交图查询；来源：[Anthropic Engineering](https://www.anthropic.com/engineering/redesigning-source-control)。*
 

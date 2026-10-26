@@ -63,7 +63,7 @@ Anthropic 将 2026 年春季 Claude Code、Agent SDK 和 Cowork 的部分质量�
 
 团队为减少等待把默认强度从 high 改为 medium，随后因反馈回退。
 
-![横轴为总 token，纵轴为内部编码评估得分；两条线比较 Opus 4.6 与 4.7 的推理档位。相同档位不等于相同耗费，图中没有直接绘制用户等待时间。](../../../98-附件/原文配图/ed004fe5aae66a91585d.png)
+图示：横轴为总 token，纵轴为内部编码评估得分；两条线比较 Opus 4.6 与 4.7 的推理档位。相同档位不等于相同耗费，图中没有直接绘制用户等待时间。
 
 *横轴为总 token，纵轴为内部编码评估得分；两条线比较 Opus 4.6 与 4.7 的推理档位。相同档位不等于相同耗费，图中没有直接绘制用户等待时间。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/de3bcf9733b61f57234d8c45e663b1bd48677ea1-3840x2160.png) · [出处](https://www.anthropic.com/engineering/april-23-postmortem)
 

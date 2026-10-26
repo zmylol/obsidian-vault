@@ -33,7 +33,7 @@ Hugging Face 的 tokenizers v1 候选版通过位流切分、词缓存和可复�
 
 ### 结果先限定为编码吞吐量
 
-![逐模型编码吞吐量对比](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/tokenizers-v1-by-model.png)
+图示：逐模型编码吞吐量对比
 
 原文交互图“by model”在比较基线tokenizers 0.23下的原貌快照（2026-09-23），不是重新绘图。横向条形为吞吐量比值：每个家族22个语料，T5为3.33倍、GPT-2为29.83倍；不代表这些模型本身的推理速度。 [交互原图](https://lysandre-tokenizers-v1-results.static.hf.space) · [文章出处](https://huggingface.co/blog/tokenizers-v1)
 

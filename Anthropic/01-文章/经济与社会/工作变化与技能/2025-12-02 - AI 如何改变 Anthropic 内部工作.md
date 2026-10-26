@@ -61,7 +61,7 @@ Anthropic 对 132 名内部工程师和研究者开展调查、访谈其中 53 �
 
 员工自报约六成工作使用 Claude、生产率提高约 50%，另有约 27% 的辅助工作原本不会开展。时间和产出图显示，价值包括尝试此前不值得投入的工具、探索和细节改进。 [原文依据](https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic)
 
-![员工自报各任务的时间与产出变化：横轴是从减少到增加的等级评分，不能当成精确小时数或百分比增幅。](../../../98-附件/原文配图/6a4b9734ac851f9537f8.png)
+图示：员工自报各任务的时间与产出变化：横轴是从减少到增加的等级评分，不能当成精确小时数或百分比增幅。
 
 *员工自报各任务的时间与产出变化：横轴是从减少到增加的等级评分，不能当成精确小时数或百分比增幅。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/9449bf9393743105a414e17324f30970208ce14b-3840x2160.png) · [文章出处](https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic)
 

@@ -73,7 +73,7 @@ Anthropic 于 2026 年 9 月提出 Enterprise Frontier Safeguards，试图兼顾
 
 自动监测向企业安全团队发出告警；示意流程中 Anthropic 接收类别与严重性，不接收客户内容，也不要求由 Anthropic 人工审查内容。 [原文依据](https://www.anthropic.com/news/enterprise-frontier-safeguards)
 
-![请求活动进入客户云内的滚动监测流程，告警由客户安全团队审查；通往 Anthropic 的另一条路径只传递告警类别和严重性。图示为拟议产品流程。](../../../98-附件/原文配图/39616f009ca28cac446a.png)
+图示：请求活动进入客户云内的滚动监测流程，告警由客户安全团队审查；通往 Anthropic 的另一条路径只传递告警类别和严重性。图示为拟议产品流程。
 
 *请求活动进入客户云内的滚动监测流程，告警由客户安全团队审查；通往 Anthropic 的另一条路径只传递告警类别和严重性。图示为拟议产品流程。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/021fdfc765d03eaac26f5d2aa9cb06111b7a9297-3840x4644.png) · [文章出处](https://www.anthropic.com/news/enterprise-frontier-safeguards)
 

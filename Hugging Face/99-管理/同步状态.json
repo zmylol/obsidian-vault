@@ -112,19 +112,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 4,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "David Corvoysier"
@@ -151,19 +140,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 0,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 1
-        },
-        "selected_images": 0,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Leonie Monigatti",
@@ -192,19 +170,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 2,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 1
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Nico Martin",
@@ -232,19 +199,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 5,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 5
-        },
-        "selected_images": 2,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Tom Aarsen"
@@ -271,19 +227,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 4,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 7
-        },
-        "selected_images": 2,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Tom Aarsen",
@@ -312,19 +257,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 13,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 2,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Adina Yakefu",
@@ -353,147 +287,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 0,
-          "svg_content": 0,
-          "video": 6,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false,
-        "video_review": [
-          {
-            "id": 8,
-            "video": 0,
-            "url": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/gradio-workflow-guide/Image%20edit%20workflow%20-%20sample2.mp4",
-            "duration": 4.87,
-            "sample_times": [
-              0.0,
-              0.4058333333333333,
-              0.8116666666666666,
-              1.2175,
-              1.6233333333333333,
-              2.029166666666667,
-              2.435,
-              2.8408333333333338,
-              3.2466666666666666,
-              3.6525,
-              4.058333333333334,
-              4.464166666666666
-            ],
-            "method": "12 evenly spaced frames inspected, not continuous playback"
-          },
-          {
-            "id": 8,
-            "video": 1,
-            "url": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/gradio-workflow-guide/App%2004.mp4",
-            "duration": 17.13,
-            "sample_times": [
-              0.0,
-              1.4275,
-              2.855,
-              4.2825,
-              5.71,
-              7.137499999999999,
-              8.565,
-              9.9925,
-              11.42,
-              12.847499999999998,
-              14.274999999999999,
-              15.702499999999999
-            ],
-            "method": "12 evenly spaced frames inspected, not continuous playback"
-          },
-          {
-            "id": 8,
-            "video": 2,
-            "url": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/gradio-workflow-guide/fan-out-generation-sample1.mp4",
-            "duration": 4.6,
-            "sample_times": [
-              0.0,
-              0.3833333333333333,
-              0.7666666666666666,
-              1.15,
-              1.5333333333333332,
-              1.9166666666666667,
-              2.3,
-              2.683333333333333,
-              3.0666666666666664,
-              3.4499999999999997,
-              3.8333333333333335,
-              4.216666666666666
-            ],
-            "method": "12 evenly spaced frames inspected, not continuous playback"
-          },
-          {
-            "id": 8,
-            "video": 3,
-            "url": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/gradio-workflow-guide/data-detective-sample1.mp4",
-            "duration": 4.83,
-            "sample_times": [
-              0.0,
-              0.4025,
-              0.805,
-              1.2075,
-              1.61,
-              2.0124999999999997,
-              2.415,
-              2.8175000000000003,
-              3.22,
-              3.6225,
-              4.0249999999999995,
-              4.4275
-            ],
-            "method": "12 evenly spaced frames inspected, not continuous playback"
-          },
-          {
-            "id": 8,
-            "video": 4,
-            "url": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/gradio-workflow-guide/zerogpu-animate-sample1.mp4",
-            "duration": 6.6,
-            "sample_times": [
-              0.0,
-              0.5499999999999999,
-              1.0999999999999999,
-              1.6499999999999997,
-              2.1999999999999997,
-              2.75,
-              3.2999999999999994,
-              3.8499999999999996,
-              4.3999999999999995,
-              4.95,
-              5.5,
-              6.05
-            ],
-            "method": "12 evenly spaced frames inspected, not continuous playback"
-          },
-          {
-            "id": 8,
-            "video": 5,
-            "url": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/gradio-workflow-guide/workflow1111-sample2.mp4",
-            "duration": 22.13,
-            "sample_times": [
-              0.0,
-              1.8441666666666665,
-              3.688333333333333,
-              5.5325,
-              7.376666666666666,
-              9.220833333333333,
-              11.065,
-              12.909166666666666,
-              14.753333333333332,
-              16.5975,
-              18.441666666666666,
-              20.285833333333333
-            ],
-            "method": "12 evenly spaced frames inspected, not continuous playback"
-          }
-        ]
+        "papers_close_read": false
       },
       "authors": [
         "Yuvraj Sharma",
@@ -521,19 +316,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 6,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Niels Rogge"
@@ -560,19 +344,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 4,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 1
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Aymeric Roucher",
@@ -601,19 +374,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 2,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 1,
-          "canvas": 0,
-          "tables": 6
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Aamir Shakir",
@@ -646,12 +408,6 @@
       "published_evidence": "页首 Published September 9, 2026",
       "evidence": {
         "body_read": true,
-        "selected_images": 2,
-        "selected_images_visually_checked": true,
-        "media_inventory": {
-          "img": 6,
-          "video": 0
-        },
         "source_code_executed": false,
         "papers_close_read": false
       },
@@ -680,8 +436,6 @@
       "last_checked_at": "2026-09-14T09:48:39.420637+08:00",
       "evidence": {
         "body_read": true,
-        "selected_images": 1,
-        "selected_images_visually_checked": true,
         "source_code_executed": false,
         "papers_close_read": false
       },
@@ -710,11 +464,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "selected_images": 2,
-        "selected_images_visually_checked": true,
         "source_code_executed": false,
         "papers_close_read": false,
-        "all_videos_reviewed": false,
         "scope_note": "结果来自作者基准。模型联合双头与 Sentence Transformers 单头微调接口有区别；性能需按分辨率、批大小和硬件复核。节选两张技术图，其他图及 RAG 演示视频未纳入本次解读，视频未观看。"
       },
       "summary": "NeoMME 用同一个双向编码器处理文字和图像块，避免为视觉文档检索另接预训练视觉塔；检索版一次计算可同时生成整页向量和保留文字与图像区域局部匹配的细粒度向量。作者在 ViDoRe v3 上报告，2.6 亿参数版本的检索排序指标 nDCG@10 为 0.523。对该版本采用 8 倍向量合并、查询 int8 与文档二值化，每页索引向量的平均存储从约 1.5 MB 降到 6 kB，仍保留超过 95% 的未压缩指标值。模型以 Apache 2.0 开放；这些结果限于作者的指定基准与压缩配置。"
@@ -741,11 +492,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "selected_images": 1,
-        "selected_images_visually_checked": true,
         "source_code_executed": false,
         "papers_close_read": false,
-        "all_videos_reviewed": false,
         "scope_note": "只覆盖一个检查点和数据集；单步重放不是跨架构证明。部分区间来自同一运行内重采样，不是独立重复实验。节选五张正文截图中的一张，未操作原文提及的滑块；其他图见原文。"
       },
       "summary": "社区作者用一个 1.87 亿参数 Mamba-3 模型在 GSM8K 上微调，发现 BF16 权重舍入会吞掉小更新，但约 4/3 的过冲比例并不是通用规律。在学习率 2e-4、3,000 步和 5 个种子的对照中，前向与反向计算仍使用 BF16，保持 FP32 优化器动量状态不变，改用 FP32 主权重反而让留出集每 token 损失增加 0.1220 nats。较低学习率的探索出现相反排序，但同时改变了权重和优化器状态精度，不能单独归因于权重存储。结果说明，写入更精确不必然在固定训练设置下学得更好；这一个人实验不能推广为 BF16 普遍优于 FP32。"
@@ -774,11 +522,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "selected_images": 1,
-        "selected_images_visually_checked": true,
         "source_code_executed": false,
         "papers_close_read": false,
-        "all_videos_reviewed": false,
         "scope_note": "数据规模和扩展性属于发布方说明，未独立压测。硬件、过滤选择率和数据库配置会改变结果；暴力近邻真值衡量向量邻近，不能替代人工语义相关性标注。已检查并保留正文唯一技术 SVG。"
       },
       "summary": "Qdrant 与 Vultr 发布基于 FineWeb 的百亿向量基准，并用 Supernova 为 10 万查询计算全库精确 top-1000 近邻，给近似检索提供可比较的召回参照。Supernova 把向量生成、精确近邻计算、数据库导入和搜索压测分开，测量吞吐、延迟分位数及相对真值的召回率；附加 PubMed 数据让不同表示可在同一语料上比较。数据与框架已开放，这是发布方提供的评测基础设施，不是数据库性能胜负结论；精确向量近邻也不等同于人工标注的语义相关性。"
@@ -807,9 +552,6 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "selected_images": 3,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false,
         "source_code_executed": false,
         "papers_close_read": false
       }
@@ -838,9 +580,6 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "selected_images": 1,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false,
         "source_code_executed": false,
         "papers_close_read": false
       }
@@ -871,19 +610,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 2,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -913,42 +641,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 8,
-          "svg_content": 0,
-          "video": 1,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 3
-        },
-        "selected_images": 2,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false,
-        "video_review": [
-          {
-            "id": 11,
-            "video": 0,
-            "url": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/asyncgrpo-lora-hfjobs/kv-prefix-router.mp4",
-            "duration": 59.0,
-            "sample_times": [
-              0.0,
-              4.916666666666667,
-              9.833333333333334,
-              14.75,
-              19.666666666666668,
-              24.583333333333332,
-              29.5,
-              34.416666666666664,
-              39.333333333333336,
-              44.25,
-              49.166666666666664,
-              54.083333333333336
-            ],
-            "method": "12 evenly spaced frames inspected, not continuous playback"
-          }
-        ]
+        "papers_close_read": false
       }
     },
     {
@@ -986,22 +680,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 4,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 2,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false,
-        "external_video_links": [
-          "https://www.youtube.com/watch?v=qlp7EzXe8Pg"
-        ]
+        "papers_close_read": false
       }
     },
     {
@@ -1035,19 +715,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 3,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 4
-        },
-        "selected_images": 2,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1074,19 +743,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 4,
-        "media_inventory": {
-          "img": 1,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 2
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1113,19 +771,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 2,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 1
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1152,19 +799,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 1,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 1
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1191,19 +827,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 1,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1233,19 +858,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 4,
-        "media_inventory": {
-          "img": 0,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 5,
-          "canvas": 0,
-          "tables": 2
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1274,19 +888,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 4,
-        "media_inventory": {
-          "img": 3,
-          "svg_content": 3,
-          "video": 1,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 3
-        },
-        "selected_images": 3,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1313,19 +916,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 4,
-        "media_inventory": {
-          "img": 2,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 1
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1352,19 +944,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 4,
-        "media_inventory": {
-          "img": 3,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 2
-        },
-        "selected_images": 2,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1391,19 +972,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 4,
-        "media_inventory": {
-          "img": 1,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1430,19 +1000,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 4,
-        "media_inventory": {
-          "img": 2,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 5
-        },
-        "selected_images": 2,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1469,19 +1028,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 4,
-        "media_inventory": {
-          "img": 5,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 7
-        },
-        "selected_images": 2,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1508,19 +1056,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 4,
-        "media_inventory": {
-          "img": 2,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 2,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1547,19 +1084,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 4,
-        "media_inventory": {
-          "img": 3,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 2
-        },
-        "selected_images": 2,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     }
   ],
@@ -4137,14 +3663,10 @@
     "broken_local_links": 0,
     "checked_local_links": 497,
     "metadata_and_links": "passed",
-    "selected_images": 50,
-    "raster_images_decoded": 46,
     "svg_xml_validated": 4,
     "personal_content_preserved": true,
-    "all_videos_reviewed": false,
     "homepage_style": "minimal_without_maintenance_counts",
-    "checked_at": "2026-10-02T09:48:18.335814+08:00",
-    "visual_navigation": "passed_in_local_markdown_preview"
+    "checked_at": "2026-10-02T09:48:18.335814+08:00"
   },
   "weekly_reports": {
     "enabled": true,
@@ -4976,5 +4498,11 @@
       "status": "excluded",
       "reason": "主列表推荐位Apr 1，早于2026-09-15回看起点，不自动扩展历史收录"
     }
-  ]
+  ],
+  "storage_policy": {
+    "content": "markdown_summary_and_source_links",
+    "media": "omit",
+    "run_snapshots": "omit",
+    "retention": "short_state_only"
+  }
 }

@@ -65,7 +65,7 @@ Anthropic 于 2026 年 2 月发布 Sonnet 4.6，升级编程、电脑操作和�
 
 发布图中 OSWorld/OSWorld-Verified 系列分数从 Sonnet 4.5 的 61.4% 到 Sonnet 4.6 的 72.5%。任务在受控软件环境中运行，真实网页与工作流程更复杂。 [原文依据](https://www.anthropic.com/news/claude-sonnet-4-6)
 
-![Sonnet 电脑使用成绩随发布时间变化；图中混列 OSWorld 与 OSWorld-Verified 历史阶段，反映评测趋势，不能视为现实操作成功率保证。](../../../98-附件/原文配图/967d944f0c45c04fb5b7.png)
+图示：Sonnet 电脑使用成绩随发布时间变化；图中混列 OSWorld 与 OSWorld-Verified 历史阶段，反映评测趋势，不能视为现实操作成功率保证。
 
 *Sonnet 电脑使用成绩随发布时间变化；图中混列 OSWorld 与 OSWorld-Verified 历史阶段，反映评测趋势，不能视为现实操作成功率保证。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/1206645ef5a618dabce8587b472b21c67a30a0db-3840x1948.png) · [文章出处](https://www.anthropic.com/news/claude-sonnet-4-6)
 

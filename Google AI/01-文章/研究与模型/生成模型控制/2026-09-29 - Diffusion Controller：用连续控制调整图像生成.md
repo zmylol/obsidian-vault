@@ -40,7 +40,7 @@ Google Research 用 Diffusion Controller 把图像去噪过程表述为连续控
 
 灰盒版本把中间反向均值送入可训练的侧网络，将侧适配流与骨干输出结合；白盒 J、S 版本分别采用联合和分开训练。是否能接入这些信号，是复用方法的实际前提。
 
-![冻结骨干向 Diffusion Controller 侧网络传递中间反向均值，两条流合并为输出分数。](../../../98-附件/原文配图/diffusion-controller-architecture.png)
+图示：冻结骨干向 Diffusion Controller 侧网络传递中间反向均值，两条流合并为输出分数。
 
 *图：冻结的是骨干参数，侧网络仍要读取去噪过程中的中间量；[原图](https://storage.googleapis.com/gweb-research2023-media/original_images/DiffusionController2_BackboneFrozen.png) · [文章](https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation/)。*
 
@@ -48,7 +48,7 @@ Google Research 用 Diffusion Controller 把图像去噪过程表述为连续控
 
 实验使用 Stable Diffusion v1.4，覆盖 SFT、RWL、PPO。阅读胜率须同时记录比较对象：下图灰盒对照是 Naive 变体，白盒对照是 LoRA；摘要中的 90% 对照是预训练基线。
 
-![训练结束时不同 Diffusion Controller 方案相对对应基线的 HPS-v2 与人工评价胜率。](../../../98-附件/原文配图/diffusion-controller-winrates.png)
+图示：训练结束时不同 Diffusion Controller 方案相对对应基线的 HPS-v2 与人工评价胜率。
 
 *图：前三幅为 HPS-v2，第四幅为 PPO 人工评价；橙色误差条表示标准差。各组比较对象见图例，不能混用；[原图](https://storage.googleapis.com/gweb-research2023-media/original_images/DiffusionController4_EOTrainingWin.png) · [文章](https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation/)。*
 

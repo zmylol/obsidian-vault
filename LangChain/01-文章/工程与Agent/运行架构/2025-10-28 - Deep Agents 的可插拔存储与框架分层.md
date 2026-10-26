@@ -50,7 +50,7 @@ Deep Agents 0.2 将原先只存于 LangGraph 状态的虚拟文件系统改成�
 
 Deep Agents 提供规划与文件等预设能力，建立在 LangChain Agent 抽象和 LangGraph 运行时之上。
 
-![三层依赖关系说明：上层组合既有能力，下层负责 Agent 循环和运行状态。应按所需控制程度选择入口。](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/76ac45c2217d795776b5.png)
+图示：三层依赖关系说明：上层组合既有能力，下层负责 Agent 循环和运行状态。应按所需控制程度选择入口。
 
 *三层依赖关系说明：上层组合既有能力，下层负责 Agent 循环和运行状态。应按所需控制程度选择入口。* [原图](https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/69cbaa51703c727fd28ad705_Visual-3-5.png) · [文章出处](https://www.langchain.com/blog/doubling-down-on-deepagents)
 

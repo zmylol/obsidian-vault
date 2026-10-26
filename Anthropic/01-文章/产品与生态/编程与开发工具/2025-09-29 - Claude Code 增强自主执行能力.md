@@ -65,7 +65,7 @@ Anthropic 于 2025 年 9 月为 Claude Code 增加 VS Code 扩展、终端 2.0�
 
 VS Code beta 提供侧栏与行内 diff；终端改进状态显示和 Ctrl+r 提示历史搜索。Agent SDK 提供同源工具、上下文管理和权限机制，并支持子代理与 hooks。 [原文依据](https://www.anthropic.com/news/enabling-claude-code-to-work-more-autonomously)
 
-![Claude Code 2.0 终端示例显示最近活动、模型与功能入口，使长任务的状态更容易查看；截图中的路径和活动属于演示。](../../../98-附件/原文配图/32ea24c51f9910543ec7.png)
+图示：Claude Code 2.0 终端示例显示最近活动、模型与功能入口，使长任务的状态更容易查看；截图中的路径和活动属于演示。
 
 *Claude Code 2.0 终端示例显示最近活动、模型与功能入口，使长任务的状态更容易查看；截图中的路径和活动属于演示。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/3613f360926fae004521197488623465eb0cd751-1920x1035.png) · [文章出处](https://www.anthropic.com/news/enabling-claude-code-to-work-more-autonomously)
 

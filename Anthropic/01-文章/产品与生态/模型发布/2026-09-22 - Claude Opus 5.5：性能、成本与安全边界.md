@@ -80,7 +80,7 @@ Anthropic 于 2026 年 9 月 22 日发布 Opus 5.5，称其在多数工作任务
 
 下图节选原文内嵌图表；保留数据与坐标，离线字体采用系统替代。不同推理强度对应不同成本，不能把最高得分与默认价格拼成一个结果。
 
-![Terminal-Bench 4.0：横轴为单次尝试成本（美元，对数刻度），纵轴为得分百分比。橙色 Opus 5.5、绿色 Fable 5.1、黄色 Opus 5、深灰 GPT-6 Astra、浅灰 GPT-5.6 Sol；橙线标出推理强度。默认 med 与高强度点不同，曲线不代表所有业务任务的成本。](../../../98-附件/原文配图/88b0ddda613993453234.svg)
+图示：Terminal-Bench 4.0：横轴为单次尝试成本（美元，对数刻度），纵轴为得分百分比。橙色 Opus 5.5、绿色 Fable 5.1、黄色 Opus 5、深灰 GPT-6 Astra、浅灰 GPT-5.6 Sol；橙线标出推理强度。默认 med 与高强度点不同，曲线不代表所有业务任务的成本。
 
 *Terminal-Bench 4.0：横轴为单次尝试成本（美元，对数刻度），纵轴为得分百分比。橙色 Opus 5.5、绿色 Fable 5.1、黄色 Opus 5、深灰 GPT-6 Astra、浅灰 GPT-5.6 Sol；橙线标出推理强度。默认 med 与高强度点不同，曲线不代表所有业务任务的成本。* [原图所在章节](https://www.anthropic.com/claude-opus-5-5#performance-and-cost-effectiveness) · [文章出处](https://www.anthropic.com/claude-opus-5-5)
 

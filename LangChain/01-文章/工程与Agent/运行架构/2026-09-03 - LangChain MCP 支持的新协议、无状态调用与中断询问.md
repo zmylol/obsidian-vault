@@ -42,11 +42,11 @@ LangChain 将 MCP 工具接入并入 Python 主包，由 FastMCP 为每个连接
 
 原文对比旧版先握手取得 session ID、随后携带它调用工具，与新版自带版本和身份的独立请求。服务部署因此可减少对粘性路由和共享 session store 的依赖。
 
-![原文比较 2025-11-25 与 2026-07-28 协议：左侧先初始化再带 session ID 调用，右侧省去会话握手。](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/67bf422270708cc2188a.png)
+图示：原文比较 2025-11-25 与 2026-07-28 协议：左侧先初始化再带 session ID 调用，右侧省去会话握手。
 
 *原文比较 2025-11-25 与 2026-07-28 协议：左侧先初始化再带 session ID 调用，右侧省去会话握手。* [原图](https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6a99a89cedef6b0a2f29359a_mcp-request-flow.png) · [文章出处](https://www.langchain.com/blog/mcp-in-langchain-stateless-protocol-elicitation-and-more)
 
-![三副本拓扑对比：旧会话绑定到持有它的实例；无状态请求可由不同实例响应。图示为原文协议模型。](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/8f2c3cb09b7c289e913c.png)
+图示：三副本拓扑对比：旧会话绑定到持有它的实例；无状态请求可由不同实例响应。图示为原文协议模型。
 
 *三副本拓扑对比：旧会话绑定到持有它的实例；无状态请求可由不同实例响应。图示为原文协议模型。* [原图](https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6a99a8aee0028cebca2f82a6_mcp-stateless-topology.png) · [文章出处](https://www.langchain.com/blog/mcp-in-langchain-stateless-protocol-elicitation-and-more)
 

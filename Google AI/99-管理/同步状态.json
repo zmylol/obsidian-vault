@@ -283,16 +283,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "technical_figures": 1,
-          "illustrative_cover": 1
-        },
-        "selected_images": 1,
-        "selected_images_visually_checked": true,
         "source_code_executed": false,
         "papers_close_read": false,
-        "all_videos_reviewed": false,
-        "media_review_scope": "所选技术配图已可视核对；正文完整读，外链论文未精读。",
         "summary_review": {
           "at": "2026-10-13T13:27:40+08:00",
           "method": "独立审阅代理逐句事实核验与脱离标题可读性检查；主执行者修正后重查",
@@ -327,17 +319,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 3,
-          "video": 0,
-          "gif": 0
-        },
-        "selected_images": 2,
-        "selected_images_visually_checked": true,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "all_videos_reviewed": false,
-        "media_review_scope": "已检查所选原图；其余媒体为明确列出的节选范围"
+        "papers_close_read": false
       },
       "authors": [
         "Eugene Bagdasarian",
@@ -367,15 +350,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "technical_figures": 2
-        },
-        "selected_images": 2,
-        "selected_images_visually_checked": true,
         "source_code_executed": false,
         "papers_close_read": false,
-        "all_videos_reviewed": false,
-        "media_review_scope": "所选技术配图已可视核对；正文完整读，外链论文未精读。",
         "summary_review": {
           "at": "2026-10-13T13:27:40+08:00",
           "method": "独立审阅代理逐句事实核验与脱离标题可读性检查；主执行者修正后重查",
@@ -410,17 +386,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 6,
-          "video": 2,
-          "gif": 0
-        },
-        "selected_images": 2,
-        "selected_images_visually_checked": true,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "all_videos_reviewed": false,
-        "media_review_scope": "已检查所选原图；其余媒体为明确列出的节选范围"
+        "papers_close_read": false
       },
       "authors": [
         "Maarten Grootendorst",
@@ -456,17 +423,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 0,
-          "video": 0,
-          "gif": 2
-        },
-        "selected_images": 2,
-        "selected_images_visually_checked": true,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "all_videos_reviewed": false,
-        "media_review_scope": "技术原图可视核对；MCP两个GIF各抽查6帧，未逐帧观看；Embedding两个视频未观看"
+        "papers_close_read": false
       },
       "authors": [
         "Prosper Nwankpa",
@@ -504,17 +462,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 9,
-          "video": 0,
-          "gif": 0
-        },
-        "selected_images": 2,
-        "selected_images_visually_checked": true,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "all_videos_reviewed": false,
-        "media_review_scope": "已检查所选原图；其余媒体为明确列出的节选范围"
+        "papers_close_read": false
       },
       "last_recheck": {
         "at": "2026-10-15T17:07:08+08:00",
@@ -549,17 +498,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 2,
-          "video": 0,
-          "gif": 0
-        },
-        "selected_images": 1,
-        "selected_images_visually_checked": true,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "all_videos_reviewed": false,
-        "media_review_scope": "已检查所选原图；其余媒体为明确列出的节选范围"
+        "papers_close_read": false
       },
       "last_recheck": {
         "at": "2026-10-15T17:07:08+08:00",
@@ -596,12 +536,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "selected_images": 1,
-        "selected_images_visually_checked": true,
         "source_code_executed": false,
         "papers_close_read": false,
-        "all_videos_reviewed": false,
-        "media_review_scope": "所选静态图已可视核对；TimesFM原GIF121帧抽查6帧。Argon保留9月预告基准图，新增视频/模型卡未覆盖；Earth概览动画与案例视频未完整覆盖。",
         "summary_review": {
           "at": "2026-10-15T17:07:08+08:00",
           "method": "独立审阅代理逐句事实检查及脱离标题可读性复核；主执行者修正后再核对",
@@ -666,16 +602,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "technical_figures": 4,
-          "hero_gif": 1
-        },
-        "selected_images": 2,
-        "selected_images_visually_checked": true,
         "source_code_executed": false,
         "papers_close_read": false,
-        "all_videos_reviewed": false,
-        "media_review_scope": "所有选用图片均可解码并人工可视核对；Argon GIF实际1帧。Diffusion示例矩阵、训练曲线和封面动画未完整覆盖。",
         "summary_review": {
           "at": "2026-10-13T13:27:40+08:00",
           "method": "独立审阅代理逐句事实核验与脱离标题可读性检查；主执行者修正后重查",
@@ -710,12 +638,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "selected_images": 2,
-        "selected_images_visually_checked": true,
         "source_code_executed": false,
         "papers_close_read": false,
-        "all_videos_reviewed": false,
-        "media_review_scope": "所选静态图已可视核对；TimesFM原GIF121帧抽查6帧。Argon保留9月预告基准图，新增视频/模型卡未覆盖；Earth概览动画与案例视频未完整覆盖。",
         "summary_review": {
           "at": "2026-10-15T17:07:08+08:00",
           "method": "独立审阅代理逐句事实检查及脱离标题可读性复核；主执行者修正后再核对",
@@ -750,12 +674,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "selected_images": 2,
-        "selected_images_visually_checked": true,
         "source_code_executed": false,
         "papers_close_read": false,
-        "all_videos_reviewed": false,
-        "media_review_scope": "所选静态图已可视核对；TimesFM原GIF121帧抽查6帧。Argon保留9月预告基准图，新增视频/模型卡未覆盖；Earth概览动画与案例视频未完整覆盖。",
         "summary_review": {
           "at": "2026-10-15T17:07:08+08:00",
           "method": "独立审阅代理逐句事实检查及脱离标题可读性复核；主执行者修正后再核对",
@@ -790,12 +710,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "selected_images": 1,
-        "selected_images_visually_checked": true,
         "source_code_executed": false,
         "papers_close_read": false,
-        "all_videos_reviewed": false,
-        "media_review_scope": "所选静态图已可视核对；TimesFM原GIF121帧抽查6帧。Argon保留9月预告基准图，新增视频/模型卡未覆盖；Earth概览动画与案例视频未完整覆盖。",
         "summary_review": {
           "at": "2026-10-15T17:07:08+08:00",
           "method": "独立审阅代理逐句事实检查及脱离标题可读性复核；主执行者修正后再核对",
@@ -832,17 +748,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 1,
-          "video": 0,
-          "gif": 0
-        },
-        "selected_images": 1,
-        "selected_images_visually_checked": true,
         "source_code_executed": false,
         "papers_close_read": false,
-        "all_videos_reviewed": false,
-        "media_review_scope": "所选原图已可视核对；代码与视频未运行或观看。",
         "summary_review": {
           "at": "2026-10-19T09:58:43+08:00",
           "method": "独立审阅代理逐句事实核验与脱离标题可读性复核；主执行者复查",
@@ -876,17 +783,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 1,
-          "video": 0,
-          "gif": 0
-        },
-        "selected_images": 1,
-        "selected_images_visually_checked": true,
         "source_code_executed": false,
         "papers_close_read": false,
-        "all_videos_reviewed": false,
-        "media_review_scope": "所选原图已可视核对；代码与视频未运行或观看。",
         "summary_review": {
           "at": "2026-10-19T09:58:43+08:00",
           "method": "独立审阅代理逐句事实核验与脱离标题可读性复核；主执行者复查",
@@ -913,16 +811,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "technical_figures": 2,
-          "illustrative_cover": 0
-        },
-        "selected_images": 2,
-        "selected_images_visually_checked": true,
         "source_code_executed": false,
         "papers_close_read": false,
-        "all_videos_reviewed": false,
-        "media_review_scope": "所选技术配图已下载并可视核对；正文完整读，外链论文/代码/视频未全覆盖。",
         "summary_review": {
           "at": "2026-10-26T08:54:25+08:00",
           "method": "执行者第二遍逐句事实核对与脱离正文可读性检查（独立审阅代理本轮不可用）",
@@ -956,16 +846,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "technical_figures": 2,
-          "illustrative_cover": 0
-        },
-        "selected_images": 2,
-        "selected_images_visually_checked": true,
         "source_code_executed": false,
         "papers_close_read": false,
-        "all_videos_reviewed": false,
-        "media_review_scope": "所选技术配图已下载并可视核对；正文完整读，外链论文/代码/视频未全覆盖。",
         "summary_review": {
           "at": "2026-10-26T08:54:25+08:00",
           "method": "执行者第二遍逐句事实核对与脱离正文可读性检查（独立审阅代理本轮不可用）",
@@ -2149,7 +2031,6 @@
     "detail_status_counts": {
       "completed": 16
     },
-    "selected_media_decoded": true,
     "user_content_preserved": true,
     "links_and_anchors_valid": true,
     "weekly_report_generated": "2026-W43",
@@ -2177,5 +2058,11 @@
     "missing_reports": [],
     "current_week": "2026-W42",
     "current_week_report_due": "2026-10-18"
+  },
+  "storage_policy": {
+    "content": "markdown_summary_and_source_links",
+    "media": "omit",
+    "run_snapshots": "omit",
+    "retention": "short_state_only"
   }
 }

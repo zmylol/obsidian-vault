@@ -17,3 +17,15 @@
 # Trash folders
 .trash/
 .Trash/
+
+# Long-term vault policy: keep Markdown summaries, source URLs and short state only.
+# Media and generated evidence stay local and are never synced.
+**/98-附件/
+**/附件/
+**/99-管理/.运行记录/
+**/99-管理/图片来源清单.*
+
+# Plugin bundles are reinstallable; keep their small settings files only.
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/*.css
+.obsidian/plugins/*/obsidian_askpass.sh

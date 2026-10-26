@@ -34,7 +34,7 @@ IBM 发布约 3.85 亿参数的 PatchTST-FM-r2，用结合注意力与时序卷�
 
 作者按可复现、无测试泄漏的零样本模型比较，报告截至 9 月 8 日排名第二。不同训练条件的榜单不可混用。
 
-![零样本 CRPS](../../../98-附件/原文配图/ibm-r2-crps.png)
+图示：零样本 CRPS
 
 图 1：CRPS 越低越好；图内标注 2026-08-31，r2 为 0.4672，正文四舍五入为 0.467。保留图文日期差异，不把图当作实时榜单。[原图](https://cdn-uploads.huggingface.co/production/uploads/64b01b5252349201f972ba17/EHyv5DrZggfNQPIZzZ-Lk.png) · [文章](https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series)
 
@@ -42,7 +42,7 @@ IBM 发布约 3.85 亿参数的 PatchTST-FM-r2，用结合注意力与时序卷�
 
 Conformer 让卷积处理局部结构、注意力处理长距离关系；重叠 patch 缓和预测边界。
 
-![架构变化](../../../98-附件/原文配图/ibm-r2-architecture.png)
+图示：架构变化
 
 图 5：左侧 20 层 Transformer，右侧 30 层 Conformer；新增卷积与半步前馈结构。[原图](https://cdn-uploads.huggingface.co/production/uploads/64b01b5252349201f972ba17/gYPoFfbdOqaT9nZmABON1.png) · [文章](https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series)
 

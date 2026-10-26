@@ -76,7 +76,7 @@ quality_evidence:
 
 Schwartz 将精确计算方法积累为 BootLoops 工具，先寻找能核对答案的问题，再请专家判断研究价值；技术上可解不等于科学上重要。
 
-![作者用黄色表示科学家想解决的问题、粉色表示 AI 当前能处理的问题，交叠处是适合本代 Claude 的题目。这是选题思路示意，没有量化面积、坐标或成功率。](../../../98-附件/原文配图/b8681eeb0404f804f085.jpg)
+图示：作者用黄色表示科学家想解决的问题、粉色表示 AI 当前能处理的问题，交叠处是适合本代 Claude 的题目。这是选题思路示意，没有量化面积、坐标或成功率。
 
 *作者用黄色表示科学家想解决的问题、粉色表示 AI 当前能处理的问题，交叠处是适合本代 Claude 的题目。这是选题思路示意，没有量化面积、坐标或成功率。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/3597334d1c81f41606991f90305069407e2cbabd-1920x1080.jpg) · [文章出处](https://www.anthropic.com/research/claude-shaped-science)
 
@@ -84,7 +84,7 @@ Schwartz 将精确计算方法积累为 BootLoops 工具，先寻找能核对答
 
 作者称工具加速了中性生态模型计算，但专家 O’Dwyer 更关注偏离中性假设的部分，继而研究树种策略。这说明领域判断会改变计算服务的问题。
 
-![左侧三角形用 hardy（长寿）、vigorous（旺盛生长）、fruitful（繁殖）三种策略定位树种；右侧美国森林图沿用这些颜色，标尺为 500 公里。这展示生态模型的策略分类与地理分布，不能当作对 AI 科研成效的因果验证。](../../../98-附件/原文配图/aba7717f92e66ee22c9c.jpg)
+图示：左侧三角形用 hardy（长寿）、vigorous（旺盛生长）、fruitful（繁殖）三种策略定位树种；右侧美国森林图沿用这些颜色，标尺为 500 公里。这展示生态模型的策略分类与地理分布，不能当作对 AI 科研成效的因果验证。
 
 *左侧三角形用 hardy（长寿）、vigorous（旺盛生长）、fruitful（繁殖）三种策略定位树种；右侧美国森林图沿用这些颜色，标尺为 500 公里。这展示生态模型的策略分类与地理分布，不能当作对 AI 科研成效的因果验证。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/ae837326f5eabe0015fdf773e96441e6c35a607a-1796x698.jpg) · [文章出处](https://www.anthropic.com/research/claude-shaped-science)
 

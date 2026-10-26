@@ -42,7 +42,7 @@ Managed Deep Agents v0.9 新增三类能力：Agent 可在对话中创建一次�
 
 原文先说明核心机制，再给出代码或配置示例。以下解读只保留与架构和部署直接相关的内容，不把产品发布说明写成通用性能结论。
 
-![同一托管部署可依据本次运行的上下文选择模型、指令、Skills、MCP 服务器和沙箱；这是配置关系示意，不是性能结果。](../../../98-附件/原文配图/55f10e8949b402576c7c.png)
+图示：同一托管部署可依据本次运行的上下文选择模型、指令、Skills、MCP 服务器和沙箱；这是配置关系示意，不是性能结果。
 
 *同一托管部署可依据本次运行的上下文选择模型、指令、Skills、MCP 服务器和沙箱；这是配置关系示意，不是性能结果。* [原图](https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6ac688d5a8939eacd9bab235_Managed%20Deep%20Agents%20configure%20agents%20per%20run.png) · [文章出处](https://www.langchain.com/blog/managed-deep-agents-schedules-per-run-configuration-slack)
 

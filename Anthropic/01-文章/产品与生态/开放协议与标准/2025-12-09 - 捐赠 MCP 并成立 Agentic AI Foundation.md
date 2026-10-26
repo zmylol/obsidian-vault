@@ -66,7 +66,7 @@ Anthropic 于 2025 年 12 月将 MCP 捐赠给 Linux Foundation 旗下 Agentic A
 
 文中统计已有超过一万个活跃公开 MCP server、多个主要 AI 平台采用，以及 Python、TypeScript SDK 每月超过 9,700 万次下载。时间线显示规范、注册目录和云部署同步发展。 [原文依据](https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation)
 
-![MCP 首年时间线：从 2024 年首次规范到 2025 年多平台采用、Registry 上线及加入 Linux Foundation。图中数量均属相应阶段的历史统计。](../../../98-附件/原文配图/65a31e417402d7af1d5c.png)
+图示：MCP 首年时间线：从 2024 年首次规范到 2025 年多平台采用、Registry 上线及加入 Linux Foundation。图中数量均属相应阶段的历史统计。
 
 *MCP 首年时间线：从 2024 年首次规范到 2025 年多平台采用、Registry 上线及加入 Linux Foundation。图中数量均属相应阶段的历史统计。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/a056db8301f67466de34a19181e7428ec6b6e17f-1920x2500.png) · [文章出处](https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation)
 

@@ -66,7 +66,7 @@ Anthropic 于 2025 年 11 月发布 Claude Opus 4.5，主打复杂编码、长�
 
 SWE-bench Verified 图显示 Opus 4.5 处于领先位置；当前正文抓取未保留图中可核对的精确分数，不能在此复述具体数值。内部两小时招聘测验超过历史候选人的结果使用了并行测试时计算，且不测协作等完整工程能力。 [原文依据](https://www.anthropic.com/news/claude-opus-4-5)
 
-![Opus 4.5 发布页的 SWE-bench Verified 主结果比较；纵轴使用断轴，柱高视觉差异不能直接当作能力倍数。](../../../98-附件/原文配图/6344bfdf0cf6dad09948.png)
+图示：Opus 4.5 发布页的 SWE-bench Verified 主结果比较；纵轴使用断轴，柱高视觉差异不能直接当作能力倍数。
 
 *Opus 4.5 发布页的 SWE-bench Verified 主结果比较；纵轴使用断轴，柱高视觉差异不能直接当作能力倍数。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/7022a87aeb6eab1458d68412bc927306224ea9eb-3840x2160.png) · [文章出处](https://www.anthropic.com/news/claude-opus-4-5)
 

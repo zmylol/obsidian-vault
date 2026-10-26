@@ -62,7 +62,7 @@ Anthropic 于 2026 年 6 月发布 Sonnet 5，定位为更具代理性的 Sonnet
 
 BrowseComp 曲线中 Sonnet 5 在较低预算已有提升，提高 effort 后可接近 Opus 4.8。图的横轴是每任务美元成本且为对数刻度，纵轴为通过率。 [原文依据](https://www.anthropic.com/news/claude-sonnet-5)
 
-![BrowseComp 的成本—通过率曲线：橙色 Sonnet 5、黄色 Opus 4.8、灰色 Sonnet 4.6。图使用 Sonnet 5 旧标准价，8 月价格调整后实际费用更低。](../../../98-附件/原文配图/166797ea6fbdef7b43a0.png)
+图示：BrowseComp 的成本—通过率曲线：橙色 Sonnet 5、黄色 Opus 4.8、灰色 Sonnet 4.6。图使用 Sonnet 5 旧标准价，8 月价格调整后实际费用更低。
 
 *BrowseComp 的成本—通过率曲线：橙色 Sonnet 5、黄色 Opus 4.8、灰色 Sonnet 4.6。图使用 Sonnet 5 旧标准价，8 月价格调整后实际费用更低。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/cd0df787f39b6408dcba539fba93f817f2f3c0b4-3840x2160.png) · [文章出处](https://www.anthropic.com/news/claude-sonnet-5)
 

@@ -50,7 +50,7 @@ Delta channels 避免每步重复保存全部历史。团队模拟 200 轮多文
 
 Context Hub 后端把影响行为的文件放入可版本化存储；流式事件提供消息、工具和子任务的过程更新。
 
-![Context Hub 为 Agent 行为相关文件提供共享与版本管理位置，连接一次运行中的修改和后续运行的上下文。](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/a5a36a44219ed0102fd9.png)
+图示：Context Hub 为 Agent 行为相关文件提供共享与版本管理位置，连接一次运行中的修改和后续运行的上下文。
 
 *Context Hub 为 Agent 行为相关文件提供共享与版本管理位置，连接一次运行中的修改和后续运行的上下文。* [原图](https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6a02201c12822b49ff00901d_context-hub-1.png) · [文章出处](https://www.langchain.com/blog/deep-agents-0-6)
 

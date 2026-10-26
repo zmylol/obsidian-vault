@@ -71,7 +71,7 @@ Claude Opus 5 以每百万输入 5 美元、输出 25 美元的基础价格，�
 
 文中举例说明模型会制作检查工具、追查根因；自动行为审计总分为 2.30，低于图中其他近期模型。该分数反映测试中的异常行为，不能替代真实运行验证。 [原文依据](https://www.anthropic.com/news/claude-opus-5)
 
-![自动行为审计：Opus 5 为 2.30，纵轴为 1–10 的异常行为评分，越低越好；这不是百分比风险概率。](../../../98-附件/原文配图/829039fb78705ad8f5af.png)
+图示：自动行为审计：Opus 5 为 2.30，纵轴为 1–10 的异常行为评分，越低越好；这不是百分比风险概率。
 
 *自动行为审计：Opus 5 为 2.30，纵轴为 1–10 的异常行为评分，越低越好；这不是百分比风险概率。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/76d4af96516ffca2aceb4c1d0b0a83e2720d874b-3840x2160.png) · [文章出处](https://www.anthropic.com/news/claude-opus-5)
 

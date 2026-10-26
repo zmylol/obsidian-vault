@@ -75,7 +75,7 @@ Anthropic 与 GivingTuesday 推出 Claude for Nonprofits，将最高 75% 的 Tea
 
 文章展示从招生、出勤、学业评估、志愿者与财务数据生成影响力报告，并提供免费的公益 AI 素养课程。 [原文依据](https://www.anthropic.com/news/claude-for-nonprofits)
 
-![影响力报告制作示例：左侧给出机构原始资料与需求，右侧生成 PDF。347 名学生等数字属于演示报告，不能当作产品效果。](../../../98-附件/原文配图/4c5cf91f2d456206310d.png)
+图示：影响力报告制作示例：左侧给出机构原始资料与需求，右侧生成 PDF。347 名学生等数字属于演示报告，不能当作产品效果。
 
 *影响力报告制作示例：左侧给出机构原始资料与需求，右侧生成 PDF。347 名学生等数字属于演示报告，不能当作产品效果。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/9c7c7aa7021fbf1d1f8ab088772a8fd0b9864e6b-1920x1080.png) · [文章出处](https://www.anthropic.com/news/claude-for-nonprofits)
 

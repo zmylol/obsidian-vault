@@ -107,19 +107,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 11,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 2,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "The LangChain Team"
@@ -146,19 +135,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 0,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 0,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Harrison Chase"
@@ -185,19 +163,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 3,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "The LangChain Team"
@@ -224,19 +191,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 2,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 1
-        },
-        "selected_images": 2,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Sydney Runkle",
@@ -264,19 +220,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 9,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 2,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "The LangChain Team"
@@ -303,19 +248,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 8,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 1
-        },
-        "selected_images": 2,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Sydney Runkle",
@@ -344,19 +278,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 1,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Nick Hollon",
@@ -385,19 +308,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 0,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 1
-        },
-        "selected_images": 0,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "The LangChain Team"
@@ -424,19 +336,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 4,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Sydney Runkle"
@@ -463,19 +364,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 3,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 2,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Sydney Runkle"
@@ -502,19 +392,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 2,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Victor Moreira"
@@ -542,19 +421,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 2,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 2,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Thushanth Bengre",
@@ -583,19 +451,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 3,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 2,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Sydney Runkle"
@@ -623,19 +480,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 1,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Vivek Trivedy",
@@ -664,19 +510,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 1,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 2
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Colin Francis"
@@ -706,19 +541,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 1,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 1,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Jake Broekhuizen",
@@ -748,19 +572,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 0,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 0,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Nick Bray",
@@ -789,19 +602,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 1,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Eric Johanson"
@@ -829,19 +631,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 2,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 2,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Nick Hollon"
@@ -869,19 +660,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 3,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 2,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Amy Ru"
@@ -913,19 +693,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 1,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 1,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "last_enriched_at": "2026-09-14T09:39:26.158971+08:00",
       "last_source_change_detected": false
@@ -953,19 +722,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 1,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 1,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "last_enriched_at": "2026-09-14T09:39:26.158971+08:00",
       "last_source_change_detected": false
@@ -993,19 +751,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 4,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "last_enriched_at": "2026-09-14T09:39:26.158971+08:00",
       "last_source_change_detected": false
@@ -1034,19 +781,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 3,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1072,19 +808,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 0,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 0,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "last_enriched_at": "2026-09-14T09:39:26.158971+08:00",
       "last_source_change_detected": false
@@ -1114,19 +839,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 7,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 2,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1152,19 +866,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 4,
-        "media_inventory": {
-          "img": 7,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 3,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "last_enriched_at": "2026-09-16T09:30:47.338416+08:00"
     },
@@ -1191,19 +894,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 4,
-        "media_inventory": {
-          "img": 0,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 1
-        },
-        "selected_images": 0,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1229,19 +921,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 1,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1267,19 +948,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 1,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1307,19 +977,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 5,
-        "media_inventory": {
-          "img": 8,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 4,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1345,19 +1004,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 8,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 3,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1384,19 +1032,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 1,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1423,19 +1060,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 4,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 2,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1461,19 +1087,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 4,
-        "media_inventory": {
-          "img": 0,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 0,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1500,19 +1115,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 5,
-        "media_inventory": {
-          "img": 13,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 4,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1538,19 +1142,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 5,
-        "media_inventory": {
-          "img": 3,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 3,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1576,19 +1169,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 5,
-        "media_inventory": {
-          "img": 8,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 4,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1615,19 +1197,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 2,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 1,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 2,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1654,19 +1225,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 4,
-        "media_inventory": {
-          "img": 2,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 1,
-          "canvas": 0,
-          "tables": 1
-        },
-        "selected_images": 2,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1693,19 +1253,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 2,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 1,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 2,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1733,19 +1282,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 2,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 1,
-          "canvas": 0,
-          "tables": 2
-        },
-        "selected_images": 2,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1772,19 +1310,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 4,
-        "media_inventory": {
-          "img": 1,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 1,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1811,19 +1338,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 5,
-        "media_inventory": {
-          "img": 4,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 2,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 4,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1850,19 +1366,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 4,
-        "media_inventory": {
-          "img": 5,
-          "svg_content": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "tables": 0
-        },
-        "selected_images": 4,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       }
     },
     {
@@ -1884,19 +1389,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 2,
-        "media_inventory": {
-          "img": 13,
-          "svg": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "table": 0
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Sydney Runkle"
@@ -1923,19 +1417,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 2,
-        "media_inventory": {
-          "img": 1,
-          "svg": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "table": 0
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Nathan Drezner"
@@ -1962,19 +1445,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 1,
-          "svg": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "table": 0
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Oliver Armstrong"
@@ -2001,19 +1473,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 2,
-          "svg": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "table": 0
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Srimanth Tangedipalli",
@@ -2042,19 +1503,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 2,
-          "svg": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "table": 0
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Nathan Drezner"
@@ -2081,19 +1531,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 0,
-          "svg": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "table": 0
-        },
-        "selected_images": 0,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": false,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Sofia Sulikowski"
@@ -2120,19 +1559,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 5,
-          "svg": 0,
-          "video": 0,
-          "iframe": 1,
-          "canvas": 0,
-          "table": 0
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Arjun Natarajan",
@@ -2161,19 +1589,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 3,
-        "media_inventory": {
-          "img": 3,
-          "svg": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "table": 0
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Sydney Runkle",
@@ -2202,19 +1619,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 4,
-        "media_inventory": {
-          "img": 7,
-          "svg": 0,
-          "video": 0,
-          "iframe": 0,
-          "canvas": 0,
-          "table": 0
-        },
-        "selected_images": 2,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Divya Santhanam"
@@ -2241,19 +1647,8 @@
         "body_read": true,
         "summary": true,
         "specific_points": 4,
-        "media_inventory": {
-          "img": 7,
-          "svg": 0,
-          "video": 0,
-          "iframe": 1,
-          "canvas": 0,
-          "table": 0
-        },
-        "selected_images": 1,
         "source_code_executed": false,
-        "papers_close_read": false,
-        "selected_images_visually_checked": true,
-        "all_videos_reviewed": false
+        "papers_close_read": false
       },
       "authors": [
         "Jess Weng"
@@ -2306,13 +1701,8 @@
     "metadata_and_links": "passed",
     "broken_local_links": 0,
     "duplicate_source_urls": 0,
-    "selected_images_decoded": 87,
-    "all_selected_images_decoded": true,
-    "current_batch_images_visually_checked": 2,
     "personal_content_preserved": true,
-    "protected_user_blocks": 65,
-    "visual_navigation": "navigation changed; source list and article links require visual check",
-    "all_videos_reviewed": false
+    "protected_user_blocks": 65
   },
   "weekly_reports": {
     "enabled": true,
@@ -2851,7 +2241,6 @@
       "new_count": 0,
       "enriched_count": 10,
       "source_updates": 0,
-      "media_refresh_count": 1,
       "quality_pending_count": 10,
       "pending_new_count": 0,
       "completed_at": "2026-09-14T09:43:29.552186+08:00",
@@ -2879,7 +2268,6 @@
       "new_count": 1,
       "enriched_count": 1,
       "source_updates": 0,
-      "media_refresh_count": 1,
       "source_update_assessment": "5篇回查正文未变；欧洲案例正文只有排版与图题差异，配图换版按旧文图文深化计，无新增技术结论。",
       "quality_pending_count": 1,
       "pending_new_count": 0,
@@ -2895,7 +2283,6 @@
       "new_count": 0,
       "enriched_count": 0,
       "source_updates": 0,
-      "media_refresh_count": 0,
       "quality_pending_count": 1,
       "pending_new_count": 0,
       "revisited_count": 5,
@@ -2910,7 +2297,6 @@
       "new_count": 3,
       "enriched_count": 0,
       "source_updates": 0,
-      "media_refresh_count": 0,
       "quality_pending_count": 1,
       "pending_new_count": 0,
       "revisited_count": 5,
@@ -2925,7 +2311,6 @@
       "new_count": 1,
       "enriched_count": 0,
       "source_updates": 0,
-      "media_refresh_count": 0,
       "quality_pending_count": 1,
       "pending_new_count": 0,
       "revisited_count": 5,
@@ -2940,7 +2325,6 @@
       "new_count": 0,
       "enriched_count": 0,
       "source_updates": 1,
-      "media_refresh_count": 0,
       "quality_pending_count": 1,
       "pending_new_count": 0,
       "revisited_count": 5,
@@ -2955,7 +2339,6 @@
       "new_count": 2,
       "enriched_count": 0,
       "source_updates": 1,
-      "media_refresh_count": 0,
       "quality_pending_count": 1,
       "pending_new_count": 0,
       "revisited_count": 6,
@@ -2971,7 +2354,6 @@
       "new_count": 0,
       "enriched_count": 0,
       "source_updates": 0,
-      "media_refresh_count": 0,
       "quality_pending_count": 1,
       "pending_new_count": 0,
       "revisited_count": 5,
@@ -2986,7 +2368,6 @@
       "new_count": 5,
       "enriched_count": 0,
       "source_updates": 0,
-      "media_refresh_count": 0,
       "quality_pending_count": 1,
       "pending_new_count": 0,
       "revisited_count": 6,
@@ -3001,7 +2382,6 @@
       "new_count": 1,
       "enriched_count": 0,
       "source_updates": 0,
-      "media_refresh_count": 0,
       "quality_pending_count": 1,
       "pending_new_count": 0,
       "revisited_count": 5,
@@ -3017,7 +2397,6 @@
       "new_count": 0,
       "enriched_count": 0,
       "source_updates": 0,
-      "media_refresh_count": 0,
       "quality_pending_count": 1,
       "pending_new_count": 0,
       "revisited_count": 5,
@@ -3033,7 +2412,6 @@
       "new_count": 0,
       "enriched_count": 0,
       "source_updates": 0,
-      "media_refresh_count": 0,
       "quality_pending_count": 1,
       "pending_new_count": 0,
       "revisited_count": 5,
@@ -3049,7 +2427,6 @@
       "new_count": 0,
       "enriched_count": 0,
       "source_updates": 1,
-      "media_refresh_count": 0,
       "quality_pending_count": 1,
       "pending_new_count": 0,
       "revisited_count": 6,
@@ -3065,7 +2442,6 @@
       "new_count": 0,
       "enriched_count": 0,
       "source_updates": 0,
-      "media_refresh_count": 0,
       "quality_pending_count": 1,
       "pending_new_count": 0,
       "revisited_count": 5,
@@ -3081,7 +2457,6 @@
       "new_count": 0,
       "enriched_count": 0,
       "source_updates": 0,
-      "media_refresh_count": 0,
       "quality_pending_count": 1,
       "pending_new_count": 0,
       "revisited_count": 5,
@@ -3097,7 +2472,6 @@
       "new_count": 1,
       "enriched_count": 0,
       "source_updates": 1,
-      "media_refresh_count": 1,
       "quality_pending_count": 1,
       "pending_new_count": 0,
       "revisited_count": 7,
@@ -3113,7 +2487,6 @@
       "new_count": 0,
       "enriched_count": 0,
       "source_updates": 0,
-      "media_refresh_count": 0,
       "quality_pending_count": 1,
       "pending_new_count": 0,
       "revisited_count": 5,
@@ -3129,7 +2502,6 @@
       "new_count": 0,
       "enriched_count": 0,
       "source_updates": 0,
-      "media_refresh_count": 0,
       "quality_pending_count": 1,
       "pending_new_count": 0,
       "revisited_count": 5,
@@ -3145,7 +2517,6 @@
       "new_count": 0,
       "enriched_count": 0,
       "source_updates": 0,
-      "media_refresh_count": 0,
       "quality_pending_count": 1,
       "pending_new_count": 0,
       "revisited_count": 5,
@@ -3161,7 +2532,6 @@
       "new_count": 0,
       "enriched_count": 0,
       "source_updates": 0,
-      "media_refresh_count": 0,
       "quality_pending_count": 1,
       "pending_new_count": 0,
       "revisited_count": 5,
@@ -3177,7 +2547,6 @@
       "new_count": 0,
       "enriched_count": 0,
       "source_updates": 0,
-      "media_refresh_count": 0,
       "quality_pending_count": 1,
       "pending_new_count": 0,
       "revisited_count": 5,
@@ -3193,7 +2562,6 @@
       "new_count": 2,
       "enriched_count": 0,
       "source_updates": 0,
-      "media_refresh_count": 2,
       "quality_pending_count": 1,
       "pending_new_count": 0,
       "revisited_count": 5,
@@ -3209,7 +2577,6 @@
       "new_count": 2,
       "enriched_count": 0,
       "source_updates": 0,
-      "media_refresh_count": 2,
       "quality_pending_count": 1,
       "pending_new_count": 0,
       "revisited_count": 5,
@@ -3225,7 +2592,6 @@
       "new_count": 0,
       "enriched_count": 0,
       "source_updates": 0,
-      "media_refresh_count": 0,
       "quality_pending_count": 1,
       "pending_new_count": 0,
       "revisited_count": 5,
@@ -3241,7 +2607,6 @@
       "new_count": 1,
       "enriched_count": 0,
       "source_updates": 0,
-      "media_refresh_count": 1,
       "quality_pending_count": 1,
       "pending_new_count": 0,
       "revisited_count": 5,
@@ -3257,7 +2622,6 @@
       "new_count": 3,
       "enriched_count": 0,
       "source_updates": 0,
-      "media_refresh_count": 2,
       "quality_pending_count": 1,
       "pending_new_count": 0,
       "revisited_count": 5,
@@ -3273,7 +2637,6 @@
       "new_count": 2,
       "enriched_count": 0,
       "source_updates": 0,
-      "media_refresh_count": 3,
       "quality_pending_count": 1,
       "pending_new_count": 0,
       "revisited_count": 5,
@@ -3289,7 +2652,6 @@
       "new_count": 0,
       "enriched_count": 0,
       "source_updates": 0,
-      "media_refresh_count": 0,
       "quality_pending_count": 1,
       "pending_new_count": 0,
       "revisited_count": 5,
@@ -3305,7 +2667,6 @@
       "new_count": 1,
       "enriched_count": 0,
       "source_updates": 0,
-      "media_refresh_count": 2,
       "quality_pending_count": 1,
       "pending_new_count": 0,
       "revisited_count": 5,
@@ -4194,5 +3555,11 @@
       "historical_collection": false,
       "evidence": "完整读取正文、图文和元数据；摘要由同一执行者逐句事实复核并单独只读复核通过。"
     }
-  ]
+  ],
+  "storage_policy": {
+    "content": "markdown_summary_and_source_links",
+    "media": "omit",
+    "run_snapshots": "omit",
+    "retention": "short_state_only"
+  }
 }

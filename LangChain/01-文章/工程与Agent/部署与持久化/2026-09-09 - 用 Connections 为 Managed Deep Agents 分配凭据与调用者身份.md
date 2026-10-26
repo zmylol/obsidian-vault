@@ -47,7 +47,7 @@ Agent-owned 或 user-owned 决定使用谁的身份；secret 或 OAuth 决定凭
 
 用户未授权或 token 过期时，读取连接会暂停并请求 grant；跨多个服务的缺失授权可合并为一次 interrupt。已授权后，同一部署会按不同调用者的访问权查询资源、以其身份执行操作。
 
-![同一连接读取接口分为共享凭据、已有用户授权、缺少用户授权三条路径；最后一条暂停等待授权，不把共享账号当作个人身份。](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/b42b5264f7011a5b2624.png)
+图示：同一连接读取接口分为共享凭据、已有用户授权、缺少用户授权三条路径；最后一条暂停等待授权，不把共享账号当作个人身份。
 
 *同一连接读取接口分为共享凭据、已有用户授权、缺少用户授权三条路径；最后一条暂停等待授权，不把共享账号当作个人身份。* [原图](https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6aa732235e1e0993e93b1aee_connections-runtime.png) · [文章出处](https://www.langchain.com/blog/connections-managed-credentials-and-per-caller-identity-for-managed-deep-agents)
 

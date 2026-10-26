@@ -63,7 +63,7 @@ quality_evidence:
 
 希望题要求从 17 项中选择前三，48% 把治愈疾病列入前三；担忧题则逐项询问并把五级量表中达到“有些担忧”及以上计入。失业、认知依赖和错误信息分别约为 64%、56% 和 52%。不能简单说担忧比例高于希望比例，就证明公众总体更悲观。 [原文依据](https://www.anthropic.com/news/anthropic-public-record)
 
-![原文图：美国各州及地区中担忧 AI 导致失业的加权比例，全国约 64%。颜色表示态度比例；各州样本量与误差不同，图中数值不是实际失业率。](../../../98-附件/原文配图/bbbc5b78dabbabdcceb5.png)
+图示：原文图：美国各州及地区中担忧 AI 导致失业的加权比例，全国约 64%。颜色表示态度比例；各州样本量与误差不同，图中数值不是实际失业率。
 
 *原文图：美国各州及地区中担忧 AI 导致失业的加权比例，全国约 64%。颜色表示态度比例；各州样本量与误差不同，图中数值不是实际失业率。* [原图](https://www-cdn.anthropic.com/images/4zrzovbb/website/723f3519ffdbeb2184e516e3ba2323d75acd22c5-2528x2840.png) · [文章出处](https://www.anthropic.com/news/anthropic-public-record)
 

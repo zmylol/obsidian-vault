@@ -47,7 +47,7 @@ LangChain 为检验 Deep Agents 的提示、工具和执行框架选择，把端
 
 文章分别使用 Harbor-Index、对话任务子集和 ContextBench，覆盖一般工作、多轮互动及资料检索。
 
-![三类基准按自主工作、对话与检索划分，强调用多种任务检查通用 Agent 的不同能力。](../../../98-%E9%99%84%E4%BB%B6/%E5%8E%9F%E6%96%87%E9%85%8D%E5%9B%BE/8a24482a207469f4c1c6.png)
+图示：三类基准按自主工作、对话与检索划分，强调用多种任务检查通用 Agent 的不同能力。
 
 *三类基准按自主工作、对话与检索划分，强调用多种任务检查通用 Agent 的不同能力。* [原图](https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6a61198277fe04db336c973f_03-benchmark-categories%20(6).png) · [文章出处](https://www.langchain.com/blog/how-we-benchmark-deep-agents)
 
