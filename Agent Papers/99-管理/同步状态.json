@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "timezone": "Asia/Shanghai",
+  "schedule": "DAILY 11:20",
+  "created_at": "2026-10-19T08:54:44+08:00",
+  "sources": {
+    "ACL Anthology": {
+      "last_checked": "2026-10-25T11:25:14+08:00",
+      "coverage": "ACL 2026 Long Papers/Findings official pages and selected full texts checked; volume-wide pagination remains partial; selected GAM and InfiAgent",
+      "status": "partial"
+    },
+    "NeurIPS proceedings": {
+      "last_checked": "2026-10-25T11:25:14+08:00",
+      "coverage": "NeurIPS 2025 Main Conference official page and full PDF checked; broader proceedings pagination remains partial; selected A-Mem",
+      "status": "partial"
+    },
+    "ICLR/OpenReview": {
+      "last_checked": "2026-10-25T11:25:14+08:00",
+      "coverage": "ICLR 2026 official group still not providing stable paper list/full-text verification",
+      "status": "retry"
+    },
+    "ICML/PMLR": {
+      "last_checked": "2026-10-25T11:25:14+08:00",
+      "coverage": "ICML 2026 PMLR volume checked; Agentic candidates found but PDFs not fully readable",
+      "status": "partial"
+    }
+  },
+  "articles": [
+    {
+      "paper_id": "2025.findings-acl.239",
+      "path": "01-文章/Agent 工具调用/2026-10-19 - SMART：让 Agent 学会少用不必要的工具.md",
+      "status": "saved",
+      "detail_status": "completed"
+    },
+    {
+      "paper_id": "neurips-2025-0d744742f6fac4d1134c019b7cef3c8a",
+      "path": "01-文章/Agent 评测与基准/2026-10-19 - TheAgentCompany：用真实工作任务评测 LLM Agent.md",
+      "status": "saved",
+      "detail_status": "completed"
+    },
+    {
+      "paper_id": "neurips-2025-f316275b44ee2de533102913828a8107",
+      "path": "01-文章/Agent 评测与基准/2026-10-23 - ABC：建立严谨 Agent 基准的检查清单.md",
+      "status": "saved",
+      "detail_status": "completed"
+    },
+    {
+      "paper_id": "neurips-2025-19909c36f51abc4856b4560aff3d36d6",
+      "path": "01-文章/Agent 记忆与上下文/2026-10-25 - A-Mem：让 Agent 自主组织和演化长期记忆.md",
+      "status": "saved",
+      "detail_status": "completed"
+    },
+    {
+      "paper_id": "2026.acl-long.1600",
+      "path": "01-文章/Agent 记忆与上下文/2026-10-25 - GAM：用分层图记忆减少长期交互干扰.md",
+      "status": "saved",
+      "detail_status": "completed"
+    },
+    {
+      "paper_id": "2026.findings-acl.1787",
+      "path": "01-文章/Agent 记忆与上下文/2026-10-25 - InfiAgent：用外部状态支撑无限时长 Agent.md",
+      "status": "saved",
+      "detail_status": "completed"
+    }
+  ],
+  "pending": [],
+  "retry": [
+    {
+      "source": "ICLR/OpenReview",
+      "reason": "official group page still does not provide stable paper list/full-text verification; retry next run"
+    },
+    {
+      "paper_id": "pmlr-v306-liu26i",
+      "reason": "official PMLR metadata read; PDF not fully readable"
+    },
+    {
+      "paper_id": "pmlr-v306-hwang26i",
+      "reason": "official PMLR metadata read; PDF not fully readable"
+    },
+    {
+      "paper_id": "pmlr-v306-sun26x",
+      "reason": "official PMLR metadata read; PDF not fully readable"
+    }
+  ],
+  "weekly_reports": {
+    "2026-W43": {
+      "path": "03-周报/2026-W43.md",
+      "status": "completed",
+      "generated_at": "2026-10-25T11:25:14+08:00",
+      "coverage_status": "partial_sources"
+    }
+  },
+  "runs": [
+    {
+      "date": "2026-10-19",
+      "new_or_updated": 2,
+      "status": "partial_sources"
+    },
+    {
+      "date": "2026-10-23",
+      "new_or_updated": 1,
+      "status": "partial_sources"
+    },
+    {
+      "date": "2026-10-25",
+      "new_or_updated": 3,
+      "status": "partial_sources",
+      "weekly_report": "2026-W43"
+    }
+  ],
+  "validation": {
+    "utf8": true,
+    "frontmatter": true,
+    "stable_ids_unique": true,
+    "user_blocks_preserved": true
+  }
+}

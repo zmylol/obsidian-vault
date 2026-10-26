@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-23",
+  "source": "https://www.langchain.com/blog",
+  "checked_at": "2026-10-23T09:24:00+08:00",
+  "listing_pages": [
+    "https://www.langchain.com/blog",
+    "https://www.langchain.com/blog?8457a1db_page=2",
+    "https://www.langchain.com/blog?8457a1db_page=3"
+  ],
+  "sitemap": "https://www.langchain.com/sitemap.xml",
+  "coverage_start": "2026-10-16",
+  "coverage_end": "2026-10-23",
+  "new_candidates": [
+    {
+      "url": "https://www.langchain.com/blog/how-numan-built-an-eval-first-ai-health-coach-with-langgraph-and-langsmith",
+      "published": "2026-10-19",
+      "title": "How Numan built an eval-first AI health coach with LangGraph and LangSmith",
+      "decision": "saved",
+      "reason": "案例含评估架构、监管边界与生产工程细节"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "October 2026: LangChain Newsletter",
+      "reason": "Newsletter汇总，按规则排除"
+    }
+  ]
+}

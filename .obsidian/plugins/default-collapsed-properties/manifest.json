@@ -1,0 +1,9 @@
+{
+  "id": "default-collapsed-properties",
+  "name": "默认折叠笔记属性",
+  "version": "1.0.0",
+  "minAppVersion": "1.13.7",
+  "description": "打开笔记时折叠属性，点击属性标题仍可展开。仅用于本知识库。",
+  "author": "Local",
+  "isDesktopOnly": false
+}

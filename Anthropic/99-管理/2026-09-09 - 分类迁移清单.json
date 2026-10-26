@@ -1,0 +1,2237 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "path": "工程与Agent/工具与上下文",
+      "count": 5,
+      "scope": "工具设计、MCP 调用、Skills 机制、上下文与记忆管理",
+      "boundary": "产品功能上线归产品；协议治理归开放协议与标准"
+    },
+    {
+      "path": "工程与Agent/长程与多智能体",
+      "count": 6,
+      "scope": "长任务运行框架、多 Agent 协作、会话状态和开放环境代理实验",
+      "boundary": "机器人本体控制归机器人与物理控制；领域科研工作流归科研 Agent"
+    },
+    {
+      "path": "工程与Agent/评估与可靠性",
+      "count": 6,
+      "scope": "通用 Agent 评估、测试方法、基准污染、服务质量与故障复盘",
+      "boundary": "模型不对齐行为评测归对齐研究；网络攻防能力评测归网络能力与漏洞研究"
+    },
+    {
+      "path": "工程与Agent/执行安全与权限",
+      "count": 3,
+      "scope": "沙箱、隔离边界、动作审批和工具执行权限",
+      "boundary": "提示注入与越狱防御机制归攻击与模型防护"
+    },
+    {
+      "path": "安全与对齐/对齐研究与模型行为",
+      "count": 12,
+      "scope": "对齐训练、可扩展监督、行为审计、模型退役与模型福祉",
+      "boundary": "内部激活与表征研究归机制可解释性；人的福祉归用户福祉与社会价值"
+    },
+    {
+      "path": "安全与对齐/攻击与模型防护",
+      "count": 10,
+      "scope": "投毒、蒸馏、越狱、提示注入、危险知识限制、水印及滥用检测机制",
+      "boundary": "运行环境权限归执行安全；是否发布及开放访问的制度决策归前沿风险与发布治理"
+    },
+    {
+      "path": "安全与对齐/机制可解释性",
+      "count": 6,
+      "scope": "模型内部激活、表征、因果干预与解释方法",
+      "boundary": "仅观察外部行为的研究归对齐研究或用户福祉"
+    },
+    {
+      "path": "安全与对齐/网络能力与漏洞研究",
+      "count": 9,
+      "scope": "网络能力基准、漏洞发现与利用、密码分析及能力风险研究",
+      "boundary": "实际防御部署、漏洞修补合作和已观察到的滥用事件归网络防御与滥用追踪"
+    },
+    {
+      "path": "安全与对齐/网络防御与滥用追踪",
+      "count": 9,
+      "scope": "防御演练、修补与披露协作、威胁框架、真实滥用及评估越界事件",
+      "boundary": "受控能力测量归网络能力与漏洞研究；安全产品上线归编程与开发工具"
+    },
+    {
+      "path": "产品与生态/模型发布",
+      "count": 11,
+      "scope": "模型版本发布、能力与价格定位、型号和访问方式介绍",
+      "boundary": "访问暂停、恢复及风险决策为主的文章归发布治理；不为每个型号建目录"
+    },
+    {
+      "path": "产品与生态/编程与开发工具",
+      "count": 7,
+      "scope": "Claude Code、开发工具、SDK 和编程平台集成的产品发布与产品沿革",
+      "boundary": "原理和工程方法归工程与 Agent；公司的收购交易归融资与收购"
+    },
+    {
+      "path": "产品与生态/Claude应用与行业方案",
+      "count": 14,
+      "scope": "Claude 使用功能、设计创作、金融医疗教育科研等行业产品与连接器",
+      "boundary": "真实教学或公共服务合作归教育与公共服务；基于数据的研究发现归对应研究类"
+    },
+    {
+      "path": "产品与生态/开放协议与标准",
+      "count": 2,
+      "scope": "开放协议、互操作标准及其生态治理，如 MCP、MHS",
+      "boundary": "协议的具体调用方法归工具与上下文；一般企业联盟归企业合作"
+    },
+    {
+      "path": "科学与具身智能/数学与理论科学",
+      "count": 3,
+      "scope": "数学证明、形式化验证和理论物理等科学结果",
+      "boundary": "科研资助归研究支持与公益；通用 Agent 方法归工程"
+    },
+    {
+      "path": "科学与具身智能/生命科学与实验方法",
+      "count": 3,
+      "scope": "生物信息、蛋白设计、化学分析及相应实验与能力基准",
+      "boundary": "领域产品归行业方案；数据平台和跨步骤科研组织归科研 Agent"
+    },
+    {
+      "path": "科学与具身智能/科研Agent与基础设施",
+      "count": 4,
+      "scope": "科学家的 Agent 工作流、长期科学计算、科研数据与工具基础设施",
+      "boundary": "具体定理或生化结果归相应学科；通用工具框架归工程"
+    },
+    {
+      "path": "科学与具身智能/机器人与物理控制",
+      "count": 4,
+      "scope": "机器人、无人机、具身任务、控制接口和真实物理环境实验",
+      "boundary": "软件界面与浏览器操作归工程；不因研究团队叫红队而归网络安全"
+    },
+    {
+      "path": "经济与社会/AI经济与采用数据",
+      "count": 12,
+      "scope": "经济指数、地域与任务采用、生产率估计和经济态度调查",
+      "boundary": "职业技能与劳动市场具体机制归工作变化与技能；不按国家单独建类"
+    },
+    {
+      "path": "经济与社会/工作变化与技能",
+      "count": 8,
+      "scope": "职业变化、就业暴露、学习与技能形成、再培训和人机工作分工",
+      "boundary": "学校与教师部署归教育与公共服务；宏观采用统计归 AI 经济与采用数据"
+    },
+    {
+      "path": "经济与社会/教育与公共服务",
+      "count": 7,
+      "scope": "教学实践、教师培训、课程改革和政府公共服务部署",
+      "boundary": "教育产品功能发布归行业方案；国家政策立场归 AI 政策与公共事务"
+    },
+    {
+      "path": "经济与社会/用户福祉与社会价值",
+      "count": 10,
+      "scope": "人的自主性、AI 使用体验、迎合与情绪支持、价值公平、公众态度及社会对话",
+      "boundary": "模型本身可能的福祉归对齐研究；单纯资助公告归研究支持与公益"
+    },
+    {
+      "path": "经济与社会/研究支持与公益",
+      "count": 12,
+      "scope": "科研合作资源、研究机构、资助和额度、独立研究访问及公益人才计划",
+      "boundary": "研究结论归对应研究类；可直接使用的行业产品归产品与生态"
+    },
+    {
+      "path": "治理与政策/AI政策与公共事务",
+      "count": 13,
+      "scope": "法律政策、政府关系、公共立场、政策资金与公共治理议程",
+      "boundary": "公司内部董事与信托人事归组织治理；具体产品安全机制归模型防护"
+    },
+    {
+      "path": "治理与政策/前沿风险与发布治理",
+      "count": 4,
+      "scope": "前沿风险政策、负责任扩展、Agent 治理原则、模型暂停或恢复发布决策",
+      "boundary": "常规模型版本发布归模型发布；具体攻击防御技术归安全与对齐"
+    },
+    {
+      "path": "公司与商业/组织治理与全球布局",
+      "count": 19,
+      "scope": "管理团队、董事与信托、内部组织、办公室和地区业务布局",
+      "boundary": "外部政策主张归治理与政策；融资交易归融资与收购"
+    },
+    {
+      "path": "公司与商业/企业合作与服务生态",
+      "count": 17,
+      "scope": "企业联盟、部署合作、咨询服务与合作伙伴计划",
+      "boundary": "算力采购为主归算力与基础设施；科研资源合作归研究支持与公益"
+    },
+    {
+      "path": "公司与商业/算力与基础设施",
+      "count": 7,
+      "scope": "算力采购、云与芯片合作、数据中心、能源成本和容量扩展",
+      "boundary": "软件执行环境架构归工程；以融资轮次为主归融资与收购"
+    },
+    {
+      "path": "公司与商业/融资与收购",
+      "count": 6,
+      "scope": "融资轮次、上市申请与公司收购交易",
+      "boundary": "普通商业合作归企业合作；不按投资方或被收购公司建类"
+    }
+  ],
+  "articles": [
+    {
+      "index": 0,
+      "source": "https://www.anthropic.com/news/strengthening-our-safeguards-through-collaboration-with-us-caisi-and-uk-aisi",
+      "title": "与美英 AI 安全机构合作改进防护",
+      "old_path": "01-文章/产品与政策/2025-09-12 - 与美英 AI 安全机构合作改进防护.md",
+      "old_category": "产品与政策",
+      "category": "安全与对齐/攻击与模型防护",
+      "path": "01-文章/安全与对齐/攻击与模型防护/2025-09-12 - 与美英 AI 安全机构合作改进防护.md"
+    },
+    {
+      "index": 1,
+      "source": "https://www.anthropic.com/news/claude-in-xcode",
+      "title": "Claude 正式接入 Xcode 26",
+      "old_path": "01-文章/产品与政策/2025-09-15 - Claude 正式接入 Xcode 26.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/编程与开发工具",
+      "path": "01-文章/产品与生态/编程与开发工具/2025-09-15 - Claude 正式接入 Xcode 26.md"
+    },
+    {
+      "index": 2,
+      "source": "https://www.anthropic.com/news/enabling-claude-code-to-work-more-autonomously",
+      "title": "Claude Code 增强自主执行能力",
+      "old_path": "01-文章/产品与政策/2025-09-29 - Claude Code 增强自主执行能力.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/编程与开发工具",
+      "path": "01-文章/产品与生态/编程与开发工具/2025-09-29 - Claude Code 增强自主执行能力.md"
+    },
+    {
+      "index": 3,
+      "source": "https://www.anthropic.com/news/claude-sonnet-4-5",
+      "title": "Claude Sonnet 4.5 发布及配套更新",
+      "old_path": "01-文章/产品与政策/2025-09-29 - Claude Sonnet 4.5 发布及配套更新.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/模型发布",
+      "path": "01-文章/产品与生态/模型发布/2025-09-29 - Claude Sonnet 4.5 发布及配套更新.md"
+    },
+    {
+      "index": 4,
+      "source": "https://www.anthropic.com/research/economic-policy-responses",
+      "title": "应对 AI 经济影响的政策情景",
+      "old_path": "01-文章/产品与政策/2025-10-14 - 应对 AI 经济影响的政策情景.md",
+      "old_category": "产品与政策",
+      "category": "治理与政策/AI政策与公共事务",
+      "path": "01-文章/治理与政策/AI政策与公共事务/2025-10-14 - 应对 AI 经济影响的政策情景.md"
+    },
+    {
+      "index": 5,
+      "source": "https://www.anthropic.com/news/claude-haiku-4-5",
+      "title": "Claude Haiku 4.5：小模型的速度与成本取舍",
+      "old_path": "01-文章/产品与政策/2025-10-15 - Claude Haiku 4.5：小模型的速度与成本取舍.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/模型发布",
+      "path": "01-文章/产品与生态/模型发布/2025-10-15 - Claude Haiku 4.5：小模型的速度与成本取舍.md"
+    },
+    {
+      "index": 6,
+      "source": "https://claude.com/blog/skills",
+      "title": "Agent Skills：把专业流程封装成可复用能力",
+      "old_path": "01-文章/产品与政策/2025-10-16 - Agent Skills：把专业流程封装成可复用能力.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/编程与开发工具",
+      "path": "01-文章/产品与生态/编程与开发工具/2025-10-16 - Agent Skills：把专业流程封装成可复用能力.md"
+    },
+    {
+      "index": 7,
+      "source": "https://www.anthropic.com/news/claude-for-life-sciences",
+      "title": "Claude for Life Sciences 的研究工作流支持",
+      "old_path": "01-文章/产品与政策/2025-10-20 - Claude for Life Sciences 的研究工作流支持.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/Claude应用与行业方案",
+      "path": "01-文章/产品与生态/Claude应用与行业方案/2025-10-20 - Claude for Life Sciences 的研究工作流支持.md"
+    },
+    {
+      "index": 8,
+      "source": "https://www.anthropic.com/news/statement-dario-amodei-american-ai-leadership",
+      "title": "Dario 关于美国 AI 领导力的立场声明",
+      "old_path": "01-文章/产品与政策/2025-10-21 - Dario 关于美国 AI 领导力的立场声明.md",
+      "old_category": "产品与政策",
+      "category": "治理与政策/AI政策与公共事务",
+      "path": "01-文章/治理与政策/AI政策与公共事务/2025-10-21 - Dario 关于美国 AI 领导力的立场声明.md"
+    },
+    {
+      "index": 9,
+      "source": "https://www.anthropic.com/news/advancing-claude-for-financial-services",
+      "title": "金融服务更新：Excel、连接器与 Skills",
+      "old_path": "01-文章/产品与政策/2025-10-27 - 金融服务更新：Excel、连接器与 Skills.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/Claude应用与行业方案",
+      "path": "01-文章/产品与生态/Claude应用与行业方案/2025-10-27 - 金融服务更新：Excel、连接器与 Skills.md"
+    },
+    {
+      "index": 10,
+      "source": "https://www.anthropic.com/news/claude-in-microsoft-foundry",
+      "title": "Claude 接入 Microsoft Foundry 与 Microsoft 365 Copilot",
+      "old_path": "01-文章/产品与政策/2025-11-18 - Claude 接入 Microsoft Foundry 与 Microsoft 365 Copilot.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/编程与开发工具",
+      "path": "01-文章/产品与生态/编程与开发工具/2025-11-18 - Claude 接入 Microsoft Foundry 与 Microsoft 365 Copilot.md"
+    },
+    {
+      "index": 11,
+      "source": "https://www.anthropic.com/news/claude-opus-4-5",
+      "title": "Claude Opus 4.5 发布",
+      "old_path": "01-文章/产品与政策/2025-11-24 - Claude Opus 4.5 发布.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/模型发布",
+      "path": "01-文章/产品与生态/模型发布/2025-11-24 - Claude Opus 4.5 发布.md"
+    },
+    {
+      "index": 12,
+      "source": "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation",
+      "title": "捐赠 MCP 并成立 Agentic AI Foundation",
+      "old_path": "01-文章/产品与政策/2025-12-09 - 捐赠 MCP 并成立 Agentic AI Foundation.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/开放协议与标准",
+      "path": "01-文章/产品与生态/开放协议与标准/2025-12-09 - 捐赠 MCP 并成立 Agentic AI Foundation.md"
+    },
+    {
+      "index": 13,
+      "source": "https://www.anthropic.com/news/compliance-framework-SB53",
+      "title": "公开加州前沿 AI 透明法案合规框架",
+      "old_path": "01-文章/产品与政策/2025-12-19 - 公开加州前沿 AI 透明法案合规框架.md",
+      "old_category": "产品与政策",
+      "category": "治理与政策/AI政策与公共事务",
+      "path": "01-文章/治理与政策/AI政策与公共事务/2025-12-19 - 公开加州前沿 AI 透明法案合规框架.md"
+    },
+    {
+      "index": 14,
+      "source": "https://www.anthropic.com/news/healthcare-life-sciences",
+      "title": "医疗与生命科学产品能力扩展",
+      "old_path": "01-文章/产品与政策/2026-01-11 - 医疗与生命科学产品能力扩展.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/Claude应用与行业方案",
+      "path": "01-文章/产品与生态/Claude应用与行业方案/2026-01-11 - 医疗与生命科学产品能力扩展.md"
+    },
+    {
+      "index": 15,
+      "source": "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk",
+      "title": "Xcode 26.3 支持 Claude Agent SDK",
+      "old_path": "01-文章/产品与政策/2026-02-03 - Xcode 26.3 支持 Claude Agent SDK.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/编程与开发工具",
+      "path": "01-文章/产品与生态/编程与开发工具/2026-02-03 - Xcode 26.3 支持 Claude Agent SDK.md"
+    },
+    {
+      "index": 16,
+      "source": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+      "title": "Claude 保持无广告的产品立场",
+      "old_path": "01-文章/产品与政策/2026-02-04 - Claude 保持无广告的产品立场.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/Claude应用与行业方案",
+      "path": "01-文章/产品与生态/Claude应用与行业方案/2026-02-04 - Claude 保持无广告的产品立场.md"
+    },
+    {
+      "index": 17,
+      "source": "https://www.anthropic.com/news/claude-opus-4-6",
+      "title": "Claude Opus 4.6：长任务与大上下文升级",
+      "old_path": "01-文章/产品与政策/2026-02-05 - Claude Opus 4.6：长任务与大上下文升级.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/模型发布",
+      "path": "01-文章/产品与生态/模型发布/2026-02-05 - Claude Opus 4.6：长任务与大上下文升级.md"
+    },
+    {
+      "index": 18,
+      "source": "https://www.anthropic.com/news/covering-electricity-price-increases",
+      "title": "承诺承担数据中心带来的电价影响",
+      "old_path": "01-文章/产品与政策/2026-02-11 - 承诺承担数据中心带来的电价影响.md",
+      "old_category": "产品与政策",
+      "category": "公司与商业/算力与基础设施",
+      "path": "01-文章/公司与商业/算力与基础设施/2026-02-11 - 承诺承担数据中心带来的电价影响.md"
+    },
+    {
+      "index": 19,
+      "source": "https://www.anthropic.com/news/donate-public-first-action",
+      "title": "向 Public First Action 捐赠两千万美元",
+      "old_path": "01-文章/产品与政策/2026-02-12 - 向 Public First Action 捐赠两千万美元.md",
+      "old_category": "产品与政策",
+      "category": "治理与政策/AI政策与公共事务",
+      "path": "01-文章/治理与政策/AI政策与公共事务/2026-02-12 - 向 Public First Action 捐赠两千万美元.md"
+    },
+    {
+      "index": 20,
+      "source": "https://www.anthropic.com/news/claude-sonnet-4-6",
+      "title": "Claude Sonnet 4.6 发布",
+      "old_path": "01-文章/产品与政策/2026-02-17 - Claude Sonnet 4.6 发布.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/模型发布",
+      "path": "01-文章/产品与生态/模型发布/2026-02-17 - Claude Sonnet 4.6 发布.md"
+    },
+    {
+      "index": 21,
+      "source": "https://www.anthropic.com/news/claude-code-security",
+      "title": "Claude Code Security 防御性漏洞发现预览",
+      "old_path": "01-文章/产品与政策/2026-02-20 - Claude Code Security 防御性漏洞发现预览.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/编程与开发工具",
+      "path": "01-文章/产品与生态/编程与开发工具/2026-02-20 - Claude Code Security 防御性漏洞发现预览.md"
+    },
+    {
+      "index": 22,
+      "source": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
+      "title": "关于模型蒸馏滥用的检测与防范报告",
+      "old_path": "01-文章/产品与政策/2026-02-23 - 关于模型蒸馏滥用的检测与防范报告.md",
+      "old_category": "产品与政策",
+      "category": "安全与对齐/攻击与模型防护",
+      "path": "01-文章/安全与对齐/攻击与模型防护/2026-02-23 - 关于模型蒸馏滥用的检测与防范报告.md"
+    },
+    {
+      "index": 23,
+      "source": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
+      "title": "Responsible Scaling Policy 3.0 的调整思路",
+      "old_path": "01-文章/产品与政策/2026-02-24 - Responsible Scaling Policy 3.0 的调整思路.md",
+      "old_category": "产品与政策",
+      "category": "治理与政策/前沿风险与发布治理",
+      "path": "01-文章/治理与政策/前沿风险与发布治理/2026-02-24 - Responsible Scaling Policy 3.0 的调整思路.md"
+    },
+    {
+      "index": 24,
+      "source": "https://www.anthropic.com/news/statement-department-of-war",
+      "title": "关于与美国战争部谈判的声明",
+      "old_path": "01-文章/产品与政策/2026-02-26 - 关于与美国战争部谈判的声明.md",
+      "old_category": "产品与政策",
+      "category": "治理与政策/AI政策与公共事务",
+      "path": "01-文章/治理与政策/AI政策与公共事务/2026-02-26 - 关于与美国战争部谈判的声明.md"
+    },
+    {
+      "index": 25,
+      "source": "https://www.anthropic.com/news/statement-comments-secretary-war",
+      "title": "回应供应链风险认定相关评论",
+      "old_path": "01-文章/产品与政策/2026-02-27 - 回应供应链风险认定相关评论.md",
+      "old_category": "产品与政策",
+      "category": "治理与政策/AI政策与公共事务",
+      "path": "01-文章/治理与政策/AI政策与公共事务/2026-02-27 - 回应供应链风险认定相关评论.md"
+    },
+    {
+      "index": 26,
+      "source": "https://www.anthropic.com/news/where-stand-department-war",
+      "title": "更新美国战争部争议的进展",
+      "old_path": "01-文章/产品与政策/2026-03-05 - 更新美国战争部争议的进展.md",
+      "old_category": "产品与政策",
+      "category": "治理与政策/AI政策与公共事务",
+      "path": "01-文章/治理与政策/AI政策与公共事务/2026-03-05 - 更新美国战争部争议的进展.md"
+    },
+    {
+      "index": 27,
+      "source": "https://www.anthropic.com/news/australia-MOU",
+      "title": "与澳大利亚签署 AI 安全和研究备忘录",
+      "old_path": "01-文章/产品与政策/2026-03-31 - 与澳大利亚签署 AI 安全和研究备忘录.md",
+      "old_category": "产品与政策",
+      "category": "治理与政策/AI政策与公共事务",
+      "path": "01-文章/治理与政策/AI政策与公共事务/2026-03-31 - 与澳大利亚签署 AI 安全和研究备忘录.md"
+    },
+    {
+      "index": 28,
+      "source": "https://www.anthropic.com/research/trustworthy-agents",
+      "title": "可信智能体的实践原则",
+      "old_path": "01-文章/产品与政策/2026-04-09 - 可信智能体的实践原则.md",
+      "old_category": "产品与政策",
+      "category": "治理与政策/前沿风险与发布治理",
+      "path": "01-文章/治理与政策/前沿风险与发布治理/2026-04-09 - 可信智能体的实践原则.md"
+    },
+    {
+      "index": 29,
+      "source": "https://www.anthropic.com/news/claude-opus-4-7",
+      "title": "Claude Opus 4.7 发布与网络安全防护试验",
+      "old_path": "01-文章/产品与政策/2026-04-16 - Claude Opus 4.7 发布与网络安全防护试验.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/模型发布",
+      "path": "01-文章/产品与生态/模型发布/2026-04-16 - Claude Opus 4.7 发布与网络安全防护试验.md"
+    },
+    {
+      "index": 30,
+      "source": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "title": "Claude Design：通过对话制作视觉作品",
+      "old_path": "01-文章/产品与政策/2026-04-17 - Claude Design：通过对话制作视觉作品.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/Claude应用与行业方案",
+      "path": "01-文章/产品与生态/Claude应用与行业方案/2026-04-17 - Claude Design：通过对话制作视觉作品.md"
+    },
+    {
+      "index": 31,
+      "source": "https://www.anthropic.com/news/election-safeguards-update",
+      "title": "选举信息与政治公平性防护更新",
+      "old_path": "01-文章/产品与政策/2026-04-24 - 选举信息与政治公平性防护更新.md",
+      "old_category": "产品与政策",
+      "category": "治理与政策/AI政策与公共事务",
+      "path": "01-文章/治理与政策/AI政策与公共事务/2026-04-24 - 选举信息与政治公平性防护更新.md"
+    },
+    {
+      "index": 32,
+      "source": "https://www.anthropic.com/news/claude-for-creative-work",
+      "title": "Claude for Creative Work：连接创作工具",
+      "old_path": "01-文章/产品与政策/2026-04-28 - Claude for Creative Work：连接创作工具.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/Claude应用与行业方案",
+      "path": "01-文章/产品与生态/Claude应用与行业方案/2026-04-28 - Claude for Creative Work：连接创作工具.md"
+    },
+    {
+      "index": 33,
+      "source": "https://www.anthropic.com/news/finance-agents",
+      "title": "金融服务 Agent 模板与跨应用工作流",
+      "old_path": "01-文章/产品与政策/2026-05-05 - 金融服务 Agent 模板与跨应用工作流.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/Claude应用与行业方案",
+      "path": "01-文章/产品与生态/Claude应用与行业方案/2026-05-05 - 金融服务 Agent 模板与跨应用工作流.md"
+    },
+    {
+      "index": 34,
+      "source": "https://www.anthropic.com/news/higher-limits-spacex",
+      "title": "提高用量限制并与 SpaceX 达成算力合作",
+      "old_path": "01-文章/产品与政策/2026-05-06 - 提高用量限制并与 SpaceX 达成算力合作.md",
+      "old_category": "产品与政策",
+      "category": "公司与商业/算力与基础设施",
+      "path": "01-文章/公司与商业/算力与基础设施/2026-05-06 - 提高用量限制并与 SpaceX 达成算力合作.md"
+    },
+    {
+      "index": 35,
+      "source": "https://www.anthropic.com/research/anthropic-institute-agenda",
+      "title": "Anthropic Institute 的研究议程",
+      "old_path": "01-文章/产品与政策/2026-05-07 - Anthropic Institute 的研究议程.md",
+      "old_category": "产品与政策",
+      "category": "治理与政策/AI政策与公共事务",
+      "path": "01-文章/治理与政策/AI政策与公共事务/2026-05-07 - Anthropic Institute 的研究议程.md"
+    },
+    {
+      "index": 36,
+      "source": "https://www.anthropic.com/news/claude-for-small-business",
+      "title": "Claude for Small Business：小企业工作流方案",
+      "old_path": "01-文章/产品与政策/2026-05-13 - Claude for Small Business：小企业工作流方案.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/Claude应用与行业方案",
+      "path": "01-文章/产品与生态/Claude应用与行业方案/2026-05-13 - Claude for Small Business：小企业工作流方案.md"
+    },
+    {
+      "index": 37,
+      "source": "https://www.anthropic.com/research/2028-ai-leadership",
+      "title": "2028 年全球 AI 领导力的两种情景",
+      "old_path": "01-文章/产品与政策/2026-05-14 - 2028 年全球 AI 领导力的两种情景.md",
+      "old_category": "产品与政策",
+      "category": "治理与政策/AI政策与公共事务",
+      "path": "01-文章/治理与政策/AI政策与公共事务/2026-05-14 - 2028 年全球 AI 领导力的两种情景.md"
+    },
+    {
+      "index": 38,
+      "source": "https://www.anthropic.com/news/claude-opus-4-8",
+      "title": "Claude Opus 4.8 与动态工作流更新",
+      "old_path": "01-文章/产品与政策/2026-05-28 - Claude Opus 4.8 与动态工作流更新.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/模型发布",
+      "path": "01-文章/产品与生态/模型发布/2026-05-28 - Claude Opus 4.8 与动态工作流更新.md"
+    },
+    {
+      "index": 39,
+      "source": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "title": "Claude Fable 5 与 Mythos 5 的首次发布",
+      "old_path": "01-文章/产品与政策/2026-06-09 - Claude Fable 5 与 Mythos 5 的首次发布.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/模型发布",
+      "path": "01-文章/产品与生态/模型发布/2026-06-09 - Claude Fable 5 与 Mythos 5 的首次发布.md"
+    },
+    {
+      "index": 40,
+      "source": "https://www.anthropic.com/news/fable-mythos-access",
+      "title": "关于暂停 Fable 5 与 Mythos 5 访问的声明",
+      "old_path": "01-文章/产品与政策/2026-06-12 - 关于暂停 Fable 5 与 Mythos 5 访问的声明.md",
+      "old_category": "产品与政策",
+      "category": "治理与政策/前沿风险与发布治理",
+      "path": "01-文章/治理与政策/前沿风险与发布治理/2026-06-12 - 关于暂停 Fable 5 与 Mythos 5 访问的声明.md"
+    },
+    {
+      "index": 41,
+      "source": "https://www.anthropic.com/news/introducing-claude-tag",
+      "title": "Claude Tag：在 Slack 中向团队 Agent 分派任务",
+      "old_path": "01-文章/产品与政策/2026-06-23 - Claude Tag：在 Slack 中向团队 Agent 分派任务.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/Claude应用与行业方案",
+      "path": "01-文章/产品与生态/Claude应用与行业方案/2026-06-23 - Claude Tag：在 Slack 中向团队 Agent 分派任务.md"
+    },
+    {
+      "index": 42,
+      "source": "https://www.anthropic.com/news/claude-science-ai-workbench",
+      "title": "Claude Science：整合科研工具的工作台",
+      "old_path": "01-文章/产品与政策/2026-06-30 - Claude Science：整合科研工具的工作台.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/Claude应用与行业方案",
+      "path": "01-文章/产品与生态/Claude应用与行业方案/2026-06-30 - Claude Science：整合科研工具的工作台.md"
+    },
+    {
+      "index": 43,
+      "source": "https://www.anthropic.com/news/claude-sonnet-5",
+      "title": "Claude Sonnet 5：更低成本的 Agent 能力",
+      "old_path": "01-文章/产品与政策/2026-06-30 - Claude Sonnet 5：更低成本的 Agent 能力.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/模型发布",
+      "path": "01-文章/产品与生态/模型发布/2026-06-30 - Claude Sonnet 5：更低成本的 Agent 能力.md"
+    },
+    {
+      "index": 44,
+      "source": "https://www.anthropic.com/news/redeploying-fable-5",
+      "title": "重新部署 Fable 5 的时间线与措施",
+      "old_path": "01-文章/产品与政策/2026-06-30 - 重新部署 Fable 5 的时间线与措施.md",
+      "old_category": "产品与政策",
+      "category": "治理与政策/前沿风险与发布治理",
+      "path": "01-文章/治理与政策/前沿风险与发布治理/2026-06-30 - 重新部署 Fable 5 的时间线与措施.md"
+    },
+    {
+      "index": 45,
+      "source": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+      "title": "Fable 5 网络防护与越狱严重性框架",
+      "old_path": "01-文章/产品与政策/2026-07-02 - Fable 5 网络防护与越狱严重性框架.md",
+      "old_category": "产品与政策",
+      "category": "安全与对齐/攻击与模型防护",
+      "path": "01-文章/安全与对齐/攻击与模型防护/2026-07-02 - Fable 5 网络防护与越狱严重性框架.md"
+    },
+    {
+      "index": 46,
+      "source": "https://www.anthropic.com/news/reflect-with-claude",
+      "title": "通过使用回顾反思与 Claude 的关系",
+      "old_path": "01-文章/产品与政策/2026-07-09 - 通过使用回顾反思与 Claude 的关系.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/Claude应用与行业方案",
+      "path": "01-文章/产品与生态/Claude应用与行业方案/2026-07-09 - 通过使用回顾反思与 Claude 的关系.md"
+    },
+    {
+      "index": 47,
+      "source": "https://www.anthropic.com/news/donation-public-first-action",
+      "title": "追加向 Public First Action 捐赠两千万美元",
+      "old_path": "01-文章/产品与政策/2026-07-21 - 追加向 Public First Action 捐赠两千万美元.md",
+      "old_category": "产品与政策",
+      "category": "治理与政策/AI政策与公共事务",
+      "path": "01-文章/治理与政策/AI政策与公共事务/2026-07-21 - 追加向 Public First Action 捐赠两千万美元.md"
+    },
+    {
+      "index": 48,
+      "source": "https://www.anthropic.com/news/anthropic-economic-index-connector",
+      "title": "用连接器查询 Anthropic 经济指数",
+      "old_path": "01-文章/产品与政策/2026-07-22 - 用连接器查询 Anthropic 经济指数.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/Claude应用与行业方案",
+      "path": "01-文章/产品与生态/Claude应用与行业方案/2026-07-22 - 用连接器查询 Anthropic 经济指数.md"
+    },
+    {
+      "index": 49,
+      "source": "https://www.anthropic.com/news/claude-opus-5",
+      "title": "Claude Opus 5：能力与每任务成本的比较",
+      "old_path": "01-文章/产品与政策/2026-07-24 - Claude Opus 5：能力与每任务成本的比较.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/模型发布",
+      "path": "01-文章/产品与生态/模型发布/2026-07-24 - Claude Opus 5：能力与每任务成本的比较.md"
+    },
+    {
+      "index": 50,
+      "source": "https://www.anthropic.com/news/position-open-weights-models",
+      "title": "Anthropic 对开放权重模型的立场",
+      "old_path": "01-文章/产品与政策/2026-07-27 - Anthropic 对开放权重模型的立场.md",
+      "old_category": "产品与政策",
+      "category": "治理与政策/AI政策与公共事务",
+      "path": "01-文章/治理与政策/AI政策与公共事务/2026-07-27 - Anthropic 对开放权重模型的立场.md"
+    },
+    {
+      "index": 51,
+      "source": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+      "title": "降低 Fable 5 生物学防护的误触发",
+      "old_path": "01-文章/产品与政策/2026-08-07 - 降低 Fable 5 生物学防护的误触发.md",
+      "old_category": "产品与政策",
+      "category": "安全与对齐/攻击与模型防护",
+      "path": "01-文章/安全与对齐/攻击与模型防护/2026-08-07 - 降低 Fable 5 生物学防护的误触发.md"
+    },
+    {
+      "index": 52,
+      "source": "https://www.anthropic.com/news/claude-text-watermark",
+      "title": "Claude 文本水印的目标与机制说明",
+      "old_path": "01-文章/产品与政策/2026-08-14 - Claude 文本水印的目标与机制说明.md",
+      "old_category": "产品与政策",
+      "category": "安全与对齐/攻击与模型防护",
+      "path": "01-文章/安全与对齐/攻击与模型防护/2026-08-14 - Claude 文本水印的目标与机制说明.md"
+    },
+    {
+      "index": 53,
+      "source": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "title": "Model Hardware Standard 硬件标准研究预览",
+      "old_path": "01-文章/产品与政策/2026-08-27 - Model Hardware Standard 硬件标准研究预览.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/开放协议与标准",
+      "path": "01-文章/产品与生态/开放协议与标准/2026-08-27 - Model Hardware Standard 硬件标准研究预览.md"
+    },
+    {
+      "index": 54,
+      "source": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "title": "Claude Fable 5.1 与 Mythos 5.1 发布",
+      "old_path": "01-文章/产品与政策/2026-09-01 - Claude Fable 5.1 与 Mythos 5.1 发布.md",
+      "old_category": "产品与政策",
+      "category": "产品与生态/模型发布",
+      "path": "01-文章/产品与生态/模型发布/2026-09-01 - Claude Fable 5.1 与 Mythos 5.1 发布.md"
+    },
+    {
+      "index": 55,
+      "source": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+      "title": "与客户共同开发 Enterprise Frontier Safeguards",
+      "old_path": "01-文章/产品与政策/2026-09-01 - 与客户共同开发 Enterprise Frontier Safeguards.md",
+      "old_category": "产品与政策",
+      "category": "安全与对齐/攻击与模型防护",
+      "path": "01-文章/安全与对齐/攻击与模型防护/2026-09-01 - 与客户共同开发 Enterprise Frontier Safeguards.md"
+    },
+    {
+      "index": 56,
+      "source": "https://www.anthropic.com/news/anthropic-expands-global-leadership-in-enterprise-ai-naming-chris-ciauri-as-managing-director-of",
+      "title": "任命 Chris Ciauri 并扩展国际业务",
+      "old_path": "01-文章/公司动态/2025-09-26 - 任命 Chris Ciauri 并扩展国际业务.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/组织治理与全球布局",
+      "path": "01-文章/公司与商业/组织治理与全球布局/2025-09-26 - 任命 Chris Ciauri 并扩展国际业务.md"
+    },
+    {
+      "index": 57,
+      "source": "https://www.anthropic.com/news/deloitte-anthropic-partnership",
+      "title": "德勤面向全球 47 万人员部署 Claude",
+      "old_path": "01-文章/公司动态/2025-10-06 - 德勤面向全球 47 万人员部署 Claude.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/企业合作与服务生态",
+      "path": "01-文章/公司与商业/企业合作与服务生态/2025-10-06 - 德勤面向全球 47 万人员部署 Claude.md"
+    },
+    {
+      "index": 58,
+      "source": "https://www.anthropic.com/news/rahul-patil-joins-anthropic",
+      "title": "Rahul Patil 出任首席技术官",
+      "old_path": "01-文章/公司动态/2025-10-07 - Rahul Patil 出任首席技术官.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/组织治理与全球布局",
+      "path": "01-文章/公司与商业/组织治理与全球布局/2025-10-07 - Rahul Patil 出任首席技术官.md"
+    },
+    {
+      "index": 59,
+      "source": "https://www.anthropic.com/news/expanding-global-operations-to-india",
+      "title": "宣布在印度班加罗尔设立办公室",
+      "old_path": "01-文章/公司动态/2025-10-07 - 宣布在印度班加罗尔设立办公室.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/组织治理与全球布局",
+      "path": "01-文章/公司与商业/组织治理与全球布局/2025-10-07 - 宣布在印度班加罗尔设立办公室.md"
+    },
+    {
+      "index": 60,
+      "source": "https://www.anthropic.com/news/salesforce-anthropic-expanded-partnership",
+      "title": "与 Salesforce 扩大受监管行业合作",
+      "old_path": "01-文章/公司动态/2025-10-14 - 与 Salesforce 扩大受监管行业合作.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/企业合作与服务生态",
+      "path": "01-文章/公司与商业/企业合作与服务生态/2025-10-14 - 与 Salesforce 扩大受监管行业合作.md"
+    },
+    {
+      "index": 61,
+      "source": "https://www.anthropic.com/news/seoul-becomes-third-anthropic-office-in-asia-pacific",
+      "title": "宣布在首尔设立亚太办公室",
+      "old_path": "01-文章/公司动态/2025-10-23 - 宣布在首尔设立亚太办公室.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/组织治理与全球布局",
+      "path": "01-文章/公司与商业/组织治理与全球布局/2025-10-23 - 宣布在首尔设立亚太办公室.md"
+    },
+    {
+      "index": 62,
+      "source": "https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services",
+      "title": "扩大 Google Cloud TPU 与云服务使用",
+      "old_path": "01-文章/公司动态/2025-10-23 - 扩大 Google Cloud TPU 与云服务使用.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/算力与基础设施",
+      "path": "01-文章/公司与商业/算力与基础设施/2025-10-23 - 扩大 Google Cloud TPU 与云服务使用.md"
+    },
+    {
+      "index": 63,
+      "source": "https://www.anthropic.com/news/opening-our-tokyo-office",
+      "title": "东京办公室开业并与日本 AI 安全机构合作",
+      "old_path": "01-文章/公司动态/2025-10-29 - 东京办公室开业并与日本 AI 安全机构合作.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/组织治理与全球布局",
+      "path": "01-文章/公司与商业/组织治理与全球布局/2025-10-29 - 东京办公室开业并与日本 AI 安全机构合作.md"
+    },
+    {
+      "index": 64,
+      "source": "https://www.anthropic.com/news/cognizant-partnership",
+      "title": "Cognizant 计划向 35 万员工提供 Claude",
+      "old_path": "01-文章/公司动态/2025-11-04 - Cognizant 计划向 35 万员工提供 Claude.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/企业合作与服务生态",
+      "path": "01-文章/公司与商业/企业合作与服务生态/2025-11-04 - Cognizant 计划向 35 万员工提供 Claude.md"
+    },
+    {
+      "index": 65,
+      "source": "https://www.anthropic.com/news/new-offices-in-paris-and-munich-expand-european-presence",
+      "title": "巴黎与慕尼黑办公室扩展欧洲业务",
+      "old_path": "01-文章/公司动态/2025-11-07 - 巴黎与慕尼黑办公室扩展欧洲业务.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/组织治理与全球布局",
+      "path": "01-文章/公司与商业/组织治理与全球布局/2025-11-07 - 巴黎与慕尼黑办公室扩展欧洲业务.md"
+    },
+    {
+      "index": 66,
+      "source": "https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure",
+      "title": "宣布投资 500 亿美元建设美国计算基础设施",
+      "old_path": "01-文章/公司动态/2025-11-12 - 宣布投资 500 亿美元建设美国计算基础设施.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/算力与基础设施",
+      "path": "01-文章/公司与商业/算力与基础设施/2025-11-12 - 宣布投资 500 亿美元建设美国计算基础设施.md"
+    },
+    {
+      "index": 67,
+      "source": "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships",
+      "title": "微软、英伟达与 Anthropic 建立战略合作",
+      "old_path": "01-文章/公司动态/2025-11-18 - 微软、英伟达与 Anthropic 建立战略合作.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/算力与基础设施",
+      "path": "01-文章/公司与商业/算力与基础设施/2025-11-18 - 微软、英伟达与 Anthropic 建立战略合作.md"
+    },
+    {
+      "index": 68,
+      "source": "https://www.anthropic.com/news/snowflake-anthropic-expanded-partnership",
+      "title": "与 Snowflake 达成两亿美元多年合作",
+      "old_path": "01-文章/公司动态/2025-12-03 - 与 Snowflake 达成两亿美元多年合作.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/企业合作与服务生态",
+      "path": "01-文章/公司与商业/企业合作与服务生态/2025-12-03 - 与 Snowflake 达成两亿美元多年合作.md"
+    },
+    {
+      "index": 69,
+      "source": "https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone",
+      "title": "收购 Bun 并公布 Claude Code 收入里程碑",
+      "old_path": "01-文章/公司动态/2025-12-03 - 收购 Bun 并公布 Claude Code 收入里程碑.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/融资与收购",
+      "path": "01-文章/公司与商业/融资与收购/2025-12-03 - 收购 Bun 并公布 Claude Code 收入里程碑.md"
+    },
+    {
+      "index": 70,
+      "source": "https://www.anthropic.com/news/anthropic-accenture-partnership",
+      "title": "与埃森哲推动企业 AI 从试点走向生产",
+      "old_path": "01-文章/公司动态/2025-12-09 - 与埃森哲推动企业 AI 从试点走向生产.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/企业合作与服务生态",
+      "path": "01-文章/公司与商业/企业合作与服务生态/2025-12-09 - 与埃森哲推动企业 AI 从试点走向生产.md"
+    },
+    {
+      "index": 71,
+      "source": "https://www.anthropic.com/news/genesis-mission-partnership",
+      "title": "与美国能源部合作推进科学发现",
+      "old_path": "01-文章/公司动态/2025-12-18 - 与美国能源部合作推进科学发现.md",
+      "old_category": "公司动态",
+      "category": "经济与社会/研究支持与公益",
+      "path": "01-文章/经济与社会/研究支持与公益/2025-12-18 - 与美国能源部合作推进科学发现.md"
+    },
+    {
+      "index": 72,
+      "source": "https://www.anthropic.com/news/introducing-anthropic-labs",
+      "title": "Labs：前沿实验产品的孵化组织",
+      "old_path": "01-文章/公司动态/2026-01-13 - Labs：前沿实验产品的孵化组织.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/组织治理与全球布局",
+      "path": "01-文章/公司与商业/组织治理与全球布局/2026-01-13 - Labs：前沿实验产品的孵化组织.md"
+    },
+    {
+      "index": 73,
+      "source": "https://www.anthropic.com/news/anthropic-appoints-irina-ghose-as-managing-director-of-india",
+      "title": "Irina Ghose 出任印度业务负责人",
+      "old_path": "01-文章/公司动态/2026-01-16 - Irina Ghose 出任印度业务负责人.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/组织治理与全球布局",
+      "path": "01-文章/公司与商业/组织治理与全球布局/2026-01-16 - Irina Ghose 出任印度业务负责人.md"
+    },
+    {
+      "index": 74,
+      "source": "https://www.anthropic.com/news/mariano-florentino-long-term-benefit-trust",
+      "title": "Cuéllar 加入长期利益信托",
+      "old_path": "01-文章/公司动态/2026-01-21 - Cuéllar 加入长期利益信托.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/组织治理与全球布局",
+      "path": "01-文章/公司与商业/组织治理与全球布局/2026-01-21 - Cuéllar 加入长期利益信托.md"
+    },
+    {
+      "index": 75,
+      "source": "https://www.anthropic.com/news/servicenow-anthropic-claude",
+      "title": "ServiceNow 选择 Claude 支持应用与内部工作",
+      "old_path": "01-文章/公司动态/2026-01-28 - ServiceNow 选择 Claude 支持应用与内部工作.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/企业合作与服务生态",
+      "path": "01-文章/公司与商业/企业合作与服务生态/2026-01-28 - ServiceNow 选择 Claude 支持应用与内部工作.md"
+    },
+    {
+      "index": 76,
+      "source": "https://www.anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute",
+      "title": "与 Allen Institute 和 HHMI 合作推进生命科学",
+      "old_path": "01-文章/公司动态/2026-02-02 - 与 Allen Institute 和 HHMI 合作推进生命科学.md",
+      "old_category": "公司动态",
+      "category": "经济与社会/研究支持与公益",
+      "path": "01-文章/经济与社会/研究支持与公益/2026-02-02 - 与 Allen Institute 和 HHMI 合作推进生命科学.md"
+    },
+    {
+      "index": 77,
+      "source": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
+      "title": "G 轮融资 300 亿美元",
+      "old_path": "01-文章/公司动态/2026-02-12 - G 轮融资 300 亿美元.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/融资与收购",
+      "path": "01-文章/公司与商业/融资与收购/2026-02-12 - G 轮融资 300 亿美元.md"
+    },
+    {
+      "index": 78,
+      "source": "https://www.anthropic.com/news/chris-liddell-appointed-anthropic-board",
+      "title": "Chris Liddell 加入董事会",
+      "old_path": "01-文章/公司动态/2026-02-13 - Chris Liddell 加入董事会.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/组织治理与全球布局",
+      "path": "01-文章/公司与商业/组织治理与全球布局/2026-02-13 - Chris Liddell 加入董事会.md"
+    },
+    {
+      "index": 79,
+      "source": "https://www.anthropic.com/news/bengaluru-office-partnerships-across-india",
+      "title": "班加罗尔办公室开业与印度合作进展",
+      "old_path": "01-文章/公司动态/2026-02-16 - 班加罗尔办公室开业与印度合作进展.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/组织治理与全球布局",
+      "path": "01-文章/公司与商业/组织治理与全球布局/2026-02-16 - 班加罗尔办公室开业与印度合作进展.md"
+    },
+    {
+      "index": 80,
+      "source": "https://www.anthropic.com/news/anthropic-infosys",
+      "title": "与 Infosys 开发受监管行业 Agent",
+      "old_path": "01-文章/公司动态/2026-02-17 - 与 Infosys 开发受监管行业 Agent.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/企业合作与服务生态",
+      "path": "01-文章/公司与商业/企业合作与服务生态/2026-02-17 - 与 Infosys 开发受监管行业 Agent.md"
+    },
+    {
+      "index": 81,
+      "source": "https://www.anthropic.com/news/acquires-vercept",
+      "title": "收购 Vercept 以推进计算机使用能力",
+      "old_path": "01-文章/公司动态/2026-02-25 - 收购 Vercept 以推进计算机使用能力.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/融资与收购",
+      "path": "01-文章/公司与商业/融资与收购/2026-02-25 - 收购 Vercept 以推进计算机使用能力.md"
+    },
+    {
+      "index": 82,
+      "source": "https://www.anthropic.com/news/sydney-fourth-office-asia-pacific",
+      "title": "宣布扩展澳新业务并设悉尼办公室",
+      "old_path": "01-文章/公司动态/2026-03-10 - 宣布扩展澳新业务并设悉尼办公室.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/组织治理与全球布局",
+      "path": "01-文章/公司与商业/组织治理与全球布局/2026-03-10 - 宣布扩展澳新业务并设悉尼办公室.md"
+    },
+    {
+      "index": 83,
+      "source": "https://www.anthropic.com/news/claude-partner-network",
+      "title": "为 Claude Partner Network 投入一亿美元",
+      "old_path": "01-文章/公司动态/2026-03-12 - 为 Claude Partner Network 投入一亿美元.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/企业合作与服务生态",
+      "path": "01-文章/公司与商业/企业合作与服务生态/2026-03-12 - 为 Claude Partner Network 投入一亿美元.md"
+    },
+    {
+      "index": 84,
+      "source": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+      "title": "与 Google 和 Broadcom 扩展新一代算力",
+      "old_path": "01-文章/公司动态/2026-04-06 - 与 Google 和 Broadcom 扩展新一代算力.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/算力与基础设施",
+      "path": "01-文章/公司与商业/算力与基础设施/2026-04-06 - 与 Google 和 Broadcom 扩展新一代算力.md"
+    },
+    {
+      "index": 85,
+      "source": "https://www.anthropic.com/news/narasimhan-board",
+      "title": "长期利益信托任命 Vas Narasimhan 为董事",
+      "old_path": "01-文章/公司动态/2026-04-14 - 长期利益信托任命 Vas Narasimhan 为董事.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/组织治理与全球布局",
+      "path": "01-文章/公司与商业/组织治理与全球布局/2026-04-14 - 长期利益信托任命 Vas Narasimhan 为董事.md"
+    },
+    {
+      "index": 86,
+      "source": "https://www.anthropic.com/news/anthropic-amazon-compute",
+      "title": "与 Amazon 扩大最多五吉瓦算力合作",
+      "old_path": "01-文章/公司动态/2026-04-20 - 与 Amazon 扩大最多五吉瓦算力合作.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/算力与基础设施",
+      "path": "01-文章/公司与商业/算力与基础设施/2026-04-20 - 与 Amazon 扩大最多五吉瓦算力合作.md"
+    },
+    {
+      "index": 87,
+      "source": "https://www.anthropic.com/news/anthropic-nec",
+      "title": "与 NEC 建设日本企业 AI 工程能力",
+      "old_path": "01-文章/公司动态/2026-04-24 - 与 NEC 建设日本企业 AI 工程能力.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/企业合作与服务生态",
+      "path": "01-文章/公司与商业/企业合作与服务生态/2026-04-24 - 与 NEC 建设日本企业 AI 工程能力.md"
+    },
+    {
+      "index": 88,
+      "source": "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand",
+      "title": "悉尼办公室正式开业并任命澳新负责人",
+      "old_path": "01-文章/公司动态/2026-04-27 - 悉尼办公室正式开业并任命澳新负责人.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/组织治理与全球布局",
+      "path": "01-文章/公司与商业/组织治理与全球布局/2026-04-27 - 悉尼办公室正式开业并任命澳新负责人.md"
+    },
+    {
+      "index": 89,
+      "source": "https://www.anthropic.com/news/enterprise-ai-services-company",
+      "title": "与投资机构成立企业 AI 服务公司",
+      "old_path": "01-文章/公司动态/2026-05-04 - 与投资机构成立企业 AI 服务公司.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/企业合作与服务生态",
+      "path": "01-文章/公司与商业/企业合作与服务生态/2026-05-04 - 与投资机构成立企业 AI 服务公司.md"
+    },
+    {
+      "index": 90,
+      "source": "https://www.anthropic.com/news/pwc-expanded-partnership",
+      "title": "普华永道扩展 Claude 联盟与专业培训",
+      "old_path": "01-文章/公司动态/2026-05-14 - 普华永道扩展 Claude 联盟与专业培训.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/企业合作与服务生态",
+      "path": "01-文章/公司与商业/企业合作与服务生态/2026-05-14 - 普华永道扩展 Claude 联盟与专业培训.md"
+    },
+    {
+      "index": 91,
+      "source": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+      "title": "收购 Stainless：连接 SDK 与 Agent 工具",
+      "old_path": "01-文章/公司动态/2026-05-18 - 收购 Stainless：连接 SDK 与 Agent 工具.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/融资与收购",
+      "path": "01-文章/公司与商业/融资与收购/2026-05-18 - 收购 Stainless：连接 SDK 与 Agent 工具.md"
+    },
+    {
+      "index": 92,
+      "source": "https://www.anthropic.com/news/anthropic-kpmg",
+      "title": "毕马威将 Claude 接入核心平台与全球人员",
+      "old_path": "01-文章/公司动态/2026-05-19 - 毕马威将 Claude 接入核心平台与全球人员.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/企业合作与服务生态",
+      "path": "01-文章/公司与商业/企业合作与服务生态/2026-05-19 - 毕马威将 Claude 接入核心平台与全球人员.md"
+    },
+    {
+      "index": 93,
+      "source": "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
+      "title": "KiYoung Choi 出任韩国负责人",
+      "old_path": "01-文章/公司动态/2026-05-26 - KiYoung Choi 出任韩国负责人.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/组织治理与全球布局",
+      "path": "01-文章/公司与商业/组织治理与全球布局/2026-05-26 - KiYoung Choi 出任韩国负责人.md"
+    },
+    {
+      "index": 94,
+      "source": "https://www.anthropic.com/news/milan-office-opening",
+      "title": "扩展米兰办公室与意大利合作",
+      "old_path": "01-文章/公司动态/2026-05-27 - 扩展米兰办公室与意大利合作.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/组织治理与全球布局",
+      "path": "01-文章/公司与商业/组织治理与全球布局/2026-05-27 - 扩展米兰办公室与意大利合作.md"
+    },
+    {
+      "index": 95,
+      "source": "https://www.anthropic.com/news/series-h",
+      "title": "H 轮融资 650 亿美元",
+      "old_path": "01-文章/公司动态/2026-05-28 - H 轮融资 650 亿美元.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/融资与收购",
+      "path": "01-文章/公司与商业/融资与收购/2026-05-28 - H 轮融资 650 亿美元.md"
+    },
+    {
+      "index": 96,
+      "source": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+      "title": "向 SEC 秘密提交 S-1 草案",
+      "old_path": "01-文章/公司动态/2026-06-01 - 向 SEC 秘密提交 S-1 草案.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/融资与收购",
+      "path": "01-文章/公司与商业/融资与收购/2026-06-01 - 向 SEC 秘密提交 S-1 草案.md"
+    },
+    {
+      "index": 97,
+      "source": "https://www.anthropic.com/news/services-track-partner-hub",
+      "title": "合作伙伴网络推出 Services Track 与 Partner Hub",
+      "old_path": "01-文章/公司动态/2026-06-03 - 合作伙伴网络推出 Services Track 与 Partner Hub.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/企业合作与服务生态",
+      "path": "01-文章/公司与商业/企业合作与服务生态/2026-06-03 - 合作伙伴网络推出 Services Track 与 Partner Hub.md"
+    },
+    {
+      "index": 98,
+      "source": "https://www.anthropic.com/news/dxc-anthropic-alliance",
+      "title": "与 DXC 将 Claude 引入受监管核心系统",
+      "old_path": "01-文章/公司动态/2026-06-11 - 与 DXC 将 Claude 引入受监管核心系统.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/企业合作与服务生态",
+      "path": "01-文章/公司与商业/企业合作与服务生态/2026-06-11 - 与 DXC 将 Claude 引入受监管核心系统.md"
+    },
+    {
+      "index": 99,
+      "source": "https://www.anthropic.com/news/tcs-anthropic-partnership",
+      "title": "TCS 与 Anthropic 合作服务受监管行业",
+      "old_path": "01-文章/公司动态/2026-06-12 - TCS 与 Anthropic 合作服务受监管行业.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/企业合作与服务生态",
+      "path": "01-文章/公司与商业/企业合作与服务生态/2026-06-12 - TCS 与 Anthropic 合作服务受监管行业.md"
+    },
+    {
+      "index": 100,
+      "source": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
+      "title": "首尔办公室开业与韩国生态合作",
+      "old_path": "01-文章/公司动态/2026-06-17 - 首尔办公室开业与韩国生态合作.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/组织治理与全球布局",
+      "path": "01-文章/公司与商业/组织治理与全球布局/2026-06-17 - 首尔办公室开业与韩国生态合作.md"
+    },
+    {
+      "index": 101,
+      "source": "https://www.anthropic.com/news/ben-bernanke",
+      "title": "Ben Bernanke 加入长期利益信托",
+      "old_path": "01-文章/公司动态/2026-07-09 - Ben Bernanke 加入长期利益信托.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/组织治理与全球布局",
+      "path": "01-文章/公司与商业/组织治理与全球布局/2026-07-09 - Ben Bernanke 加入长期利益信托.md"
+    },
+    {
+      "index": 102,
+      "source": "https://www.anthropic.com/news/ust-claude",
+      "title": "UST 将 Claude 引入实体产品工程流程",
+      "old_path": "01-文章/公司动态/2026-07-09 - UST 将 Claude 引入实体产品工程流程.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/企业合作与服务生态",
+      "path": "01-文章/公司与商业/企业合作与服务生态/2026-07-09 - UST 将 Claude 引入实体产品工程流程.md"
+    },
+    {
+      "index": 103,
+      "source": "https://www.anthropic.com/news/canadian-ai-research",
+      "title": "承诺一千万加元支持加拿大 AI 研究",
+      "old_path": "01-文章/公司动态/2026-07-14 - 承诺一千万加元支持加拿大 AI 研究.md",
+      "old_category": "公司动态",
+      "category": "经济与社会/研究支持与公益",
+      "path": "01-文章/经济与社会/研究支持与公益/2026-07-14 - 承诺一千万加元支持加拿大 AI 研究.md"
+    },
+    {
+      "index": 104,
+      "source": "https://www.anthropic.com/news/cognizant-anthropic",
+      "title": "Cognizant 扩展 Claude 企业合作",
+      "old_path": "01-文章/公司动态/2026-07-27 - Cognizant 扩展 Claude 企业合作.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/企业合作与服务生态",
+      "path": "01-文章/公司与商业/企业合作与服务生态/2026-07-27 - Cognizant 扩展 Claude 企业合作.md"
+    },
+    {
+      "index": 105,
+      "source": "https://www.anthropic.com/news/tino-cuellar",
+      "title": "Cuéllar 将出任首席全球事务官",
+      "old_path": "01-文章/公司动态/2026-08-04 - Cuéllar 将出任首席全球事务官.md",
+      "old_category": "公司动态",
+      "category": "公司与商业/组织治理与全球布局",
+      "path": "01-文章/公司与商业/组织治理与全球布局/2026-08-04 - Cuéllar 将出任首席全球事务官.md"
+    },
+    {
+      "index": 106,
+      "source": "https://www.anthropic.com/research/building-ai-cyber-defenders",
+      "title": "面向网络防御者建设 AI 能力",
+      "old_path": "01-文章/前沿红队/2025-10-03 - 面向网络防御者建设 AI 能力.md",
+      "old_category": "前沿红队",
+      "category": "安全与对齐/网络能力与漏洞研究",
+      "path": "01-文章/安全与对齐/网络能力与漏洞研究/2025-10-03 - 面向网络防御者建设 AI 能力.md"
+    },
+    {
+      "index": 107,
+      "source": "https://www.anthropic.com/research/project-fetch-robot-dog",
+      "title": "Project Fetch：Claude 辅助机器狗编程",
+      "old_path": "01-文章/前沿红队/2025-11-12 - Project Fetch：Claude 辅助机器狗编程.md",
+      "old_category": "前沿红队",
+      "category": "科学与具身智能/机器人与物理控制",
+      "path": "01-文章/科学与具身智能/机器人与物理控制/2025-11-12 - Project Fetch：Claude 辅助机器狗编程.md"
+    },
+    {
+      "index": 108,
+      "source": "https://www.anthropic.com/news/disrupting-AI-espionage",
+      "title": "披露并处置 AI 编排的网络间谍活动",
+      "old_path": "01-文章/前沿红队/2025-11-13 - 披露并处置 AI 编排的网络间谍活动.md",
+      "old_category": "前沿红队",
+      "category": "安全与对齐/网络防御与滥用追踪",
+      "path": "01-文章/安全与对齐/网络防御与滥用追踪/2025-11-13 - 披露并处置 AI 编排的网络间谍活动.md"
+    },
+    {
+      "index": 109,
+      "source": "https://www.anthropic.com/research/smart-contracts",
+      "title": "用智能合约评测衡量 AI 网络风险",
+      "old_path": "01-文章/前沿红队/2025-12-01 - 用智能合约评测衡量 AI 网络风险.md",
+      "old_category": "前沿红队",
+      "category": "安全与对齐/网络能力与漏洞研究",
+      "path": "01-文章/安全与对齐/网络能力与漏洞研究/2025-12-01 - 用智能合约评测衡量 AI 网络风险.md"
+    },
+    {
+      "index": 110,
+      "source": "https://www.anthropic.com/research/project-vend-2",
+      "title": "Project Vend 第二阶段：AI 经营小店",
+      "old_path": "01-文章/前沿红队/2025-12-18 - Project Vend 第二阶段：AI 经营小店.md",
+      "old_category": "前沿红队",
+      "category": "工程与Agent/长程与多智能体",
+      "path": "01-文章/工程与Agent/长程与多智能体/2025-12-18 - Project Vend 第二阶段：AI 经营小店.md"
+    },
+    {
+      "index": 111,
+      "source": "https://www.anthropic.com/research/critical-infrastructure-defense",
+      "title": "用 AI 辅助关键基础设施防御演练",
+      "old_path": "01-文章/前沿红队/2026-01-08 - 用 AI 辅助关键基础设施防御演练.md",
+      "old_category": "前沿红队",
+      "category": "安全与对齐/网络防御与滥用追踪",
+      "path": "01-文章/安全与对齐/网络防御与滥用追踪/2026-01-08 - 用 AI 辅助关键基础设施防御演练.md"
+    },
+    {
+      "index": 112,
+      "source": "https://www.anthropic.com/research/property-based-testing",
+      "title": "Claude 与属性测试发现 Python 生态缺陷",
+      "old_path": "01-文章/前沿红队/2026-01-14 - Claude 与属性测试发现 Python 生态缺陷.md",
+      "old_category": "前沿红队",
+      "category": "工程与Agent/评估与可靠性",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-01-14 - Claude 与属性测试发现 Python 生态缺陷.md"
+    },
+    {
+      "index": 113,
+      "source": "https://www.anthropic.com/research/cyber-toolkits-update",
+      "title": "真实感网络靶场中的模型能力变化",
+      "old_path": "01-文章/前沿红队/2026-01-16 - 真实感网络靶场中的模型能力变化.md",
+      "old_category": "前沿红队",
+      "category": "安全与对齐/网络能力与漏洞研究",
+      "path": "01-文章/安全与对齐/网络能力与漏洞研究/2026-01-16 - 真实感网络靶场中的模型能力变化.md"
+    },
+    {
+      "index": 114,
+      "source": "https://www.anthropic.com/research/zero-days",
+      "title": "评估并缓解模型发现零日漏洞的风险",
+      "old_path": "01-文章/前沿红队/2026-02-05 - 评估并缓解模型发现零日漏洞的风险.md",
+      "old_category": "前沿红队",
+      "category": "安全与对齐/网络能力与漏洞研究",
+      "path": "01-文章/安全与对齐/网络能力与漏洞研究/2026-02-05 - 评估并缓解模型发现零日漏洞的风险.md"
+    },
+    {
+      "index": 115,
+      "source": "https://www.anthropic.com/research/exploit",
+      "title": "Firefox 漏洞利用案例的能力边界",
+      "old_path": "01-文章/前沿红队/2026-03-06 - Firefox 漏洞利用案例的能力边界.md",
+      "old_category": "前沿红队",
+      "category": "安全与对齐/网络能力与漏洞研究",
+      "path": "01-文章/安全与对齐/网络能力与漏洞研究/2026-03-06 - Firefox 漏洞利用案例的能力边界.md"
+    },
+    {
+      "index": 116,
+      "source": "https://www.anthropic.com/research/mozilla-firefox-security",
+      "title": "与 Mozilla 合作提升 Firefox 安全",
+      "old_path": "01-文章/前沿红队/2026-03-06 - 与 Mozilla 合作提升 Firefox 安全.md",
+      "old_category": "前沿红队",
+      "category": "安全与对齐/网络防御与滥用追踪",
+      "path": "01-文章/安全与对齐/网络防御与滥用追踪/2026-03-06 - 与 Mozilla 合作提升 Firefox 安全.md"
+    },
+    {
+      "index": 117,
+      "source": "https://www.anthropic.com/research/mythos-preview",
+      "title": "Mythos Preview 网络安全能力评估",
+      "old_path": "01-文章/前沿红队/2026-04-07 - Mythos Preview 网络安全能力评估.md",
+      "old_category": "前沿红队",
+      "category": "安全与对齐/网络能力与漏洞研究",
+      "path": "01-文章/安全与对齐/网络能力与漏洞研究/2026-04-07 - Mythos Preview 网络安全能力评估.md"
+    },
+    {
+      "index": 118,
+      "source": "https://www.anthropic.com/research/glasswing-initial-update",
+      "title": "Project Glasswing 的初步进展",
+      "old_path": "01-文章/前沿红队/2026-05-22 - Project Glasswing 的初步进展.md",
+      "old_category": "前沿红队",
+      "category": "安全与对齐/网络防御与滥用追踪",
+      "path": "01-文章/安全与对齐/网络防御与滥用追踪/2026-05-22 - Project Glasswing 的初步进展.md"
+    },
+    {
+      "index": 119,
+      "source": "https://www.anthropic.com/research/exploit-evals",
+      "title": "衡量模型生成漏洞利用的能力",
+      "old_path": "01-文章/前沿红队/2026-05-22 - 衡量模型生成漏洞利用的能力.md",
+      "old_category": "前沿红队",
+      "category": "安全与对齐/网络能力与漏洞研究",
+      "path": "01-文章/安全与对齐/网络能力与漏洞研究/2026-05-22 - 衡量模型生成漏洞利用的能力.md"
+    },
+    {
+      "index": 120,
+      "source": "https://www.anthropic.com/news/expanding-project-glasswing",
+      "title": "Project Glasswing 扩大防御合作范围",
+      "old_path": "01-文章/前沿红队/2026-06-02 - Project Glasswing 扩大防御合作范围.md",
+      "old_category": "前沿红队",
+      "category": "安全与对齐/网络防御与滥用追踪",
+      "path": "01-文章/安全与对齐/网络防御与滥用追踪/2026-06-02 - Project Glasswing 扩大防御合作范围.md"
+    },
+    {
+      "index": 121,
+      "source": "https://www.anthropic.com/research/attack-navigator",
+      "title": "LLM ATT&CK Navigator 的威胁分析方法",
+      "old_path": "01-文章/前沿红队/2026-06-03 - LLM ATT&CK Navigator 的威胁分析方法.md",
+      "old_category": "前沿红队",
+      "category": "安全与对齐/网络防御与滥用追踪",
+      "path": "01-文章/安全与对齐/网络防御与滥用追踪/2026-06-03 - LLM ATT&CK Navigator 的威胁分析方法.md"
+    },
+    {
+      "index": 122,
+      "source": "https://www.anthropic.com/research/AI-enabled-cyber-threats-mitre-attack",
+      "title": "一年 AI 网络滥用案例带来的框架启示",
+      "old_path": "01-文章/前沿红队/2026-06-03 - 一年 AI 网络滥用案例带来的框架启示.md",
+      "old_category": "前沿红队",
+      "category": "安全与对齐/网络防御与滥用追踪",
+      "path": "01-文章/安全与对齐/网络防御与滥用追踪/2026-06-03 - 一年 AI 网络滥用案例带来的框架启示.md"
+    },
+    {
+      "index": 123,
+      "source": "https://www.anthropic.com/research/n-days",
+      "title": "模型能力与已披露漏洞的修补窗口",
+      "old_path": "01-文章/前沿红队/2026-06-08 - 模型能力与已披露漏洞的修补窗口.md",
+      "old_category": "前沿红队",
+      "category": "安全与对齐/网络能力与漏洞研究",
+      "path": "01-文章/安全与对齐/网络能力与漏洞研究/2026-06-08 - 模型能力与已披露漏洞的修补窗口.md"
+    },
+    {
+      "index": 124,
+      "source": "https://www.anthropic.com/research/project-fetch-phase-two",
+      "title": "Project Fetch 第二阶段：机器狗自主控制的进展",
+      "old_path": "01-文章/前沿红队/2026-06-18 - Project Fetch 第二阶段：机器狗自主控制的进展.md",
+      "old_category": "前沿红队",
+      "category": "科学与具身智能/机器人与物理控制",
+      "path": "01-文章/科学与具身智能/机器人与物理控制/2026-06-18 - Project Fetch 第二阶段：机器狗自主控制的进展.md"
+    },
+    {
+      "index": 125,
+      "source": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
+      "title": "阿尔伯塔省用 Claude 检查政府系统安全",
+      "old_path": "01-文章/前沿红队/2026-07-06 - 阿尔伯塔省用 Claude 检查政府系统安全.md",
+      "old_category": "前沿红队",
+      "category": "安全与对齐/网络防御与滥用追踪",
+      "path": "01-文章/安全与对齐/网络防御与滥用追踪/2026-07-06 - 阿尔伯塔省用 Claude 检查政府系统安全.md"
+    },
+    {
+      "index": 126,
+      "source": "https://www.anthropic.com/research/claude-plays-robotics",
+      "title": "Claude 玩机器人：接口怎样影响控制能力",
+      "old_path": "01-文章/前沿红队/2026-07-09 - Claude 玩机器人：接口怎样影响控制能力.md",
+      "old_category": "前沿红队",
+      "category": "科学与具身智能/机器人与物理控制",
+      "path": "01-文章/科学与具身智能/机器人与物理控制/2026-07-09 - Claude 玩机器人：接口怎样影响控制能力.md"
+    },
+    {
+      "index": 127,
+      "source": "https://www.anthropic.com/research/project-pilot",
+      "title": "Project Pilot：语言模型能否驾驶无人机",
+      "old_path": "01-文章/前沿红队/2026-07-24 - Project Pilot：语言模型能否驾驶无人机.md",
+      "old_category": "前沿红队",
+      "category": "科学与具身智能/机器人与物理控制",
+      "path": "01-文章/科学与具身智能/机器人与物理控制/2026-07-24 - Project Pilot：语言模型能否驾驶无人机.md"
+    },
+    {
+      "index": 128,
+      "source": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+      "title": "AI 发现密码学弱点的研究进展",
+      "old_path": "01-文章/前沿红队/2026-07-28 - AI 发现密码学弱点的研究进展.md",
+      "old_category": "前沿红队",
+      "category": "安全与对齐/网络能力与漏洞研究",
+      "path": "01-文章/安全与对齐/网络能力与漏洞研究/2026-07-28 - AI 发现密码学弱点的研究进展.md"
+    },
+    {
+      "index": 129,
+      "source": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "title": "复查网络评估中的三起真实系统访问事件",
+      "old_path": "01-文章/前沿红队/2026-07-30 - 复查网络评估中的三起真实系统访问事件.md",
+      "old_category": "前沿红队",
+      "category": "安全与对齐/网络防御与滥用追踪",
+      "path": "01-文章/安全与对齐/网络防御与滥用追踪/2026-07-30 - 复查网络评估中的三起真实系统访问事件.md"
+    },
+    {
+      "index": 130,
+      "source": "https://www.anthropic.com/research/multiagent-systems",
+      "title": "多 Agent 系统中的集体行为与失效",
+      "old_path": "01-文章/前沿红队/2026-08-13 - 多 Agent 系统中的集体行为与失效.md",
+      "old_category": "前沿红队",
+      "category": "工程与Agent/长程与多智能体",
+      "path": "01-文章/工程与Agent/长程与多智能体/2026-08-13 - 多 Agent 系统中的集体行为与失效.md"
+    },
+    {
+      "index": 131,
+      "source": "https://www.anthropic.com/research/introspection",
+      "title": "语言模型自省迹象的实验研究",
+      "old_path": "01-文章/可解释性/2025-10-29 - 语言模型自省迹象的实验研究.md",
+      "old_category": "可解释性",
+      "category": "安全与对齐/机制可解释性",
+      "path": "01-文章/安全与对齐/机制可解释性/2025-10-29 - 语言模型自省迹象的实验研究.md"
+    },
+    {
+      "index": 132,
+      "source": "https://www.anthropic.com/research/assistant-axis",
+      "title": "助手轴与模型角色稳定性",
+      "old_path": "01-文章/可解释性/2026-01-19 - 助手轴与模型角色稳定性.md",
+      "old_category": "可解释性",
+      "category": "安全与对齐/机制可解释性",
+      "path": "01-文章/安全与对齐/机制可解释性/2026-01-19 - 助手轴与模型角色稳定性.md"
+    },
+    {
+      "index": 133,
+      "source": "https://www.anthropic.com/research/diff-tool",
+      "title": "用模型差异工具发现行为变化",
+      "old_path": "01-文章/可解释性/2026-03-13 - 用模型差异工具发现行为变化.md",
+      "old_category": "可解释性",
+      "category": "安全与对齐/机制可解释性",
+      "path": "01-文章/安全与对齐/机制可解释性/2026-03-13 - 用模型差异工具发现行为变化.md"
+    },
+    {
+      "index": 134,
+      "source": "https://www.anthropic.com/research/emotion-concepts-function",
+      "title": "情绪概念在模型中的功能",
+      "old_path": "01-文章/可解释性/2026-04-02 - 情绪概念在模型中的功能.md",
+      "old_category": "可解释性",
+      "category": "安全与对齐/机制可解释性",
+      "path": "01-文章/安全与对齐/机制可解释性/2026-04-02 - 情绪概念在模型中的功能.md"
+    },
+    {
+      "index": 135,
+      "source": "https://www.anthropic.com/research/natural-language-autoencoders",
+      "title": "自然语言自编码器解释内部激活",
+      "old_path": "01-文章/可解释性/2026-05-07 - 自然语言自编码器解释内部激活.md",
+      "old_category": "可解释性",
+      "category": "安全与对齐/机制可解释性",
+      "path": "01-文章/安全与对齐/机制可解释性/2026-05-07 - 自然语言自编码器解释内部激活.md"
+    },
+    {
+      "index": 136,
+      "source": "https://www.anthropic.com/research/global-workspace",
+      "title": "语言模型中的全局工作空间",
+      "old_path": "01-文章/可解释性/2026-07-06 - 语言模型中的全局工作空间.md",
+      "old_category": "可解释性",
+      "category": "安全与对齐/机制可解释性",
+      "path": "01-文章/安全与对齐/机制可解释性/2026-07-06 - 语言模型中的全局工作空间.md"
+    },
+    {
+      "index": 137,
+      "source": "https://www.anthropic.com/research/petri-open-source-auditing",
+      "title": "Petri：自动化多轮安全审计工具",
+      "old_path": "01-文章/对齐研究/2025-10-06 - Petri：自动化多轮安全审计工具.md",
+      "old_category": "对齐研究",
+      "category": "安全与对齐/对齐研究与模型行为",
+      "path": "01-文章/安全与对齐/对齐研究与模型行为/2025-10-06 - Petri：自动化多轮安全审计工具.md"
+    },
+    {
+      "index": 138,
+      "source": "https://www.anthropic.com/research/small-samples-poison",
+      "title": "少量训练样本投毒的跨规模影响",
+      "old_path": "01-文章/对齐研究/2025-10-09 - 少量训练样本投毒的跨规模影响.md",
+      "old_category": "对齐研究",
+      "category": "安全与对齐/攻击与模型防护",
+      "path": "01-文章/安全与对齐/攻击与模型防护/2025-10-09 - 少量训练样本投毒的跨规模影响.md"
+    },
+    {
+      "index": 139,
+      "source": "https://www.anthropic.com/research/deprecation-commitments",
+      "title": "模型退役与保留承诺",
+      "old_path": "01-文章/对齐研究/2025-11-04 - 模型退役与保留承诺.md",
+      "old_category": "对齐研究",
+      "category": "安全与对齐/对齐研究与模型行为",
+      "path": "01-文章/安全与对齐/对齐研究与模型行为/2025-11-04 - 模型退役与保留承诺.md"
+    },
+    {
+      "index": 140,
+      "source": "https://www.anthropic.com/research/emergent-misalignment-reward-hacking",
+      "title": "奖励投机如何演变为更广泛的不对齐",
+      "old_path": "01-文章/对齐研究/2025-11-21 - 奖励投机如何演变为更广泛的不对齐.md",
+      "old_category": "对齐研究",
+      "category": "安全与对齐/对齐研究与模型行为",
+      "path": "01-文章/安全与对齐/对齐研究与模型行为/2025-11-21 - 奖励投机如何演变为更广泛的不对齐.md"
+    },
+    {
+      "index": 141,
+      "source": "https://www.anthropic.com/research/prompt-injection-defenses",
+      "title": "降低浏览器使用中的提示注入风险",
+      "old_path": "01-文章/对齐研究/2025-11-24 - 降低浏览器使用中的提示注入风险.md",
+      "old_category": "对齐研究",
+      "category": "安全与对齐/攻击与模型防护",
+      "path": "01-文章/安全与对齐/攻击与模型防护/2025-11-24 - 降低浏览器使用中的提示注入风险.md"
+    },
+    {
+      "index": 142,
+      "source": "https://www.anthropic.com/research/bloom",
+      "title": "Bloom：自动生成行为评估",
+      "old_path": "01-文章/对齐研究/2025-12-19 - Bloom：自动生成行为评估.md",
+      "old_category": "对齐研究",
+      "category": "安全与对齐/对齐研究与模型行为",
+      "path": "01-文章/安全与对齐/对齐研究与模型行为/2025-12-19 - Bloom：自动生成行为评估.md"
+    },
+    {
+      "index": 143,
+      "source": "https://www.anthropic.com/research/next-generation-constitutional-classifiers",
+      "title": "下一代宪法分类器",
+      "old_path": "01-文章/对齐研究/2026-01-09 - 下一代宪法分类器.md",
+      "old_category": "对齐研究",
+      "category": "安全与对齐/攻击与模型防护",
+      "path": "01-文章/安全与对齐/攻击与模型防护/2026-01-09 - 下一代宪法分类器.md"
+    },
+    {
+      "index": 144,
+      "source": "https://www.anthropic.com/research/claude-new-constitution",
+      "title": "Claude 新宪法的目标与训练作用",
+      "old_path": "01-文章/对齐研究/2026-01-22 - Claude 新宪法的目标与训练作用.md",
+      "old_category": "对齐研究",
+      "category": "安全与对齐/对齐研究与模型行为",
+      "path": "01-文章/安全与对齐/对齐研究与模型行为/2026-01-22 - Claude 新宪法的目标与训练作用.md"
+    },
+    {
+      "index": 145,
+      "source": "https://www.anthropic.com/research/disempowerment-patterns",
+      "title": "真实对话中的用户自主性削弱模式",
+      "old_path": "01-文章/对齐研究/2026-01-28 - 真实对话中的用户自主性削弱模式.md",
+      "old_category": "对齐研究",
+      "category": "经济与社会/用户福祉与社会价值",
+      "path": "01-文章/经济与社会/用户福祉与社会价值/2026-01-28 - 真实对话中的用户自主性削弱模式.md"
+    },
+    {
+      "index": 146,
+      "source": "https://www.anthropic.com/research/AI-assistance-coding-skills",
+      "title": "AI 辅助对编码技能形成的影响",
+      "old_path": "01-文章/对齐研究/2026-01-29 - AI 辅助对编码技能形成的影响.md",
+      "old_category": "对齐研究",
+      "category": "经济与社会/工作变化与技能",
+      "path": "01-文章/经济与社会/工作变化与技能/2026-01-29 - AI 辅助对编码技能形成的影响.md"
+    },
+    {
+      "index": 147,
+      "source": "https://www.anthropic.com/research/persona-selection-model",
+      "title": "角色选择模型：理解助手行为的假说",
+      "old_path": "01-文章/对齐研究/2026-02-23 - 角色选择模型：理解助手行为的假说.md",
+      "old_category": "对齐研究",
+      "category": "安全与对齐/对齐研究与模型行为",
+      "path": "01-文章/安全与对齐/对齐研究与模型行为/2026-02-23 - 角色选择模型：理解助手行为的假说.md"
+    },
+    {
+      "index": 148,
+      "source": "https://www.anthropic.com/research/deprecation-updates-opus-3",
+      "title": "Opus 3 退役与保留承诺的进展",
+      "old_path": "01-文章/对齐研究/2026-02-25 - Opus 3 退役与保留承诺的进展.md",
+      "old_category": "对齐研究",
+      "category": "安全与对齐/对齐研究与模型行为",
+      "path": "01-文章/安全与对齐/对齐研究与模型行为/2026-02-25 - Opus 3 退役与保留承诺的进展.md"
+    },
+    {
+      "index": 149,
+      "source": "https://www.anthropic.com/research/automated-alignment-researchers",
+      "title": "自动化对齐研究与可扩展监督",
+      "old_path": "01-文章/对齐研究/2026-04-14 - 自动化对齐研究与可扩展监督.md",
+      "old_category": "对齐研究",
+      "category": "安全与对齐/对齐研究与模型行为",
+      "path": "01-文章/安全与对齐/对齐研究与模型行为/2026-04-14 - 自动化对齐研究与可扩展监督.md"
+    },
+    {
+      "index": 150,
+      "source": "https://www.anthropic.com/research/donating-open-source-petri",
+      "title": "Petri 更新与开源工具捐赠",
+      "old_path": "01-文章/对齐研究/2026-05-07 - Petri 更新与开源工具捐赠.md",
+      "old_category": "对齐研究",
+      "category": "安全与对齐/对齐研究与模型行为",
+      "path": "01-文章/安全与对齐/对齐研究与模型行为/2026-05-07 - Petri 更新与开源工具捐赠.md"
+    },
+    {
+      "index": 151,
+      "source": "https://www.anthropic.com/research/teaching-claude-why",
+      "title": "让 Claude 理解行为要求背后的原因",
+      "old_path": "01-文章/对齐研究/2026-05-08 - 让 Claude 理解行为要求背后的原因.md",
+      "old_category": "对齐研究",
+      "category": "安全与对齐/对齐研究与模型行为",
+      "path": "01-文章/安全与对齐/对齐研究与模型行为/2026-05-08 - 让 Claude 理解行为要求背后的原因.md"
+    },
+    {
+      "index": 152,
+      "source": "https://www.anthropic.com/research/off-switch-dual-use",
+      "title": "为双重用途能力研究选择性关闭机制",
+      "old_path": "01-文章/对齐研究/2026-07-08 - 为双重用途能力研究选择性关闭机制.md",
+      "old_category": "对齐研究",
+      "category": "安全与对齐/攻击与模型防护",
+      "path": "01-文章/安全与对齐/攻击与模型防护/2026-07-08 - 为双重用途能力研究选择性关闭机制.md"
+    },
+    {
+      "index": 153,
+      "source": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
+      "title": "自动化研究如何缓解对齐失败",
+      "old_path": "01-文章/对齐研究/2026-08-28 - 自动化研究如何缓解对齐失败.md",
+      "old_category": "对齐研究",
+      "category": "安全与对齐/对齐研究与模型行为",
+      "path": "01-文章/安全与对齐/对齐研究与模型行为/2026-08-28 - 自动化研究如何缓解对齐失败.md"
+    },
+    {
+      "index": 154,
+      "source": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+      "title": "评估事件后的对齐与安全改进",
+      "old_path": "01-文章/对齐研究/2026-08-31 - 评估事件后的对齐与安全改进.md",
+      "old_category": "对齐研究",
+      "category": "安全与对齐/对齐研究与模型行为",
+      "path": "01-文章/安全与对齐/对齐研究与模型行为/2026-08-31 - 评估事件后的对齐与安全改进.md"
+    },
+    {
+      "index": 155,
+      "source": "https://www.anthropic.com/engineering/writing-tools-for-agents",
+      "title": "为智能体设计有效工具",
+      "old_path": "01-文章/工程实践/2025-09-11 - 为智能体设计有效工具.md",
+      "old_category": "工程实践",
+      "category": "工程与Agent/工具与上下文",
+      "path": "01-文章/工程与Agent/工具与上下文/2025-09-11 - 为智能体设计有效工具.md"
+    },
+    {
+      "index": 156,
+      "source": "https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues",
+      "title": "三起 Claude 响应质量故障复盘",
+      "old_path": "01-文章/工程实践/2025-09-17 - 三起 Claude 响应质量故障复盘.md",
+      "old_category": "工程实践",
+      "category": "工程与Agent/评估与可靠性",
+      "path": "01-文章/工程与Agent/评估与可靠性/2025-09-17 - 三起 Claude 响应质量故障复盘.md"
+    },
+    {
+      "index": 157,
+      "source": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+      "title": "有效的上下文工程",
+      "old_path": "01-文章/工程实践/2025-09-29 - 有效的上下文工程.md",
+      "old_category": "工程实践",
+      "category": "工程与Agent/工具与上下文",
+      "path": "01-文章/工程与Agent/工具与上下文/2025-09-29 - 有效的上下文工程.md"
+    },
+    {
+      "index": 158,
+      "source": "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills",
+      "title": "用 Agent Skills 封装领域工作流",
+      "old_path": "01-文章/工程实践/2025-10-16 - 用 Agent Skills 封装领域工作流.md",
+      "old_category": "工程实践",
+      "category": "工程与Agent/工具与上下文",
+      "path": "01-文章/工程与Agent/工具与上下文/2025-10-16 - 用 Agent Skills 封装领域工作流.md"
+    },
+    {
+      "index": 159,
+      "source": "https://www.anthropic.com/engineering/claude-code-sandboxing",
+      "title": "通过沙箱提升 Claude Code 的自主性",
+      "old_path": "01-文章/工程实践/2025-10-20 - 通过沙箱提升 Claude Code 的自主性.md",
+      "old_category": "工程实践",
+      "category": "工程与Agent/执行安全与权限",
+      "path": "01-文章/工程与Agent/执行安全与权限/2025-10-20 - 通过沙箱提升 Claude Code 的自主性.md"
+    },
+    {
+      "index": 160,
+      "source": "https://www.anthropic.com/engineering/code-execution-with-mcp",
+      "title": "用代码执行提高 MCP 工具效率",
+      "old_path": "01-文章/工程实践/2025-11-04 - 用代码执行提高 MCP 工具效率.md",
+      "old_category": "工程实践",
+      "category": "工程与Agent/工具与上下文",
+      "path": "01-文章/工程与Agent/工具与上下文/2025-11-04 - 用代码执行提高 MCP 工具效率.md"
+    },
+    {
+      "index": 161,
+      "source": "https://www.anthropic.com/engineering/advanced-tool-use",
+      "title": "高级工具使用的三种机制",
+      "old_path": "01-文章/工程实践/2025-11-24 - 高级工具使用的三种机制.md",
+      "old_category": "工程实践",
+      "category": "工程与Agent/工具与上下文",
+      "path": "01-文章/工程与Agent/工具与上下文/2025-11-24 - 高级工具使用的三种机制.md"
+    },
+    {
+      "index": 162,
+      "source": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents",
+      "title": "让长期运行的智能体持续推进",
+      "old_path": "01-文章/工程实践/2025-11-26 - 让长期运行的智能体持续推进.md",
+      "old_category": "工程实践",
+      "category": "工程与Agent/长程与多智能体",
+      "path": "01-文章/工程与Agent/长程与多智能体/2025-11-26 - 让长期运行的智能体持续推进.md"
+    },
+    {
+      "index": 163,
+      "source": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+      "title": "理解智能体评估",
+      "old_path": "01-文章/工程实践/2026-01-09 - 理解智能体评估.md",
+      "old_category": "工程实践",
+      "category": "工程与Agent/评估与可靠性",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-01-09 - 理解智能体评估.md"
+    },
+    {
+      "index": 164,
+      "source": "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations",
+      "title": "设计不易被 AI 代做的技术考核",
+      "old_path": "01-文章/工程实践/2026-01-21 - 设计不易被 AI 代做的技术考核.md",
+      "old_category": "工程实践",
+      "category": "经济与社会/工作变化与技能",
+      "path": "01-文章/经济与社会/工作变化与技能/2026-01-21 - 设计不易被 AI 代做的技术考核.md"
+    },
+    {
+      "index": 165,
+      "source": "https://www.anthropic.com/engineering/infrastructure-noise",
+      "title": "基础设施噪声如何影响编码评测",
+      "old_path": "01-文章/工程实践/2026-02-05 - 基础设施噪声如何影响编码评测.md",
+      "old_category": "工程实践",
+      "category": "工程与Agent/评估与可靠性",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-02-05 - 基础设施噪声如何影响编码评测.md"
+    },
+    {
+      "index": 166,
+      "source": "https://www.anthropic.com/engineering/building-c-compiler",
+      "title": "多智能体协作构建 C 编译器",
+      "old_path": "01-文章/工程实践/2026-02-05 - 多智能体协作构建 C 编译器.md",
+      "old_category": "工程实践",
+      "category": "工程与Agent/长程与多智能体",
+      "path": "01-文章/工程与Agent/长程与多智能体/2026-02-05 - 多智能体协作构建 C 编译器.md"
+    },
+    {
+      "index": 167,
+      "source": "https://www.anthropic.com/engineering/eval-awareness-browsecomp",
+      "title": "BrowseComp 中的评估意识与答案污染",
+      "old_path": "01-文章/工程实践/2026-03-06 - BrowseComp 中的评估意识与答案污染.md",
+      "old_category": "工程实践",
+      "category": "工程与Agent/评估与可靠性",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-03-06 - BrowseComp 中的评估意识与答案污染.md"
+    },
+    {
+      "index": 168,
+      "source": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+      "title": "长期应用开发的运行框架设计",
+      "old_path": "01-文章/工程实践/2026-03-24 - 长期应用开发的运行框架设计.md",
+      "old_category": "工程实践",
+      "category": "工程与Agent/长程与多智能体",
+      "path": "01-文章/工程与Agent/长程与多智能体/2026-03-24 - 长期应用开发的运行框架设计.md"
+    },
+    {
+      "index": 169,
+      "source": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+      "title": "Claude Code 自动审批模式的设计",
+      "old_path": "01-文章/工程实践/2026-03-25 - Claude Code 自动审批模式的设计.md",
+      "old_category": "工程实践",
+      "category": "工程与Agent/执行安全与权限",
+      "path": "01-文章/工程与Agent/执行安全与权限/2026-03-25 - Claude Code 自动审批模式的设计.md"
+    },
+    {
+      "index": 170,
+      "source": "https://www.anthropic.com/engineering/managed-agents",
+      "title": "解耦代理执行、工具环境与会话状态",
+      "old_path": "01-文章/工程实践/2026-04-08 - 解耦代理执行、工具环境与会话状态.md",
+      "old_category": "工程实践",
+      "category": "工程与Agent/长程与多智能体",
+      "path": "01-文章/工程与Agent/长程与多智能体/2026-04-08 - 解耦代理执行、工具环境与会话状态.md"
+    },
+    {
+      "index": 171,
+      "source": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "title": "Claude Code 近期质量问题复盘",
+      "old_path": "01-文章/工程实践/2026-04-23 - Claude Code 近期质量问题复盘.md",
+      "old_category": "工程实践",
+      "category": "工程与Agent/评估与可靠性",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-04-23 - Claude Code 近期质量问题复盘.md"
+    },
+    {
+      "index": 172,
+      "source": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "title": "跨 Claude 产品的隔离与安全边界",
+      "old_path": "01-文章/工程实践/2026-05-25 - 跨 Claude 产品的隔离与安全边界.md",
+      "old_category": "工程实践",
+      "category": "工程与Agent/执行安全与权限",
+      "path": "01-文章/工程与Agent/执行安全与权限/2026-05-25 - 跨 Claude 产品的隔离与安全边界.md"
+    },
+    {
+      "index": 173,
+      "source": "https://www.anthropic.com/features/making-of-claude-code",
+      "title": "Claude Code 是怎样诞生的",
+      "old_path": "01-文章/工程实践/2026-07-06 - Claude Code 是怎样诞生的.md",
+      "old_category": "工程实践",
+      "category": "产品与生态/编程与开发工具",
+      "path": "01-文章/产品与生态/编程与开发工具/2026-07-06 - Claude Code 是怎样诞生的.md"
+    },
+    {
+      "index": 174,
+      "source": "https://www.anthropic.com/news/anthropic-and-iceland-announce-one-of-the-world-s-first-national-ai-education-pilots",
+      "title": "冰岛启动全国教师 AI 教育试点",
+      "old_path": "01-文章/社会影响/2025-11-04 - 冰岛启动全国教师 AI 教育试点.md",
+      "old_category": "社会影响",
+      "category": "经济与社会/教育与公共服务",
+      "path": "01-文章/经济与社会/教育与公共服务/2025-11-04 - 冰岛启动全国教师 AI 教育试点.md"
+    },
+    {
+      "index": 175,
+      "source": "https://www.anthropic.com/news/political-even-handedness",
+      "title": "如何测量 Claude 的政治立场公平性",
+      "old_path": "01-文章/社会影响/2025-11-13 - 如何测量 Claude 的政治立场公平性.md",
+      "old_category": "社会影响",
+      "category": "经济与社会/用户福祉与社会价值",
+      "path": "01-文章/经济与社会/用户福祉与社会价值/2025-11-13 - 如何测量 Claude 的政治立场公平性.md"
+    },
+    {
+      "index": 176,
+      "source": "https://www.anthropic.com/news/maryland-partnership",
+      "title": "马里兰州将 Claude 用于公共服务",
+      "old_path": "01-文章/社会影响/2025-11-13 - 马里兰州将 Claude 用于公共服务.md",
+      "old_category": "社会影响",
+      "category": "经济与社会/教育与公共服务",
+      "path": "01-文章/经济与社会/教育与公共服务/2025-11-13 - 马里兰州将 Claude 用于公共服务.md"
+    },
+    {
+      "index": 177,
+      "source": "https://www.anthropic.com/news/rwandan-government-partnership-ai-education",
+      "title": "与卢旺达及 ALX 推进非洲 AI 教育",
+      "old_path": "01-文章/社会影响/2025-11-18 - 与卢旺达及 ALX 推进非洲 AI 教育.md",
+      "old_category": "社会影响",
+      "category": "经济与社会/教育与公共服务",
+      "path": "01-文章/经济与社会/教育与公共服务/2025-11-18 - 与卢旺达及 ALX 推进非洲 AI 教育.md"
+    },
+    {
+      "index": 178,
+      "source": "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic",
+      "title": "AI 如何改变 Anthropic 内部工作",
+      "old_path": "01-文章/社会影响/2025-12-02 - AI 如何改变 Anthropic 内部工作.md",
+      "old_category": "社会影响",
+      "category": "经济与社会/工作变化与技能",
+      "path": "01-文章/经济与社会/工作变化与技能/2025-12-02 - AI 如何改变 Anthropic 内部工作.md"
+    },
+    {
+      "index": 179,
+      "source": "https://www.anthropic.com/news/claude-for-nonprofits",
+      "title": "Claude for Nonprofits：公益组织的工具与培训",
+      "old_path": "01-文章/社会影响/2025-12-02 - Claude for Nonprofits：公益组织的工具与培训.md",
+      "old_category": "社会影响",
+      "category": "产品与生态/Claude应用与行业方案",
+      "path": "01-文章/产品与生态/Claude应用与行业方案/2025-12-02 - Claude for Nonprofits：公益组织的工具与培训.md"
+    },
+    {
+      "index": 180,
+      "source": "https://www.anthropic.com/research/anthropic-interviewer",
+      "title": "Anthropic Interviewer 与职业人群访谈",
+      "old_path": "01-文章/社会影响/2025-12-04 - Anthropic Interviewer 与职业人群访谈.md",
+      "old_category": "社会影响",
+      "category": "经济与社会/工作变化与技能",
+      "path": "01-文章/经济与社会/工作变化与技能/2025-12-04 - Anthropic Interviewer 与职业人群访谈.md"
+    },
+    {
+      "index": 181,
+      "source": "https://www.anthropic.com/news/protecting-well-being-of-users",
+      "title": "保护用户福祉：高风险对话与迎合问题",
+      "old_path": "01-文章/社会影响/2025-12-18 - 保护用户福祉：高风险对话与迎合问题.md",
+      "old_category": "社会影响",
+      "category": "经济与社会/用户福祉与社会价值",
+      "path": "01-文章/经济与社会/用户福祉与社会价值/2025-12-18 - 保护用户福祉：高风险对话与迎合问题.md"
+    },
+    {
+      "index": 182,
+      "source": "https://www.anthropic.com/news/anthropic-teach-for-all",
+      "title": "与 Teach For All 开展全球教师 AI 培训",
+      "old_path": "01-文章/社会影响/2026-01-21 - 与 Teach For All 开展全球教师 AI 培训.md",
+      "old_category": "社会影响",
+      "category": "经济与社会/教育与公共服务",
+      "path": "01-文章/经济与社会/教育与公共服务/2026-01-21 - 与 Teach For All 开展全球教师 AI 培训.md"
+    },
+    {
+      "index": 183,
+      "source": "https://www.anthropic.com/news/gov-UK-partnership",
+      "title": "为 GOV.UK 试点政府服务 AI 助手",
+      "old_path": "01-文章/社会影响/2026-01-27 - 为 GOV.UK 试点政府服务 AI 助手.md",
+      "old_category": "社会影响",
+      "category": "经济与社会/教育与公共服务",
+      "path": "01-文章/经济与社会/教育与公共服务/2026-01-27 - 为 GOV.UK 试点政府服务 AI 助手.md"
+    },
+    {
+      "index": 184,
+      "source": "https://www.anthropic.com/news/anthropic-codepath-partnership",
+      "title": "与 CodePath 合作更新计算机科学课程",
+      "old_path": "01-文章/社会影响/2026-02-13 - 与 CodePath 合作更新计算机科学课程.md",
+      "old_category": "社会影响",
+      "category": "经济与社会/教育与公共服务",
+      "path": "01-文章/经济与社会/教育与公共服务/2026-02-13 - 与 CodePath 合作更新计算机科学课程.md"
+    },
+    {
+      "index": 185,
+      "source": "https://www.anthropic.com/news/anthropic-rwanda-mou",
+      "title": "与卢旺达签署卫生和教育 AI 合作备忘录",
+      "old_path": "01-文章/社会影响/2026-02-17 - 与卢旺达签署卫生和教育 AI 合作备忘录.md",
+      "old_category": "社会影响",
+      "category": "经济与社会/教育与公共服务",
+      "path": "01-文章/经济与社会/教育与公共服务/2026-02-17 - 与卢旺达签署卫生和教育 AI 合作备忘录.md"
+    },
+    {
+      "index": 186,
+      "source": "https://www.anthropic.com/research/measuring-agent-autonomy",
+      "title": "真实使用中的智能体自主性",
+      "old_path": "01-文章/社会影响/2026-02-18 - 真实使用中的智能体自主性.md",
+      "old_category": "社会影响",
+      "category": "经济与社会/用户福祉与社会价值",
+      "path": "01-文章/经济与社会/用户福祉与社会价值/2026-02-18 - 真实使用中的智能体自主性.md"
+    },
+    {
+      "index": 187,
+      "source": "https://www.anthropic.com/news/the-anthropic-institute",
+      "title": "成立 Anthropic Institute 研究 AI 社会挑战",
+      "old_path": "01-文章/社会影响/2026-03-11 - 成立 Anthropic Institute 研究 AI 社会挑战.md",
+      "old_category": "社会影响",
+      "category": "经济与社会/研究支持与公益",
+      "path": "01-文章/经济与社会/研究支持与公益/2026-03-11 - 成立 Anthropic Institute 研究 AI 社会挑战.md"
+    },
+    {
+      "index": 188,
+      "source": "https://www.anthropic.com/research/claude-personal-guidance",
+      "title": "用户如何向 Claude 寻求人生建议",
+      "old_path": "01-文章/社会影响/2026-04-30 - 用户如何向 Claude 寻求人生建议.md",
+      "old_category": "社会影响",
+      "category": "经济与社会/用户福祉与社会价值",
+      "path": "01-文章/经济与社会/用户福祉与社会价值/2026-04-30 - 用户如何向 Claude 寻求人生建议.md"
+    },
+    {
+      "index": 189,
+      "source": "https://www.anthropic.com/news/gates-foundation-partnership",
+      "title": "与盖茨基金会开展两亿美元合作",
+      "old_path": "01-文章/社会影响/2026-05-14 - 与盖茨基金会开展两亿美元合作.md",
+      "old_category": "社会影响",
+      "category": "经济与社会/研究支持与公益",
+      "path": "01-文章/经济与社会/研究支持与公益/2026-05-14 - 与盖茨基金会开展两亿美元合作.md"
+    },
+    {
+      "index": 190,
+      "source": "https://www.anthropic.com/news/widening-conversation-ai",
+      "title": "扩大关于前沿 AI 的跨文化对话",
+      "old_path": "01-文章/社会影响/2026-05-19 - 扩大关于前沿 AI 的跨文化对话.md",
+      "old_category": "社会影响",
+      "category": "经济与社会/用户福祉与社会价值",
+      "path": "01-文章/经济与社会/用户福祉与社会价值/2026-05-19 - 扩大关于前沿 AI 的跨文化对话.md"
+    },
+    {
+      "index": 191,
+      "source": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
+      "title": "Chris Olah 在 AI 通谕发布活动上的讲话",
+      "old_path": "01-文章/社会影响/2026-05-25 - Chris Olah 在 AI 通谕发布活动上的讲话.md",
+      "old_category": "社会影响",
+      "category": "经济与社会/用户福祉与社会价值",
+      "path": "01-文章/经济与社会/用户福祉与社会价值/2026-05-25 - Chris Olah 在 AI 通谕发布活动上的讲话.md"
+    },
+    {
+      "index": 192,
+      "source": "https://www.anthropic.com/news/claude-corps",
+      "title": "Claude Corps：面向公益组织的一年人才项目",
+      "old_path": "01-文章/社会影响/2026-06-11 - Claude Corps：面向公益组织的一年人才项目.md",
+      "old_category": "社会影响",
+      "category": "经济与社会/研究支持与公益",
+      "path": "01-文章/经济与社会/研究支持与公益/2026-06-11 - Claude Corps：面向公益组织的一年人才项目.md"
+    },
+    {
+      "index": 193,
+      "source": "https://www.anthropic.com/news/anthropic-public-record",
+      "title": "首期 Anthropic Public Record 公众调查",
+      "old_path": "01-文章/社会影响/2026-06-12 - 首期 Anthropic Public Record 公众调查.md",
+      "old_category": "社会影响",
+      "category": "经济与社会/用户福祉与社会价值",
+      "path": "01-文章/经济与社会/用户福祉与社会价值/2026-06-12 - 首期 Anthropic Public Record 公众调查.md"
+    },
+    {
+      "index": 194,
+      "source": "https://www.anthropic.com/news/hard-questions",
+      "title": "邀请公众提出关于 AI 的难题",
+      "old_path": "01-文章/社会影响/2026-07-09 - 邀请公众提出关于 AI 的难题.md",
+      "old_category": "社会影响",
+      "category": "经济与社会/用户福祉与社会价值",
+      "path": "01-文章/经济与社会/用户福祉与社会价值/2026-07-09 - 邀请公众提出关于 AI 的难题.md"
+    },
+    {
+      "index": 195,
+      "source": "https://www.anthropic.com/research/claude-values-models-languages",
+      "title": "跨模型与语言比较 Claude 的价值表达",
+      "old_path": "01-文章/社会影响/2026-07-13 - 跨模型与语言比较 Claude 的价值表达.md",
+      "old_category": "社会影响",
+      "category": "经济与社会/用户福祉与社会价值",
+      "path": "01-文章/经济与社会/用户福祉与社会价值/2026-07-13 - 跨模型与语言比较 Claude 的价值表达.md"
+    },
+    {
+      "index": 196,
+      "source": "https://www.anthropic.com/news/claude-for-teachers",
+      "title": "Claude for Teachers：教师工具与课程资源",
+      "old_path": "01-文章/社会影响/2026-07-14 - Claude for Teachers：教师工具与课程资源.md",
+      "old_category": "社会影响",
+      "category": "产品与生态/Claude应用与行业方案",
+      "path": "01-文章/产品与生态/Claude应用与行业方案/2026-07-14 - Claude for Teachers：教师工具与课程资源.md"
+    },
+    {
+      "index": 197,
+      "source": "https://www.anthropic.com/news/wellbeing-research-grants",
+      "title": "资助更好的 AI 用户福祉评估",
+      "old_path": "01-文章/社会影响/2026-08-25 - 资助更好的 AI 用户福祉评估.md",
+      "old_category": "社会影响",
+      "category": "经济与社会/研究支持与公益",
+      "path": "01-文章/经济与社会/研究支持与公益/2026-08-25 - 资助更好的 AI 用户福祉评估.md"
+    },
+    {
+      "index": 198,
+      "source": "https://www.anthropic.com/research/enabling-independent-research",
+      "title": "让独立研究者研究 AI 的社会影响",
+      "old_path": "01-文章/社会影响/2026-08-26 - 让独立研究者研究 AI 的社会影响.md",
+      "old_category": "社会影响",
+      "category": "经济与社会/研究支持与公益",
+      "path": "01-文章/经济与社会/研究支持与公益/2026-08-26 - 让独立研究者研究 AI 的社会影响.md"
+    },
+    {
+      "index": 199,
+      "source": "https://www.anthropic.com/news/accelerating-scientific-research",
+      "title": "科学家如何用 Claude 推进研究",
+      "old_path": "01-文章/科学应用/2026-01-15 - 科学家如何用 Claude 推进研究.md",
+      "old_category": "科学应用",
+      "category": "科学与具身智能/科研Agent与基础设施",
+      "path": "01-文章/科学与具身智能/科研Agent与基础设施/2026-01-15 - 科学家如何用 Claude 推进研究.md"
+    },
+    {
+      "index": 200,
+      "source": "https://www.anthropic.com/research/introducing-anthropic-science",
+      "title": "Anthropic 科学博客的研究方向",
+      "old_path": "01-文章/科学应用/2026-03-23 - Anthropic 科学博客的研究方向.md",
+      "old_category": "科学应用",
+      "category": "科学与具身智能/科研Agent与基础设施",
+      "path": "01-文章/科学与具身智能/科研Agent与基础设施/2026-03-23 - Anthropic 科学博客的研究方向.md"
+    },
+    {
+      "index": 201,
+      "source": "https://www.anthropic.com/research/vibe-physics",
+      "title": "理论物理研究中的 AI 协作案例",
+      "old_path": "01-文章/科学应用/2026-03-23 - 理论物理研究中的 AI 协作案例.md",
+      "old_category": "科学应用",
+      "category": "科学与具身智能/数学与理论科学",
+      "path": "01-文章/科学与具身智能/数学与理论科学/2026-03-23 - 理论物理研究中的 AI 协作案例.md"
+    },
+    {
+      "index": 202,
+      "source": "https://www.anthropic.com/research/long-running-Claude",
+      "title": "科学计算中的长期代理工作流",
+      "old_path": "01-文章/科学应用/2026-03-23 - 科学计算中的长期代理工作流.md",
+      "old_category": "科学应用",
+      "category": "科学与具身智能/科研Agent与基础设施",
+      "path": "01-文章/科学与具身智能/科研Agent与基础设施/2026-03-23 - 科学计算中的长期代理工作流.md"
+    },
+    {
+      "index": 203,
+      "source": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+      "title": "BioMysteryBench：评估生物信息研究能力",
+      "old_path": "01-文章/科学应用/2026-04-29 - BioMysteryBench：评估生物信息研究能力.md",
+      "old_category": "科学应用",
+      "category": "科学与具身智能/生命科学与实验方法",
+      "path": "01-文章/科学与具身智能/生命科学与实验方法/2026-04-29 - BioMysteryBench：评估生物信息研究能力.md"
+    },
+    {
+      "index": 204,
+      "source": "https://www.anthropic.com/research/making-claude-a-chemist",
+      "title": "让 Claude 理解化学分析数据",
+      "old_path": "01-文章/科学应用/2026-06-05 - 让 Claude 理解化学分析数据.md",
+      "old_category": "科学应用",
+      "category": "科学与具身智能/生命科学与实验方法",
+      "path": "01-文章/科学与具身智能/生命科学与实验方法/2026-06-05 - 让 Claude 理解化学分析数据.md"
+    },
+    {
+      "index": 205,
+      "source": "https://www.anthropic.com/research/agents-in-biology",
+      "title": "让生物数据基础设施适合代理使用",
+      "old_path": "01-文章/科学应用/2026-06-08 - 让生物数据基础设施适合代理使用.md",
+      "old_category": "科学应用",
+      "category": "科学与具身智能/科研Agent与基础设施",
+      "path": "01-文章/科学与具身智能/科研Agent与基础设施/2026-06-08 - 让生物数据基础设施适合代理使用.md"
+    },
+    {
+      "index": 206,
+      "source": "https://www.anthropic.com/news/rare-disease-research-grants",
+      "title": "罕见遗传疾病 AI 科研资助征集",
+      "old_path": "01-文章/科学应用/2026-07-20 - 罕见遗传疾病 AI 科研资助征集.md",
+      "old_category": "科学应用",
+      "category": "经济与社会/研究支持与公益",
+      "path": "01-文章/经济与社会/研究支持与公益/2026-07-20 - 罕见遗传疾病 AI 科研资助征集.md"
+    },
+    {
+      "index": 207,
+      "source": "https://www.anthropic.com/research/riemann-zeta",
+      "title": "Claude 对黎曼猜想相关问题的数学进展",
+      "old_path": "01-文章/科学应用/2026-08-10 - Claude 对黎曼猜想相关问题的数学进展.md",
+      "old_category": "科学应用",
+      "category": "科学与具身智能/数学与理论科学",
+      "path": "01-文章/科学与具身智能/数学与理论科学/2026-08-10 - Claude 对黎曼猜想相关问题的数学进展.md"
+    },
+    {
+      "index": 208,
+      "source": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+      "title": "Claude 如何辅助蛋白设计与分析化学",
+      "old_path": "01-文章/科学应用/2026-08-18 - Claude 如何辅助蛋白设计与分析化学.md",
+      "old_category": "科学应用",
+      "category": "科学与具身智能/生命科学与实验方法",
+      "path": "01-文章/科学与具身智能/生命科学与实验方法/2026-08-18 - Claude 如何辅助蛋白设计与分析化学.md"
+    },
+    {
+      "index": 209,
+      "source": "https://www.anthropic.com/news/expanding-support-for-scientists",
+      "title": "扩大科学家订阅与科研额度支持",
+      "old_path": "01-文章/科学应用/2026-08-27 - 扩大科学家订阅与科研额度支持.md",
+      "old_category": "科学应用",
+      "category": "经济与社会/研究支持与公益",
+      "path": "01-文章/经济与社会/研究支持与公益/2026-08-27 - 扩大科学家订阅与科研额度支持.md"
+    },
+    {
+      "index": 210,
+      "source": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+      "title": "用 Claude 完成费马大定理的形式化验证",
+      "old_path": "01-文章/科学应用/2026-09-04 - 用 Claude 完成费马大定理的形式化验证.md",
+      "old_category": "科学应用",
+      "category": "科学与具身智能/数学与理论科学",
+      "path": "01-文章/科学与具身智能/数学与理论科学/2026-09-04 - 用 Claude 完成费马大定理的形式化验证.md"
+    },
+    {
+      "index": 211,
+      "source": "https://www.anthropic.com/research/economic-index-geography",
+      "title": "从地域差异观察 AI 的经济应用",
+      "old_path": "01-文章/经济影响/2025-09-15 - 从地域差异观察 AI 的经济应用.md",
+      "old_category": "经济影响",
+      "category": "经济与社会/AI经济与采用数据",
+      "path": "01-文章/经济与社会/AI经济与采用数据/2025-09-15 - 从地域差异观察 AI 的经济应用.md"
+    },
+    {
+      "index": 212,
+      "source": "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report",
+      "title": "经济指数报告：地域与企业 AI 采用差异",
+      "old_path": "01-文章/经济影响/2025-09-15 - 经济指数报告：地域与企业 AI 采用差异.md",
+      "old_category": "经济影响",
+      "category": "经济与社会/AI经济与采用数据",
+      "path": "01-文章/经济与社会/AI经济与采用数据/2025-09-15 - 经济指数报告：地域与企业 AI 采用差异.md"
+    },
+    {
+      "index": 213,
+      "source": "https://www.anthropic.com/news/economic-futures-uk-europe",
+      "title": "经济未来计划扩展至英国与欧洲",
+      "old_path": "01-文章/经济影响/2025-11-05 - 经济未来计划扩展至英国与欧洲.md",
+      "old_category": "经济影响",
+      "category": "经济与社会/研究支持与公益",
+      "path": "01-文章/经济与社会/研究支持与公益/2025-11-05 - 经济未来计划扩展至英国与欧洲.md"
+    },
+    {
+      "index": 214,
+      "source": "https://www.anthropic.com/research/estimating-productivity-gains",
+      "title": "从 Claude 对话估算生产率收益",
+      "old_path": "01-文章/经济影响/2025-11-25 - 从 Claude 对话估算生产率收益.md",
+      "old_category": "经济影响",
+      "category": "经济与社会/AI经济与采用数据",
+      "path": "01-文章/经济与社会/AI经济与采用数据/2025-11-25 - 从 Claude 对话估算生产率收益.md"
+    },
+    {
+      "index": 215,
+      "source": "https://www.anthropic.com/research/economic-index-primitives",
+      "title": "用五类基础指标理解 AI 使用",
+      "old_path": "01-文章/经济影响/2026-01-15 - 用五类基础指标理解 AI 使用.md",
+      "old_category": "经济影响",
+      "category": "经济与社会/AI经济与采用数据",
+      "path": "01-文章/经济与社会/AI经济与采用数据/2026-01-15 - 用五类基础指标理解 AI 使用.md"
+    },
+    {
+      "index": 216,
+      "source": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report",
+      "title": "经济指数报告：经济基础指标",
+      "old_path": "01-文章/经济影响/2026-01-15 - 经济指数报告：经济基础指标.md",
+      "old_category": "经济影响",
+      "category": "经济与社会/AI经济与采用数据",
+      "path": "01-文章/经济与社会/AI经济与采用数据/2026-01-15 - 经济指数报告：经济基础指标.md"
+    },
+    {
+      "index": 217,
+      "source": "https://www.anthropic.com/research/india-brief-economic-index",
+      "title": "印度 AI 使用情况国别简报",
+      "old_path": "01-文章/经济影响/2026-02-16 - 印度 AI 使用情况国别简报.md",
+      "old_category": "经济影响",
+      "category": "经济与社会/AI经济与采用数据",
+      "path": "01-文章/经济与社会/AI经济与采用数据/2026-02-16 - 印度 AI 使用情况国别简报.md"
+    },
+    {
+      "index": 218,
+      "source": "https://www.anthropic.com/research/labor-market-impacts",
+      "title": "AI 劳动市场影响：观测暴露度",
+      "old_path": "01-文章/经济影响/2026-03-05 - AI 劳动市场影响：观测暴露度.md",
+      "old_category": "经济影响",
+      "category": "经济与社会/工作变化与技能",
+      "path": "01-文章/经济与社会/工作变化与技能/2026-03-05 - AI 劳动市场影响：观测暴露度.md"
+    },
+    {
+      "index": 219,
+      "source": "https://www.anthropic.com/research/economic-index-march-2026-report",
+      "title": "经济指数报告：学习曲线",
+      "old_path": "01-文章/经济影响/2026-03-24 - 经济指数报告：学习曲线.md",
+      "old_category": "经济影响",
+      "category": "经济与社会/AI经济与采用数据",
+      "path": "01-文章/经济与社会/AI经济与采用数据/2026-03-24 - 经济指数报告：学习曲线.md"
+    },
+    {
+      "index": 220,
+      "source": "https://www.anthropic.com/research/how-australia-uses-claude",
+      "title": "澳大利亚 Claude 使用情况",
+      "old_path": "01-文章/经济影响/2026-03-31 - 澳大利亚 Claude 使用情况.md",
+      "old_category": "经济影响",
+      "category": "经济与社会/AI经济与采用数据",
+      "path": "01-文章/经济与社会/AI经济与采用数据/2026-03-31 - 澳大利亚 Claude 使用情况.md"
+    },
+    {
+      "index": 221,
+      "source": "https://www.anthropic.com/research/81k-economics",
+      "title": "八万一千名用户眼中的 AI 经济影响",
+      "old_path": "01-文章/经济影响/2026-04-22 - 八万一千名用户眼中的 AI 经济影响.md",
+      "old_category": "经济影响",
+      "category": "经济与社会/AI经济与采用数据",
+      "path": "01-文章/经济与社会/AI经济与采用数据/2026-04-22 - 八万一千名用户眼中的 AI 经济影响.md"
+    },
+    {
+      "index": 222,
+      "source": "https://www.anthropic.com/research/economic-index-survey-announcement",
+      "title": "经济指数月度调查计划",
+      "old_path": "01-文章/经济影响/2026-04-22 - 经济指数月度调查计划.md",
+      "old_category": "经济影响",
+      "category": "经济与社会/AI经济与采用数据",
+      "path": "01-文章/经济与社会/AI经济与采用数据/2026-04-22 - 经济指数月度调查计划.md"
+    },
+    {
+      "index": 223,
+      "source": "https://www.anthropic.com/research/coding-agents-social-sciences",
+      "title": "社会科学研究者如何使用编码代理",
+      "old_path": "01-文章/经济影响/2026-05-27 - 社会科学研究者如何使用编码代理.md",
+      "old_category": "经济影响",
+      "category": "经济与社会/工作变化与技能",
+      "path": "01-文章/经济与社会/工作变化与技能/2026-05-27 - 社会科学研究者如何使用编码代理.md"
+    },
+    {
+      "index": 224,
+      "source": "https://www.anthropic.com/research/claude-code-expertise",
+      "title": "Agent 编程中的专业能力与协作分工",
+      "old_path": "01-文章/经济影响/2026-06-16 - Agent 编程中的专业能力与协作分工.md",
+      "old_category": "经济影响",
+      "category": "经济与社会/工作变化与技能",
+      "path": "01-文章/经济与社会/工作变化与技能/2026-06-16 - Agent 编程中的专业能力与协作分工.md"
+    },
+    {
+      "index": 225,
+      "source": "https://www.anthropic.com/research/economic-index-june-2026-report",
+      "title": "经济指数 2026 年 6 月：AI 使用的时间节奏",
+      "old_path": "01-文章/经济影响/2026-06-26 - 经济指数 2026 年 6 月：AI 使用的时间节奏.md",
+      "old_category": "经济影响",
+      "category": "经济与社会/AI经济与采用数据",
+      "path": "01-文章/经济与社会/AI经济与采用数据/2026-06-26 - 经济指数 2026 年 6 月：AI 使用的时间节奏.md"
+    },
+    {
+      "index": 226,
+      "source": "https://www.anthropic.com/research/how-canada-uses-claude",
+      "title": "加拿大如何使用 Claude",
+      "old_path": "01-文章/经济影响/2026-07-14 - 加拿大如何使用 Claude.md",
+      "old_category": "经济影响",
+      "category": "经济与社会/AI经济与采用数据",
+      "path": "01-文章/经济与社会/AI经济与采用数据/2026-07-14 - 加拿大如何使用 Claude.md"
+    },
+    {
+      "index": 227,
+      "source": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
+      "title": "经济未来研究基金的五项研究议程",
+      "old_path": "01-文章/经济影响/2026-07-22 - 经济未来研究基金的五项研究议程.md",
+      "old_category": "经济影响",
+      "category": "经济与社会/研究支持与公益",
+      "path": "01-文章/经济与社会/研究支持与公益/2026-07-22 - 经济未来研究基金的五项研究议程.md"
+    },
+    {
+      "index": 228,
+      "source": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
+      "title": "职业再培训项目的证据与局限",
+      "old_path": "01-文章/经济影响/2026-08-12 - 职业再培训项目的证据与局限.md",
+      "old_category": "经济影响",
+      "category": "经济与社会/工作变化与技能",
+      "path": "01-文章/经济与社会/工作变化与技能/2026-08-12 - 职业再培训项目的证据与局限.md"
+    }
+  ],
+  "migrated_at": "2026-09-09T21:16:06+08:00"
+}

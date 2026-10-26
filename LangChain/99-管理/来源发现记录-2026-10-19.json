@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-19",
+  "checked_at": "2026-10-19T09:24:33+08:00",
+  "listing_checked_at": "2026-10-19T09:24:33+08:00",
+  "incremental_window": [
+    "2026-10-16",
+    "2026-10-19"
+  ],
+  "listing_pages": [],
+  "sitemap_entries_checked": 537,
+  "sitemap_recent_missing_from_pages": [],
+  "sitemap_note": "博客列表与站点地图检查成功；列表中的 Own Your Intelligence 为 2026-07-25 早期战略文章，Newsletter 为汇总页，均按规则排除；本次无符合范围的新技术文章。",
+  "selected_media_check": {
+    "source_images_checked": 0,
+    "adopted_in_batch": 0,
+    "new_images": 0,
+    "visual_review": false
+  },
+  "failures": [],
+  "items": []
+}

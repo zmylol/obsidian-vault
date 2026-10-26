@@ -1,0 +1,1540 @@
+{
+  "schema_version": 2,
+  "timezone": "Asia/Shanghai",
+  "created_at": "2026-10-12T10:33:02+08:00",
+  "updated_at": "2026-10-25T10:23:12+08:00",
+  "schedule": {
+    "status": "ACTIVE",
+    "automation_id": "openai",
+    "automation_name": "OpenAI 知识库每日同步与周报",
+    "kind": "heartbeat",
+    "timezone": "Asia/Shanghai",
+    "daily_time": "10:20",
+    "weekly_report_day": "Sunday",
+    "first_scheduled_run": "2026-10-12T10:20:00+08:00",
+    "first_weekly_report": "2026-10-18",
+    "verified_at": "2026-10-12T10:20:00+08:00",
+    "stagger_order": 5,
+    "last_run_at": "2026-10-25T10:22:44.842+08:00",
+    "next_scheduled_run": "2026-10-26 10:20",
+    "last_processed_run_at": "2026-10-25T10:23:12+08:00",
+    "last_successful_run_at": null
+  },
+  "structure": {
+    "topics_enabled": false,
+    "learning_routes_enabled": false,
+    "category_levels": 2,
+    "categories": 10,
+    "dynamic_categories": true
+  },
+  "initial_collection": {
+    "mode": "first_run_14_day_lookback",
+    "date": "2026-10-12",
+    "lookback_start": "2026-09-28",
+    "saved_count": 10,
+    "complete": false,
+    "quality_completed_count": 6,
+    "quality_pending_count": 4
+  },
+  "backfill": {
+    "mode": "incremental_14_day_overlap",
+    "complete": false,
+    "coverage": "8 个指定栏目可读；News 已看到 10-15 更新但分页仍尚待覆盖 09-28 至 10-01，不宣称全站或全年回填。",
+    "coverage_end": "2026-10-19"
+  },
+  "sources": {
+    "news": {
+      "url": "https://openai.com/news/",
+      "last_attempt_at": "2026-10-24T11:38:10+08:00",
+      "last_listing_read_at": "2026-10-24T11:38:10+08:00",
+      "last_complete_scan_at": null,
+      "lookback_start": "2026-09-28",
+      "coverage_end": "2026-10-23",
+      "listing_oldest_visible": "2026-10-02",
+      "pages": [
+        "https://openai.com/news/"
+      ],
+      "status": "partial",
+      "body_processing_complete": false,
+      "coverage": "首页可见 10-23 工程与安全条目及此前 10-22、10-21 条目；加载更多仍需补查目标窗口缺口。",
+      "listing_sha256": "99f6417b5eb41409559ec8fba90eba19089f23d6786186f3057ea1c749c28b86",
+      "listing_normalized_sha256_v2": "973ec4432e90578703471ce3aef1b6592e8f3d495a6b32e4def358e3a34d5ca2"
+    },
+    "research": {
+      "url": "https://openai.com/research/index/",
+      "last_attempt_at": "2026-10-24T11:38:10+08:00",
+      "last_listing_read_at": "2026-10-24T11:38:10+08:00",
+      "last_complete_scan_at": "2026-10-24T11:38:10+08:00",
+      "lookback_start": "2026-09-28",
+      "coverage_end": "2026-10-24",
+      "listing_oldest_visible": "2026-09-10",
+      "pages": [
+        "https://openai.com/research/index/"
+      ],
+      "status": "success",
+      "body_processing_complete": false,
+      "coverage": "已读日期降序列表，进入窗口之前的记录；候选独立排队处理。",
+      "listing_sha256": "3598a1ad1d3adefe530c34364f4d033d8850d723e4c30462549798526084e81f",
+      "listing_normalized_sha256_v2": "dae724a7bbf623604bf93b43d1a9d5fe04f688a706b85305873890291ac22d13"
+    },
+    "engineering": {
+      "url": "https://openai.com/news/engineering/",
+      "last_attempt_at": "2026-10-24T11:38:10+08:00",
+      "last_listing_read_at": "2026-10-24T11:38:10+08:00",
+      "last_complete_scan_at": "2026-10-24T11:38:10+08:00",
+      "lookback_start": "2026-09-28",
+      "coverage_end": "2026-10-24",
+      "listing_oldest_visible": "2026-05-04",
+      "pages": [
+        "https://openai.com/news/engineering/"
+      ],
+      "status": "success",
+      "body_processing_complete": false,
+      "coverage": "已读日期降序列表，进入窗口之前的记录；候选独立排队处理。",
+      "listing_sha256": "1c53db4d37bcff3eeeb90ad6f3a81cddaefe644be4a6b242f237623f95693166",
+      "listing_normalized_sha256_v2": "e0e7bb349247b7844a17fb11b4361f0d5135557047082e4391b6be042dcda764"
+    },
+    "safety": {
+      "url": "https://openai.com/news/safety-alignment/",
+      "last_attempt_at": "2026-10-24T11:38:10+08:00",
+      "last_listing_read_at": "2026-10-24T11:38:10+08:00",
+      "last_complete_scan_at": "2026-10-24T11:38:10+08:00",
+      "lookback_start": "2026-09-28",
+      "coverage_end": "2026-10-24",
+      "listing_oldest_visible": "2026-09-16",
+      "pages": [
+        "https://openai.com/news/safety-alignment/"
+      ],
+      "status": "success",
+      "body_processing_complete": false,
+      "coverage": "已读日期降序列表，进入窗口之前的记录；候选独立排队处理。",
+      "listing_sha256": "034873ae00fad18c9b517e29ec05beb6bda9677e7aa19ae99504ed20de35a78b",
+      "migration": {
+        "old": "https://openai.com/news/safety/",
+        "old_result": "404",
+        "new_verified_via": "News 的 Safety 链接"
+      },
+      "listing_normalized_sha256_v2": "7d4ee6e2cbdbfc7488f557ce19bf953b93f1f580f746c96eb6c6ac5ddedf8c49"
+    },
+    "security": {
+      "url": "https://openai.com/news/security/",
+      "last_attempt_at": "2026-10-24T11:38:10+08:00",
+      "last_listing_read_at": "2026-10-24T11:38:10+08:00",
+      "last_complete_scan_at": "2026-10-24T11:38:10+08:00",
+      "lookback_start": "2026-09-28",
+      "coverage_end": "2026-10-24",
+      "listing_oldest_visible": "2026-08-04",
+      "pages": [
+        "https://openai.com/news/security/"
+      ],
+      "status": "success",
+      "body_processing_complete": false,
+      "coverage": "已读日期降序列表，进入窗口之前的记录；候选独立排队处理。",
+      "listing_sha256": "b36a01e97245d905fc7a0bb515782cb75f3999b6603c316c777197a4424ff0e7",
+      "listing_normalized_sha256_v2": "d8aee463b15241a0f9fd5f27ed8d0d227c77d8cbdc91226549175d2151881714"
+    },
+    "product": {
+      "url": "https://openai.com/news/product-releases/",
+      "last_attempt_at": "2026-10-24T11:38:10+08:00",
+      "last_listing_read_at": "2026-10-24T11:38:10+08:00",
+      "last_complete_scan_at": "2026-10-24T11:38:10+08:00",
+      "lookback_start": "2026-09-28",
+      "coverage_end": "2026-10-24",
+      "listing_oldest_visible": "2026-09-22",
+      "pages": [
+        "https://openai.com/news/product-releases/"
+      ],
+      "status": "success",
+      "body_processing_complete": false,
+      "coverage": "已读日期降序列表，进入窗口之前的记录；候选独立排队处理。",
+      "listing_sha256": "8b37cde009f7ce23bd398144fce0b88c193b34028e68da1ac0c88010982ba4b1",
+      "migration": {
+        "old": "https://openai.com/news/product/",
+        "old_result": "redirect",
+        "new_verified_via": "官方重定向"
+      },
+      "listing_normalized_sha256_v2": "153d688a697d7e1802b681b3dd252745cf602dab9977360d54d799141b3dc448"
+    },
+    "applied_ai": {
+      "url": "https://openai.com/news/applied-ai/",
+      "last_attempt_at": "2026-10-24T11:38:10+08:00",
+      "last_listing_read_at": "2026-10-24T11:38:10+08:00",
+      "last_complete_scan_at": "2026-10-24T11:38:10+08:00",
+      "lookback_start": "2026-09-28",
+      "coverage_end": "2026-10-24",
+      "listing_oldest_visible": "2026-06-11",
+      "pages": [
+        "https://openai.com/news/applied-ai/"
+      ],
+      "status": "success",
+      "body_processing_complete": false,
+      "coverage": "已读日期降序列表，进入窗口之前的记录；候选独立排队处理。",
+      "listing_sha256": "e8ed49185eefd62c0d9cf912db4db2ba60ce6fa49dd74fec6a38e76a2b06d173",
+      "listing_normalized_sha256_v2": "9076d15f011de61b1c8ecaed7d832a0521828fa57c9a625e8cc2a5cdb456e1da"
+    },
+    "ai_adoption": {
+      "url": "https://openai.com/news/ai-adoption/",
+      "last_attempt_at": "2026-10-24T11:38:10+08:00",
+      "last_listing_read_at": "2026-10-24T11:38:10+08:00",
+      "last_complete_scan_at": "2026-10-24T11:38:10+08:00",
+      "lookback_start": "2026-09-28",
+      "coverage_end": "2026-10-24",
+      "listing_oldest_visible": "2026-03-05",
+      "pages": [
+        "https://openai.com/news/ai-adoption/"
+      ],
+      "status": "success",
+      "body_processing_complete": false,
+      "coverage": "已读日期降序列表，进入窗口之前的记录；候选独立排队处理。",
+      "listing_sha256": "3922d9cb312b69afb155e0fed73ad38e88a2a7feb6a92e33b6301db3d05c5ae3",
+      "listing_normalized_sha256_v2": "514238cf0aacd3338401477d448890c15fd21156cecab880c1487a51c3620def"
+    }
+  },
+  "articles": [
+    {
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations/",
+      "source_aliases": [
+        "https://openai.com/zh-Hans-CN/index/disrupting-ai-enabled-false-front-operations/"
+      ],
+      "path": "01-文章/安全与治理/AI 影响行动/2026-10-08 - AI 赋能的“假前台”影响行动：Dark Clark 与 Bogus Bylines.md",
+      "title": "AI 赋能的“假前台”影响行动：Dark Clark 与 Bogus Bylines",
+      "original_title": "Disrupting AI-enabled “false front” operations",
+      "published": "2026-10-08",
+      "category": "安全与治理/AI 影响行动",
+      "status": "saved",
+      "first_collected_at": "2026-10-12T10:20:00+08:00",
+      "last_checked_at": "2026-10-13T14:19:33+08:00",
+      "last_updated_at": "2026-10-13T14:19:33+08:00",
+      "body_sha256": "90f670499d052c73997c0d26477f0a6ff24ff7edb7cb2e2f6f71a3151552c9a0",
+      "detail_status": "pending",
+      "evidence": {
+        "body_read": true,
+        "summary_review": {
+          "fact_check": "passed",
+          "readability_check": "passed",
+          "reviewed_at": "2026-10-13T14:19:33+08:00",
+          "method": "主执行者逐句对照官方正文，再脱离标题与正文单读摘要；未使用独立审阅代理"
+        },
+        "specific_points": 4,
+        "source_positions": [
+          {
+            "section": "导言与 Actor 段",
+            "statement_checked": "两案名称、伪身份结构与模型使用范围"
+          },
+          {
+            "section": "两案 Impact 小节",
+            "statement_checked": "俄罗斯类别 5、伊朗媒体 4 与评论 2，以及证据局限"
+          }
+        ],
+        "media_status": "verified_local_images",
+        "media_note": "从原网页取得传播矩阵、Ervin Hoskins 身份截图及七署名时间线，并逐张目视核验，按原文顺序就近保存。只选择支撑主要讨论的三图，未把其他截图都列为必需附件。时间线生成日期与横轴范围不一致，保留来源日期待澄清，整篇暂不标记 completed。",
+        "selected_images": 3,
+        "all_videos_reviewed": false,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "review_method": "主执行者逐句事实核对与单独可读性复核"
+      },
+      "authors": [
+        "OpenAI"
+      ],
+      "source_section": "OpenAI News · Safety",
+      "summary": "OpenAI 报告封禁了俄罗斯 Dark Clark 与伊朗 Bogus Bylines 两个影响行动的相关账号。行动者借助模型处理内部报告、改写和翻译，再以伪研究机构或记者身份向外传播内容。公司将俄罗斯行动评为 Breakout Scale 5；伊朗的媒体投稿达到 4，而社交评论仅为 2。判断来自平台调查与公开线索，部分自报传播无法核实，也不能把所有相关内容都归为 AI 生成。",
+      "collected": "2026-10-12T10:20:00+08:00",
+      "published_evidence": "官方文章页首",
+      "first_saved_at": "2026-10-12T10:33:02+08:00",
+      "body_hash_type": "normalized_official_crawled_article_text",
+      "user_block_sha256": "4761cfd576a22066faaf3dae870f9218dcd54491692ee554ba7966cc7fb6ba93",
+      "note_sha256": "e8560bb888b8a69ed916eb50ff818f7cacce8339775b2f240cf4bf1fa2761243",
+      "latest_read_normalized_sha256": "1c28b2f8f3b8f718829026628a9e1f9b737731f180d27b20a972a343ec5cb70b",
+      "latest_read_hash_method": "normalized_crawled_text_without_reference_ids_v2"
+    },
+    {
+      "url": "https://openai.com/index/gpt-6-for-everyone/",
+      "source_aliases": [
+        "https://openai.com/zh-Hans-CN/index/gpt-6-for-everyone/"
+      ],
+      "path": "01-文章/产品与交互/智能界面/2026-10-07 - GPT-6 与 Intelligent UI：让对话生成可交互界面.md",
+      "title": "GPT-6 与 Intelligent UI：让对话生成可交互界面",
+      "original_title": "GPT-6 and Intelligent UI for everyone",
+      "published": "2026-10-07",
+      "category": "产品与交互/智能界面",
+      "status": "saved",
+      "first_collected_at": "2026-10-12T10:20:00+08:00",
+      "last_checked_at": "2026-10-12T10:54:55+08:00",
+      "last_updated_at": "2026-10-12T10:51:26+08:00",
+      "body_sha256": "d931bb504fd81f8753fc3dfb84866216644c98d39f389e4aa2ab750beab2dae8",
+      "detail_status": "pending",
+      "evidence": {
+        "body_read": true,
+        "summary_review": {
+          "fact_check": "passed",
+          "readability_check": "passed",
+          "reviewed_at": "2026-10-12T10:54:55+08:00",
+          "method": "主执行者逐句对照官方正文，再脱离标题与正文单读摘要；未使用独立审阅代理"
+        },
+        "specific_points": 3,
+        "source_positions": [
+          {
+            "section": "How Intelligent UI works",
+            "statement_checked": "组件库、流式编译与界面训练"
+          },
+          {
+            "section": "Frontier Intelligence / Availability",
+            "statement_checked": "44% 的比较口径及产品发布范围"
+          }
+        ],
+        "media_status": "retry_exhausted",
+        "media_note": "原文包含自行车交互拆解和界面演示。已读说明，但交互与关键可视化未能独立检查，保留媒体重试，不宣称原文无图。",
+        "selected_images": 0,
+        "all_videos_reviewed": false,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "review_method": "主执行者逐句事实核对与单独可读性复核"
+      },
+      "authors": [
+        "OpenAI"
+      ],
+      "source_section": "OpenAI News · Product",
+      "summary": "OpenAI 为 ChatGPT 推出 GPT-6 和 Intelligent UI，让模型按问题组合文字、图形、按钮及可操作界面。系统用原生流式组件库和编译器逐步显示输出，并训练模型判断何时交互更有帮助。公司称需要搜索的问题平均更早开始回答 44%，比较对象是 GPT-5.6 Instant。发布先覆盖付费层再扩展到 Free/Go；这次变化限于 ChatGPT 的 Chat 体验，Work 和 Codex 的模型不随之改变。",
+      "collected": "2026-10-12T10:20:00+08:00",
+      "published_evidence": "官方文章页首",
+      "first_saved_at": "2026-10-12T10:33:02+08:00",
+      "body_hash_type": "normalized_official_crawled_article_text",
+      "user_block_sha256": "4761cfd576a22066faaf3dae870f9218dcd54491692ee554ba7966cc7fb6ba93",
+      "note_sha256": "93080d10495b8e6b19e5602649ff528544adef6be1665625872a750a3ce30856"
+    },
+    {
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "source_aliases": [
+        "https://openai.com/zh-Hans-CN/index/sharing-ai-progress-in-mathematics/"
+      ],
+      "path": "01-文章/研究与科学/数学推理/2026-10-06 - OpenAI 分享 AI 数学进展与 Lean 形式化.md",
+      "title": "OpenAI 分享 AI 数学进展与 Lean 形式化",
+      "original_title": "Sharing AI progress in mathematics",
+      "published": "2026-10-06",
+      "category": "研究与科学/数学推理",
+      "status": "saved",
+      "first_collected_at": "2026-10-12T10:20:00+08:00",
+      "last_checked_at": "2026-10-12T10:54:55+08:00",
+      "last_updated_at": "2026-10-12T10:51:26+08:00",
+      "body_sha256": "3e1c2f50e7e18d0bd2be48f2f523d4fce6999e65b803adfe2827444aec2fe91a",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary_review": {
+          "fact_check": "passed",
+          "readability_check": "passed",
+          "reviewed_at": "2026-10-12T10:54:55+08:00",
+          "method": "主执行者逐句对照官方正文，再脱离标题与正文单读摘要；未使用独立审阅代理"
+        },
+        "specific_points": 3,
+        "source_positions": [
+          {
+            "section": "正文第 2–4 段",
+            "statement_checked": "仓库协议、顾问组咨询与 Lean 形式化"
+          },
+          {
+            "section": "正文计算披露段",
+            "statement_checked": "10 个摘要、尝试题目统计与平均计算估计"
+          }
+        ],
+        "media_status": "checked_no_key_static_image",
+        "media_note": "已核对完整发布说明，未发现承担论证的关键静态图；GitHub 与 Lean 是主要证据入口。以文字解读完成，外部证明未执行。",
+        "selected_images": 0,
+        "all_videos_reviewed": false,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "review_method": "主执行者逐句事实核对与单独可读性复核"
+      },
+      "authors": [
+        "OpenAI"
+      ],
+      "source_section": "OpenAI News · Research / Publication",
+      "summary": "OpenAI 在 GitHub 发布内部前沿模型产生的一批数学结果，配套修订和引用协议、部分 Lean 证明形式化，以及计算过程信息。披露内容包括 10 个推理摘要、尝试题目统计和以 ChatGPT Pro 用量表达的计算估计，平均每个结果约相当于三小时 Pro 思考。公司参考独立数学顾问组的意见制定披露方式，并承诺继续改善论文表述；本文是发布说明，未独立验证各项数学结论。",
+      "collected": "2026-10-12T10:20:00+08:00",
+      "published_evidence": "官方文章页首",
+      "first_saved_at": "2026-10-12T10:33:02+08:00",
+      "body_hash_type": "normalized_official_crawled_article_text",
+      "user_block_sha256": "4761cfd576a22066faaf3dae870f9218dcd54491692ee554ba7966cc7fb6ba93",
+      "note_sha256": "f0291a2d88374aa6e95fdc9b7e349ceddcddbf429d48c79b51427d07fe01cf5f"
+    },
+    {
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad/",
+      "source_aliases": [],
+      "path": "01-文章/Agent 与专业工作/计算机使用/2026-10-06 - 用 Ironclad 推进复杂专业工作的计算机使用.md",
+      "title": "用 Ironclad 推进复杂专业工作的计算机使用",
+      "original_title": "Advancing computer use with Ironclad",
+      "published": "2026-10-06",
+      "category": "Agent 与专业工作/计算机使用",
+      "status": "saved",
+      "first_collected_at": "2026-10-12T10:20:00+08:00",
+      "last_checked_at": "2026-10-12T10:54:55+08:00",
+      "last_updated_at": "2026-10-12T10:51:26+08:00",
+      "body_sha256": "ed02d8a2e220ec9604b2b53458bf43b7e328f6490efb31313b14cc97abacb5d6",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary_review": {
+          "fact_check": "passed",
+          "readability_check": "passed",
+          "reviewed_at": "2026-10-12T10:54:55+08:00",
+          "method": "主执行者逐句对照官方正文，再脱离标题与正文单读摘要；未使用独立审阅代理"
+        },
+        "specific_points": 3,
+        "source_positions": [
+          {
+            "section": "Turning contracting workflows into training tasks",
+            "statement_checked": "11 项任务与每项 8–50 条准则"
+          },
+          {
+            "section": "How Astra performed 与脚注 1",
+            "statement_checked": "不同推理设置、评分及模拟时间限定"
+          }
+        ],
+        "media_status": "checked_no_key_static_image",
+        "media_note": "完整正文中可用的核心证据为文本结果表，已在对应讨论处转写并注明原文；未发现需要保存的关键静态图。两段操作视频未播放，不能据此另作视频结论。",
+        "selected_images": 0,
+        "all_videos_reviewed": false,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "review_method": "主执行者逐句事实核对与单独可读性复核"
+      },
+      "authors": [
+        "OpenAI"
+      ],
+      "source_section": "OpenAI News · Publication",
+      "summary": "OpenAI 与 Ironclad 将合同和采购流程制成 11 项研究任务，用每项 8–50 条标准评估 Agent 是否配置正确并保留业务规则。公司比较 Astra（Max 推理）与 GPT-5.6 Sol（High 推理），平均评分分别为 55.0% 和 41.6%。基于假定模型速度的模拟时间为 19.2 和 37.0 分钟，并非客户实测节省；结果只覆盖这些选定任务，不能推广为所有合同流程的成功率。",
+      "collected": "2026-10-12T10:20:00+08:00",
+      "published_evidence": "官方文章页首",
+      "first_saved_at": "2026-10-12T10:33:02+08:00",
+      "body_hash_type": "normalized_official_crawled_article_text",
+      "user_block_sha256": "4761cfd576a22066faaf3dae870f9218dcd54491692ee554ba7966cc7fb6ba93",
+      "note_sha256": "2dd24c8353027424bd830882038d5ff3f4827c84907ca9d4eedb360420be07f4"
+    },
+    {
+      "url": "https://openai.com/index/eu-text-provenance/",
+      "source_aliases": [],
+      "path": "01-文章/安全与治理/文本来源/2026-10-05 - OpenAI 对欧盟文本来源规则的处理方案.md",
+      "title": "OpenAI 对欧盟文本来源规则的处理方案",
+      "original_title": "Our approach to EU text provenance rules",
+      "published": "2026-10-05",
+      "category": "安全与治理/文本来源",
+      "status": "saved",
+      "first_collected_at": "2026-10-12T10:20:00+08:00",
+      "last_checked_at": "2026-10-13T14:19:33+08:00",
+      "last_updated_at": "2026-10-13T14:19:33+08:00",
+      "body_sha256": "3da07f74a0f3c1aea2b1835256471994c173df93271fcbb0f970cc78bc11bdec",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary_review": {
+          "fact_check": "passed",
+          "readability_check": "passed",
+          "reviewed_at": "2026-10-13T14:19:33+08:00",
+          "method": "主执行者逐句对照官方正文，再脱离标题与正文单读摘要；未使用独立审阅代理"
+        },
+        "specific_points": 4,
+        "source_positions": [
+          {
+            "section": "发布计划三点",
+            "statement_checked": "API、欧盟产品和检测器的不同开放范围"
+          },
+          {
+            "section": "How our watermarking works and performs",
+            "statement_checked": "目标误报率、文本长度、领域与英文编辑测试条件"
+          }
+        ],
+        "media_status": "verified_local_images",
+        "media_note": "两张官方交互图已通过原网页的 Download PNG 导出，逐张目视核对标题、坐标、系列与正文条件，已就近保存。附带技术报告仅用于核对方法说明，未宣称完成全文证明复核。",
+        "selected_images": 2,
+        "all_videos_reviewed": false,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "review_method": "主执行者逐句事实核对与单独可读性复核"
+      },
+      "authors": [
+        "OpenAI"
+      ],
+      "source_section": "OpenAI News · Safety",
+      "summary": "OpenAI 公布 textGrain 文本水印方案：全球 API 客户可为部分模型选择开启，欧盟符合条件的 ChatGPT 与 Codex 输出则逐步加入水印，检测器先开放给获批研究机构。水印是在词语选择中嵌入统计信号。公司在目标误报率 1% 的测试中发现，检测受文本长度和领域影响；400-token 英文段落改写 25% 的词时，检测率从约 92% 降至 17%。水印不能证明事实准确或认定作者。",
+      "collected": "2026-10-12T10:20:00+08:00",
+      "published_evidence": "官方文章页首",
+      "first_saved_at": "2026-10-12T10:33:02+08:00",
+      "body_hash_type": "normalized_official_crawled_article_text",
+      "user_block_sha256": "4761cfd576a22066faaf3dae870f9218dcd54491692ee554ba7966cc7fb6ba93",
+      "note_sha256": "82507819e53014fe325d9fb44dd35924b44db69a76836cf2e322a7cd9ffbadba",
+      "latest_read_normalized_sha256": "e26902fae5a41f7daa549381fdc4e260924a84767d1b82090132c2790dc9f97b",
+      "latest_read_hash_method": "normalized_crawled_text_without_reference_ids_v2"
+    },
+    {
+      "url": "https://openai.com/index/practical-guide-building-gpt-6/",
+      "source_aliases": [
+        "https://openai.com/zh-Hans-CN/index/practical-guide-building-gpt-6/"
+      ],
+      "path": "01-文章/开发者与模型使用/模型使用策略/2026-10-02 - GPT-6 家族模型指南：生产、提示与长任务.md",
+      "title": "GPT-6 家族模型指南：生产、提示与长任务",
+      "original_title": "A model guide for the GPT-6 family",
+      "published": "2026-10-02",
+      "category": "开发者与模型使用/模型使用策略",
+      "status": "saved",
+      "first_collected_at": "2026-10-12T10:20:00+08:00",
+      "last_checked_at": "2026-10-12T10:54:55+08:00",
+      "last_updated_at": "2026-10-12T10:51:26+08:00",
+      "body_sha256": "76fdcb984d90a12513543e4c3b033dbc1583549d1ff783147a7358bbb4b5eaed",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary_review": {
+          "fact_check": "passed",
+          "readability_check": "passed",
+          "reviewed_at": "2026-10-12T10:54:55+08:00",
+          "method": "主执行者逐句对照官方正文，再脱离标题与正文单读摘要；未使用独立审阅代理"
+        },
+        "specific_points": 3,
+        "source_positions": [
+          {
+            "section": "TL;DR / Run effectively in production",
+            "statement_checked": "缓存、压缩与成功率/延迟/成本指标"
+          },
+          {
+            "section": "Adjust your prompts / Optimize long-running tasks",
+            "statement_checked": "规则一致性和长任务协作方式"
+          }
+        ],
+        "media_status": "checked_no_key_static_image",
+        "media_note": "核心内容为文字流程建议和价格卡片，未发现必要的关键静态图；以文字解读完成，不将客户示例当作独立复现。",
+        "selected_images": 0,
+        "all_videos_reviewed": false,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "review_method": "主执行者逐句事实核对与单独可读性复核"
+      },
+      "authors": [
+        "OpenAI"
+      ],
+      "source_section": "OpenAI News · Product / Guides",
+      "summary": "OpenAI 的 GPT-6 使用指南把模型选择、生产验证和长任务管理放在同一工作流中。文章建议联合调节模型、推理力度与速度，用缓存和上下文压缩控制成本，并以任务成功率、延迟和每个成功任务的成本检验效果。提示、技能与仓库规则应一致地描述交付物和完成标准；长任务可通过中途引导、异步工具与委派持续推进。发布时价格及功能有版本条件，采用前须核对当前文档。",
+      "collected": "2026-10-12T10:20:00+08:00",
+      "published_evidence": "官方文章页首",
+      "first_saved_at": "2026-10-12T10:51:26+08:00",
+      "body_hash_type": "normalized_official_crawled_article_text",
+      "user_block_sha256": "4761cfd576a22066faaf3dae870f9218dcd54491692ee554ba7966cc7fb6ba93",
+      "note_sha256": "bc6d52832df198dfd349f344ba4c0ecc86648df87ac283c51f430ac94558e284"
+    },
+    {
+      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/",
+      "source_aliases": [],
+      "path": "01-文章/安全与治理/模型与推理安全/2026-09-30 - OpenAI 通报协调式模型蒸馏行动.md",
+      "title": "OpenAI 通报协调式模型蒸馏行动",
+      "original_title": "Disrupting a coordinated model-distillation campaign",
+      "published": "2026-09-30",
+      "published_evidence": "官方文章页首",
+      "authors": [
+        "OpenAI"
+      ],
+      "category": "安全与治理/模型与推理安全",
+      "source_section": "OpenAI News · Security",
+      "status": "saved",
+      "first_collected_at": "2026-10-12T10:51:26+08:00",
+      "collected": "2026-10-12T10:51:26+08:00",
+      "first_saved_at": "2026-10-12T10:51:26+08:00",
+      "last_checked_at": "2026-10-12T10:54:55+08:00",
+      "last_updated_at": "2026-10-12T10:51:26+08:00",
+      "body_sha256": "5d733fb0b090e15d477caf603dea8be98fe83f398a09134c928a7f1092a7cbfa",
+      "body_hash_type": "normalized_official_crawled_article_text",
+      "summary": "OpenAI 通报发现并中断了一起协调式对抗蒸馏行动，称行动者操纵模型交互以提取受保护推理。调查记录中，7 月 24–25 日相关请求约 1.6 万次、涉及逾 4,000 名用户；这些是尝试次数，并非成功泄露数量。公司表示未发生数据库入侵或存储用户对话的直接访问，并采用账号处置、重放防护、输出检查和伙伴协作。对核心群体的归属判断是 OpenAI 的调查结论，仍有不确定性。",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary_review": {
+          "fact_check": "passed",
+          "readability_check": "passed",
+          "reviewed_at": "2026-10-12T10:54:55+08:00",
+          "method": "主执行者逐句对照官方正文，再脱离标题与正文单读摘要；未使用独立审阅代理"
+        },
+        "specific_points": 3,
+        "source_positions": [
+          {
+            "section": "What we observed 与脚注 1",
+            "statement_checked": "1.6 万次请求、逾 4,000 用户及 attempted 限定"
+          },
+          {
+            "section": "Our assessment / How we responded",
+            "statement_checked": "归属不确定性与分层缓解措施"
+          }
+        ],
+        "media_status": "checked_no_key_static_image",
+        "media_note": "完整通报的关键证据在文字、数量及脚注中，未发现适用的关键静态图；以文字解读完成，外链论文未精读。",
+        "selected_images": 0,
+        "all_videos_reviewed": false,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "review_method": "主执行者逐句事实核对与单独可读性复核"
+      },
+      "user_block_sha256": "4761cfd576a22066faaf3dae870f9218dcd54491692ee554ba7966cc7fb6ba93",
+      "note_sha256": "1c8da0925abe44e6c1c5fa38a647ae27ca9569ee1deb138c18cc8ad31b1ad825"
+    },
+    {
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+      "source_aliases": [
+        "https://openai.com/zh-Hans-CN/index/introducing-gpt-6-1-sol/"
+      ],
+      "path": "01-文章/研究与科学/模型能力与评估/2026-09-29 - GPT-6.1 Sol：能力与成本的折中.md",
+      "title": "GPT-6.1 Sol：能力与成本的折中",
+      "original_title": "Introducing GPT-6.1 Sol",
+      "published": "2026-09-29",
+      "published_evidence": "官方栏目列表",
+      "authors": [
+        "OpenAI"
+      ],
+      "category": "研究与科学/模型能力与评估",
+      "source_section": "OpenAI News · Product",
+      "status": "saved",
+      "first_collected_at": "2026-10-12T10:51:26+08:00",
+      "collected": "2026-10-12T10:51:26+08:00",
+      "first_saved_at": "2026-10-12T10:51:26+08:00",
+      "last_checked_at": "2026-10-15T10:30:07+08:00",
+      "last_updated_at": "2026-10-15T10:30:07+08:00",
+      "body_sha256": "6d80d3eae4ddcdae9d33e067dd858e2c570765f7deade65616081b213fc7515f",
+      "body_hash_type": "normalized_official_crawled_article_text",
+      "summary": "OpenAI 发布 GPT-6.1 Sol，称其在编码、计算机使用和专业任务上接近 Astra，同时标准 API 输入/输出单价为后者五分之一。文章比较多个评估集：DeepSWE 上较 GPT-6 Sol 提高 6.4 个百分点，低推理设置的困难事实性测试中，含错误回答由 11.4% 降至 7.7%。这些是研究或 API 环境的选择性评估，不能当作日常错误率；发布初期面向 Work、Codex 和 API，尚未进入 Chat。",
+      "detail_status": "pending",
+      "evidence": {
+        "body_read": true,
+        "summary_review": {
+          "fact_check": "passed",
+          "readability_check": "passed",
+          "reviewed_at": "2026-10-13T14:19:33+08:00",
+          "method": "主执行者逐句对照官方正文，再脱离标题与正文单读摘要；未使用独立审阅代理"
+        },
+        "specific_points": 3,
+        "source_positions": [
+          {
+            "section": "A more capable Sol / Coding / Factuality",
+            "statement_checked": "基准范围、6.4 个百分点与困难事实性测试限定"
+          },
+          {
+            "section": "Pricing and availability / 文末说明",
+            "statement_checked": "Work/Codex/API 范围、Chat 排除与研究环境差异"
+          }
+        ],
+        "media_status": "partially_verified",
+        "media_note": "DeepSWE、困难事实错误率和规避警告三张官方图已导出并逐张目视核验。原文另有专业工作、计算机使用、科学任务及安全部署的交互图；尚未逐张完成核验，维持 pending。",
+        "selected_images": 3,
+        "all_videos_reviewed": false,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "review_method": "主执行者逐句事实核对与单独可读性复核"
+      },
+      "user_block_sha256": "4761cfd576a22066faaf3dae870f9218dcd54491692ee554ba7966cc7fb6ba93",
+      "note_sha256": "3e3eb2a5175e1bcda6a48e0d80f5ccfa12e047aef8f80d2cc46e9cb17e47b738",
+      "latest_read_normalized_sha256": "2bdc4870774aa80880054ae56b4882abb72f5bc6c2eae0a75883881ad03545af",
+      "latest_read_hash_method": "normalized_crawled_text_without_reference_ids_v2"
+    },
+    {
+      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training/",
+      "source_aliases": [],
+      "path": "01-文章/安全与治理/训练安全论证/2026-09-28 - 前沿 AI 训练的安全论证：技术、运营与调查.md",
+      "title": "前沿 AI 训练的安全论证：技术、运营与调查",
+      "original_title": "Towards safety cases for frontier AI training",
+      "published": "2026-09-28",
+      "published_evidence": "官方文章页首",
+      "authors": [
+        "OpenAI"
+      ],
+      "category": "安全与治理/训练安全论证",
+      "source_section": "OpenAI News · Safety",
+      "status": "saved",
+      "first_collected_at": "2026-10-12T10:51:26+08:00",
+      "collected": "2026-10-12T10:51:26+08:00",
+      "first_saved_at": "2026-10-12T10:51:26+08:00",
+      "last_checked_at": "2026-10-12T10:54:55+08:00",
+      "last_updated_at": "2026-10-12T10:51:26+08:00",
+      "body_sha256": "ee6b3b70351f052da913f859f362440306d38dac8c074e5d45af97c06dc73b0b",
+      "body_hash_type": "normalized_official_crawled_article_text",
+      "summary": "OpenAI 提出前沿强化学习训练的安全论证初步指南，希望在继续训练前形成结构化、基于证据的风险说明。指南覆盖对齐训练、隔离和监控等技术措施，异议审查、审批问责与暂停机制等运营流程，以及失配事件的根因调查、复盘和披露。公司明确这是正在实施和持续迭代的建议，尚未达到航空或核能等领域成熟安全论证的严谨程度，也不能替代内部或外部部署的更广泛评估。",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary_review": {
+          "fact_check": "passed",
+          "readability_check": "passed",
+          "reviewed_at": "2026-10-12T10:54:55+08:00",
+          "method": "主执行者逐句对照官方正文，再脱离标题与正文单读摘要；未使用独立审阅代理"
+        },
+        "specific_points": 3,
+        "source_positions": [
+          {
+            "section": "开头范围声明 / Operational guidelines 结尾",
+            "statement_checked": "训练范围、正在实施和持续迭代的限定"
+          },
+          {
+            "section": "Technical safeguards / Investigations",
+            "statement_checked": "技术三层、调查与残余风险记录"
+          }
+        ],
+        "media_status": "checked_no_key_static_image",
+        "media_note": "已读完整指南及结尾声明，未发现承担论证的关键静态图；以文字解读完成。",
+        "selected_images": 0,
+        "all_videos_reviewed": false,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "review_method": "主执行者逐句事实核对与单独可读性复核"
+      },
+      "user_block_sha256": "4761cfd576a22066faaf3dae870f9218dcd54491692ee554ba7966cc7fb6ba93",
+      "note_sha256": "5bd301d82df79036d13420001ea2af276496a9381151684849d8df0cc510a631"
+    },
+    {
+      "url": "https://openai.com/index/introducing-dots/",
+      "source_aliases": [],
+      "path": "01-文章/Agent 与专业工作/持续协作/2026-09-29 - Dots：持续工作的个人 Agent 与权限边界.md",
+      "title": "Dots：持续工作的个人 Agent 与权限边界",
+      "original_title": "Introducing dots",
+      "published": "2026-09-29",
+      "published_evidence": "官方文章页首",
+      "authors": [
+        "OpenAI"
+      ],
+      "category": "Agent 与专业工作/持续协作",
+      "source_section": "OpenAI News · Product",
+      "status": "saved",
+      "first_collected_at": "2026-10-12T10:51:26+08:00",
+      "collected": "2026-10-12T10:51:26+08:00",
+      "first_saved_at": "2026-10-12T10:51:26+08:00",
+      "last_checked_at": "2026-10-12T10:54:55+08:00",
+      "last_updated_at": "2026-10-12T10:51:26+08:00",
+      "body_sha256": "d28925c9abc2d77fbfb264cb7492d820c68db98f4130ae4d300eb160c4e63c82",
+      "body_hash_type": "normalized_official_crawled_article_text",
+      "summary": "OpenAI 发布 Dots：由 Astra 驱动、拥有云端计算机的持续工作 Agent，可通过连接的应用和聊天渠道协作，并接受反馈。文章区分后台“主动研究”的只读工具与用户任务中的执行能力，配有自定义规则、动作审查及监控暂停。发布初期面向符合地区条件的 Pro、Business Premium，企业需管理员开启测试；委派到 Work/Codex 的任务仍计入相应额度。能力和开放范围是发布方说明，尚需实际任务检验。",
+      "detail_status": "pending",
+      "evidence": {
+        "body_read": true,
+        "summary_review": {
+          "fact_check": "passed",
+          "readability_check": "passed",
+          "reviewed_at": "2026-10-12T10:54:55+08:00",
+          "method": "主执行者逐句对照官方正文，再脱离标题与正文单读摘要；未使用独立审阅代理"
+        },
+        "specific_points": 3,
+        "source_positions": [
+          {
+            "section": "Built-in safeguards / Access and permissions",
+            "statement_checked": "主动研究的只读边界、动作审查与用户控制"
+          },
+          {
+            "section": "Get started with dots",
+            "statement_checked": "地区、计划、管理员与 Work/Codex 额度限定"
+          }
+        ],
+        "media_status": "retry_exhausted",
+        "media_note": "正文产品演示的媒体尚未完成加载和核验。功能说明可由文字阅读支持，图文质量仍留待复查。",
+        "selected_images": 0,
+        "all_videos_reviewed": false,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "review_method": "主执行者逐句事实核对与单独可读性复核"
+      },
+      "user_block_sha256": "4761cfd576a22066faaf3dae870f9218dcd54491692ee554ba7966cc7fb6ba93",
+      "note_sha256": "2c5faecbc2b187b365ed20e0bbd21a7cad2d23a87cdbf6465b788ac3568041db"
+    },
+    {
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan/",
+      "source_aliases": [
+        "https://openai.com/zh-Hans-CN/index/introducing-the-rosalind-academic-plan/"
+      ],
+      "path": "01-文章/研究与科学/生命科学应用/2026-10-15 - 将 GPT-Rosalind 引入学术研究实验室.md",
+      "title": "将 GPT-Rosalind 引入学术研究实验室",
+      "original_title": "Bringing GPT-Rosalind to academic research labs",
+      "published": "2026-10-15",
+      "published_evidence": "官方栏目列表与正文日期",
+      "authors": [
+        "OpenAI"
+      ],
+      "category": "研究与科学/生命科学应用",
+      "source_section": "OpenAI News · Research · Product",
+      "status": "saved",
+      "first_collected_at": "2026-10-19T09:06:14+08:00",
+      "last_checked_at": "2026-10-19T09:06:14+08:00",
+      "last_updated_at": "2026-10-19T09:06:14+08:00",
+      "body_sha256": "0ee96ca995e4b8e8fac8fff5552d34cf7e9097151b08d9ad7ff35587af1b5b99",
+      "body_hash_type": "manual_full_official_page_capture_v1",
+      "summary": "OpenAI 推出 Rosalind 学术计划，为符合条件的美国高校实验室提供最多 30 个 Business Standard 席位，最长 12 个月免费使用 GPT‑Rosalind 与工作台。模型面向药物与蛋白设计、疾病检测、疫苗、基因与 RNA 疗法、农业、生态和抗菌药物等生命科学任务，需可信访问审批。研究数据默认不用于训练，计划不含 API，官方案例和安全演示仍需独立科学验证。",
+      "detail_status": "pending",
+      "evidence": {
+        "body_read": true,
+        "summary_review": {
+          "fact_check": "passed",
+          "readability_check": "passed",
+          "reviewed_at": "2026-10-19T09:06:14+08:00",
+          "method": "主执行者逐段对照官方正文，再脱离标题与正文单读摘要；未使用独立审阅代理"
+        },
+        "specific_points": 6,
+        "source_positions": [
+          {
+            "section": "计划包含的内容",
+            "statement_checked": "30 个席位、12 个月、免费与模型范围"
+          },
+          {
+            "section": "为生命科学研究打造 / 代表你的实验室申请",
+            "statement_checked": "七类研究范围、美国高校资格、API 不包含与可信访问审批"
+          },
+          {
+            "section": "以负责任的方式为科学研究提供访问权限",
+            "statement_checked": "机构、负责人、预期用途核验与持续监控"
+          }
+        ],
+        "media_status": "pending",
+        "media_note": "页面包含实验室案例切换、生命科学领域卡片和安全访问流程等交互媒体，尚未独立导出与逐张目视核验。",
+        "selected_images": 0,
+        "all_videos_reviewed": false,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "review_method": "主执行者逐段事实核对与单独可读性复核"
+      },
+      "user_block_sha256": "f640c943f6177e26eb0bd0853bce2e007e9f1b5e26ac35dd6f89a2cc74cc7c40",
+      "note_sha256": "7c8fea495d9d7ac8f4c66deac720ed7cfff553c08f99fc9dbfeea198da2a057c",
+      "latest_read_normalized_sha256": "0ee96ca995e4b8e8fac8fff5552d34cf7e9097151b08d9ad7ff35587af1b5b99",
+      "latest_read_hash_method": "manual_full_official_page_capture_v1"
+    },
+    {
+      "url": "https://openai.com/index/decisions-api/",
+      "source_aliases": [
+        "https://openai.com/zh-Hans-CN/index/decisions-api/"
+      ],
+      "path": "01-文章/开发者与模型使用/模型使用策略/2026-10-22 - 用 Decisions API 构建更灵敏的应用.md",
+      "title": "用 Decisions API 构建更灵敏的应用",
+      "original_title": "Build more responsive apps with the Decisions API",
+      "published": "2026-10-22",
+      "published_evidence": "官方文章页日期与栏目列表",
+      "authors": [
+        "OpenAI"
+      ],
+      "category": "开发者与模型使用/模型使用策略",
+      "source_section": "OpenAI News · Product",
+      "status": "saved",
+      "first_collected_at": "2026-10-23T10:24:17+08:00",
+      "last_checked_at": "2026-10-23T10:24:17+08:00",
+      "last_updated_at": "2026-10-23T10:24:17+08:00",
+      "body_sha256": "6f7506369692937012cad57e07826857ae0b3b20b448ea135acc4845bb46fb71",
+      "body_hash_type": "manual_full_official_page_capture_v1",
+      "summary": "OpenAI 宣布 Decisions API 正式可用，用 GPT‑6 Luna 处理答案范围受限的判断，面向文本、图像和结构化输入，官方称相较 Responses API 可快至 10 倍。接口支持概率、选项和评分三类结果，并加入 GPT‑Live、提示缓存、原生 JSON、美国与欧盟推理驻留及每次最多 400 个问题。定价只收输入 token，实际效果仍取决于问题定义、候选答案和业务评测。",
+      "detail_status": "pending",
+      "evidence": {
+        "body_read": true,
+        "summary_review": {
+          "fact_check": "passed",
+          "readability_check": "passed",
+          "reviewed_at": "2026-10-23T10:24:17+08:00",
+          "method": "主执行者逐段对照官方正文，再脱离标题与正文单读摘要；未使用独立审阅代理"
+        },
+        "specific_points": 3,
+        "source_positions": [
+          {
+            "section": "API 定位与速度",
+            "statement_checked": "一般可用的 Decisions API 用 GPT‑6 Luna 聚焦有界答案；官方称相对 Responses API 最快可达 10 倍，并新增 GPT‑Li"
+          },
+          {
+            "section": "输入、输出与应用",
+            "statement_checked": "开发者定义问题和允许答案，输入可为文本、图像或原生 JSON；返回 predicate 概率、choice 选择或 score 评分，适合分类、路由、风险判断和"
+          },
+          {
+            "section": "成本与示例",
+            "statement_checked": "官方给出 Box、Datadog、Ramp、Sierra、Speak 的早期案例；价格为每百万输入 token 0.10 美元、缓存输入 0.01 美元，不收输"
+          }
+        ],
+        "media_status": "pending",
+        "media_note": "正文含 GPT‑Live 语音演示、表情交互和示例代码；尚未独立导出与逐项目视核验，保留 pending，不把演示界面当作关键证据图。",
+        "selected_images": 0,
+        "all_videos_reviewed": false,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "review_method": "主执行者逐句事实核对与单独可读性复核"
+      },
+      "user_block_sha256": "02fce65ef4d267bdee98deb79124a7249204af67398cb68202b25333ebe080c8",
+      "note_sha256": "d814a2ee3f91dd85a2b9629b40137d7c244e9e9f8554bef5c4c9a6a05a3ad2d4",
+      "latest_read_normalized_sha256": "6f7506369692937012cad57e07826857ae0b3b20b448ea135acc4845bb46fb71",
+      "latest_read_hash_method": "manual_full_official_page_capture_v1"
+    },
+    {
+      "url": "https://openai.com/index/forward-deployed-engineering-means/",
+      "source_aliases": [
+        "https://openai.com/zh-Hans-CN/index/forward-deployed-engineering-means/"
+      ],
+      "path": "01-文章/Agent 与专业工作/持续协作/2026-10-22 - OpenAI 的 FDE 方法：从部署结果到更难问题.md",
+      "title": "OpenAI 的 FDE 方法：从部署结果到更难问题",
+      "original_title": "What FDE means at OpenAI",
+      "published": "2026-10-22",
+      "published_evidence": "官方文章页日期与栏目列表",
+      "authors": [
+        "Colin Jarvis"
+      ],
+      "category": "Agent 与专业工作/持续协作",
+      "source_section": "OpenAI News · AI Adoption",
+      "status": "saved",
+      "first_collected_at": "2026-10-23T10:24:17+08:00",
+      "last_checked_at": "2026-10-23T10:24:17+08:00",
+      "last_updated_at": "2026-10-23T10:24:17+08:00",
+      "body_sha256": "b7dc4d78dca8a7b99a22e321612f0ce457261be20b38bbccf1e5eac63e548c21",
+      "body_hash_type": "manual_full_official_page_capture_v1",
+      "summary": "OpenAI 的前线部署工程（FDE）团队把模型能力转成可在真实业务中依赖的系统：先围绕客户结果嵌入领域流程，再用评测和生产指标找出模型缺口，最后把有效做法抽成 Codex 技能、插件和通用工具。文章以半导体验证、农业、税务和客服案例说明，定制代码可减少约 90%，某些部署从首个团队两个月缩到第二个团队一天；这些数字来自官方案例，仍需按业务独立复核。",
+      "detail_status": "pending",
+      "evidence": {
+        "body_read": true,
+        "summary_review": {
+          "fact_check": "passed",
+          "readability_check": "passed",
+          "reviewed_at": "2026-10-23T10:24:17+08:00",
+          "method": "主执行者逐段对照官方正文，再脱离标题与正文单读摘要；未使用独立审阅代理"
+        },
+        "specific_points": 4,
+        "source_positions": [
+          {
+            "section": "从部署差距开始",
+            "statement_checked": "FDE 关注模型看似能做却无法可靠落地的部署差距，和客户一起定义结果、建立评测，并让每次交付为下一位客户留下更好的起点。"
+          },
+          {
+            "section": "先解决结果再规模化",
+            "statement_checked": "半导体验证案例覆盖测试生成、根因分析和架构助手；首批用例进入生产后，报告约 48% 时间节省、22% 中位性能提升，并把数周调试压缩到数小时。"
+          },
+          {
+            "section": "抽象为可复用能力",
+            "statement_checked": "团队将定制应用迁移到以 Codex 为核心的公共 harness，把功能做成技能和插件；文章称移除约 90% 定制代码，第二团队扩展从两个月缩短到一天。"
+          }
+        ],
+        "media_status": "pending",
+        "media_note": "页面含案例导航与动态内容，正文媒体尚未独立导出和目视核验，保留 pending。",
+        "selected_images": 0,
+        "all_videos_reviewed": false,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "review_method": "主执行者逐句事实核对与单独可读性复核"
+      },
+      "user_block_sha256": "02fce65ef4d267bdee98deb79124a7249204af67398cb68202b25333ebe080c8",
+      "note_sha256": "c81c1cb242a049a32382de94765ffca8c639cb6787a82861da30affce650b136",
+      "latest_read_normalized_sha256": "b7dc4d78dca8a7b99a22e321612f0ce457261be20b38bbccf1e5eac63e548c21",
+      "latest_read_hash_method": "manual_full_official_page_capture_v1"
+    },
+    {
+      "url": "https://openai.com/index/broad-access-through-consistent-standards/",
+      "source_aliases": [
+        "https://openai.com/zh-Hans-CN/index/broad-access-through-consistent-standards/"
+      ],
+      "path": "01-文章/安全与治理/模型与推理安全/2026-10-21 - 以一致标准扩大模型访问.md",
+      "title": "以一致标准扩大模型访问",
+      "original_title": "Broad access through consistent standards",
+      "published": "2026-10-21",
+      "published_evidence": "官方文章页日期与栏目列表",
+      "authors": [
+        "OpenAI"
+      ],
+      "category": "安全与治理/模型与推理安全",
+      "source_section": "OpenAI News · Safety · Company",
+      "status": "saved",
+      "first_collected_at": "2026-10-23T10:24:17+08:00",
+      "last_checked_at": "2026-10-23T10:24:17+08:00",
+      "last_updated_at": "2026-10-23T10:24:17+08:00",
+      "body_sha256": "652120273717ec8f025eb2ca42686f585057f9ca23edf3eff180df2b924196ff",
+      "body_hash_type": "manual_full_official_page_capture_v1",
+      "summary": "OpenAI 说明将把直接访问、合作方托管和转售渠道的模型安全要求对齐，并要求提供 OpenAI 模型的服务维护一致的防滥用措施、调查违规和协同执行。文章还宣布 Usage Policies 将于 2026 年 11 月 20 日生效更新，要求模型路由器和 AI 网关在提供直接访问前取得审查批准，并介绍 SafetyID：在不让 OpenAI 获知终端用户身份的情况下辅助区分调查对象。",
+      "detail_status": "pending",
+      "evidence": {
+        "body_read": true,
+        "summary_review": {
+          "fact_check": "passed",
+          "readability_check": "passed",
+          "reviewed_at": "2026-10-23T10:24:17+08:00",
+          "method": "主执行者逐段对照官方正文，再脱离标题与正文单读摘要；未使用独立审阅代理"
+        },
+        "specific_points": 3,
+        "source_positions": [
+          {
+            "section": "部署前后双层责任",
+            "statement_checked": "部署前评估能力与风险、训练安全要求并做越狱测试；部署后监测滥用、调查问题，并用可信访问计划限制高能力功能。"
+          },
+          {
+            "section": "跨服务一致执行",
+            "statement_checked": "合作方需保持与 OpenAI 一致或更高的防护，调查潜在违规并在必要时采取措施；限制直接访问、合作方和转售渠道之间的安全落差。"
+          },
+          {
+            "section": "规则与身份标识",
+            "statement_checked": "更新后的 Usage Policies 计划于 11 月 20 日生效，要求模型路由器或 AI 网关先获审查批准；SafetyID 用于调查时区分终端用户而不暴"
+          }
+        ],
+        "media_status": "pending",
+        "media_note": "正文以文字政策说明为主，未确认有承担论证的关键静态图；页面媒体状态仍保留 pending，待后续独立核验。",
+        "selected_images": 0,
+        "all_videos_reviewed": false,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "review_method": "主执行者逐句事实核对与单独可读性复核"
+      },
+      "user_block_sha256": "02fce65ef4d267bdee98deb79124a7249204af67398cb68202b25333ebe080c8",
+      "note_sha256": "31fbc2355ac618d198dba492ef156bcb96af50191a9151b3271978288ae07332",
+      "latest_read_normalized_sha256": "652120273717ec8f025eb2ca42686f585057f9ca23edf3eff180df2b924196ff",
+      "latest_read_hash_method": "manual_full_official_page_capture_v1"
+    },
+    {
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+      "source_aliases": [
+        "https://openai.com/zh-Hans-CN/index/coordinated-disclosure-of-critical-vulnerabilities/"
+      ],
+      "path": "01-文章/安全与治理/模型与推理安全/2026-10-21 - Patch the Planet：代理发现关键漏洞后的全球响应协作.md",
+      "title": "Patch the Planet：代理发现关键漏洞后的全球响应协作",
+      "original_title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "published": "2026-10-21",
+      "published_evidence": "官方文章页日期与栏目列表",
+      "authors": [
+        "OpenAI"
+      ],
+      "category": "安全与治理/模型与推理安全",
+      "source_section": "OpenAI News · Security · Product",
+      "status": "saved",
+      "first_collected_at": "2026-10-23T10:24:17+08:00",
+      "last_checked_at": "2026-10-23T10:24:17+08:00",
+      "last_updated_at": "2026-10-23T10:24:17+08:00",
+      "body_sha256": "abba392ef75f5647dca15d1abcf1d56907d8119cc75731f6abcf8af5023e2a07",
+      "body_hash_type": "manual_full_official_page_capture_v1",
+      "summary": "OpenAI 介绍 Patch the Planet 如何与 PHP 维护者、Wiz、Cloudflare 等协作，使用 GPT‑5.6 Sol 发现关键漏洞并在公开披露前组织修复、供应商缓解和政府网络安全协调。文章提出五阶段响应：验证并修复上游漏洞、给受影响组织准备时间、协调政府伙伴、准备各产品更新、发布指导并支持部署；同时强调 AI 找漏洞也可能帮助攻击者，防御能力需要配合访问控制和滥用缓解。",
+      "detail_status": "pending",
+      "evidence": {
+        "body_read": true,
+        "summary_review": {
+          "fact_check": "passed",
+          "readability_check": "passed",
+          "reviewed_at": "2026-10-23T10:24:17+08:00",
+          "method": "主执行者逐段对照官方正文，再脱离标题与正文单读摘要；未使用独立审阅代理"
+        },
+        "specific_points": 4,
+        "source_positions": [
+          {
+            "section": "发现与修复",
+            "statement_checked": "Calif 使用 GPT‑5.6 Sol 发现 PHP 关键缺陷，Wiz 独立发现并报告两个漏洞；PHP 维护者主导修复和发布。"
+          },
+          {
+            "section": "五阶段协作",
+            "statement_checked": "框架依次覆盖上游验证修复、给组织准备时间、政府协作、各产品更新和公开指导；依据影响范围、保护角色、行动时间与敏感信息能力决定参与者。"
+          },
+          {
+            "section": "防御窗口与资源",
+            "statement_checked": "OpenAI 认为前沿 AI 在攻击者前发现漏洞可形成防御窗口，并承诺 10 亿美元补贴 Daybreak 访问、Codex for OSS 和 Patch t"
+          }
+        ],
+        "media_status": "pending",
+        "media_note": "正文主要为文字流程和外部安全入口，尚未独立核验关键媒体或代码演示，保留 pending。",
+        "selected_images": 0,
+        "all_videos_reviewed": false,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "review_method": "主执行者逐句事实核对与单独可读性复核"
+      },
+      "user_block_sha256": "02fce65ef4d267bdee98deb79124a7249204af67398cb68202b25333ebe080c8",
+      "note_sha256": "195e059a2f1991d0390169d403511317117678c46cccf688900296e774484b5c",
+      "latest_read_normalized_sha256": "abba392ef75f5647dca15d1abcf1d56907d8119cc75731f6abcf8af5023e2a07",
+      "latest_read_hash_method": "manual_full_official_page_capture_v1"
+    },
+    {
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+      "source_aliases": [
+        "https://openai.com/zh-Hans-CN/index/scaling-ai-research-for-complex-biological-data/"
+      ],
+      "path": "01-文章/研究与科学/生命科学应用/2026-10-21 - 用数千个 AI Agent 从生物数据中发现新线索.md",
+      "title": "用数千个 AI Agent 从生物数据中发现新线索",
+      "original_title": "Using thousands of AI agents to uncover new leads in biological data",
+      "published": "2026-10-21",
+      "published_evidence": "官方文章页日期与栏目列表",
+      "authors": [
+        "OpenAI"
+      ],
+      "category": "研究与科学/生命科学应用",
+      "source_section": "OpenAI News · Publication · Research",
+      "status": "saved",
+      "first_collected_at": "2026-10-23T10:24:17+08:00",
+      "last_checked_at": "2026-10-23T10:24:17+08:00",
+      "last_updated_at": "2026-10-23T10:24:17+08:00",
+      "body_sha256": "4d9c08d8b6af3cbc4d01db1d90c7fe88976bb546d7bf274a54c95ab4891e1608",
+      "body_hash_type": "manual_full_official_page_capture_v1",
+      "summary": "OpenAI、PerturbAI 和 Scripps Research 使用数千个由 GPT‑Rosalind 驱动的 Agent，并行分析数百万个小鼠脑细胞的全脑 CRISPR 图谱，在约 32 分钟内把基因扰动、细胞反应和文献连接成推理图谱。分布式 Agent 复现了人工分析并提出新的疾病线索，最大工作量下引用超过 700 篇文献，盲评中专家 75% 的时间更偏好分布式报告；这些线索仍需实验验证。",
+      "detail_status": "pending",
+      "evidence": {
+        "body_read": true,
+        "summary_review": {
+          "fact_check": "passed",
+          "readability_check": "passed",
+          "reviewed_at": "2026-10-23T10:24:17+08:00",
+          "method": "主执行者逐段对照官方正文，再脱离标题与正文单读摘要；未使用独立审阅代理"
+        },
+        "specific_points": 4,
+        "source_positions": [
+          {
+            "section": "数据与并行方法",
+            "statement_checked": "每个 Agent 分析一个基因扰动、细胞反应和相关文献，再把报告合并为连接基因、细胞效应、论文和机制的 reasoning atlas。"
+          },
+          {
+            "section": "发现具体线索",
+            "statement_checked": "文章讨论 Tsc1/Tsc2 在小脑神经元中的差异，以及 DCTN1、胆固醇分布和神经退行性疾病之间值得后续实验检验的联系。"
+          },
+          {
+            "section": "与单 Agent 比较",
+            "statement_checked": "在模型和资源固定的对照中，最大工作量时单 Agent 只引用 11 篇文献，分布式 Agent 超过 700 篇；盲评时专家 75% 更偏好分布式解释。"
+          }
+        ],
+        "media_status": "pending",
+        "media_note": "正文含视频及生物数据图示，尚未独立导出并逐项目视核验，保留 pending。",
+        "selected_images": 0,
+        "all_videos_reviewed": false,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "review_method": "主执行者逐句事实核对与单独可读性复核"
+      },
+      "user_block_sha256": "02fce65ef4d267bdee98deb79124a7249204af67398cb68202b25333ebe080c8",
+      "note_sha256": "04edbe0e14f34d396914e733e0e1a1c1d2f3032208cc339f7842a3319149cc69",
+      "latest_read_normalized_sha256": "4d9c08d8b6af3cbc4d01db1d90c7fe88976bb546d7bf274a54c95ab4891e1608",
+      "latest_read_hash_method": "manual_full_official_page_capture_v1"
+    },
+    {
+      "url": "https://openai.com/index/building-chatgpt-ad-stack/",
+      "source_aliases": [
+        "https://openai.com/zh-Hans-CN/index/building-chatgpt-ad-stack/"
+      ],
+      "path": "01-文章/产品与交互/智能界面/2026-10-21 - ChatGPT 新广告栈的信任与相关性工程.md",
+      "title": "ChatGPT 新广告栈的信任与相关性工程",
+      "original_title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+      "published": "2026-10-21",
+      "published_evidence": "官方文章页日期与栏目列表",
+      "authors": [
+        "Ritendra Datta",
+        "Karthik Gopalratnam"
+      ],
+      "category": "产品与交互/智能界面",
+      "source_section": "OpenAI News · Engineering",
+      "status": "saved",
+      "first_collected_at": "2026-10-23T10:24:17+08:00",
+      "last_checked_at": "2026-10-23T10:24:17+08:00",
+      "last_updated_at": "2026-10-23T10:24:17+08:00",
+      "body_sha256": "c5381cb2108d9bee067d485bc0180530f5fd4bfdddf3f10f776edf4d572ace4b",
+      "body_hash_type": "manual_full_official_page_capture_v1",
+      "summary": "OpenAI 介绍 ChatGPT 广告栈如何处理跨多轮对话的商业意图：自定义后训练前沿模型把对话转成检索、相关性、排序和竞价工具调用，再由独立服务完成广告选择，避免广告影响 ChatGPT 的回答。系统使用有状态广告会话、语义嵌入、多阶段资格过滤和超时不阻塞回答的交付机制，并用日志、高能力模型和人工反馈持续改进；个性化与测量仍受隐私控制。",
+      "detail_status": "pending",
+      "evidence": {
+        "body_read": true,
+        "summary_review": {
+          "fact_check": "passed",
+          "readability_check": "passed",
+          "reviewed_at": "2026-10-23T10:24:17+08:00",
+          "method": "主执行者逐段对照官方正文，再脱离标题与正文单读摘要；未使用独立审阅代理"
+        },
+        "specific_points": 4,
+        "source_positions": [
+          {
+            "section": "多轮意图与状态",
+            "statement_checked": "广告意图会随对话变化，系统跨轮次和多会话保存广告会话状态，用模型把上下文重写为多个商业检索查询。"
+          },
+          {
+            "section": "工具编排与独立服务",
+            "statement_checked": "自定义后训练 LLM 调用检索、相关性、参与度评分和竞价工具；广告选择与 ChatGPT 答案生成分离，以保持回答中立。"
+          },
+          {
+            "section": "资格、竞价与交付",
+            "statement_checked": "候选广告经历预算、政策、地域、重复去重、相关性和价值过滤，再进入竞价；即使服务器选中，若未及时到达当前回复，前端也不会展示。"
+          }
+        ],
+        "media_status": "pending",
+        "media_note": "正文含流程导航和动态系统演示，未完成媒体导出与逐项核验，保留 pending。",
+        "selected_images": 0,
+        "all_videos_reviewed": false,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "review_method": "主执行者逐句事实核对与单独可读性复核"
+      },
+      "user_block_sha256": "02fce65ef4d267bdee98deb79124a7249204af67398cb68202b25333ebe080c8",
+      "note_sha256": "7c5b62fd6c3b4f0853a4d62e5a89d45889d3625d86ed80e862e817efd87d72cf",
+      "latest_read_normalized_sha256": "c5381cb2108d9bee067d485bc0180530f5fd4bfdddf3f10f776edf4d572ace4b",
+      "latest_read_hash_method": "manual_full_official_page_capture_v1"
+    },
+    {
+      "url": "https://openai.com/index/low-resource-programming-languages/",
+      "source_aliases": [
+        "https://openai.com/zh-Hans-CN/index/low-resource-programming-languages/"
+      ],
+      "path": "01-文章/研究与科学/模型能力与评估/2026-10-19 - 推进低资源编程语言的代码能力.md",
+      "title": "推进低资源编程语言的代码能力",
+      "original_title": "Advancing coding in low-resource programming languages",
+      "published": "2026-10-19",
+      "published_evidence": "官方文章页日期与栏目列表",
+      "authors": [
+        "OpenAI"
+      ],
+      "category": "研究与科学/模型能力与评估",
+      "source_section": "OpenAI News · Publication · Research",
+      "status": "saved",
+      "first_collected_at": "2026-10-23T10:24:17+08:00",
+      "last_checked_at": "2026-10-23T10:24:17+08:00",
+      "last_updated_at": "2026-10-23T10:24:17+08:00",
+      "body_sha256": "94363bb4388f890bf9537e21884e465e65c2a121f64d2c495602735c249e75c7",
+      "body_hash_type": "manual_full_official_page_capture_v1",
+      "summary": "OpenAI 发布两项评测，检验模型在低资源编程语言中的建库和迁移能力。MultiLangBench 要求模型用 20 种语言从零构建兼容 SQLite 的数据库引擎；COBOL 迁移评测检查跨语言后行为是否一致。GPT‑6 Astra 平均通过率 87.4%，GPT‑6.1 Sol 在低推理强度下 COBOL 迁移准确率 86.6%、高推理强度 97.9%；生产迁移仍需业务规则、依赖和专家测试。",
+      "detail_status": "pending",
+      "evidence": {
+        "body_read": true,
+        "summary_review": {
+          "fact_check": "passed",
+          "readability_check": "passed",
+          "reviewed_at": "2026-10-23T10:24:17+08:00",
+          "method": "主执行者逐段对照官方正文，再脱离标题与正文单读摘要；未使用独立审阅代理"
+        },
+        "specific_points": 4,
+        "source_positions": [
+          {
+            "section": "评测对象",
+            "statement_checked": "MultiLangBench 用统一数据库文件接口和改编的 SQLite 测试衡量 20 种语言的长任务建库；COBOL 迁移评测用隐藏测试检查行为和输出是否保"
+          },
+          {
+            "section": "建库结果与成本",
+            "statement_checked": "GPT‑6 Astra 平均通过率 87.4%，基线 GPT‑5.6 Sol 为 26.8%；GPT‑6 Luna 达 40.3%，官方估算每样本成本约 0.7"
+          },
+          {
+            "section": "迁移结果与条件",
+            "statement_checked": "GPT‑6.1 Sol 低推理强度准确率 86.6%，高推理强度 97.9%；隐藏测试要求字节级可观察结果一致，低推理强度成本约为 GPT‑5.6 Sol 的 "
+          }
+        ],
+        "media_status": "pending",
+        "media_note": "正文含语言对比图和评测导航，尚未独立导出并逐项目视核验，保留 pending。",
+        "selected_images": 0,
+        "all_videos_reviewed": false,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "review_method": "主执行者逐句事实核对与单独可读性复核"
+      },
+      "user_block_sha256": "02fce65ef4d267bdee98deb79124a7249204af67398cb68202b25333ebe080c8",
+      "note_sha256": "485ec78e71c705210128fdeafbe9e1a3859ab072928e88981e4d3e460f501105",
+      "latest_read_normalized_sha256": "94363bb4388f890bf9537e21884e465e65c2a121f64d2c495602735c249e75c7",
+      "latest_read_hash_method": "manual_full_official_page_capture_v1"
+    },
+    {
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two/",
+      "source_aliases": [
+        "https://openai.com/zh-Hans-CN/index/scaling-storage-one-billion-users-part-two/"
+      ],
+      "path": "01-文章/开发者与模型使用/模型使用策略/2026-10-23 - Habitat：支撑十亿 ChatGPT 用户的存储扩展（下篇）.md",
+      "title": "Habitat：支撑十亿 ChatGPT 用户的存储扩展（下篇）",
+      "original_title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "published": "2026-10-23",
+      "published_evidence": "官方文章页日期与栏目列表",
+      "authors": [
+        "Jon Lee",
+        "Hrachya Hakobyan",
+        "Chaomin Yu"
+      ],
+      "category": "开发者与模型使用/模型使用策略",
+      "source_section": "OpenAI News · Engineering",
+      "status": "saved",
+      "first_collected_at": "2026-10-24T11:38:10+08:00",
+      "last_checked_at": "2026-10-24T11:38:10+08:00",
+      "last_updated_at": "2026-10-24T11:38:10+08:00",
+      "body_sha256": "87855091e6c6fc36850c0626a1781ec2d89dfa65d210c7de294295a4f8ad6b69",
+      "body_hash_type": "manual_full_official_page_capture_v1",
+      "summary": "OpenAI 介绍 Habitat 如何支撑 ChatGPT、API、Codex 等产品在 40 个地区访问超过 500 PB 数据。团队从共享容器、专用容器再回到默认多租户，通过热点限流、请求优先级和改进的无服务器模式降低噪声邻居风险；复制、缓存、CDC 与 Rust 重写把全球读延迟中位数从约 120 毫秒降至约 10 毫秒。文中经验依赖 Azure Cosmos DB 与 OpenAI 规模，容量和地域约束仍需单独评估。",
+      "detail_status": "pending",
+      "evidence": {
+        "body_read": true,
+        "summary_review": {
+          "fact_check": "passed",
+          "readability_check": "passed",
+          "reviewed_at": "2026-10-24T11:38:10+08:00",
+          "method": "主执行者逐段对照官方正文，再脱离标题与正文单读摘要；未使用独立审阅代理"
+        },
+        "specific_points": 4,
+        "source_positions": [
+          {
+            "section": "正文要点",
+            "statement_checked": "按原文顺序提取的第 1、2、3 项重点与适用条件。"
+          }
+        ],
+        "media_status": "pending",
+        "media_note": "正文含 Habitat 架构、分区、流量和延迟图示及交互内容；页面媒体尚未独立导出与逐张目视核验，保留 pending。",
+        "selected_images": 0,
+        "all_videos_reviewed": false,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "review_method": "主执行者逐句事实核对与单独可读性复核"
+      },
+      "user_block_sha256": "2d1bf43302cccc15a777fdb3f8bfd5ced8f3b26dffc99ff037705a1aadb9d5d4",
+      "note_sha256": "af96615fdf1c86de83948d4532609c453363d1f24047a823bb760327bbcc4ac3",
+      "latest_read_normalized_sha256": "87855091e6c6fc36850c0626a1781ec2d89dfa65d210c7de294295a4f8ad6b69",
+      "latest_read_hash_method": "manual_full_official_page_capture_v1"
+    },
+    {
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+      "source_aliases": [
+        "https://openai.com/zh-Hans-CN/index/securing-our-frontier-model-training-environment/"
+      ],
+      "path": "01-文章/安全与治理/训练安全论证/2026-10-23 - 强化前沿模型训练环境的安全隔离.md",
+      "title": "强化前沿模型训练环境的安全隔离",
+      "original_title": "Securing our frontier model training environment",
+      "published": "2026-10-23",
+      "published_evidence": "官方文章页日期与栏目列表",
+      "authors": [
+        "OpenAI"
+      ],
+      "category": "安全与治理/训练安全论证",
+      "source_section": "OpenAI News · Security · Publication",
+      "status": "saved",
+      "first_collected_at": "2026-10-24T11:38:10+08:00",
+      "last_checked_at": "2026-10-24T11:38:10+08:00",
+      "last_updated_at": "2026-10-24T11:38:10+08:00",
+      "body_sha256": "674ce2453e1be7c87f46d831b6f8af4554241f674aaa898c1badcc535935b36b",
+      "body_hash_type": "manual_full_official_page_capture_v1",
+      "summary": "OpenAI 说明前沿模型训练与评测环境如何做纵深隔离：训练默认无互联网，离线环境、微虚拟机、服务边界和监控共同限制模型能力外溢。高算力 Agent 红队发现微虚拟机逃逸、经 DNS 或内部服务触网，以及利用缓存时序跨任务通信等路径，团队据此修补 Kata Containers、gVisor、Docker 等组件并加强自动化验证。结论针对内部开发模型，不等同于已发布模型的生产安全保证。",
+      "detail_status": "pending",
+      "evidence": {
+        "body_read": true,
+        "summary_review": {
+          "fact_check": "passed",
+          "readability_check": "passed",
+          "reviewed_at": "2026-10-24T11:38:10+08:00",
+          "method": "主执行者逐段对照官方正文，再脱离标题与正文单读摘要；未使用独立审阅代理"
+        },
+        "specific_points": 4,
+        "source_positions": [
+          {
+            "section": "正文要点",
+            "statement_checked": "按原文顺序提取的第 1、2、3 项重点与适用条件。"
+          }
+        ],
+        "media_status": "pending",
+        "media_note": "正文含隔离架构与红队发现的流程导航，关键证据主要在文字；动态媒体和图示尚未独立导出与逐项目视核验，保留 pending。",
+        "selected_images": 0,
+        "all_videos_reviewed": false,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "review_method": "主执行者逐句事实核对与单独可读性复核"
+      },
+      "user_block_sha256": "2d1bf43302cccc15a777fdb3f8bfd5ced8f3b26dffc99ff037705a1aadb9d5d4",
+      "note_sha256": "fc9f8c03c67de4e0bc7638f0a076c1e0b346775312f6c6472e79fe977f8c641e",
+      "latest_read_normalized_sha256": "674ce2453e1be7c87f46d831b6f8af4554241f674aaa898c1badcc535935b36b",
+      "latest_read_hash_method": "manual_full_official_page_capture_v1"
+    },
+    {
+      "url": "https://openai.com/index/empowering-cyber-defenders/",
+      "source_aliases": [
+        "https://openai.com/zh-Hans-CN/index/empowering-cyber-defenders/"
+      ],
+      "path": "01-文章/安全与治理/模型与推理安全/2026-10-21 - 前沿 AI 民主治理（二）：赋能网络防御者.md",
+      "title": "前沿 AI 民主治理（二）：赋能网络防御者",
+      "original_title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+      "published": "2026-10-21",
+      "published_evidence": "官方文章页日期与栏目列表",
+      "authors": [
+        "OpenAI"
+      ],
+      "category": "安全与治理/模型与推理安全",
+      "source_section": "OpenAI News · Global Affairs · Security",
+      "status": "saved",
+      "first_collected_at": "2026-10-24T11:38:10+08:00",
+      "last_checked_at": "2026-10-24T11:38:10+08:00",
+      "last_updated_at": "2026-10-24T11:38:10+08:00",
+      "body_sha256": "b34b58e1660b566949cb0f5302e50c21251051d6aa0273548c2525961e65f51c",
+      "body_hash_type": "manual_full_official_page_capture_v1",
+      "summary": "OpenAI 发布前沿 AI 民主治理第二部分网络防御蓝图，认为先进 AI 正处于防御者窗口：可帮助发现漏洞、检测入侵和响应攻击，也会放大越权与滥用风险。方案提出三条线：明确实验室和 Agent 的安全责任，升级防御者工具与基础设施，建立政府评估、事件报告和协同响应能力。蓝图是政策建议而非效果评测，实施仍取决于政府与产业协作。",
+      "detail_status": "pending",
+      "evidence": {
+        "body_read": true,
+        "summary_review": {
+          "fact_check": "passed",
+          "readability_check": "passed",
+          "reviewed_at": "2026-10-24T11:38:10+08:00",
+          "method": "主执行者逐段对照官方正文，再脱离标题与正文单读摘要；未使用独立审阅代理"
+        },
+        "specific_points": 4,
+        "source_positions": [
+          {
+            "section": "正文要点",
+            "statement_checked": "按原文顺序提取的第 1、2、3 项重点与适用条件。"
+          }
+        ],
+        "media_status": "pending",
+        "media_note": "正文主要提供文字摘要并链接完整蓝图 PDF；蓝图附件和页面媒体尚未独立导出、完整阅读与目视核验，保留 pending。",
+        "selected_images": 0,
+        "all_videos_reviewed": false,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "review_method": "主执行者逐句事实核对与单独可读性复核"
+      },
+      "user_block_sha256": "2d1bf43302cccc15a777fdb3f8bfd5ced8f3b26dffc99ff037705a1aadb9d5d4",
+      "note_sha256": "2b8952d38cd2ff36a0f235643c5b26919bdd31b0656469884ee6e98a366e3506",
+      "latest_read_normalized_sha256": "b34b58e1660b566949cb0f5302e50c21251051d6aa0273548c2525961e65f51c",
+      "latest_read_hash_method": "manual_full_official_page_capture_v1"
+    }
+  ],
+  "weekly_reports": {
+    "created": 2,
+    "last_created": "2026-W43",
+    "last_created_at": "2026-10-25T10:23:12+08:00",
+    "next_due": "2026-11-01",
+    "reason": "2026-W43 已在 2026-10-25 完成同步后生成并验证。"
+  },
+  "last_run": {
+    "at": "2026-10-25T10:22:44.842+08:00",
+    "type": "scheduled_sync",
+    "result": "completed_with_pending",
+    "completed_at": "2026-10-25T10:23:12+08:00",
+    "new_articles": 0,
+    "articles": 21,
+    "updated_articles": 0,
+    "enriched_articles": 0,
+    "updated_urls": [],
+    "new_urls": [],
+    "weekly_reports_created": 1,
+    "weekly_report_urls": [
+      "03-周报/2026-W43.md"
+    ],
+    "source_lists_read": 8,
+    "source_complete": 7,
+    "source_partial": [
+      "news"
+    ],
+    "detail_completed": 6,
+    "detail_pending": 15,
+    "summary_reviews_passed": 21,
+    "pending_candidates": 5,
+    "saved_images": 0,
+    "notification_reason": "weekly_report",
+    "daily_budget": {
+      "maximum": 10,
+      "reserved_enrichment": 3,
+      "enrichment_used": 0,
+      "new_used": 0
+    }
+  },
+  "verification": {
+    "articles": 21,
+    "detail_completed": 6,
+    "detail_pending": 15,
+    "summary_reviews_passed": 21,
+    "summary_reviews_remaining": 0,
+    "errors": [],
+    "checked_at": "2026-10-25T10:23:12+08:00",
+    "internal_links_passed": true,
+    "metadata_passed": true,
+    "source_url_unique": true,
+    "user_blocks_preserved": true,
+    "first_collected_preserved": true,
+    "images_verified": 6,
+    "validation_scope": "正式文章、首页、周报、管理索引与媒体；模板中的路径占位符单独排除，模板未修改。",
+    "weekly_report": "03-周报/2026-W43.md",
+    "weekly_report_validated": true
+  },
+  "pending_candidates": [
+    {
+      "url": "https://deploymentsafety.openai.com/gpt-6-october",
+      "published": "2026-10-07",
+      "reason": "已读可解析文字、评估条件和表格；关键图及折叠内容完整性尚未验证，不标记全文质量完成。",
+      "status": "pending",
+      "discovered_at": "2026-10-12T10:51:26+08:00",
+      "body_read": false,
+      "last_attempt_at": "2026-10-13T14:19:33+08:00",
+      "text_processing_status": "extracted_text_read_pending_completeness",
+      "next_attempt": "2026-10-14"
+    },
+    {
+      "url": "https://openai.com/index/teens-learn-and-plan/",
+      "published": "2026-10-07",
+      "reason": "完整正文已读；休息提醒与 College Planner 截图已定位，下载超时后 ERR_CONNECTION_CLOSED，保留媒体重试。",
+      "status": "pending",
+      "discovered_at": "2026-10-12T10:51:26+08:00",
+      "body_read": true,
+      "last_attempt_at": "2026-10-13T14:19:33+08:00",
+      "text_processing_status": "read_pending_media",
+      "next_attempt": "2026-10-14",
+      "media_status": "retry_exhausted",
+      "source_aliases": [
+        "https://openai.com/zh-Hans-CN/index/teens-learn-and-plan/"
+      ]
+    },
+    {
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement/",
+      "published": "2026-10-05",
+      "reason": "全文已读，具有图像生成场景广告、衡量接口和隐私测试的实质更新；媒体尚未核验，不能仅按广告标题排除。",
+      "status": "pending",
+      "discovered_at": "2026-10-12T10:51:26+08:00",
+      "body_read": true,
+      "last_attempt_at": "2026-10-13T14:19:33+08:00",
+      "text_processing_status": "read_pending_media",
+      "next_attempt": "2026-10-14"
+    },
+    {
+      "url": "https://deploymentsafety.openai.com/gpt-6-1-sol",
+      "published": "2026-09-29",
+      "reason": "已读可解析文字和表格，含部署模拟、可监控性、能力阈值；关键图及折叠内容完整性待验证，与产品介绍区分。",
+      "status": "pending",
+      "discovered_at": "2026-10-12T10:51:26+08:00",
+      "body_read": false,
+      "last_attempt_at": "2026-10-13T14:19:33+08:00",
+      "text_processing_status": "extracted_text_read_pending_completeness",
+      "next_attempt": "2026-10-14"
+    },
+    {
+      "url": "https://openai.com/index/devday-2026-recap/",
+      "published": "2026-09-29",
+      "reason": "正文及文末 20 多项发布详情已读，含 Decisions API、Agents API、插件扩展等独有内容。媒体与子发布补读待办，Dots/Sol 与已有笔记关联去重。",
+      "status": "pending",
+      "discovered_at": "2026-10-12T10:51:26+08:00",
+      "body_read": true,
+      "last_attempt_at": "2026-10-13T14:19:33+08:00",
+      "text_processing_status": "read_pending_media",
+      "next_attempt": "2026-10-14"
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "url": "https://openai.com/index/atlassian-partnership/",
+      "published": "2026-10-06",
+      "reason": "公司合作公告，按范围暂不纳入；仅列表级筛选，未对技术正文作结论"
+    },
+    {
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia/",
+      "published": "2026-09-28",
+      "reason": "公司治理回应，列表级范围筛选，保留重新评估可能"
+    }
+  ],
+  "article_enrichment": {
+    "pending_urls": [
+      "https://openai.com/index/disrupting-ai-enabled-false-front-operations/",
+      "https://openai.com/index/gpt-6-for-everyone/",
+      "https://openai.com/index/introducing-gpt-6-1-sol/",
+      "https://openai.com/index/introducing-dots/",
+      "https://openai.com/index/introducing-the-rosalind-academic-plan/"
+    ],
+    "reason": "关键媒体未完成获取/目视核验，不因正文未变跳过。"
+  },
+  "retries": [
+    {
+      "kind": "news_pagination",
+      "status": "retry_exhausted",
+      "reason": "2026-10-19 已看到 10-15 新文，但加载更多仍未覆盖 09-28 至 10-01；未绕过验证。",
+      "next_attempt": "2026-10-20"
+    },
+    {
+      "kind": "media",
+      "status": "partial_recovery",
+      "recovered_urls": [
+        "https://openai.com/index/eu-text-provenance/"
+      ],
+      "pending_urls": [
+        "https://openai.com/index/disrupting-ai-enabled-false-front-operations/",
+        "https://openai.com/index/gpt-6-for-everyone/",
+        "https://openai.com/index/introducing-gpt-6-1-sol/",
+        "https://openai.com/index/introducing-dots/"
+      ],
+      "reason": "Sol 新增两张关键图，其他交互图与三篇旧文媒体继续跨日核验。",
+      "next_attempt": "2026-10-20"
+    },
+    {
+      "kind": "candidate_media",
+      "status": "retry_exhausted",
+      "url": "https://openai.com/index/teens-learn-and-plan/",
+      "reason": "截图下载超时、ERR_CONNECTION_CLOSED；浏览器错误页未绕过。",
+      "next_attempt": "2026-10-20"
+    }
+  ]
+}

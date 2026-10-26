@@ -1,0 +1,157 @@
+{
+  "checked_at": "2026-09-09T20:52:25+08:00",
+  "window": {
+    "start": "2025-09-09",
+    "end": "2026-09-09",
+    "inclusive": true
+  },
+  "scope": "Anthropic Research, Engineering, News official listings and featured article links; not all independent subdomains or product blog posts",
+  "all_year_listing_records": {
+    "research": 161,
+    "engineering": 25,
+    "news": 272
+  },
+  "in_window_listing_records": {
+    "Research": 79,
+    "Engineering": 18,
+    "News": 139
+  },
+  "additional_featured_news_articles": [
+    {
+      "url": "https://www.anthropic.com/features/making-of-claude-code",
+      "published": "2026-07-06"
+    },
+    {
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "published": "2026-09-01"
+    }
+  ],
+  "source_entry_total": 238,
+  "cross_section_duplicates": [
+    {
+      "note": "01-文章/经济与社会/AI经济与采用数据/2025-09-15 - 经济指数报告：地域与企业 AI 采用差异.md",
+      "urls": [
+        "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report",
+        "https://www.anthropic.com/news/anthropic-economic-index-september-2025-report"
+      ],
+      "matching_title_date_summary": true
+    },
+    {
+      "note": "01-文章/经济与社会/AI经济与采用数据/2025-09-15 - 从地域差异观察 AI 的经济应用.md",
+      "urls": [
+        "https://www.anthropic.com/research/economic-index-geography",
+        "https://www.anthropic.com/news/economic-index-geography"
+      ],
+      "matching_title_date_summary": true
+    },
+    {
+      "note": "01-文章/安全与对齐/网络能力与漏洞研究/2025-10-03 - 面向网络防御者建设 AI 能力.md",
+      "urls": [
+        "https://www.anthropic.com/research/building-ai-cyber-defenders",
+        "https://www.anthropic.com/news/building-ai-cyber-defenders"
+      ],
+      "matching_title_date_summary": true
+    },
+    {
+      "note": "01-文章/经济与社会/AI经济与采用数据/2026-01-15 - 经济指数报告：经济基础指标.md",
+      "urls": [
+        "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report",
+        "https://www.anthropic.com/news/anthropic-economic-index-january-2026-report"
+      ],
+      "matching_title_date_summary": true
+    },
+    {
+      "note": "01-文章/经济与社会/AI经济与采用数据/2026-01-15 - 用五类基础指标理解 AI 使用.md",
+      "urls": [
+        "https://www.anthropic.com/research/economic-index-primitives",
+        "https://www.anthropic.com/news/economic-index-primitives"
+      ],
+      "matching_title_date_summary": true
+    },
+    {
+      "note": "01-文章/安全与对齐/对齐研究与模型行为/2026-01-22 - Claude 新宪法的目标与训练作用.md",
+      "urls": [
+        "https://www.anthropic.com/research/claude-new-constitution",
+        "https://www.anthropic.com/news/claude-new-constitution"
+      ],
+      "matching_title_date_summary": true
+    },
+    {
+      "note": "01-文章/安全与对齐/网络防御与滥用追踪/2026-03-06 - 与 Mozilla 合作提升 Firefox 安全.md",
+      "urls": [
+        "https://www.anthropic.com/research/mozilla-firefox-security",
+        "https://www.anthropic.com/news/mozilla-firefox-security"
+      ],
+      "matching_title_date_summary": true
+    },
+    {
+      "note": "01-文章/安全与对齐/网络防御与滥用追踪/2026-05-22 - Project Glasswing 的初步进展.md",
+      "urls": [
+        "https://www.anthropic.com/research/glasswing-initial-update",
+        "https://www.anthropic.com/news/glasswing-initial-update"
+      ],
+      "matching_title_date_summary": true
+    },
+    {
+      "note": "01-文章/安全与对齐/网络防御与滥用追踪/2026-06-03 - 一年 AI 网络滥用案例带来的框架启示.md",
+      "urls": [
+        "https://www.anthropic.com/research/AI-enabled-cyber-threats-mitre-attack",
+        "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack"
+      ],
+      "matching_title_date_summary": true
+    }
+  ],
+  "unique_articles": 229,
+  "sitemap_total_urls": 524,
+  "sitemap_article_urls_in_three_sections": 435,
+  "sitemap_article_urls_absent_from_all_year_listings": [],
+  "live_listing_urls_absent_from_local_notes": [],
+  "local_notes_absent_from_listings_and_featured_cards": [],
+  "publication_date_mismatches": [],
+  "local_note_count": 229,
+  "index_distinct_article_count": 229,
+  "local_metadata_or_empty_content_problems": [],
+  "category_counts": {
+    "产品与政策": 56,
+    "公司动态": 50,
+    "前沿红队": 25,
+    "可解释性": 6,
+    "对齐研究": 18,
+    "工程实践": 19,
+    "社会影响": 25,
+    "科学应用": 12,
+    "经济影响": 18
+  },
+  "empty_article_folders": [
+    "待分类"
+  ],
+  "note_depth_counts": {
+    "摘要与学习解读": 19,
+    "文章概览": 127,
+    "图文概览": 82,
+    "未标注": 1
+  },
+  "source_fetch_files": [
+    {
+      "url": "https://www.anthropic.com/research",
+      "cached_at": "2026-09-09T20:48:16+08:00",
+      "sha256": "a73c626fca63da8b3548a86af93f3ed5ac65776765d2e17126031c75ecb7a5b2"
+    },
+    {
+      "url": "https://www.anthropic.com/engineering",
+      "cached_at": "2026-09-09T20:48:15+08:00",
+      "sha256": "016eeccdf53adc6e342b8f236c6bd8ba5941e9fa8dcd6ab1c5f60afba21afe54"
+    },
+    {
+      "url": "https://www.anthropic.com/news",
+      "cached_at": "2026-09-09T20:48:16+08:00",
+      "sha256": "d08769dfb1257d2fa99e7b28c68fada5e6deb9c560ac7d453d58defaac94b6d3"
+    },
+    {
+      "url": "https://www.anthropic.com/sitemap.xml",
+      "cached_at": "2026-09-09T20:48:14+08:00",
+      "sha256": "fbfb83fb85df42c822a1fabb14dfe406d8b97a1713e5b03b59e8ff726e85e7be"
+    }
+  ],
+  "validation_limit": "Checked every listed URL, publication date, local file, index entry and primary content block; original article bodies were re-read only for classification examples, not all 229 articles."
+}

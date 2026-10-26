@@ -1,0 +1,4198 @@
+{
+  "schema_version": 2,
+  "timezone": "Asia/Shanghai",
+  "created_at": "2026-09-09T22:24:24.763237+08:00",
+  "updated_at": "2026-10-23T09:24:00+08:00",
+  "schedule": {
+    "status": "ACTIVE",
+    "automation_id": "langchain",
+    "automation_name": "LangChain 知识库每日同步与周报",
+    "kind": "heartbeat",
+    "target_thread_id": "01a0866a-c9ce-7593-b16c-5eaa17680711",
+    "timezone": "Asia/Shanghai",
+    "daily_time": "09:20",
+    "weekly_report_day": "Sunday",
+    "first_scheduled_run": "2026-09-10T09:20:00+08:00",
+    "first_weekly_report": "2026-09-13",
+    "verified_at": "2026-09-09T22:58:45.284626+08:00",
+    "schedule_updated_at": "2026-09-10T12:00:00+08:00",
+    "stagger_order": 2,
+    "next_scheduled_run": "2026-10-24 09:20",
+    "schedule_note": "四库错峰运行；容量错误持续重试并在耗尽后通知",
+    "previous_daily_time": "09:00",
+    "schedule_change_note": "原计划 09:00，已调整为每日 09:20 错峰运行",
+    "last_run_at": "2026-10-23T09:24:00+08:00",
+    "last_successful_run_at": "2026-10-23T09:24:00+08:00"
+  },
+  "structure": {
+    "topics_enabled": false,
+    "learning_routes_enabled": false,
+    "category_levels": 2,
+    "categories": 5,
+    "dynamic_categories": true
+  },
+  "initial_collection": {
+    "mode": "curated_seed",
+    "date": "2026-09-09",
+    "selected_count": 30,
+    "saved_count": 56,
+    "complete": true,
+    "target_count": 30,
+    "expansion_note": "精选30篇及后续增量26篇，共56篇；55篇completed，1篇统计口径待核实。",
+    "expansion_complete": true
+  },
+  "backfill": {
+    "mode": "user_requested_expansion",
+    "complete": false,
+    "coverage": "精选扩充 30/30；不代表全站或全年历史收录完成"
+  },
+  "sources": {
+    "primary": {
+      "url": "https://www.langchain.com/blog",
+      "last_attempt_at": "2026-10-23T09:24:00+08:00",
+      "last_listing_read_at": "2026-10-23T09:24:00+08:00",
+      "last_complete_scan_at": "2026-10-23T09:24:00+08:00",
+      "coverage": "官方博客列表、必要分页及站点地图成功检查；2026-10-16至2026-10-23窗口发现并收录10月19日 Numan 评估优先健康教练案例；Newsletter与旧文按规则排除。",
+      "backfill_complete": false,
+      "scan_scope": "按上次完整成功时间回看至少14天；本次补查2026-10-16至2026-10-23，并读取必要分页及站点地图。",
+      "listing_pages": [
+        {
+          "url": "https://www.langchain.com/blog",
+          "count": 16,
+          "newest": "2026-10-15",
+          "oldest": "2026-09-24",
+          "next": "https://www.langchain.com/blog?8457a1db_page=2"
+        },
+        {
+          "url": "https://www.langchain.com/blog?8457a1db_page=2",
+          "count": 16,
+          "newest": "2026-09-24",
+          "oldest": "2026-09-03",
+          "next": "https://www.langchain.com/blog?8457a1db_page=3"
+        },
+        {
+          "url": "https://www.langchain.com/blog?8457a1db_page=3",
+          "count": 16,
+          "newest": "2026-08-26",
+          "oldest": "2026-08-04",
+          "next": "https://www.langchain.com/blog?8457a1db_page=4"
+        }
+      ],
+      "discovery_ledger": "99-管理/来源发现记录-2026-10-19.json",
+      "editorial_pending_in_window": 0,
+      "prior_fetch_recovered": {
+        "url": "https://www.langchain.com/blog/deep-agents-v0-7",
+        "at": "2026-09-11T09:31:07.439201+08:00",
+        "result": "正文与元数据已成功读取并收录；此前临时抓取失败未登记入队，本次补正记录"
+      }
+    }
+  },
+  "articles": [
+    {
+      "url": "https://www.langchain.com/blog/context-engineering-for-agents",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/上下文管理/2025-07-02 - 上下文工程的四种基本操作.md",
+      "title": "上下文工程的四种基本操作",
+      "original_title": "Context Engineering",
+      "published": "2025-07-02",
+      "published_evidence": "原文页首: July 2, 2025",
+      "category": "工程与Agent/上下文管理",
+      "status": "saved",
+      "first_collected_at": "2026-09-09T22:24:24.763237+08:00",
+      "last_checked_at": "2026-10-07T09:22:53.857077+08:00",
+      "last_updated_at": "2026-09-15T09:34:59.717418+08:00",
+      "body_sha256": "1d4a0baac674d7c084f009d9fd713080642c29147141697481ab2b2bcaf9d7d8",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 11,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 2,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "authors": [
+        "The LangChain Team"
+      ],
+      "source_section": "LangChain 官方博客署名文章",
+      "last_enriched_at": "2026-09-15T09:34:59.717418+08:00"
+    },
+    {
+      "url": "https://www.langchain.com/blog/the-rise-of-context-engineering",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/上下文管理/2025-06-23 - 把上下文工程理解为动态信息系统.md",
+      "title": "把上下文工程理解为动态信息系统",
+      "original_title": "The rise of \"context engineering\"",
+      "published": "2025-06-23",
+      "published_evidence": "原文页首: June 23, 2025",
+      "category": "工程与Agent/上下文管理",
+      "status": "saved",
+      "first_collected_at": "2026-09-09T22:24:24.763237+08:00",
+      "last_checked_at": "2026-10-07T09:22:53.857077+08:00",
+      "last_updated_at": "2026-09-15T09:34:59.717418+08:00",
+      "body_sha256": "9a9f5090d2d47ba6dc6b96dd14e7837b8d004a676e13ea98fdcea35fb9b564ab",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 0,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 0,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "authors": [
+        "Harrison Chase"
+      ],
+      "source_section": "LangChain 官方博客署名文章",
+      "last_enriched_at": "2026-09-15T09:34:59.717418+08:00"
+    },
+    {
+      "url": "https://www.langchain.com/blog/doubling-down-on-deepagents",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/运行架构/2025-10-28 - Deep Agents 的可插拔存储与框架分层.md",
+      "title": "Deep Agents 的可插拔存储与框架分层",
+      "original_title": "Doubling down on Deep Agents",
+      "published": "2025-10-28",
+      "published_evidence": "原文页首: October 28, 2025",
+      "category": "工程与Agent/运行架构",
+      "status": "saved",
+      "first_collected_at": "2026-09-09T22:24:24.763237+08:00",
+      "last_checked_at": "2026-10-10T09:22:25.441+08:00",
+      "last_updated_at": "2026-09-15T09:34:59.717418+08:00",
+      "body_sha256": "0374feefa94ef29c47e5ddf786c9110dcfbdf4fab67018a6bff1991048a74637",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 3,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 1,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "authors": [
+        "The LangChain Team"
+      ],
+      "source_section": "LangChain 官方博客署名文章",
+      "last_enriched_at": "2026-09-15T09:34:59.717418+08:00"
+    },
+    {
+      "url": "https://www.langchain.com/blog/building-multi-agent-applications-with-deep-agents",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/多智能体协作/2026-01-21 - 子 Agent 与 Skills 如何分担复杂任务.md",
+      "title": "子 Agent 与 Skills 如何分担复杂任务",
+      "original_title": "Building Multi-Agent Applications with Deep Agents",
+      "published": "2026-01-21",
+      "published_evidence": "原文页首: January 21, 2026",
+      "category": "工程与Agent/多智能体协作",
+      "status": "saved",
+      "first_collected_at": "2026-09-09T22:24:24.763237+08:00",
+      "last_checked_at": "2026-10-13T09:19:03.367+08:00",
+      "last_updated_at": "2026-09-15T09:34:59.717418+08:00",
+      "body_sha256": "dce8a413eb33ce546a3c343934f32b28c72853c39bbb2cdbb27d47b13d4b1ecb",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 2,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 1
+        },
+        "selected_images": 2,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "authors": [
+        "Sydney Runkle",
+        "Vivek Trivedy"
+      ],
+      "source_section": "LangChain 官方博客署名文章",
+      "last_enriched_at": "2026-09-15T09:34:59.717418+08:00"
+    },
+    {
+      "url": "https://www.langchain.com/blog/evaluating-deep-agents-our-learnings",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/评估与可靠性/2025-12-03 - 评估 Agent 时检查决策、产物与最终状态.md",
+      "title": "评估 Agent 时检查决策、产物与最终状态",
+      "original_title": "Evaluating Deep Agents: Our Learnings",
+      "published": "2025-12-03",
+      "published_evidence": "原文页首: December 3, 2025",
+      "category": "工程与Agent/评估与可靠性",
+      "status": "saved",
+      "first_collected_at": "2026-09-09T22:24:24.763237+08:00",
+      "last_checked_at": "2026-10-10T09:22:25.441+08:00",
+      "last_updated_at": "2026-09-15T09:34:59.717418+08:00",
+      "body_sha256": "952346949e74967337bebb4dda696b767909eec93a04d3f5c9014b83cc9550f0",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 9,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 2,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "authors": [
+        "The LangChain Team"
+      ],
+      "source_section": "LangChain 官方博客署名文章",
+      "last_enriched_at": "2026-09-15T09:34:59.717418+08:00"
+    },
+    {
+      "url": "https://www.langchain.com/blog/introducing-dynamic-subagents-in-deep-agents",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/多智能体协作/2026-06-29 - 用代码编排动态子 Agent.md",
+      "title": "用代码编排动态子 Agent",
+      "original_title": "Introducing Dynamic Subagents in Deep Agents",
+      "published": "2026-06-29",
+      "published_evidence": "原文页首: June 29, 2026",
+      "category": "工程与Agent/多智能体协作",
+      "status": "saved",
+      "first_collected_at": "2026-09-09T22:24:24.763237+08:00",
+      "last_checked_at": "2026-09-27T09:30:07.238889+08:00",
+      "last_updated_at": "2026-09-15T09:34:59.717418+08:00",
+      "body_sha256": "c051d3b6f793a431fca931d64f2422e668420492927e858cff58d43d8b2c5c72",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 8,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 1
+        },
+        "selected_images": 2,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "authors": [
+        "Sydney Runkle",
+        "Colin Francis",
+        "Hunter Lovell"
+      ],
+      "source_section": "LangChain 官方博客署名文章",
+      "last_enriched_at": "2026-09-15T09:34:59.717418+08:00"
+    },
+    {
+      "url": "https://www.langchain.com/blog/how-we-benchmark-deep-agents",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-07-23 - 用端到端任务评估 Deep Agents.md",
+      "title": "用端到端任务评估 Deep Agents",
+      "original_title": "How We Benchmark Deep Agents",
+      "published": "2026-07-23",
+      "published_evidence": "原文页首: July 23, 2026",
+      "category": "工程与Agent/评估与可靠性",
+      "status": "saved",
+      "first_collected_at": "2026-09-09T22:24:24.763237+08:00",
+      "last_checked_at": "2026-10-02T09:34:26.280166+08:00",
+      "last_updated_at": "2026-09-14T09:39:26.158971+08:00",
+      "body_sha256": "901bc02b61ed636977f965103d87047761ec8279c4ed18c7cca751b8a5beab23",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 1,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 1,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "authors": [
+        "Nick Hollon",
+        "Harrison Chase"
+      ],
+      "source_section": "LangChain 官方博客署名文章",
+      "last_enriched_at": "2026-09-14T09:39:26.158971+08:00",
+      "last_source_change_detected": false
+    },
+    {
+      "url": "https://www.langchain.com/blog/deep-agents-v0-5",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/多智能体协作/2026-04-07 - 异步子 Agent 与多模态文件支持.md",
+      "title": "异步子 Agent 与多模态文件支持",
+      "original_title": "Deep Agents v0.5",
+      "published": "2026-04-07",
+      "published_evidence": "原文页首: April 7, 2026",
+      "category": "工程与Agent/多智能体协作",
+      "status": "saved",
+      "first_collected_at": "2026-09-09T22:24:24.763237+08:00",
+      "last_checked_at": "2026-10-15T09:27:41+08:00",
+      "last_updated_at": "2026-09-15T09:34:59.717418+08:00",
+      "body_sha256": "84d625de2b89e66a1e52dcb33ca17d6e52934d71bf5908213157047a429a4289",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 0,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 1
+        },
+        "selected_images": 0,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "authors": [
+        "The LangChain Team"
+      ],
+      "source_section": "LangChain 官方博客署名文章",
+      "last_enriched_at": "2026-09-15T09:34:59.717418+08:00"
+    },
+    {
+      "url": "https://www.langchain.com/blog/deep-agents-0-6",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/运行架构/2026-05-13 - Deep Agents 0.6 的执行、状态与记忆改进.md",
+      "title": "Deep Agents 0.6 的执行、状态与记忆改进",
+      "original_title": "New in Deep Agents v0.6",
+      "published": "2026-05-13",
+      "published_evidence": "原文页首: May 13, 2026",
+      "category": "工程与Agent/运行架构",
+      "status": "saved",
+      "first_collected_at": "2026-09-09T22:24:24.763237+08:00",
+      "last_checked_at": "2026-09-26T09:28:13.341778+08:00",
+      "last_updated_at": "2026-09-15T09:34:59.717418+08:00",
+      "body_sha256": "691aa7a114c9dc23aecdd829dfa6c529b33566f38ddb776ea6b547f9d5595a34",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 4,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 1,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "authors": [
+        "Sydney Runkle"
+      ],
+      "source_section": "LangChain 官方博客署名文章",
+      "last_enriched_at": "2026-09-15T09:34:59.717418+08:00"
+    },
+    {
+      "url": "https://www.langchain.com/blog/deep-agents-deploy-an-open-alternative-to-claude-managed-agents",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/部署与持久化/2026-04-09 - 把 Agent 配置、沙箱与记忆一起部署.md",
+      "title": "把 Agent 配置、沙箱与记忆一起部署",
+      "original_title": "Deep Agents Deploy: an open alternative to Claude Managed Agents",
+      "published": "2026-04-09",
+      "published_evidence": "原文页首: April 9, 2026",
+      "category": "工程与Agent/部署与持久化",
+      "status": "saved",
+      "first_collected_at": "2026-09-09T22:24:24.763237+08:00",
+      "last_checked_at": "2026-09-26T09:28:13.341778+08:00",
+      "last_updated_at": "2026-09-15T09:34:59.717418+08:00",
+      "body_sha256": "25d15f4a1300d8812435a4742835df94d133e391aa28ae31cec98f31aef105c6",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 3,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 2,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "authors": [
+        "Sydney Runkle"
+      ],
+      "source_section": "LangChain 官方博客署名文章",
+      "last_enriched_at": "2026-09-15T09:34:59.717418+08:00"
+    },
+    {
+      "url": "https://www.langchain.com/blog/connections-managed-credentials-and-per-caller-identity-for-managed-deep-agents",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/部署与持久化/2026-09-09 - 用 Connections 为 Managed Deep Agents 分配凭据与调用者身份.md",
+      "title": "用 Connections 为 Managed Deep Agents 分配凭据与调用者身份",
+      "original_title": "Connections: Managed credentials and per-caller identity for Managed Deep Agents",
+      "published": "2026-09-09",
+      "published_evidence": "September 9, 2026",
+      "category": "工程与Agent/部署与持久化",
+      "status": "saved",
+      "first_collected_at": "2026-09-10T09:01:00+08:00",
+      "last_checked_at": "2026-10-04T09:28:11.755377+08:00",
+      "last_updated_at": "2026-09-14T09:39:26.158971+08:00",
+      "body_sha256": "970febcd00e1d0c77a3d43729ce1cd8a7dffb55fd695e13122c753685fee3c5a",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 2,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 1,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "authors": [
+        "Victor Moreira"
+      ],
+      "source_section": "LangChain 官方博客署名文章",
+      "last_source_change_detected": false,
+      "last_enriched_at": "2026-09-14T09:39:26.158971+08:00"
+    },
+    {
+      "url": "https://www.langchain.com/blog/organizing-context-in-a-multi-agent-harness",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/上下文管理/2026-09-08 - 在多 Agent Harness 中组织共享与隔离上下文.md",
+      "title": "在多 Agent Harness 中组织共享与隔离上下文",
+      "original_title": "Organizing Context in a Multi-Agent Harness",
+      "published": "2026-09-08",
+      "published_evidence": "September 8, 2026",
+      "category": "工程与Agent/上下文管理",
+      "status": "saved",
+      "first_collected_at": "2026-09-10T09:01:00+08:00",
+      "last_checked_at": "2026-10-04T09:28:11.755377+08:00",
+      "last_updated_at": "2026-09-14T09:39:26.158971+08:00",
+      "body_sha256": "392735f2b75f05a25b99a0ec8c92dfcdca980fef6edff355145d682f3462d199",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 2,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 2,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "authors": [
+        "Thushanth Bengre",
+        "Chester Curme"
+      ],
+      "source_section": "LangChain 官方博客署名文章",
+      "last_source_change_detected": false,
+      "last_enriched_at": "2026-09-14T09:39:26.158971+08:00"
+    },
+    {
+      "url": "https://www.langchain.com/blog/mcp-in-langchain-stateless-protocol-elicitation-and-more",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/运行架构/2026-09-03 - LangChain MCP 支持的新协议、无状态调用与中断询问.md",
+      "title": "LangChain MCP 支持的新协议、无状态调用与中断询问",
+      "original_title": "MCP in LangChain: Stateless Protocol, Elicitation, and More!",
+      "published": "2026-09-03",
+      "published_evidence": "September 3, 2026",
+      "category": "工程与Agent/运行架构",
+      "status": "saved",
+      "first_collected_at": "2026-09-10T09:01:00+08:00",
+      "last_checked_at": "2026-10-04T09:28:11.755377+08:00",
+      "last_updated_at": "2026-09-14T09:39:26.158971+08:00",
+      "body_sha256": "31d46782dce9f2f9fd57ff658cfb0cb3b391a923bf07329ba3bef470fa49ee0b",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 3,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 2,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "authors": [
+        "Sydney Runkle"
+      ],
+      "source_section": "LangChain 官方博客署名文章",
+      "last_source_change_detected": false,
+      "last_enriched_at": "2026-09-14T09:39:26.158971+08:00"
+    },
+    {
+      "url": "https://www.langchain.com/blog/building-agent-environments-and-tasks",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-08-25 - 如何构建 Agent 评估环境与任务.md",
+      "title": "如何构建 Agent 评估环境与任务",
+      "original_title": "How We Build Agent Environments & Tasks",
+      "published": "2026-08-25",
+      "published_evidence": "August 25, 2026",
+      "category": "工程与Agent/评估与可靠性",
+      "status": "saved",
+      "first_collected_at": "2026-09-10T09:01:00+08:00",
+      "last_checked_at": "2026-10-03T09:26:22.043082+08:00",
+      "last_updated_at": "2026-09-14T09:39:26.158971+08:00",
+      "body_sha256": "e4fc77d58b6b1e927a38199a893b153ff2f79bf1d267c0345e0aadb5710a7dc3",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 1,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 1,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "authors": [
+        "Vivek Trivedy",
+        "Nick Hollon"
+      ],
+      "source_section": "LangChain 官方博客署名文章",
+      "last_source_change_detected": false,
+      "last_enriched_at": "2026-09-14T09:39:26.158971+08:00"
+    },
+    {
+      "url": "https://www.langchain.com/blog/self-correcting-memory-openwiki",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/上下文管理/2026-08-25 - 让 OpenWiki 记忆根据证据自我纠错.md",
+      "title": "让 OpenWiki 记忆根据证据自我纠错",
+      "original_title": "Building Self-Correcting Memory in OpenWiki",
+      "published": "2026-08-25",
+      "published_evidence": "August 25, 2026",
+      "category": "工程与Agent/上下文管理",
+      "status": "saved",
+      "first_collected_at": "2026-09-10T09:01:00+08:00",
+      "last_checked_at": "2026-10-23T09:24:00+08:00",
+      "last_updated_at": "2026-09-14T09:39:26.158971+08:00",
+      "body_sha256": "a2252525901ff407d8a8c532d5cbd6bfabca62e22076415c064029484e66d94e",
+      "detail_status": "pending",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 1,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 2
+        },
+        "selected_images": 1,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "authors": [
+        "Colin Francis"
+      ],
+      "source_section": "LangChain 官方博客署名文章",
+      "last_source_change_detected": false,
+      "last_enriched_at": "2026-09-14T09:39:26.158971+08:00",
+      "quality_reason": "摘要事实与可读性复核通过；原文基线过时事实3.5%×2,000=70与正文80不一致，来源未解释统计口径，保留 pending，后续回查原文或可核实的评估数据。",
+      "quality_flagged_at": "2026-09-14T09:39:26.158971+08:00"
+    },
+    {
+      "url": "https://www.langchain.com/blog/introducing-langsmith-tuned-evaluators-starting-with-perceived-error",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-08-18 - 用 Tuned Evaluators 持续评估 Agent 的感知错误.md",
+      "title": "用 Tuned Evaluators 持续评估 Agent 的感知错误",
+      "original_title": "Introducing LangSmith Tuned Evaluators, starting with Perceived Error",
+      "published": "2026-08-18",
+      "published_evidence": "August 18, 2026",
+      "category": "工程与Agent/评估与可靠性",
+      "status": "saved",
+      "first_collected_at": "2026-09-10T09:01:00+08:00",
+      "last_checked_at": "2026-09-30T09:26:55.599795+08:00",
+      "last_updated_at": "2026-09-13T09:33:36.981199+08:00",
+      "body_sha256": "a03f09174c99ada3aaa16c1124645ce6321571d07f98eb0ec0c490eb3c2ac091",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 1,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 1,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 1,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "authors": [
+        "Jake Broekhuizen",
+        "Shamik Karkhanis",
+        "Vivek Trivedy"
+      ],
+      "source_section": "LangChain 官方博客署名文章",
+      "last_source_change_detected": false,
+      "last_enriched_at": "2026-09-13T09:33:36.981199+08:00"
+    },
+    {
+      "url": "https://www.langchain.com/blog/issuebench-how-we-evaluate-engine",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-07-20 - 用 IssueBench 评估 Agent 问题发现引擎.md",
+      "title": "用 IssueBench 评估 Agent 问题发现引擎",
+      "original_title": "IssueBench - How We Evaluate Engine",
+      "published": "2026-07-20",
+      "published_evidence": "July 20, 2026",
+      "category": "工程与Agent/评估与可靠性",
+      "status": "saved",
+      "first_collected_at": "2026-09-10T09:01:00+08:00",
+      "last_checked_at": "2026-09-29T09:29:35.154602+08:00",
+      "last_updated_at": "2026-09-13T09:33:36.981199+08:00",
+      "body_sha256": "1c1040d518ecd17b9f939c70599f7d360b7d2f5293b89bc4f2e6af6ac5939aef",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 0,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 0,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "authors": [
+        "Nick Bray",
+        "Arjun Nargolwala"
+      ],
+      "source_section": "LangChain 官方博客署名文章",
+      "last_source_change_detected": false,
+      "last_enriched_at": "2026-09-13T09:33:36.981199+08:00"
+    },
+    {
+      "url": "https://www.langchain.com/blog/how-we-build-an-autonomous-sre-agent-for-kubernetes-deployments",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/部署与持久化/2026-08-05 - 为 Kubernetes 部署构建自治 SRE Agent.md",
+      "title": "为 Kubernetes 部署构建自治 SRE Agent",
+      "original_title": "How we build an autonomous SRE Agent for Kubernetes Deployments",
+      "published": "2026-08-05",
+      "published_evidence": "August 5, 2026",
+      "category": "工程与Agent/部署与持久化",
+      "status": "saved",
+      "first_collected_at": "2026-09-10T09:01:00+08:00",
+      "last_checked_at": "2026-09-30T09:26:55.599795+08:00",
+      "last_updated_at": "2026-09-13T09:33:36.981199+08:00",
+      "body_sha256": "373efd17227971761dbc7330743fa0c42f4f441be8a7e86b2d9ac98b85bd5406",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 1,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 1,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "authors": [
+        "Eric Johanson"
+      ],
+      "source_section": "LangChain 官方博客署名文章",
+      "last_source_change_detected": false,
+      "last_enriched_at": "2026-09-13T09:33:36.981199+08:00"
+    },
+    {
+      "url": "https://www.langchain.com/blog/evaluating-code-review-agents-with-reviewbench",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-07-31 - 用 ReviewBench 评估代码审查 Agent.md",
+      "title": "用 ReviewBench 评估代码审查 Agent",
+      "original_title": "Evaluating code review agents with ReviewBench",
+      "published": "2026-07-31",
+      "published_evidence": "July 31, 2026",
+      "category": "工程与Agent/评估与可靠性",
+      "status": "saved",
+      "first_collected_at": "2026-09-10T09:01:00+08:00",
+      "last_checked_at": "2026-09-29T09:29:35.154602+08:00",
+      "last_updated_at": "2026-09-13T09:33:36.981199+08:00",
+      "body_sha256": "636642fa56b96e804d24b6883007f465a64b613221ba139b628752f68bbc40c1",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 2,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 2,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "authors": [
+        "Nick Hollon"
+      ],
+      "source_section": "LangChain 官方博客署名文章",
+      "last_source_change_detected": false,
+      "last_enriched_at": "2026-09-13T09:33:36.981199+08:00"
+    },
+    {
+      "url": "https://www.langchain.com/blog/agents-need-their-own-computer",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/部署与持久化/2026-07-15 - 为什么 Agent 需要可隔离、可持久化的计算环境.md",
+      "title": "为什么 Agent 需要可隔离、可持久化的计算环境",
+      "original_title": "Agents need their own computer. Here's how to give them one safely.",
+      "published": "2026-07-15",
+      "published_evidence": "July 15, 2026",
+      "category": "工程与Agent/部署与持久化",
+      "status": "saved",
+      "first_collected_at": "2026-09-10T09:01:00+08:00",
+      "last_checked_at": "2026-09-27T09:30:07.238889+08:00",
+      "last_updated_at": "2026-09-13T09:33:36.981199+08:00",
+      "body_sha256": "21a7d4eb172f1c12e8eb2894e19064a4fad6a8acd2c2b9bfbefc27f74af8d2f0",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 3,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 2,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "authors": [
+        "Amy Ru"
+      ],
+      "source_section": "LangChain 官方博客署名文章",
+      "last_source_change_detected": false,
+      "last_enriched_at": "2026-09-13T09:33:36.981199+08:00"
+    },
+    {
+      "url": "https://www.langchain.com/blog/how-credit-genie-uses-openwiki-to-keep-codebase-knowledge-fresh-searchable-and-automated",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/部署与持久化/2026-09-10 - 把仓库文档接入每日更新与统一检索门户.md",
+      "title": "把仓库文档接入每日更新与统一检索门户",
+      "category": "工程与Agent/部署与持久化",
+      "status": "saved",
+      "first_collected_at": "2026-09-11T09:31:07.439201+08:00",
+      "original_title": "How Credit Genie uses OpenWiki to keep codebase knowledge fresh, searchable, and automated",
+      "published": "2026-09-10",
+      "published_evidence": "September 10, 2026",
+      "authors": [
+        "Kara Kadri"
+      ],
+      "source_section": "LangChain 官方博客案例",
+      "last_checked_at": "2026-10-10T09:22:25.441+08:00",
+      "last_updated_at": "2026-09-14T09:39:26.158971+08:00",
+      "body_sha256": "771b36cbfb100e0a3a9dcc1033d84d7d1a1d06ec255de31e3df5d3e6e945fcae",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 1,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 1,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 1,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "last_enriched_at": "2026-09-14T09:39:26.158971+08:00",
+      "last_source_change_detected": false
+    },
+    {
+      "url": "https://www.langchain.com/blog/langsmith-preview-builds-test-agent-changes-before-production",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/部署与持久化/2026-08-20 - 用 PR 预览部署检查 Agent 行为变化.md",
+      "title": "用 PR 预览部署检查 Agent 行为变化",
+      "category": "工程与Agent/部署与持久化",
+      "status": "saved",
+      "first_collected_at": "2026-09-11T09:31:07.439201+08:00",
+      "original_title": "LangSmith Preview Builds: Test agent changes before production",
+      "published": "2026-08-20",
+      "published_evidence": "August 20, 2026",
+      "authors": [
+        "Victor Moreira"
+      ],
+      "source_section": "LangChain 官方博客署名文章",
+      "last_checked_at": "2026-10-03T09:26:22.043082+08:00",
+      "last_updated_at": "2026-09-14T09:39:26.158971+08:00",
+      "body_sha256": "ad7d5082322a634e6df8c5ca040fb8af9073dd6136e42d15aaa7103d0f9052e2",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 1,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 1,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 1,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "last_enriched_at": "2026-09-14T09:39:26.158971+08:00",
+      "last_source_change_detected": false
+    },
+    {
+      "url": "https://www.langchain.com/blog/deep-agents-vs-langchain-vs-langgraph",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/运行架构/2026-08-06 - 按控制程度理解 Deep Agents、LangChain 与 LangGraph.md",
+      "title": "按控制程度理解 Deep Agents、LangChain 与 LangGraph",
+      "category": "工程与Agent/运行架构",
+      "status": "saved",
+      "first_collected_at": "2026-09-11T09:31:07.439201+08:00",
+      "original_title": "Deep Agents vs LangChain vs LangGraph",
+      "published": "2026-08-06",
+      "published_evidence": "August 6, 2026",
+      "authors": [
+        "Sydney Runkle"
+      ],
+      "source_section": "LangChain 官方博客署名文章",
+      "last_checked_at": "2026-10-03T09:26:22.043082+08:00",
+      "last_updated_at": "2026-09-14T09:39:26.158971+08:00",
+      "body_sha256": "6a45bb3e3d33aae06563de9cf9ce703f6a74fc14aec93d08a5012bf7271004af",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 4,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 1,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "last_enriched_at": "2026-09-14T09:39:26.158971+08:00",
+      "last_source_change_detected": false
+    },
+    {
+      "url": "https://www.langchain.com/blog/langsmith-llm-gateway-runtime-controls-for-production-agents",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/部署与持久化/2026-07-30 - 在模型网关集中管理预算、限流与回退.md",
+      "title": "在模型网关集中管理预算、限流与回退",
+      "category": "工程与Agent/部署与持久化",
+      "status": "saved",
+      "first_collected_at": "2026-09-11T09:31:07.439201+08:00",
+      "original_title": "LangSmith LLM Gateway: runtime controls for production agents",
+      "published": "2026-07-30",
+      "published_evidence": "July 30, 2026",
+      "authors": [
+        "Martha Janicki",
+        "Ramon Petgrave"
+      ],
+      "source_section": "LangChain 官方博客署名文章",
+      "last_checked_at": "2026-09-28T09:25:19.374190+08:00",
+      "last_updated_at": "2026-09-12T14:59:36.011681+08:00",
+      "body_sha256": "ab9237e2e7729874a95471993e5834530f30683e2428911ce364ef9fd3fb761a",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 3,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 1,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      }
+    },
+    {
+      "url": "https://www.langchain.com/blog/deep-agents-v0-7",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/运行架构/2026-07-29 - Deep Agents 0.7 缩减默认提示并开放中间件替换.md",
+      "title": "Deep Agents 0.7 缩减默认提示并开放中间件替换",
+      "category": "工程与Agent/运行架构",
+      "status": "saved",
+      "first_collected_at": "2026-09-11T09:31:07.439201+08:00",
+      "original_title": "Deep Agents v0.7",
+      "published": "2026-07-29",
+      "published_evidence": "July 29, 2026",
+      "authors": [
+        "Sydney Runkle"
+      ],
+      "source_section": "LangChain 官方博客署名文章",
+      "last_checked_at": "2026-10-02T09:34:26.280166+08:00",
+      "last_updated_at": "2026-09-14T09:39:26.158971+08:00",
+      "body_sha256": "12143197d78edd0037a631ed4bc8968d8d40fb6785cebb90f9f5a7eb35672a18",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 0,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 0,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "last_enriched_at": "2026-09-14T09:39:26.158971+08:00",
+      "last_source_change_detected": false
+    },
+    {
+      "url": "https://www.langchain.com/blog/agents-that-pay-how-nevermined-empowers-langchain-agents-to-buy-and-sell-services",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/运行架构/2026-09-03 - 让 Agent 在授权预算内购买服务并追踪付款.md",
+      "title": "让 Agent 在授权预算内购买服务并追踪付款",
+      "category": "工程与Agent/运行架构",
+      "status": "saved",
+      "first_collected_at": "2026-09-13T09:33:36.981199+08:00",
+      "original_title": "Agents That Pay | How Nevermined Empowers LangChain Agents to Buy and Sell Services",
+      "published": "2026-09-03",
+      "published_evidence": "September 3, 2026",
+      "authors": [
+        "Josh Wadinski",
+        "Rodolphe Marques",
+        "Karan Singh"
+      ],
+      "source_section": "LangChain 官方博客署名文章",
+      "last_checked_at": "2026-10-02T09:34:26.280166+08:00",
+      "last_updated_at": "2026-09-13T09:33:36.981199+08:00",
+      "body_sha256": "5d9464ea0d8ff3d38a18d1e58d45423500463a7ade315e71933e195595398efb",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 7,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 2,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      }
+    },
+    {
+      "url": "https://www.langchain.com/blog/scaling-agents-in-europe-the-middle-east-lessons-from-schneider-electric-vodafone-and-monday-com",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/运行架构/2026-09-03 - 从企业案例理解 Agent 平台分层与反馈闭环.md",
+      "title": "从企业案例理解 Agent 平台分层与反馈闭环",
+      "category": "工程与Agent/运行架构",
+      "status": "saved",
+      "first_collected_at": "2026-09-13T09:33:36.981199+08:00",
+      "original_title": "Scaling Agents in Europe & The Middle East: Lessons from Schneider Electric, Vodafone, and monday.com",
+      "published": "2026-09-03",
+      "published_evidence": "September 3, 2026",
+      "authors": [
+        "Jess Ou"
+      ],
+      "source_section": "LangChain 官方博客署名文章",
+      "last_checked_at": "2026-09-28T09:25:19.374190+08:00",
+      "last_updated_at": "2026-09-16T09:30:47.338416+08:00",
+      "body_sha256": "222e4270fd7b0a1e581332998b6abd38b769dd0aeb6e8d9539d4cdc435e315ef",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 4,
+        "media_inventory": {
+          "img": 7,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 3,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "last_enriched_at": "2026-09-16T09:30:47.338416+08:00"
+    },
+    {
+      "url": "https://www.langchain.com/blog/how-to-evaluate-voice-agents-execution-outcomes-and-experience",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-08-04 - 从执行、结果与体验三个维度评估语音 Agent.md",
+      "title": "从执行、结果与体验三个维度评估语音 Agent",
+      "category": "工程与Agent/评估与可靠性",
+      "status": "saved",
+      "first_collected_at": "2026-09-13T09:33:36.981199+08:00",
+      "original_title": "How to evaluate voice agents: execution, outcomes, and experience",
+      "published": "2026-08-04",
+      "published_evidence": "August 4, 2026",
+      "authors": [
+        "Caroline di Vittorio"
+      ],
+      "source_section": "LangChain 官方博客署名文章",
+      "last_checked_at": "2026-09-30T09:26:55.599795+08:00",
+      "last_updated_at": "2026-09-13T09:33:36.981199+08:00",
+      "body_sha256": "48f10b6e57a4326cfbb37da696dd9867814c26d8e991709bb7e76d4d6fd0b443",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 4,
+        "media_inventory": {
+          "img": 0,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 1
+        },
+        "selected_images": 0,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      }
+    },
+    {
+      "url": "https://www.langchain.com/blog/towards-automating-eval-engineering",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-07-22 - 从仓库与调用记录生成可复现的 Agent 评估任务.md",
+      "title": "从仓库与调用记录生成可复现的 Agent 评估任务",
+      "category": "工程与Agent/评估与可靠性",
+      "status": "saved",
+      "first_collected_at": "2026-09-13T09:33:36.981199+08:00",
+      "original_title": "Towards Automating Eval Engineering",
+      "published": "2026-07-22",
+      "published_evidence": "July 22, 2026",
+      "authors": [
+        "Vivek Trivedy"
+      ],
+      "source_section": "LangChain 官方博客署名文章",
+      "last_checked_at": "2026-09-29T09:29:35.154602+08:00",
+      "last_updated_at": "2026-09-13T09:33:36.981199+08:00",
+      "body_sha256": "d8538491d45c766a41a0abdf6798570e44d73694e4d450d231b93ff9d118ea2f",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 1,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 1,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      }
+    },
+    {
+      "url": "https://www.langchain.com/blog/introducing-openwiki-brains-general-purpose-wiki-memory-for-agents",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/上下文管理/2026-07-10 - 用 OpenWiki Brains 把多源信息维护成 Agent 记忆.md",
+      "title": "用 OpenWiki Brains 把多源信息维护成 Agent 记忆",
+      "category": "工程与Agent/上下文管理",
+      "status": "saved",
+      "first_collected_at": "2026-09-13T09:33:36.981199+08:00",
+      "original_title": "Introducing OpenWiki Brains, general-purpose wiki memory for agents",
+      "published": "2026-07-10",
+      "published_evidence": "July 10, 2026",
+      "authors": [
+        "Brace Sproul"
+      ],
+      "source_section": "LangChain 官方博客署名文章",
+      "last_checked_at": "2026-09-27T09:30:07.238889+08:00",
+      "last_updated_at": "2026-09-13T09:33:36.981199+08:00",
+      "body_sha256": "51c090fb620b2250584e8a654c5c956b921d8d529b32daa5cf6a6e147aad825d",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 1,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 1,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      }
+    },
+    {
+      "url": "https://www.langchain.com/blog/paid-media-agent",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/运行架构/2026-09-13 - 把广告分析、数据口径与审批放进同一 Agent.md",
+      "title": "把广告分析、数据口径与审批放进同一 Agent",
+      "original_title": "How we built LangChain's Paid Media Agent",
+      "published": "2026-09-13",
+      "published_evidence": "September 13, 2026",
+      "authors": [
+        "Amal Irgashev",
+        "Danny Lambert",
+        "Jan Gomez"
+      ],
+      "source_section": "LangChain 官方博客署名文章",
+      "category": "工程与Agent/运行架构",
+      "status": "saved",
+      "first_collected_at": "2026-09-15T09:34:59.717418+08:00",
+      "last_checked_at": "2026-09-28T09:25:19.374190+08:00",
+      "last_updated_at": "2026-09-15T09:34:59.717418+08:00",
+      "body_sha256": "737e3c66cf9abe9e81266c1f3cad7cdd7b3515ff532d33821145c17b75c6eaa4",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 5,
+        "media_inventory": {
+          "img": 8,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 4,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      }
+    },
+    {
+      "url": "https://www.langchain.com/blog/scaling-agents-in-healthcare-life-sciences-lessons-from-madrigal-pharmaceuticals-abridge-and-vizient",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-09-14 - 医疗 Agent 的评估、发布与协作边界.md",
+      "title": "医疗 Agent 的评估、发布与协作边界",
+      "original_title": "Scaling Agents in Healthcare & Life Sciences: Lessons from Madrigal Pharmaceuticals, Abridge, and Vizient",
+      "published": "2026-09-14",
+      "published_evidence": "September 14, 2026",
+      "authors": [
+        "Jess Ou"
+      ],
+      "source_section": "LangChain 官方博客署名案例汇总",
+      "category": "工程与Agent/评估与可靠性",
+      "status": "saved",
+      "first_collected_at": "2026-09-16T09:30:47.338416+08:00",
+      "last_checked_at": "2026-10-01T09:27:24.208944+08:00",
+      "last_updated_at": "2026-09-16T09:30:47.338416+08:00",
+      "body_sha256": "b11ed2d41709c65bea4475d4322fa402c373ad5f22e874f268d6264efb1d24b5",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 8,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 3,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      }
+    },
+    {
+      "url": "https://www.langchain.com/blog/building-a-harness-with-jev",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/运行架构/2026-09-17 - 用 Jev 为 Agent 分担结构化决策.md",
+      "title": "用 Jev 为 Agent 分担结构化决策",
+      "original_title": "Building a Harness with Jev",
+      "published": "2026-09-17",
+      "published_evidence": "September 17, 2026",
+      "authors": [
+        "Sydney Runkle",
+        "Hunter Lovell"
+      ],
+      "source_section": "LangChain 官方博客署名技术文章",
+      "category": "工程与Agent/运行架构",
+      "status": "saved",
+      "first_collected_at": "2026-09-19T09:26:11.986544+08:00",
+      "last_checked_at": "2026-10-02T09:34:26.280166+08:00",
+      "last_updated_at": "2026-09-23T09:30:19.267392+08:00",
+      "body_sha256": "5211ed0c10d7a5f269d7c6be199f3d95679a96e86af45f20412014c23685f53d",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 1,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 1,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      }
+    },
+    {
+      "url": "https://www.langchain.com/blog/agent-harness-life-sciences",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/运行架构/2026-09-17 - 用 Deep Life Sci 组合科研检索、沙箱与评估.md",
+      "title": "用 Deep Life Sci 组合科研检索、沙箱与评估",
+      "original_title": "Building an Agent Harness for Life Sciences: Introducing Deep Life Sci",
+      "published": "2026-09-17",
+      "published_evidence": "September 17, 2026",
+      "authors": [
+        "Michael Cunningham",
+        "Prab Singh"
+      ],
+      "source_section": "LangChain 官方博客署名技术文章",
+      "category": "工程与Agent/运行架构",
+      "status": "saved",
+      "first_collected_at": "2026-09-19T09:26:11.986544+08:00",
+      "last_checked_at": "2026-10-01T09:27:24.208944+08:00",
+      "last_updated_at": "2026-09-19T09:26:11.986544+08:00",
+      "body_sha256": "76ef42552b939181f72b603e4df50afb73a8085b081b5167eaaaaa09432e451e",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 4,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 2,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      }
+    },
+    {
+      "url": "https://www.langchain.com/blog/how-included-health-built-federated-agents-for-healthcare-navigation-with-deep-agents-and-langgraph",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/多智能体协作/2026-09-17 - 用联邦式多 Agent 衔接医疗导航与人工接管.md",
+      "title": "用联邦式多 Agent 衔接医疗导航与人工接管",
+      "original_title": "How Included Health Built Federated Agents for Healthcare Navigation with Deep Agents and LangGraph",
+      "published": "2026-09-17",
+      "published_evidence": "September 17, 2026",
+      "authors": [
+        "Sofia Sulikowski"
+      ],
+      "source_section": "LangChain 官方博客署名客户案例",
+      "category": "工程与Agent/多智能体协作",
+      "status": "saved",
+      "first_collected_at": "2026-09-19T09:26:11.986544+08:00",
+      "last_checked_at": "2026-10-01T09:27:24.208944+08:00",
+      "last_updated_at": "2026-09-19T09:26:11.986544+08:00",
+      "body_sha256": "59fb3b9a16c00a8cc106efbe28f4a93a6a2cf2f450e6b2a3edbbed46cf507b7c",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 4,
+        "media_inventory": {
+          "img": 0,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 0,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      }
+    },
+    {
+      "url": "https://www.langchain.com/blog/jev-agent-evals-langsmith",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-09-20 - 用固定样本比较 Jev 评估器的准确性、稳定性与成本.md",
+      "title": "用固定样本比较 Jev 评估器的准确性、稳定性与成本",
+      "original_title": "Jev-as-a-Judge for Agent Evals",
+      "published": "2026-09-20",
+      "published_evidence": "September 20, 2026",
+      "authors": [
+        "Daniel Shea",
+        "Seán Roche"
+      ],
+      "source_section": "LangChain 官方博客署名技术实验",
+      "category": "工程与Agent/评估与可靠性",
+      "status": "saved",
+      "first_collected_at": "2026-09-20T09:29:37.436252+08:00",
+      "last_checked_at": "2026-10-07T09:22:53.857077+08:00",
+      "last_updated_at": "2026-09-21T09:26:45.905532+08:00",
+      "body_sha256": "f9c2260e1662c21938d138242aecc1b90d175f193b5dfe09c9fa7899212fa7de",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 5,
+        "media_inventory": {
+          "img": 13,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 4,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      }
+    },
+    {
+      "url": "https://www.langchain.com/blog/reliability-healthcare-ai-langsmith-use-cases",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-09-22 - 把临床专家审核转成可复用的评估与发布门槛.md",
+      "title": "把临床专家审核转成可复用的评估与发布门槛",
+      "original_title": "The Reliability Layer for Healthcare AI: Common LangSmith Use Cases",
+      "published": "2026-09-22",
+      "published_evidence": "September 22, 2026",
+      "authors": [
+        "Morgan Lo"
+      ],
+      "source_section": "LangChain 官方博客署名工程案例汇总",
+      "category": "工程与Agent/评估与可靠性",
+      "status": "saved",
+      "first_collected_at": "2026-09-23T09:30:19.267392+08:00",
+      "last_checked_at": "2026-10-13T09:19:03.367+08:00",
+      "last_updated_at": "2026-09-23T09:30:19.267392+08:00",
+      "body_sha256": "841e4c6b610842b5f82c6915526d40c0dde598ceaf3a457210ca19096975944d",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 5,
+        "media_inventory": {
+          "img": 3,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 3,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      }
+    },
+    {
+      "url": "https://www.langchain.com/blog/jev-is-now-available-in-langsmith-evals",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-09-21 - 在 LangSmith 中用 Jev 评估运行记录与对话.md",
+      "title": "在 LangSmith 中用 Jev 评估运行记录与对话",
+      "original_title": "Jev is now available in LangSmith Evals",
+      "published": "2026-09-21",
+      "published_evidence": "September 21, 2026",
+      "authors": [
+        "Winston Huynh"
+      ],
+      "source_section": "LangChain 官方博客署名产品技术说明",
+      "category": "工程与Agent/评估与可靠性",
+      "status": "saved",
+      "first_collected_at": "2026-09-23T09:30:19.267392+08:00",
+      "last_checked_at": "2026-10-02T09:34:26.280166+08:00",
+      "last_updated_at": "2026-10-02T09:34:26.280166+08:00",
+      "body_sha256": "7c4e8dc253dadb9fdb5cb726372cbb9333ba0391202fd0dd141c41162f6f67c0",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 5,
+        "media_inventory": {
+          "img": 8,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 4,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      }
+    },
+    {
+      "url": "https://www.langchain.com/blog/langsmith-engine-v2-redteam",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-09-24 - 让 Engine 提前发现问题并验证修复.md",
+      "title": "让 Engine 提前发现问题并验证修复",
+      "original_title": "LangSmith Engine v2: Red teaming and automated testing",
+      "published": "2026-09-24",
+      "published_evidence": "September 24, 2026",
+      "authors": [
+        "Ben Tannyhill",
+        "Trammell Saltzgaber"
+      ],
+      "source_section": "LangChain 官方博客技术发布",
+      "category": "工程与Agent/评估与可靠性",
+      "status": "saved",
+      "first_collected_at": "2026-09-25T09:34:11.904099+08:00",
+      "last_checked_at": "2026-09-26T09:28:13.341778+08:00",
+      "last_updated_at": "2026-09-25T09:34:11.904099+08:00",
+      "body_sha256": "c7176490582f5432c35e4df7902ac105a652aa1df71c9eba065012eb59fbd868",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 2,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 1,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 2,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      }
+    },
+    {
+      "url": "https://www.langchain.com/blog/langsmith-managed-deep-agents-whats-new",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/部署与持久化/2026-09-24 - 为托管 Agent 划分用户记忆、凭据与接入渠道.md",
+      "title": "为托管 Agent 划分用户记忆、凭据与接入渠道",
+      "original_title": "Managed Deep Agents v0.8: new auth, memory, and channels",
+      "published": "2026-09-24",
+      "published_evidence": "September 24, 2026",
+      "authors": [
+        "Nathan Drezner",
+        "Karthic Subramanian"
+      ],
+      "source_section": "LangChain 官方博客技术发布",
+      "category": "工程与Agent/部署与持久化",
+      "status": "saved",
+      "first_collected_at": "2026-09-25T09:34:11.904099+08:00",
+      "last_checked_at": "2026-10-13T09:19:03.367+08:00",
+      "last_updated_at": "2026-09-25T09:34:11.904099+08:00",
+      "body_sha256": "ec1cc37ac48e90b337785ef2e71990b0bb04ad20e718cb166fe199e5733068f9",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 4,
+        "media_inventory": {
+          "img": 2,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 1,
+          "canvas": 0,
+          "tables": 1
+        },
+        "selected_images": 2,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      }
+    },
+    {
+      "url": "https://www.langchain.com/blog/langsmith-trajectories-tracing",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-09-24 - 把多轮 Agent 轨迹整理成可审阅的行为序列.md",
+      "title": "把多轮 Agent 轨迹整理成可审阅的行为序列",
+      "original_title": "Trajectories now in LangSmith: A readable view of every agent session",
+      "published": "2026-09-24",
+      "published_evidence": "September 24, 2026",
+      "authors": [
+        "Winston Huynh",
+        "Bonnie Pecevich"
+      ],
+      "source_section": "LangChain 官方博客技术发布",
+      "category": "工程与Agent/评估与可靠性",
+      "status": "saved",
+      "first_collected_at": "2026-09-25T09:34:11.904099+08:00",
+      "last_checked_at": "2026-10-19T09:24:33+08:00",
+      "last_updated_at": "2026-09-25T09:34:11.904099+08:00",
+      "body_sha256": "5cb7392cc718b64cfc8c1014cfef415457803882172ac0a5c5214a3d27535be1",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 2,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 1,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 2,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      }
+    },
+    {
+      "url": "https://www.langchain.com/blog/langsmith-fine-tuning",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-09-24 - 用生产轨迹筛选数据并验证模型微调.md",
+      "title": "用生产轨迹筛选数据并验证模型微调",
+      "original_title": "Introducing LangSmith Fine-Tuning",
+      "published": "2026-09-24",
+      "published_evidence": "September 24, 2026",
+      "authors": [
+        "Ankush Gola",
+        "Jake Broekhuizen",
+        "Vivek Trivedy"
+      ],
+      "source_section": "LangChain 官方博客技术发布",
+      "category": "工程与Agent/评估与可靠性",
+      "status": "saved",
+      "first_collected_at": "2026-09-25T09:34:11.904099+08:00",
+      "last_checked_at": "2026-10-15T09:27:41+08:00",
+      "last_updated_at": "2026-09-25T09:34:11.904099+08:00",
+      "body_sha256": "163ac65efa5d196bffb0067acb5b61993660d6c4473116d8c23c9811300ac27c",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 2,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 1,
+          "canvas": 0,
+          "tables": 2
+        },
+        "selected_images": 2,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      }
+    },
+    {
+      "url": "https://www.langchain.com/blog/langsmith-custom-apps",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-09-24 - 为标注和实验审查定制 LangSmith 界面.md",
+      "title": "为标注和实验审查定制 LangSmith 界面",
+      "original_title": "Introducing LangSmith Custom Apps: Build custom interfaces around your agent data",
+      "published": "2026-09-24",
+      "published_evidence": "September 24, 2026",
+      "authors": [
+        "Sam Crowder",
+        "Bonnie Pecevich"
+      ],
+      "source_section": "LangChain 官方博客技术发布",
+      "category": "工程与Agent/评估与可靠性",
+      "status": "saved",
+      "first_collected_at": "2026-09-25T09:34:11.904099+08:00",
+      "last_checked_at": "2026-09-29T09:29:35.154602+08:00",
+      "last_updated_at": "2026-09-29T09:29:35.154602+08:00",
+      "body_sha256": "a0cdb9116b48f811d8a7d27d717d5a1d6f31503fa2fed6ff481ab8fc188738a8",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 4,
+        "media_inventory": {
+          "img": 1,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 1,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 1,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      }
+    },
+    {
+      "url": "https://www.langchain.com/blog/building-prod-with-jev-and-langgraph",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/运行架构/2026-09-25 - 用 Jev 决策与 LangGraph 编排文档审核.md",
+      "title": "用 Jev 决策与 LangGraph 编排文档审核",
+      "original_title": "Building Prod with Jev and LangGraph",
+      "published": "2026-09-25",
+      "published_evidence": "September 25, 2026",
+      "authors": [
+        "Sydney Runkle",
+        "Hunter Lovell"
+      ],
+      "source_section": "LangChain 官方博客技术实践",
+      "category": "工程与Agent/运行架构",
+      "status": "saved",
+      "first_collected_at": "2026-09-26T09:28:13.341778+08:00",
+      "last_checked_at": "2026-10-02T09:34:26.280166+08:00",
+      "last_updated_at": "2026-09-26T09:28:13.341778+08:00",
+      "body_sha256": "ab3e60a9bbfe48dbc6a37a4eef21997fb5e7fda285c17c9d32fb8477cbb06de7",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 5,
+        "media_inventory": {
+          "img": 4,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 2,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 4,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      }
+    },
+    {
+      "url": "https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/运行架构/2026-10-01 - 在 Agent 运行框架内按任务路由模型.md",
+      "title": "在 Agent 运行框架内按任务路由模型",
+      "original_title": "How to Build a Model Router in the Harness",
+      "published": "2026-10-01",
+      "published_evidence": "October 1, 2026",
+      "authors": [
+        "Sydney Runkle",
+        "Eugene Yurtsev"
+      ],
+      "source_section": "LangChain 官方博客署名工程实验",
+      "category": "工程与Agent/运行架构",
+      "status": "saved",
+      "first_collected_at": "2026-10-02T09:34:26.280166+08:00",
+      "last_checked_at": "2026-10-10T09:22:25.441+08:00",
+      "last_updated_at": "2026-10-02T09:34:26.280166+08:00",
+      "body_sha256": "f06011dc31473f09a3dda53e62389b13aea8e1e7c711eadbdab654b6c65a6d9a",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 4,
+        "media_inventory": {
+          "img": 5,
+          "svg_content": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "tables": 0
+        },
+        "selected_images": 4,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      }
+    },
+    {
+      "url": "https://www.langchain.com/blog/revamping-skills-in-deep-agents",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/运行架构/2026-10-07 - 让 Deep Agents 的 Skills 按需加载工具与指令.md",
+      "title": "让 Deep Agents 的 Skills 按需加载工具与指令",
+      "original_title": "Revamping Skills in Deep Agents",
+      "published": "2026-10-07",
+      "published_evidence": "October 7, 2026",
+      "category": "工程与Agent/运行架构",
+      "status": "saved",
+      "first_collected_at": "2026-10-08T09:29:20.285229+08:00",
+      "last_checked_at": "2026-10-10T09:22:25.441+08:00",
+      "last_updated_at": "2026-10-08T09:29:20.285229+08:00",
+      "body_sha256": "777e1b3ac085bde4a54703afb8ed4a053ad089097514500d07fde072f2f527e3",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 2,
+        "media_inventory": {
+          "img": 13,
+          "svg": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "table": 0
+        },
+        "selected_images": 1,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "authors": [
+        "Sydney Runkle"
+      ],
+      "source_section": "LangChain 官方博客产品与工程说明",
+      "last_enriched_at": "2026-10-08T09:29:20.285229+08:00"
+    },
+    {
+      "url": "https://www.langchain.com/blog/managed-deep-agents-schedules-per-run-configuration-slack",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/部署与持久化/2026-10-07 - Managed Deep Agents v0.9 让 Agent 自主排程并按运行配置.md",
+      "title": "Managed Deep Agents v0.9：让 Agent 自主排程并按运行配置",
+      "original_title": "Managed Deep Agents: Schedules, Per-Run Configuration, and Slack Reactions",
+      "published": "2026-10-07",
+      "published_evidence": "October 7, 2026",
+      "category": "工程与Agent/部署与持久化",
+      "status": "saved",
+      "first_collected_at": "2026-10-08T09:29:20.285229+08:00",
+      "last_checked_at": "2026-10-08T09:29:20.285229+08:00",
+      "last_updated_at": "2026-10-08T09:29:20.285229+08:00",
+      "body_sha256": "8e3e96a82cd230fd08d15d7653dc252c0a64e177d7b68325d1c018b2fbd82ec0",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 2,
+        "media_inventory": {
+          "img": 1,
+          "svg": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "table": 0
+        },
+        "selected_images": 1,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "authors": [
+        "Nathan Drezner"
+      ],
+      "source_section": "LangChain 官方博客产品发布",
+      "last_enriched_at": "2026-10-08T09:29:20.285229+08:00"
+    },
+    {
+      "url": "https://www.langchain.com/blog/how-snyk-turned-an-internal-support-agent-into-a-customer-feature",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-10-08 - Snyk Assist 从内部支持 Agent 走向客户产品.md",
+      "title": "Snyk Assist：从内部支持 Agent 走向客户产品",
+      "original_title": "How Snyk Turned an Internal Support Agent into a Customer Feature",
+      "published": "2026-10-08",
+      "published_evidence": "October 8, 2026",
+      "category": "工程与Agent/评估与可靠性",
+      "status": "saved",
+      "first_collected_at": "2026-10-09T09:44:11.179445+08:00",
+      "last_checked_at": "2026-10-13T09:19:03.367+08:00",
+      "last_updated_at": "2026-10-09T09:44:11.179445+08:00",
+      "body_sha256": "68c77ccbc6199e11c581345cdf42d4f67533e64ede1de6ee5175ce77468b449f",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 1,
+          "svg": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "table": 0
+        },
+        "selected_images": 1,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "authors": [
+        "Oliver Armstrong"
+      ],
+      "source_section": "LangChain 官方博客案例",
+      "last_enriched_at": "2026-10-09T09:44:11.179445+08:00"
+    },
+    {
+      "url": "https://www.langchain.com/blog/agents-that-can-pay-with-stripe-link",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/部署与持久化/2026-10-08 - 让 Agent 通过 Link 与 MPP 在审批后支付.md",
+      "title": "让 Agent 通过 Link 与 MPP 在审批后支付",
+      "original_title": "Agents That Can Pay with Stripe Link",
+      "published": "2026-10-08",
+      "published_evidence": "October 8, 2026",
+      "category": "工程与Agent/部署与持久化",
+      "status": "saved",
+      "first_collected_at": "2026-10-09T09:44:11.179445+08:00",
+      "last_checked_at": "2026-10-09T09:44:11.179445+08:00",
+      "last_updated_at": "2026-10-09T09:44:11.179445+08:00",
+      "body_sha256": "1ef3754015f557e0259f3cfeb31f1ef82ee002da72b0ddb7f14b9f306763b702",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 2,
+          "svg": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "table": 0
+        },
+        "selected_images": 1,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "authors": [
+        "Srimanth Tangedipalli",
+        "Sydney Runkle",
+        "Nathan Drezner"
+      ],
+      "source_section": "LangChain 官方博客产品与工程说明",
+      "last_enriched_at": "2026-10-09T09:44:11.179445+08:00"
+    },
+    {
+      "url": "https://www.langchain.com/blog/slack-sdk-managed-deep-agents",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/运行架构/2026-10-09 - 让 Managed Deep Agents 用反应表情反馈等待状态.md",
+      "title": "让 Managed Deep Agents 用反应表情反馈等待状态",
+      "original_title": "Build great out-of-the-box user experiences with Managed Deep Agents",
+      "published": "2026-10-09",
+      "published_evidence": "October 9, 2026",
+      "category": "工程与Agent/运行架构",
+      "status": "saved",
+      "first_collected_at": "2026-10-13T09:19:03.367+08:00",
+      "last_checked_at": "2026-10-19T09:24:33+08:00",
+      "last_updated_at": "2026-10-13T09:19:03.367+08:00",
+      "body_sha256": "e5ebb01e920386bb9f047bdee524b3c15eb4153dca856e3573d46ff7a568c859",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 2,
+          "svg": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "table": 0
+        },
+        "selected_images": 1,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "authors": [
+        "Nathan Drezner"
+      ],
+      "source_section": "LangChain 官方博客产品与工程说明",
+      "last_enriched_at": "2026-10-13T09:19:03.367+08:00"
+    },
+    {
+      "url": "https://www.langchain.com/blog/how-orange-business-built-live-intelligence-on-langchain-and-langsmith",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-10-13 - Orange Business 用 LangChain 与 LangSmith 构建企业级 Live Intelligence.md",
+      "title": "Orange Business 用 LangChain 与 LangSmith 构建企业级 Live Intelligence",
+      "original_title": "How Orange Business Built Live Intelligence on LangChain and LangSmith",
+      "published": "2026-10-13",
+      "published_evidence": "October 13, 2026",
+      "category": "工程与Agent/评估与可靠性",
+      "status": "saved",
+      "first_collected_at": "2026-10-14T09:19:35.541+08:00",
+      "last_checked_at": "2026-10-23T09:24:00+08:00",
+      "last_updated_at": "2026-10-14T09:19:35.541+08:00",
+      "body_sha256": "3cca55950428fb0ca5ebabc56fac3889fbe987a68d0235f7f1a9d89af9007700",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 0,
+          "svg": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "table": 0
+        },
+        "selected_images": 0,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": false,
+        "all_videos_reviewed": false
+      },
+      "authors": [
+        "Sofia Sulikowski"
+      ],
+      "source_section": "LangChain 官方博客技术说明",
+      "last_enriched_at": "2026-10-14T09:19:35.541+08:00"
+    },
+    {
+      "url": "https://www.langchain.com/blog/agent-traces-ai-search-langsmith",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-10-13 - 用 LangSmith AI Search 按 Agent 行为检索轨迹.md",
+      "title": "用 LangSmith AI Search 按 Agent 行为检索轨迹",
+      "original_title": "Search agent traces by behavior with AI Search in LangSmith",
+      "published": "2026-10-13",
+      "published_evidence": "October 13, 2026",
+      "category": "工程与Agent/评估与可靠性",
+      "status": "saved",
+      "first_collected_at": "2026-10-14T09:19:35.541+08:00",
+      "last_checked_at": "2026-10-23T09:24:00+08:00",
+      "last_updated_at": "2026-10-14T09:19:35.541+08:00",
+      "body_sha256": "cdf71ca428a9d8772313a65671012848c4bb2105f55e5921c0f89d3b11784885",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 5,
+          "svg": 0,
+          "video": 0,
+          "iframe": 1,
+          "canvas": 0,
+          "table": 0
+        },
+        "selected_images": 1,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "authors": [
+        "Arjun Natarajan",
+        "Eugene Yurtsev",
+        "Suraj Vathsa"
+      ],
+      "source_section": "LangChain 官方博客技术说明",
+      "last_enriched_at": "2026-10-14T09:19:35.541+08:00"
+    },
+    {
+      "url": "https://www.langchain.com/blog/building-long-running-agents-with-scaledown-and-deep-agents",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/上下文管理/2026-10-13 - 用 ScaleDown 为长运行 Agent 压缩上下文.md",
+      "title": "用 ScaleDown 为长运行 Agent 压缩上下文",
+      "original_title": "Building Long-Running Agents with ScaleDown and Deep Agents",
+      "published": "2026-10-13",
+      "published_evidence": "October 13, 2026",
+      "category": "工程与Agent/上下文管理",
+      "status": "saved",
+      "first_collected_at": "2026-10-14T09:19:35.541+08:00",
+      "last_checked_at": "2026-10-14T09:19:35.541+08:00",
+      "last_updated_at": "2026-10-14T09:19:35.541+08:00",
+      "body_sha256": "010f54515c58516532d5ac3addaeffbca3552ff6751f0c56348fc02a69cc75fd",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 3,
+          "svg": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "table": 0
+        },
+        "selected_images": 1,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "authors": [
+        "Sydney Runkle",
+        "Srimanth Tangedipalli",
+        "Neal Patel"
+      ],
+      "source_section": "LangChain 官方博客技术说明",
+      "last_enriched_at": "2026-10-14T09:19:35.541+08:00"
+    },
+    {
+      "url": "https://www.langchain.com/blog/common-questions-about-agent-evals",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-10-15 - 从轨迹构建 Agent 评估、基准与线上监控.md",
+      "title": "从轨迹构建 Agent 评估、基准与线上监控",
+      "original_title": "The Most Common Questions About Agent Evals, Answered",
+      "published": "2026-10-15",
+      "published_evidence": "October 15, 2026",
+      "category": "工程与Agent/评估与可靠性",
+      "status": "saved",
+      "first_collected_at": "2026-10-15T09:27:41+08:00",
+      "last_checked_at": "2026-10-23T09:24:00+08:00",
+      "last_updated_at": "2026-10-15T09:27:41+08:00",
+      "body_sha256": "4eada535ccd3027bc13099c51657654514af52df1264dae9ee04a780a204cfa2",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 4,
+        "media_inventory": {
+          "img": 7,
+          "svg": 0,
+          "video": 0,
+          "iframe": 0,
+          "canvas": 0,
+          "table": 0
+        },
+        "selected_images": 2,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "authors": [
+        "Divya Santhanam"
+      ],
+      "source_section": "LangChain 官方博客技术说明",
+      "last_enriched_at": "2026-10-15T09:27:41+08:00"
+    },
+    {
+      "url": "https://www.langchain.com/blog/context-engineering-deep-agents-remember",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/上下文管理/2026-10-14 - 用 Deep Agents 管理长任务上下文与长期记忆.md",
+      "title": "用 Deep Agents 管理长任务上下文与长期记忆",
+      "original_title": "Context Engineering: How Deep Agents Remember",
+      "published": "2026-10-14",
+      "published_evidence": "October 14, 2026",
+      "category": "工程与Agent/上下文管理",
+      "status": "saved",
+      "first_collected_at": "2026-10-15T09:27:41+08:00",
+      "last_checked_at": "2026-10-23T09:24:00+08:00",
+      "last_updated_at": "2026-10-15T09:27:41+08:00",
+      "body_sha256": "b8909c970d192e4f9956be39884a5902508c5b27e588b84f1bccf139bb249570",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 4,
+        "media_inventory": {
+          "img": 7,
+          "svg": 0,
+          "video": 0,
+          "iframe": 1,
+          "canvas": 0,
+          "table": 0
+        },
+        "selected_images": 1,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "selected_images_visually_checked": true,
+        "all_videos_reviewed": false
+      },
+      "authors": [
+        "Jess Weng"
+      ],
+      "source_section": "LangChain 官方博客技术说明",
+      "last_enriched_at": "2026-10-15T09:27:41+08:00"
+    },
+    {
+      "url": "https://www.langchain.com/blog/how-numan-built-an-eval-first-ai-health-coach-with-langgraph-and-langsmith",
+      "source_aliases": [],
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-10-19 - Numan 用评估优先的 AI 健康教练守住医疗边界.md",
+      "title": "Numan 用评估优先的 AI 健康教练守住医疗边界",
+      "original_title": "How Numan built an eval-first AI health coach with LangGraph and LangSmith",
+      "published": "2026-10-19",
+      "published_evidence": "原文页首及官方博客列表",
+      "category": "工程与Agent/评估与可靠性",
+      "status": "saved",
+      "first_collected_at": "2026-10-23T09:24:00+08:00",
+      "last_checked_at": "2026-10-23T09:24:00+08:00",
+      "last_updated_at": "2026-10-23T09:24:00+08:00",
+      "body_sha256": "0419b0d34005d433c4080c5e6650504e06e58c287ed852e89bdc453a835d058a",
+      "detail_status": "completed",
+      "evidence": "2026-10-19发布；完整读取正文与两张正文配图；摘要经同一执行者逐句事实及单独可读性复核通过。",
+      "authors": [
+        "Asif Laldin",
+        "Marcus Wadge-Dale",
+        "Shubhangi Hora",
+        "Konstantinos Georgakilas"
+      ],
+      "source_section": "Case Studies · LangSmith / Observability & Evals",
+      "last_enriched_at": "2026-10-23T09:24:00+08:00"
+    }
+  ],
+  "pending_articles": [],
+  "article_enrichment": {
+    "standard": "summary-key-figures-v1",
+    "completed_count": 55,
+    "pending_urls": [
+      "https://www.langchain.com/blog/self-correcting-memory-openwiki"
+    ]
+  },
+  "verification": {
+    "checked_at": "2026-10-23T09:24:00+08:00",
+    "articles": 56,
+    "article_files": 56,
+    "state_entries": 56,
+    "summary_cards": 56,
+    "detail_completed": 55,
+    "detail_pending": 1,
+    "metadata_and_links": "passed",
+    "broken_local_links": 0,
+    "duplicate_source_urls": 0,
+    "selected_images_decoded": 87,
+    "all_selected_images_decoded": true,
+    "current_batch_images_visually_checked": 2,
+    "personal_content_preserved": true,
+    "protected_user_blocks": 65,
+    "visual_navigation": "navigation changed; source list and article links require visual check",
+    "all_videos_reviewed": false
+  },
+  "weekly_reports": {
+    "enabled": true,
+    "start_week": "2026-W37",
+    "directory": "03-周报",
+    "index": "03-周报/00-周报索引.md",
+    "reports": {
+      "2026-W37": {
+        "status": "generated",
+        "path": "03-周报/2026-W37.md",
+        "coverage_start": "2026-09-09T22:24:24.763237+08:00",
+        "coverage_end": "2026-09-13T09:33:36.981199+08:00",
+        "generated_at": "2026-09-13T09:33:36.981199+08:00",
+        "updated_at": "2026-09-13T09:33:36.981199+08:00",
+        "new_count": 30,
+        "historical_new_count": 27,
+        "source_update_count": 0,
+        "enriched_count": 11,
+        "included_changes": [
+          {
+            "url": "https://www.langchain.com/blog/context-engineering-for-agents",
+            "type": "new",
+            "last_event_at": "2026-09-09T22:24:24.763237+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/the-rise-of-context-engineering",
+            "type": "new",
+            "last_event_at": "2026-09-09T22:24:24.763237+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/doubling-down-on-deepagents",
+            "type": "new",
+            "last_event_at": "2026-09-09T22:24:24.763237+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/building-multi-agent-applications-with-deep-agents",
+            "type": "new",
+            "last_event_at": "2026-09-09T22:24:24.763237+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/evaluating-deep-agents-our-learnings",
+            "type": "new",
+            "last_event_at": "2026-09-09T22:24:24.763237+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/introducing-dynamic-subagents-in-deep-agents",
+            "type": "new",
+            "last_event_at": "2026-09-09T22:24:24.763237+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/how-we-benchmark-deep-agents",
+            "type": "new",
+            "last_event_at": "2026-09-09T22:24:24.763237+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/deep-agents-v0-5",
+            "type": "new",
+            "last_event_at": "2026-09-09T22:24:24.763237+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/deep-agents-0-6",
+            "type": "new",
+            "last_event_at": "2026-09-09T22:24:24.763237+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/deep-agents-deploy-an-open-alternative-to-claude-managed-agents",
+            "type": "new",
+            "last_event_at": "2026-09-09T22:24:24.763237+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/connections-managed-credentials-and-per-caller-identity-for-managed-deep-agents",
+            "type": "new",
+            "last_event_at": "2026-09-10T09:01:00+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/organizing-context-in-a-multi-agent-harness",
+            "type": "new",
+            "last_event_at": "2026-09-10T09:01:00+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/mcp-in-langchain-stateless-protocol-elicitation-and-more",
+            "type": "new",
+            "last_event_at": "2026-09-10T09:01:00+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/building-agent-environments-and-tasks",
+            "type": "new",
+            "last_event_at": "2026-09-10T09:01:00+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/self-correcting-memory-openwiki",
+            "type": "new",
+            "last_event_at": "2026-09-10T09:01:00+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/introducing-langsmith-tuned-evaluators-starting-with-perceived-error",
+            "type": "new",
+            "last_event_at": "2026-09-10T09:01:00+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/issuebench-how-we-evaluate-engine",
+            "type": "new",
+            "last_event_at": "2026-09-10T09:01:00+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/how-we-build-an-autonomous-sre-agent-for-kubernetes-deployments",
+            "type": "new",
+            "last_event_at": "2026-09-10T09:01:00+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/evaluating-code-review-agents-with-reviewbench",
+            "type": "new",
+            "last_event_at": "2026-09-10T09:01:00+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/agents-need-their-own-computer",
+            "type": "new",
+            "last_event_at": "2026-09-10T09:01:00+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/connections-managed-credentials-and-per-caller-identity-for-managed-deep-agents",
+            "type": "enrichment",
+            "last_event_at": "2026-09-11T09:31:07.439201+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/organizing-context-in-a-multi-agent-harness",
+            "type": "enrichment",
+            "last_event_at": "2026-09-11T09:31:07.439201+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/mcp-in-langchain-stateless-protocol-elicitation-and-more",
+            "type": "enrichment",
+            "last_event_at": "2026-09-11T09:31:07.439201+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/building-agent-environments-and-tasks",
+            "type": "enrichment",
+            "last_event_at": "2026-09-11T09:31:07.439201+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/self-correcting-memory-openwiki",
+            "type": "enrichment",
+            "last_event_at": "2026-09-11T09:31:07.439201+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/how-credit-genie-uses-openwiki-to-keep-codebase-knowledge-fresh-searchable-and-automated",
+            "type": "new",
+            "last_event_at": "2026-09-11T09:31:07.439201+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/langsmith-preview-builds-test-agent-changes-before-production",
+            "type": "new",
+            "last_event_at": "2026-09-11T09:31:07.439201+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/deep-agents-vs-langchain-vs-langgraph",
+            "type": "new",
+            "last_event_at": "2026-09-11T09:31:07.439201+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/langsmith-llm-gateway-runtime-controls-for-production-agents",
+            "type": "new",
+            "last_event_at": "2026-09-11T09:31:07.439201+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/deep-agents-v0-7",
+            "type": "new",
+            "last_event_at": "2026-09-11T09:31:07.439201+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/langsmith-llm-gateway-runtime-controls-for-production-agents",
+            "type": "enrichment",
+            "last_event_at": "2026-09-12T14:59:36.011681+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/introducing-langsmith-tuned-evaluators-starting-with-perceived-error",
+            "type": "enrichment",
+            "last_event_at": "2026-09-13T09:33:36.981199+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/issuebench-how-we-evaluate-engine",
+            "type": "enrichment",
+            "last_event_at": "2026-09-13T09:33:36.981199+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/evaluating-code-review-agents-with-reviewbench",
+            "type": "enrichment",
+            "last_event_at": "2026-09-13T09:33:36.981199+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/how-we-build-an-autonomous-sre-agent-for-kubernetes-deployments",
+            "type": "enrichment",
+            "last_event_at": "2026-09-13T09:33:36.981199+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/agents-need-their-own-computer",
+            "type": "enrichment",
+            "last_event_at": "2026-09-13T09:33:36.981199+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/agents-that-pay-how-nevermined-empowers-langchain-agents-to-buy-and-sell-services",
+            "type": "new",
+            "last_event_at": "2026-09-13T09:33:36.981199+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/scaling-agents-in-europe-the-middle-east-lessons-from-schneider-electric-vodafone-and-monday-com",
+            "type": "new",
+            "last_event_at": "2026-09-13T09:33:36.981199+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/how-to-evaluate-voice-agents-execution-outcomes-and-experience",
+            "type": "new",
+            "last_event_at": "2026-09-13T09:33:36.981199+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/towards-automating-eval-engineering",
+            "type": "new",
+            "last_event_at": "2026-09-13T09:33:36.981199+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/introducing-openwiki-brains-general-purpose-wiki-memory-for-agents",
+            "type": "new",
+            "last_event_at": "2026-09-13T09:33:36.981199+08:00"
+          }
+        ],
+        "verified_at": "2026-09-13T09:37:45.781530+08:00"
+      },
+      "2026-W38": {
+        "status": "generated",
+        "path": "03-周报/2026-W38.md",
+        "coverage_start": "2026-09-14T00:00:00+08:00",
+        "coverage_end": "2026-09-20T09:29:37.436252+08:00",
+        "generated_at": "2026-09-20T09:29:37.436252+08:00",
+        "updated_at": "2026-09-20T09:29:37.436252+08:00",
+        "new_count": 6,
+        "historical_new_count": 1,
+        "source_update_count": 0,
+        "enriched_count": 20,
+        "included_changes": [
+          {
+            "url": "https://www.langchain.com/blog/how-credit-genie-uses-openwiki-to-keep-codebase-knowledge-fresh-searchable-and-automated",
+            "type": "enrichment",
+            "last_event_at": "2026-09-14T09:39:26.158971+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/connections-managed-credentials-and-per-caller-identity-for-managed-deep-agents",
+            "type": "enrichment",
+            "last_event_at": "2026-09-14T09:39:26.158971+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/organizing-context-in-a-multi-agent-harness",
+            "type": "enrichment",
+            "last_event_at": "2026-09-14T09:39:26.158971+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/mcp-in-langchain-stateless-protocol-elicitation-and-more",
+            "type": "enrichment",
+            "last_event_at": "2026-09-14T09:39:26.158971+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/building-agent-environments-and-tasks",
+            "type": "enrichment",
+            "last_event_at": "2026-09-14T09:39:26.158971+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/self-correcting-memory-openwiki",
+            "type": "enrichment",
+            "last_event_at": "2026-09-14T09:39:26.158971+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/langsmith-preview-builds-test-agent-changes-before-production",
+            "type": "enrichment",
+            "last_event_at": "2026-09-14T09:39:26.158971+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/deep-agents-vs-langchain-vs-langgraph",
+            "type": "enrichment",
+            "last_event_at": "2026-09-14T09:39:26.158971+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/deep-agents-v0-7",
+            "type": "enrichment",
+            "last_event_at": "2026-09-14T09:39:26.158971+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/how-we-benchmark-deep-agents",
+            "type": "enrichment",
+            "last_event_at": "2026-09-14T09:39:26.158971+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/paid-media-agent",
+            "type": "new",
+            "last_event_at": "2026-09-15T09:34:59.717418+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/introducing-dynamic-subagents-in-deep-agents",
+            "type": "enrichment",
+            "last_event_at": "2026-09-15T09:34:59.717418+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/deep-agents-0-6",
+            "type": "enrichment",
+            "last_event_at": "2026-09-15T09:34:59.717418+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/deep-agents-deploy-an-open-alternative-to-claude-managed-agents",
+            "type": "enrichment",
+            "last_event_at": "2026-09-15T09:34:59.717418+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/deep-agents-v0-5",
+            "type": "enrichment",
+            "last_event_at": "2026-09-15T09:34:59.717418+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/building-multi-agent-applications-with-deep-agents",
+            "type": "enrichment",
+            "last_event_at": "2026-09-15T09:34:59.717418+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/evaluating-deep-agents-our-learnings",
+            "type": "enrichment",
+            "last_event_at": "2026-09-15T09:34:59.717418+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/doubling-down-on-deepagents",
+            "type": "enrichment",
+            "last_event_at": "2026-09-15T09:34:59.717418+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/context-engineering-for-agents",
+            "type": "enrichment",
+            "last_event_at": "2026-09-15T09:34:59.717418+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/the-rise-of-context-engineering",
+            "type": "enrichment",
+            "last_event_at": "2026-09-15T09:34:59.717418+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/scaling-agents-in-healthcare-life-sciences-lessons-from-madrigal-pharmaceuticals-abridge-and-vizient",
+            "type": "new",
+            "last_event_at": "2026-09-16T09:30:47.338416+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/scaling-agents-in-europe-the-middle-east-lessons-from-schneider-electric-vodafone-and-monday-com",
+            "type": "enrichment",
+            "last_event_at": "2026-09-16T09:30:47.338416+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/building-a-harness-with-jev",
+            "type": "new",
+            "last_event_at": "2026-09-19T09:26:11.986544+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/agent-harness-life-sciences",
+            "type": "new",
+            "last_event_at": "2026-09-19T09:26:11.986544+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/how-included-health-built-federated-agents-for-healthcare-navigation-with-deep-agents-and-langgraph",
+            "type": "new",
+            "last_event_at": "2026-09-19T09:26:11.986544+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/jev-agent-evals-langsmith",
+            "type": "new",
+            "last_event_at": "2026-09-20T09:29:37.436252+08:00"
+          }
+        ],
+        "verified_at": "2026-09-20T09:36:34.838730+08:00"
+      },
+      "2026-W39": {
+        "status": "generated",
+        "path": "03-周报/2026-W39.md",
+        "coverage_start": "2026-09-21T00:00:00+08:00",
+        "coverage_end": "2026-09-27T09:30:07.238889+08:00",
+        "generated_at": "2026-09-27T09:30:07.238889+08:00",
+        "updated_at": "2026-09-27T09:30:07.238889+08:00",
+        "new_count": 8,
+        "historical_new_count": 0,
+        "source_update_count": 2,
+        "enriched_count": 0,
+        "included_changes": [
+          {
+            "url": "https://www.langchain.com/blog/jev-agent-evals-langsmith",
+            "type": "source_update",
+            "last_event_at": "2026-09-21T09:26:45.905532+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/reliability-healthcare-ai-langsmith-use-cases",
+            "type": "new",
+            "last_event_at": "2026-09-23T09:30:19.267392+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/jev-is-now-available-in-langsmith-evals",
+            "type": "new",
+            "last_event_at": "2026-09-23T09:30:19.267392+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/building-a-harness-with-jev",
+            "type": "source_update",
+            "last_event_at": "2026-09-23T09:30:19.267392+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/langsmith-engine-v2-redteam",
+            "type": "new",
+            "last_event_at": "2026-09-25T09:34:11.904099+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/langsmith-managed-deep-agents-whats-new",
+            "type": "new",
+            "last_event_at": "2026-09-25T09:34:11.904099+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/langsmith-trajectories-tracing",
+            "type": "new",
+            "last_event_at": "2026-09-25T09:34:11.904099+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/langsmith-fine-tuning",
+            "type": "new",
+            "last_event_at": "2026-09-25T09:34:11.904099+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/langsmith-custom-apps",
+            "type": "new",
+            "last_event_at": "2026-09-25T09:34:11.904099+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/building-prod-with-jev-and-langgraph",
+            "type": "new",
+            "last_event_at": "2026-09-26T09:28:13.341778+08:00"
+          }
+        ],
+        "verified_at": "2026-09-27T09:32:39.422151+08:00"
+      },
+      "2026-W40": {
+        "status": "generated",
+        "path": "03-周报/2026-W40.md",
+        "coverage_start": "2026-09-28T00:00:00+08:00",
+        "coverage_end": "2026-10-04T09:28:11.755377+08:00",
+        "generated_at": "2026-10-03T09:26:22.043082+08:00",
+        "updated_at": "2026-10-04T09:28:11.755377+08:00",
+        "new_count": 1,
+        "historical_new_count": 0,
+        "source_update_count": 2,
+        "enriched_count": 0,
+        "included_changes": [
+          {
+            "url": "https://www.langchain.com/blog/langsmith-custom-apps",
+            "type": "source_update",
+            "last_event_at": "2026-09-29T09:29:35.154602+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness",
+            "type": "new",
+            "last_event_at": "2026-10-02T09:34:26.280166+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/jev-is-now-available-in-langsmith-evals",
+            "type": "source_update",
+            "last_event_at": "2026-10-02T09:34:26.280166+08:00"
+          }
+        ]
+      },
+      "2026-W41": {
+        "status": "generated",
+        "path": "03-周报/2026-W41.md",
+        "coverage_start": "2026-10-05T00:00:00+08:00",
+        "coverage_end": "2026-10-11T23:59:59+08:00",
+        "generated_at": "2026-10-13T09:19:03.367+08:00",
+        "updated_at": "2026-10-13T09:19:03.367+08:00",
+        "new_count": 4,
+        "historical_new_count": 0,
+        "source_update_count": 0,
+        "enriched_count": 0,
+        "included_changes": [
+          {
+            "url": "https://www.langchain.com/blog/revamping-skills-in-deep-agents",
+            "type": "new",
+            "last_event_at": "2026-10-08T09:29:20.285229+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/managed-deep-agents-schedules-per-run-configuration-slack",
+            "type": "new",
+            "last_event_at": "2026-10-08T09:29:20.285229+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/how-snyk-turned-an-internal-support-agent-into-a-customer-feature",
+            "type": "new",
+            "last_event_at": "2026-10-09T09:44:11.179445+08:00"
+          },
+          {
+            "url": "https://www.langchain.com/blog/agents-that-can-pay-with-stripe-link",
+            "type": "new",
+            "last_event_at": "2026-10-09T09:44:11.179445+08:00"
+          }
+        ],
+        "verified_at": "2026-10-13T09:22:53.962505+08:00"
+      }
+    },
+    "last_checked_at": "2026-10-13T09:19:03.367+08:00",
+    "check_result": "W41于10月13日补生成；仅统计10月5日至11日实际变更：新增4、更新0、深化0。今日新增计入W42。"
+  },
+  "runs": [
+    {
+      "date": "2026-09-11",
+      "started_at": "2026-09-11T09:22:03.217+08:00",
+      "status": "completed_with_pending",
+      "new_count": 5,
+      "enriched_count": 5,
+      "source_updates": 0,
+      "quality_pending_count": 5,
+      "pending_new_count": 4,
+      "completed_at": "2026-09-11T09:36:16.081025+08:00",
+      "validation": "passed"
+    },
+    {
+      "date": "2026-09-13",
+      "started_at": "2026-09-13T09:20:14.679+08:00",
+      "status": "completed_with_pending",
+      "new_count": 5,
+      "enriched_count": 5,
+      "source_updates": 0,
+      "quality_pending_count": 19,
+      "pending_new_count": 0,
+      "completed_at": "2026-09-13T09:37:45.781530+08:00",
+      "validation": "passed",
+      "weekly_report": "03-周报/2026-W37.md"
+    },
+    {
+      "date": "2026-09-14",
+      "started_at": "2026-09-14T09:22:21.574+08:00",
+      "status": "completed_with_pending",
+      "new_count": 0,
+      "enriched_count": 10,
+      "source_updates": 0,
+      "media_refresh_count": 1,
+      "quality_pending_count": 10,
+      "pending_new_count": 0,
+      "completed_at": "2026-09-14T09:43:29.552186+08:00",
+      "validation": "passed",
+      "weekly_report": "2026-W37 checked: no missing events; W38 planned 2026-09-20"
+    },
+    {
+      "date": "2026-09-15",
+      "started_at": "2026-09-15T09:20:57.550+08:00",
+      "status": "completed_with_pending",
+      "new_count": 1,
+      "enriched_count": 9,
+      "source_updates": 0,
+      "source_update_assessment": "7篇初始hash差异无法恢复逐字历史差分，已核验现原文并重建基准；没有据hash单独登记原文实质更新。",
+      "quality_pending_count": 1,
+      "pending_new_count": 0,
+      "completed_at": "2026-09-15T09:38:01.658382+08:00",
+      "validation": "passed",
+      "weekly_report": "2026-W37 checked: no missing events; W38 planned 2026-09-20"
+    },
+    {
+      "date": "2026-09-16",
+      "started_at": "2026-09-16T09:22:04.333+08:00",
+      "status": "completed_with_pending",
+      "new_count": 1,
+      "enriched_count": 1,
+      "source_updates": 0,
+      "media_refresh_count": 1,
+      "source_update_assessment": "5篇回查正文未变；欧洲案例正文只有排版与图题差异，配图换版按旧文图文深化计，无新增技术结论。",
+      "quality_pending_count": 1,
+      "pending_new_count": 0,
+      "completed_at": "2026-09-16T09:33:33.083589+08:00",
+      "validation": "passed",
+      "weekly_report": "2026-W37 checked: no missing events; W38 planned 2026-09-20"
+    },
+    {
+      "date": "2026-09-17",
+      "started_at": "2026-09-17T09:21:40.310+08:00",
+      "status": "completed_with_pending",
+      "result": "no_changes",
+      "new_count": 0,
+      "enriched_count": 0,
+      "source_updates": 0,
+      "media_refresh_count": 0,
+      "quality_pending_count": 1,
+      "pending_new_count": 0,
+      "revisited_count": 5,
+      "completed_at": "2026-09-17T09:26:08.853605+08:00",
+      "validation": "passed",
+      "weekly_report": "2026-W37 checked: no missing events; W38 planned 2026-09-20"
+    },
+    {
+      "date": "2026-09-19",
+      "started_at": "2026-09-19T09:20:24.221+08:00",
+      "status": "completed_with_pending",
+      "new_count": 3,
+      "enriched_count": 0,
+      "source_updates": 0,
+      "media_refresh_count": 0,
+      "quality_pending_count": 1,
+      "pending_new_count": 0,
+      "revisited_count": 5,
+      "completed_at": "2026-09-19T09:28:18.521144+08:00",
+      "validation": "passed",
+      "weekly_report": "2026-W37 checked: no missing events; W38 planned 2026-09-20"
+    },
+    {
+      "date": "2026-09-20",
+      "started_at": "2026-09-20T09:21:01.267+08:00",
+      "status": "completed_with_pending",
+      "new_count": 1,
+      "enriched_count": 0,
+      "source_updates": 0,
+      "media_refresh_count": 0,
+      "quality_pending_count": 1,
+      "pending_new_count": 0,
+      "revisited_count": 5,
+      "completed_at": "2026-09-20T09:36:34.487015+08:00",
+      "validation": "passed",
+      "weekly_report": "2026-W38 generated: 6 new (1 historical), 20 enrichment, 0 source updates; W37 verified"
+    },
+    {
+      "date": "2026-09-21",
+      "started_at": "2026-09-21T09:20:38.593+08:00",
+      "status": "completed_with_pending",
+      "new_count": 0,
+      "enriched_count": 0,
+      "source_updates": 1,
+      "media_refresh_count": 0,
+      "quality_pending_count": 1,
+      "pending_new_count": 0,
+      "revisited_count": 5,
+      "completed_at": "2026-09-21T09:28:31.675132+08:00",
+      "validation": "passed",
+      "weekly_report": "2026-W37 and W38 checked: no missing events; one source correction in W39, report planned 2026-09-27"
+    },
+    {
+      "date": "2026-09-23",
+      "started_at": "2026-09-23T09:21:00.572+08:00",
+      "status": "completed_with_pending",
+      "new_count": 2,
+      "enriched_count": 0,
+      "source_updates": 1,
+      "media_refresh_count": 0,
+      "quality_pending_count": 1,
+      "pending_new_count": 0,
+      "revisited_count": 6,
+      "completed_at": "2026-09-23T09:32:17.615928+08:00",
+      "validation": "passed",
+      "weekly_report": "2026-W37 and W38 checked: no missing events; two new articles and two source corrections in W39, report planned 2026-09-27"
+    },
+    {
+      "date": "2026-09-24",
+      "started_at": "2026-09-24T09:21:36.959+08:00",
+      "status": "completed_with_pending",
+      "result": "no_changes",
+      "new_count": 0,
+      "enriched_count": 0,
+      "source_updates": 0,
+      "media_refresh_count": 0,
+      "quality_pending_count": 1,
+      "pending_new_count": 0,
+      "revisited_count": 5,
+      "completed_at": "2026-09-24T09:30:32.480631+08:00",
+      "validation": "passed",
+      "weekly_report": "2026-W37 and W38 checked: no missing events; two new articles and two source corrections in W39, report planned 2026-09-27"
+    },
+    {
+      "date": "2026-09-25",
+      "started_at": "2026-09-25T09:21:42.947+08:00",
+      "status": "completed_with_pending",
+      "new_count": 5,
+      "enriched_count": 0,
+      "source_updates": 0,
+      "media_refresh_count": 0,
+      "quality_pending_count": 1,
+      "pending_new_count": 0,
+      "revisited_count": 6,
+      "completed_at": "2026-09-25T09:37:32.420073+08:00",
+      "validation": "passed",
+      "weekly_report": "2026-W37 and W38 checked: no missing events; seven new articles and two source corrections in W39, report planned 2026-09-27"
+    },
+    {
+      "date": "2026-09-26",
+      "started_at": "2026-09-26T09:21:37.612+08:00",
+      "status": "completed_with_pending",
+      "new_count": 1,
+      "enriched_count": 0,
+      "source_updates": 0,
+      "media_refresh_count": 0,
+      "quality_pending_count": 1,
+      "pending_new_count": 0,
+      "revisited_count": 5,
+      "completed_at": "2026-09-26T09:30:59.607100+08:00",
+      "validation": "passed",
+      "weekly_report": "W37 and W38 checked: no missing events; W39 has 8 new articles and 2 source updates, scheduled 2026-09-27"
+    },
+    {
+      "date": "2026-09-27",
+      "started_at": "2026-09-27T09:20:43.997+08:00",
+      "status": "completed_with_pending",
+      "result": "weekly_report",
+      "new_count": 0,
+      "enriched_count": 0,
+      "source_updates": 0,
+      "media_refresh_count": 0,
+      "quality_pending_count": 1,
+      "pending_new_count": 0,
+      "revisited_count": 5,
+      "completed_at": "2026-09-27T09:32:39.422151+08:00",
+      "validation": "passed",
+      "weekly_report": "2026-W39 generated and verified: 8 new, 2 source updates, 0 enrichment; W37 and W38 complete"
+    },
+    {
+      "date": "2026-09-28",
+      "started_at": "2026-09-28T09:20:18.746+08:00",
+      "status": "completed_with_pending",
+      "result": "no_changes",
+      "new_count": 0,
+      "enriched_count": 0,
+      "source_updates": 0,
+      "media_refresh_count": 0,
+      "quality_pending_count": 1,
+      "pending_new_count": 0,
+      "revisited_count": 5,
+      "completed_at": "2026-09-28T09:25:42.632661+08:00",
+      "validation": "passed",
+      "weekly_report": "W37, W38 and W39 checked: all events complete, no post-report additions; W40 no changes today"
+    },
+    {
+      "date": "2026-09-29",
+      "started_at": "2026-09-29T09:20:53.970+08:00",
+      "status": "completed_with_pending",
+      "result": "source_update",
+      "new_count": 0,
+      "enriched_count": 0,
+      "source_updates": 1,
+      "media_refresh_count": 0,
+      "quality_pending_count": 1,
+      "pending_new_count": 0,
+      "revisited_count": 6,
+      "completed_at": "2026-09-29T09:31:12.926473+08:00",
+      "validation": "passed",
+      "weekly_report": "W37-W39 checked: no missing changes; W40 has 0 new, 1 source update, 0 enrichment; report planned 2026-10-04"
+    },
+    {
+      "date": "2026-09-30",
+      "started_at": "2026-09-30T09:20:17.566+08:00",
+      "status": "completed_with_pending",
+      "result": "no_changes",
+      "new_count": 0,
+      "enriched_count": 0,
+      "source_updates": 0,
+      "media_refresh_count": 0,
+      "quality_pending_count": 1,
+      "pending_new_count": 0,
+      "revisited_count": 5,
+      "completed_at": "2026-09-30T09:27:23.130127+08:00",
+      "validation": "passed",
+      "weekly_report": "W37, W38 and W39 checked: all events complete, no post-report additions; W40 has 1 source update from September 29; no changes today; next report October 4"
+    },
+    {
+      "date": "2026-10-01",
+      "started_at": "2026-10-01T09:21:49.991+08:00",
+      "status": "completed_with_pending",
+      "result": "no_changes",
+      "new_count": 0,
+      "enriched_count": 0,
+      "source_updates": 0,
+      "media_refresh_count": 0,
+      "quality_pending_count": 1,
+      "pending_new_count": 0,
+      "revisited_count": 5,
+      "completed_at": "2026-10-01T09:27:59.973718+08:00",
+      "validation": "passed",
+      "weekly_report": "W37, W38 and W39 checked: all events complete, no post-report additions; W40 has 1 source update from September 29; no changes today; next report October 4"
+    },
+    {
+      "date": "2026-10-02",
+      "started_at": "2026-10-02T09:20:22.904+08:00",
+      "status": "completed_with_pending",
+      "result": "changes",
+      "new_count": 1,
+      "enriched_count": 0,
+      "source_updates": 1,
+      "media_refresh_count": 1,
+      "quality_pending_count": 1,
+      "pending_new_count": 0,
+      "revisited_count": 7,
+      "completed_at": "2026-10-02T09:38:50.228633+08:00",
+      "validation": "passed",
+      "weekly_report": "W37, W38 and W39 checked: all events complete; W40 totals 1 new article and 2 source updates; next report October 4"
+    },
+    {
+      "date": "2026-10-03",
+      "started_at": "2026-10-03T09:20:59.645+08:00",
+      "status": "completed_with_pending",
+      "result": "weekly_report",
+      "new_count": 0,
+      "enriched_count": 0,
+      "source_updates": 0,
+      "media_refresh_count": 0,
+      "quality_pending_count": 1,
+      "pending_new_count": 0,
+      "revisited_count": 5,
+      "weekly_report": "2026-W40 generated: 1 new article, 2 source updates, 0 enrichment; next report 2026-W41",
+      "completed_at": "2026-10-03T09:29:57.962981+08:00",
+      "validation": "passed"
+    },
+    {
+      "date": "2026-10-04",
+      "started_at": "2026-10-04T09:21:35.414+08:00",
+      "status": "completed_with_pending",
+      "result": "weekly_report",
+      "new_count": 0,
+      "enriched_count": 0,
+      "source_updates": 0,
+      "media_refresh_count": 0,
+      "quality_pending_count": 1,
+      "pending_new_count": 0,
+      "revisited_count": 5,
+      "weekly_report": "2026-W40 supplemented through 2026-10-04: no additional changes; next report 2026-W41",
+      "completed_at": "2026-10-04T09:34:22.327489+08:00",
+      "validation": "passed"
+    },
+    {
+      "date": "2026-10-05",
+      "started_at": "2026-10-05T09:20:55.654+08:00",
+      "status": "completed_with_pending",
+      "result": "no_changes",
+      "new_count": 0,
+      "enriched_count": 0,
+      "source_updates": 0,
+      "media_refresh_count": 0,
+      "quality_pending_count": 1,
+      "pending_new_count": 0,
+      "revisited_count": 5,
+      "weekly_report": null,
+      "completed_at": "2026-10-05T09:25:44.855261+08:00",
+      "validation": "passed"
+    },
+    {
+      "date": "2026-10-06",
+      "started_at": "2026-10-06T09:21:00.417+08:00",
+      "status": "completed_with_pending",
+      "result": "no_changes",
+      "new_count": 0,
+      "enriched_count": 0,
+      "source_updates": 0,
+      "media_refresh_count": 0,
+      "quality_pending_count": 1,
+      "pending_new_count": 0,
+      "revisited_count": 5,
+      "weekly_report": null,
+      "completed_at": "2026-10-06T09:23:05.368075+08:00",
+      "validation": "passed"
+    },
+    {
+      "date": "2026-10-07",
+      "started_at": "2026-10-07T09:22:04.817+08:00",
+      "status": "completed_with_pending",
+      "result": "no_changes",
+      "new_count": 0,
+      "enriched_count": 0,
+      "source_updates": 0,
+      "media_refresh_count": 0,
+      "quality_pending_count": 1,
+      "pending_new_count": 0,
+      "revisited_count": 5,
+      "weekly_report": null,
+      "completed_at": "2026-10-07T09:22:54.199241+08:00",
+      "validation": "passed"
+    },
+    {
+      "date": "2026-10-08",
+      "started_at": "2026-10-08T09:20:11.735+08:00",
+      "status": "completed_with_pending",
+      "result": "daily_sync",
+      "new_count": 2,
+      "enriched_count": 0,
+      "source_updates": 0,
+      "media_refresh_count": 2,
+      "quality_pending_count": 1,
+      "pending_new_count": 0,
+      "revisited_count": 5,
+      "weekly_report": null,
+      "completed_at": "2026-10-08T09:30:10.842741+08:00",
+      "validation": "passed"
+    },
+    {
+      "date": "2026-10-09",
+      "started_at": "2026-10-09T09:22:20.612+08:00",
+      "status": "completed_with_pending",
+      "result": "daily_sync",
+      "new_count": 2,
+      "enriched_count": 0,
+      "source_updates": 0,
+      "media_refresh_count": 2,
+      "quality_pending_count": 1,
+      "pending_new_count": 0,
+      "revisited_count": 5,
+      "weekly_report": null,
+      "completed_at": "2026-10-09T09:44:11.381335+08:00",
+      "validation": "passed"
+    },
+    {
+      "date": "2026-10-10",
+      "started_at": "2026-10-10T09:22:25.441+08:00",
+      "status": "completed_with_pending",
+      "result": "no_changes",
+      "new_count": 0,
+      "enriched_count": 0,
+      "source_updates": 0,
+      "media_refresh_count": 0,
+      "quality_pending_count": 1,
+      "pending_new_count": 0,
+      "revisited_count": 5,
+      "weekly_report": null,
+      "completed_at": "2026-10-10T09:22:25.441+08:00",
+      "validation": "passed"
+    },
+    {
+      "date": "2026-10-13",
+      "started_at": "2026-10-13T09:19:03.367+08:00",
+      "status": "completed_with_pending",
+      "result": "daily_sync_and_weekly_report",
+      "new_count": 1,
+      "enriched_count": 0,
+      "source_updates": 0,
+      "media_refresh_count": 1,
+      "quality_pending_count": 1,
+      "pending_new_count": 0,
+      "revisited_count": 5,
+      "weekly_report": "2026-W41",
+      "completed_at": "2026-10-13T09:22:53.962505+08:00",
+      "validation": "passed"
+    },
+    {
+      "date": "2026-10-14",
+      "started_at": "2026-10-14T09:19:35.541+08:00",
+      "status": "completed_with_pending",
+      "result": "daily_sync",
+      "new_count": 3,
+      "enriched_count": 0,
+      "source_updates": 0,
+      "media_refresh_count": 2,
+      "quality_pending_count": 1,
+      "pending_new_count": 0,
+      "revisited_count": 5,
+      "weekly_report": null,
+      "completed_at": "2026-10-15T09:22:45.681+08:00",
+      "validation": "pending"
+    },
+    {
+      "date": "2026-10-15",
+      "started_at": "2026-10-15T09:22:45.681+08:00",
+      "status": "completed_with_pending",
+      "result": "daily_sync",
+      "new_count": 2,
+      "enriched_count": 0,
+      "source_updates": 0,
+      "media_refresh_count": 3,
+      "quality_pending_count": 1,
+      "pending_new_count": 0,
+      "revisited_count": 5,
+      "weekly_report": null,
+      "completed_at": "2026-10-15T09:29:40+08:00",
+      "validation": "passed"
+    },
+    {
+      "date": "2026-10-19",
+      "started_at": "2026-10-19T09:24:33+08:00",
+      "status": "completed_with_pending",
+      "result": "no_changes",
+      "new_count": 0,
+      "enriched_count": 0,
+      "source_updates": 0,
+      "media_refresh_count": 0,
+      "quality_pending_count": 1,
+      "pending_new_count": 0,
+      "revisited_count": 5,
+      "weekly_report": null,
+      "completed_at": "2026-10-19T09:24:33+08:00",
+      "validation": "pending"
+    },
+    {
+      "date": "2026-10-23",
+      "started_at": "2026-10-23T09:24:00+08:00",
+      "status": "completed_with_pending",
+      "result": "daily_sync",
+      "new_count": 1,
+      "enriched_count": 0,
+      "source_updates": 0,
+      "media_refresh_count": 2,
+      "quality_pending_count": 1,
+      "pending_new_count": 0,
+      "revisited_count": 5,
+      "weekly_report": null,
+      "completed_at": "2026-10-23T09:24:00+08:00",
+      "validation": "passed"
+    }
+  ],
+  "changes": [
+    {
+      "at": "2026-09-11T09:31:07.439201+08:00",
+      "date": "2026-09-11",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/connections-managed-credentials-and-per-caller-identity-for-managed-deep-agents",
+      "path": "01-文章/工程与Agent/部署与持久化/2026-09-09 - 用 Connections 为 Managed Deep Agents 分配凭据与调用者身份.md",
+      "published": "2026-09-09",
+      "historical_collection": false
+    },
+    {
+      "at": "2026-09-11T09:31:07.439201+08:00",
+      "date": "2026-09-11",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/organizing-context-in-a-multi-agent-harness",
+      "path": "01-文章/工程与Agent/上下文管理/2026-09-08 - 在多 Agent Harness 中组织共享与隔离上下文.md",
+      "published": "2026-09-08",
+      "historical_collection": false
+    },
+    {
+      "at": "2026-09-11T09:31:07.439201+08:00",
+      "date": "2026-09-11",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/mcp-in-langchain-stateless-protocol-elicitation-and-more",
+      "path": "01-文章/工程与Agent/运行架构/2026-09-03 - LangChain MCP 支持的新协议、无状态调用与中断询问.md",
+      "published": "2026-09-03",
+      "historical_collection": true
+    },
+    {
+      "at": "2026-09-11T09:31:07.439201+08:00",
+      "date": "2026-09-11",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/building-agent-environments-and-tasks",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-08-25 - 如何构建 Agent 评估环境与任务.md",
+      "published": "2026-08-25",
+      "historical_collection": true
+    },
+    {
+      "at": "2026-09-11T09:31:07.439201+08:00",
+      "date": "2026-09-11",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/self-correcting-memory-openwiki",
+      "path": "01-文章/工程与Agent/上下文管理/2026-08-25 - 让 OpenWiki 记忆根据证据自我纠错.md",
+      "published": "2026-08-25",
+      "historical_collection": true
+    },
+    {
+      "at": "2026-09-11T09:31:07.439201+08:00",
+      "date": "2026-09-11",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/how-credit-genie-uses-openwiki-to-keep-codebase-knowledge-fresh-searchable-and-automated",
+      "path": "01-文章/工程与Agent/部署与持久化/2026-09-10 - 把仓库文档接入每日更新与统一检索门户.md",
+      "published": "2026-09-10",
+      "historical_collection": false
+    },
+    {
+      "at": "2026-09-11T09:31:07.439201+08:00",
+      "date": "2026-09-11",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/langsmith-preview-builds-test-agent-changes-before-production",
+      "path": "01-文章/工程与Agent/部署与持久化/2026-08-20 - 用 PR 预览部署检查 Agent 行为变化.md",
+      "published": "2026-08-20",
+      "historical_collection": true
+    },
+    {
+      "at": "2026-09-11T09:31:07.439201+08:00",
+      "date": "2026-09-11",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/deep-agents-vs-langchain-vs-langgraph",
+      "path": "01-文章/工程与Agent/运行架构/2026-08-06 - 按控制程度理解 Deep Agents、LangChain 与 LangGraph.md",
+      "published": "2026-08-06",
+      "historical_collection": true
+    },
+    {
+      "at": "2026-09-11T09:31:07.439201+08:00",
+      "date": "2026-09-11",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/langsmith-llm-gateway-runtime-controls-for-production-agents",
+      "path": "01-文章/工程与Agent/部署与持久化/2026-07-30 - 在模型网关集中管理预算、限流与回退.md",
+      "published": "2026-07-30",
+      "historical_collection": true
+    },
+    {
+      "at": "2026-09-11T09:31:07.439201+08:00",
+      "date": "2026-09-11",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/deep-agents-v0-7",
+      "path": "01-文章/工程与Agent/运行架构/2026-07-29 - Deep Agents 0.7 缩减默认提示并开放中间件替换.md",
+      "published": "2026-07-29",
+      "historical_collection": true
+    },
+    {
+      "at": "2026-09-12T14:59:36.011681+08:00",
+      "date": "2026-09-12",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/langsmith-llm-gateway-runtime-controls-for-production-agents",
+      "path": "01-文章/工程与Agent/部署与持久化/2026-07-30 - 在模型网关集中管理预算、限流与回退.md",
+      "published": "2026-07-30",
+      "historical_collection": true
+    },
+    {
+      "at": "2026-09-13T09:33:36.981199+08:00",
+      "date": "2026-09-13",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/introducing-langsmith-tuned-evaluators-starting-with-perceived-error",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-08-18 - 用 Tuned Evaluators 持续评估 Agent 的感知错误.md",
+      "published": "2026-08-18",
+      "historical_collection": true
+    },
+    {
+      "at": "2026-09-13T09:33:36.981199+08:00",
+      "date": "2026-09-13",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/issuebench-how-we-evaluate-engine",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-07-20 - 用 IssueBench 评估 Agent 问题发现引擎.md",
+      "published": "2026-07-20",
+      "historical_collection": true
+    },
+    {
+      "at": "2026-09-13T09:33:36.981199+08:00",
+      "date": "2026-09-13",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/evaluating-code-review-agents-with-reviewbench",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-07-31 - 用 ReviewBench 评估代码审查 Agent.md",
+      "published": "2026-07-31",
+      "historical_collection": true
+    },
+    {
+      "at": "2026-09-13T09:33:36.981199+08:00",
+      "date": "2026-09-13",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/how-we-build-an-autonomous-sre-agent-for-kubernetes-deployments",
+      "path": "01-文章/工程与Agent/部署与持久化/2026-08-05 - 为 Kubernetes 部署构建自治 SRE Agent.md",
+      "published": "2026-08-05",
+      "historical_collection": true
+    },
+    {
+      "at": "2026-09-13T09:33:36.981199+08:00",
+      "date": "2026-09-13",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/agents-need-their-own-computer",
+      "path": "01-文章/工程与Agent/部署与持久化/2026-07-15 - 为什么 Agent 需要可隔离、可持久化的计算环境.md",
+      "published": "2026-07-15",
+      "historical_collection": true
+    },
+    {
+      "at": "2026-09-13T09:33:36.981199+08:00",
+      "date": "2026-09-13",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/agents-that-pay-how-nevermined-empowers-langchain-agents-to-buy-and-sell-services",
+      "path": "01-文章/工程与Agent/运行架构/2026-09-03 - 让 Agent 在授权预算内购买服务并追踪付款.md",
+      "published": "2026-09-03",
+      "historical_collection": true
+    },
+    {
+      "at": "2026-09-13T09:33:36.981199+08:00",
+      "date": "2026-09-13",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/scaling-agents-in-europe-the-middle-east-lessons-from-schneider-electric-vodafone-and-monday-com",
+      "path": "01-文章/工程与Agent/运行架构/2026-09-03 - 从企业案例理解 Agent 平台分层与反馈闭环.md",
+      "published": "2026-09-03",
+      "historical_collection": true
+    },
+    {
+      "at": "2026-09-13T09:33:36.981199+08:00",
+      "date": "2026-09-13",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/how-to-evaluate-voice-agents-execution-outcomes-and-experience",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-08-04 - 从执行、结果与体验三个维度评估语音 Agent.md",
+      "published": "2026-08-04",
+      "historical_collection": true
+    },
+    {
+      "at": "2026-09-13T09:33:36.981199+08:00",
+      "date": "2026-09-13",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/towards-automating-eval-engineering",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-07-22 - 从仓库与调用记录生成可复现的 Agent 评估任务.md",
+      "published": "2026-07-22",
+      "historical_collection": true
+    },
+    {
+      "at": "2026-09-13T09:33:36.981199+08:00",
+      "date": "2026-09-13",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/introducing-openwiki-brains-general-purpose-wiki-memory-for-agents",
+      "path": "01-文章/工程与Agent/上下文管理/2026-07-10 - 用 OpenWiki Brains 把多源信息维护成 Agent 记忆.md",
+      "published": "2026-07-10",
+      "historical_collection": true
+    },
+    {
+      "at": "2026-09-09T22:24:24.763237+08:00",
+      "date": "2026-09-09",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/context-engineering-for-agents",
+      "path": "01-文章/工程与Agent/上下文管理/2025-07-02 - 上下文工程的四种基本操作.md",
+      "published": "2025-07-02",
+      "historical_collection": true,
+      "evidence": "原同步状态 first_collected_at 与建库/扩充日志；本次恢复周报事件，不改首次收录时间"
+    },
+    {
+      "at": "2026-09-09T22:24:24.763237+08:00",
+      "date": "2026-09-09",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/the-rise-of-context-engineering",
+      "path": "01-文章/工程与Agent/上下文管理/2025-06-23 - 把上下文工程理解为动态信息系统.md",
+      "published": "2025-06-23",
+      "historical_collection": true,
+      "evidence": "原同步状态 first_collected_at 与建库/扩充日志；本次恢复周报事件，不改首次收录时间"
+    },
+    {
+      "at": "2026-09-09T22:24:24.763237+08:00",
+      "date": "2026-09-09",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/doubling-down-on-deepagents",
+      "path": "01-文章/工程与Agent/运行架构/2025-10-28 - Deep Agents 的可插拔存储与框架分层.md",
+      "published": "2025-10-28",
+      "historical_collection": true,
+      "evidence": "原同步状态 first_collected_at 与建库/扩充日志；本次恢复周报事件，不改首次收录时间"
+    },
+    {
+      "at": "2026-09-09T22:24:24.763237+08:00",
+      "date": "2026-09-09",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/building-multi-agent-applications-with-deep-agents",
+      "path": "01-文章/工程与Agent/多智能体协作/2026-01-21 - 子 Agent 与 Skills 如何分担复杂任务.md",
+      "published": "2026-01-21",
+      "historical_collection": true,
+      "evidence": "原同步状态 first_collected_at 与建库/扩充日志；本次恢复周报事件，不改首次收录时间"
+    },
+    {
+      "at": "2026-09-09T22:24:24.763237+08:00",
+      "date": "2026-09-09",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/evaluating-deep-agents-our-learnings",
+      "path": "01-文章/工程与Agent/评估与可靠性/2025-12-03 - 评估 Agent 时检查决策、产物与最终状态.md",
+      "published": "2025-12-03",
+      "historical_collection": true,
+      "evidence": "原同步状态 first_collected_at 与建库/扩充日志；本次恢复周报事件，不改首次收录时间"
+    },
+    {
+      "at": "2026-09-09T22:24:24.763237+08:00",
+      "date": "2026-09-09",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/introducing-dynamic-subagents-in-deep-agents",
+      "path": "01-文章/工程与Agent/多智能体协作/2026-06-29 - 用代码编排动态子 Agent.md",
+      "published": "2026-06-29",
+      "historical_collection": true,
+      "evidence": "原同步状态 first_collected_at 与建库/扩充日志；本次恢复周报事件，不改首次收录时间"
+    },
+    {
+      "at": "2026-09-09T22:24:24.763237+08:00",
+      "date": "2026-09-09",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/how-we-benchmark-deep-agents",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-07-23 - 用端到端任务评估 Deep Agents.md",
+      "published": "2026-07-23",
+      "historical_collection": true,
+      "evidence": "原同步状态 first_collected_at 与建库/扩充日志；本次恢复周报事件，不改首次收录时间"
+    },
+    {
+      "at": "2026-09-09T22:24:24.763237+08:00",
+      "date": "2026-09-09",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/deep-agents-v0-5",
+      "path": "01-文章/工程与Agent/多智能体协作/2026-04-07 - 异步子 Agent 与多模态文件支持.md",
+      "published": "2026-04-07",
+      "historical_collection": true,
+      "evidence": "原同步状态 first_collected_at 与建库/扩充日志；本次恢复周报事件，不改首次收录时间"
+    },
+    {
+      "at": "2026-09-09T22:24:24.763237+08:00",
+      "date": "2026-09-09",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/deep-agents-0-6",
+      "path": "01-文章/工程与Agent/运行架构/2026-05-13 - Deep Agents 0.6 的执行、状态与记忆改进.md",
+      "published": "2026-05-13",
+      "historical_collection": true,
+      "evidence": "原同步状态 first_collected_at 与建库/扩充日志；本次恢复周报事件，不改首次收录时间"
+    },
+    {
+      "at": "2026-09-09T22:24:24.763237+08:00",
+      "date": "2026-09-09",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/deep-agents-deploy-an-open-alternative-to-claude-managed-agents",
+      "path": "01-文章/工程与Agent/部署与持久化/2026-04-09 - 把 Agent 配置、沙箱与记忆一起部署.md",
+      "published": "2026-04-09",
+      "historical_collection": true,
+      "evidence": "原同步状态 first_collected_at 与建库/扩充日志；本次恢复周报事件，不改首次收录时间"
+    },
+    {
+      "at": "2026-09-10T09:01:00+08:00",
+      "date": "2026-09-10",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/connections-managed-credentials-and-per-caller-identity-for-managed-deep-agents",
+      "path": "01-文章/工程与Agent/部署与持久化/2026-09-09 - 用 Connections 为 Managed Deep Agents 分配凭据与调用者身份.md",
+      "published": "2026-09-09",
+      "historical_collection": false,
+      "evidence": "原同步状态 first_collected_at 与建库/扩充日志；本次恢复周报事件，不改首次收录时间"
+    },
+    {
+      "at": "2026-09-10T09:01:00+08:00",
+      "date": "2026-09-10",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/organizing-context-in-a-multi-agent-harness",
+      "path": "01-文章/工程与Agent/上下文管理/2026-09-08 - 在多 Agent Harness 中组织共享与隔离上下文.md",
+      "published": "2026-09-08",
+      "historical_collection": false,
+      "evidence": "原同步状态 first_collected_at 与建库/扩充日志；本次恢复周报事件，不改首次收录时间"
+    },
+    {
+      "at": "2026-09-10T09:01:00+08:00",
+      "date": "2026-09-10",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/mcp-in-langchain-stateless-protocol-elicitation-and-more",
+      "path": "01-文章/工程与Agent/运行架构/2026-09-03 - LangChain MCP 支持的新协议、无状态调用与中断询问.md",
+      "published": "2026-09-03",
+      "historical_collection": true,
+      "evidence": "原同步状态 first_collected_at 与建库/扩充日志；本次恢复周报事件，不改首次收录时间"
+    },
+    {
+      "at": "2026-09-10T09:01:00+08:00",
+      "date": "2026-09-10",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/building-agent-environments-and-tasks",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-08-25 - 如何构建 Agent 评估环境与任务.md",
+      "published": "2026-08-25",
+      "historical_collection": true,
+      "evidence": "原同步状态 first_collected_at 与建库/扩充日志；本次恢复周报事件，不改首次收录时间"
+    },
+    {
+      "at": "2026-09-10T09:01:00+08:00",
+      "date": "2026-09-10",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/self-correcting-memory-openwiki",
+      "path": "01-文章/工程与Agent/上下文管理/2026-08-25 - 让 OpenWiki 记忆根据证据自我纠错.md",
+      "published": "2026-08-25",
+      "historical_collection": true,
+      "evidence": "原同步状态 first_collected_at 与建库/扩充日志；本次恢复周报事件，不改首次收录时间"
+    },
+    {
+      "at": "2026-09-10T09:01:00+08:00",
+      "date": "2026-09-10",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/introducing-langsmith-tuned-evaluators-starting-with-perceived-error",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-08-18 - 用 Tuned Evaluators 持续评估 Agent 的感知错误.md",
+      "published": "2026-08-18",
+      "historical_collection": true,
+      "evidence": "原同步状态 first_collected_at 与建库/扩充日志；本次恢复周报事件，不改首次收录时间"
+    },
+    {
+      "at": "2026-09-10T09:01:00+08:00",
+      "date": "2026-09-10",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/issuebench-how-we-evaluate-engine",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-07-20 - 用 IssueBench 评估 Agent 问题发现引擎.md",
+      "published": "2026-07-20",
+      "historical_collection": true,
+      "evidence": "原同步状态 first_collected_at 与建库/扩充日志；本次恢复周报事件，不改首次收录时间"
+    },
+    {
+      "at": "2026-09-10T09:01:00+08:00",
+      "date": "2026-09-10",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/how-we-build-an-autonomous-sre-agent-for-kubernetes-deployments",
+      "path": "01-文章/工程与Agent/部署与持久化/2026-08-05 - 为 Kubernetes 部署构建自治 SRE Agent.md",
+      "published": "2026-08-05",
+      "historical_collection": true,
+      "evidence": "原同步状态 first_collected_at 与建库/扩充日志；本次恢复周报事件，不改首次收录时间"
+    },
+    {
+      "at": "2026-09-10T09:01:00+08:00",
+      "date": "2026-09-10",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/evaluating-code-review-agents-with-reviewbench",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-07-31 - 用 ReviewBench 评估代码审查 Agent.md",
+      "published": "2026-07-31",
+      "historical_collection": true,
+      "evidence": "原同步状态 first_collected_at 与建库/扩充日志；本次恢复周报事件，不改首次收录时间"
+    },
+    {
+      "at": "2026-09-10T09:01:00+08:00",
+      "date": "2026-09-10",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/agents-need-their-own-computer",
+      "path": "01-文章/工程与Agent/部署与持久化/2026-07-15 - 为什么 Agent 需要可隔离、可持久化的计算环境.md",
+      "published": "2026-07-15",
+      "historical_collection": true,
+      "evidence": "原同步状态 first_collected_at 与建库/扩充日志；本次恢复周报事件，不改首次收录时间"
+    },
+    {
+      "at": "2026-09-14T09:39:26.158971+08:00",
+      "date": "2026-09-14",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/how-credit-genie-uses-openwiki-to-keep-codebase-knowledge-fresh-searchable-and-automated",
+      "path": "01-文章/工程与Agent/部署与持久化/2026-09-10 - 把仓库文档接入每日更新与统一检索门户.md",
+      "published": "2026-09-10",
+      "evidence": "摘要经独立事实与可读性审核后修订；现行全部质量门槛通过。"
+    },
+    {
+      "at": "2026-09-14T09:39:26.158971+08:00",
+      "date": "2026-09-14",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/connections-managed-credentials-and-per-caller-identity-for-managed-deep-agents",
+      "path": "01-文章/工程与Agent/部署与持久化/2026-09-09 - 用 Connections 为 Managed Deep Agents 分配凭据与调用者身份.md",
+      "published": "2026-09-09",
+      "evidence": "摘要经独立事实与可读性审核后修订；现行全部质量门槛通过。"
+    },
+    {
+      "at": "2026-09-14T09:39:26.158971+08:00",
+      "date": "2026-09-14",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/organizing-context-in-a-multi-agent-harness",
+      "path": "01-文章/工程与Agent/上下文管理/2026-09-08 - 在多 Agent Harness 中组织共享与隔离上下文.md",
+      "published": "2026-09-08",
+      "evidence": "摘要经独立事实与可读性审核后修订；现行全部质量门槛通过。"
+    },
+    {
+      "at": "2026-09-14T09:39:26.158971+08:00",
+      "date": "2026-09-14",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/mcp-in-langchain-stateless-protocol-elicitation-and-more",
+      "path": "01-文章/工程与Agent/运行架构/2026-09-03 - LangChain MCP 支持的新协议、无状态调用与中断询问.md",
+      "published": "2026-09-03",
+      "evidence": "摘要经独立事实与可读性审核后修订；现行全部质量门槛通过。"
+    },
+    {
+      "at": "2026-09-14T09:39:26.158971+08:00",
+      "date": "2026-09-14",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/building-agent-environments-and-tasks",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-08-25 - 如何构建 Agent 评估环境与任务.md",
+      "published": "2026-08-25",
+      "evidence": "摘要经独立事实与可读性审核后修订；现行全部质量门槛通过。"
+    },
+    {
+      "at": "2026-09-14T09:39:26.158971+08:00",
+      "date": "2026-09-14",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/self-correcting-memory-openwiki",
+      "path": "01-文章/工程与Agent/上下文管理/2026-08-25 - 让 OpenWiki 记忆根据证据自我纠错.md",
+      "published": "2026-08-25",
+      "evidence": "摘要经独立事实与可读性审核后修订；来源统计问题保留 pending。"
+    },
+    {
+      "at": "2026-09-14T09:39:26.158971+08:00",
+      "date": "2026-09-14",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/langsmith-preview-builds-test-agent-changes-before-production",
+      "path": "01-文章/工程与Agent/部署与持久化/2026-08-20 - 用 PR 预览部署检查 Agent 行为变化.md",
+      "published": "2026-08-20",
+      "evidence": "摘要经独立事实与可读性审核后修订；现行全部质量门槛通过。"
+    },
+    {
+      "at": "2026-09-14T09:39:26.158971+08:00",
+      "date": "2026-09-14",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/deep-agents-vs-langchain-vs-langgraph",
+      "path": "01-文章/工程与Agent/运行架构/2026-08-06 - 按控制程度理解 Deep Agents、LangChain 与 LangGraph.md",
+      "published": "2026-08-06",
+      "evidence": "摘要经独立事实与可读性审核后修订；现行全部质量门槛通过。"
+    },
+    {
+      "at": "2026-09-14T09:39:26.158971+08:00",
+      "date": "2026-09-14",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/deep-agents-v0-7",
+      "path": "01-文章/工程与Agent/运行架构/2026-07-29 - Deep Agents 0.7 缩减默认提示并开放中间件替换.md",
+      "published": "2026-07-29",
+      "evidence": "摘要经独立事实与可读性审核后修订；现行全部质量门槛通过。"
+    },
+    {
+      "at": "2026-09-14T09:39:26.158971+08:00",
+      "date": "2026-09-14",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/how-we-benchmark-deep-agents",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-07-23 - 用端到端任务评估 Deep Agents.md",
+      "published": "2026-07-23",
+      "evidence": "摘要经独立事实与可读性审核后修订；现行全部质量门槛通过。"
+    },
+    {
+      "at": "2026-09-15T09:34:59.717418+08:00",
+      "date": "2026-09-15",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/paid-media-agent",
+      "path": "01-文章/工程与Agent/运行架构/2026-09-13 - 把广告分析、数据口径与审批放进同一 Agent.md",
+      "published": "2026-09-13",
+      "historical_collection": true,
+      "evidence": "首次收录；原文9月13日发布，9月15日发现，归入实际收录所在W38。"
+    },
+    {
+      "at": "2026-09-15T09:34:59.717418+08:00",
+      "date": "2026-09-15",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/introducing-dynamic-subagents-in-deep-agents",
+      "path": "01-文章/工程与Agent/多智能体协作/2026-06-29 - 用代码编排动态子 Agent.md",
+      "published": "2026-06-29",
+      "historical_collection": false,
+      "evidence": "按当前完整原文补核旧摘要；独立事实与可读性复查通过。"
+    },
+    {
+      "at": "2026-09-15T09:34:59.717418+08:00",
+      "date": "2026-09-15",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/deep-agents-0-6",
+      "path": "01-文章/工程与Agent/运行架构/2026-05-13 - Deep Agents 0.6 的执行、状态与记忆改进.md",
+      "published": "2026-05-13",
+      "historical_collection": false,
+      "evidence": "按当前完整原文补核旧摘要；独立事实与可读性复查通过。"
+    },
+    {
+      "at": "2026-09-15T09:34:59.717418+08:00",
+      "date": "2026-09-15",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/deep-agents-deploy-an-open-alternative-to-claude-managed-agents",
+      "path": "01-文章/工程与Agent/部署与持久化/2026-04-09 - 把 Agent 配置、沙箱与记忆一起部署.md",
+      "published": "2026-04-09",
+      "historical_collection": false,
+      "evidence": "按当前完整原文补核旧摘要；独立事实与可读性复查通过。"
+    },
+    {
+      "at": "2026-09-15T09:34:59.717418+08:00",
+      "date": "2026-09-15",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/deep-agents-v0-5",
+      "path": "01-文章/工程与Agent/多智能体协作/2026-04-07 - 异步子 Agent 与多模态文件支持.md",
+      "published": "2026-04-07",
+      "historical_collection": false,
+      "evidence": "按当前完整原文补核旧摘要；独立事实与可读性复查通过。"
+    },
+    {
+      "at": "2026-09-15T09:34:59.717418+08:00",
+      "date": "2026-09-15",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/building-multi-agent-applications-with-deep-agents",
+      "path": "01-文章/工程与Agent/多智能体协作/2026-01-21 - 子 Agent 与 Skills 如何分担复杂任务.md",
+      "published": "2026-01-21",
+      "historical_collection": false,
+      "evidence": "按当前完整原文补核旧摘要；独立事实与可读性复查通过。"
+    },
+    {
+      "at": "2026-09-15T09:34:59.717418+08:00",
+      "date": "2026-09-15",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/evaluating-deep-agents-our-learnings",
+      "path": "01-文章/工程与Agent/评估与可靠性/2025-12-03 - 评估 Agent 时检查决策、产物与最终状态.md",
+      "published": "2025-12-03",
+      "historical_collection": false,
+      "evidence": "按当前完整原文补核旧摘要；独立事实与可读性复查通过。"
+    },
+    {
+      "at": "2026-09-15T09:34:59.717418+08:00",
+      "date": "2026-09-15",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/doubling-down-on-deepagents",
+      "path": "01-文章/工程与Agent/运行架构/2025-10-28 - Deep Agents 的可插拔存储与框架分层.md",
+      "published": "2025-10-28",
+      "historical_collection": false,
+      "evidence": "按当前完整原文补核旧摘要；独立事实与可读性复查通过。"
+    },
+    {
+      "at": "2026-09-15T09:34:59.717418+08:00",
+      "date": "2026-09-15",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/context-engineering-for-agents",
+      "path": "01-文章/工程与Agent/上下文管理/2025-07-02 - 上下文工程的四种基本操作.md",
+      "published": "2025-07-02",
+      "historical_collection": false,
+      "evidence": "按当前完整原文补核旧摘要；独立事实与可读性复查通过。"
+    },
+    {
+      "at": "2026-09-15T09:34:59.717418+08:00",
+      "date": "2026-09-15",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/the-rise-of-context-engineering",
+      "path": "01-文章/工程与Agent/上下文管理/2025-06-23 - 把上下文工程理解为动态信息系统.md",
+      "published": "2025-06-23",
+      "historical_collection": false,
+      "evidence": "按当前完整原文补核旧摘要；独立事实与可读性复查通过。"
+    },
+    {
+      "at": "2026-09-16T09:30:47.338416+08:00",
+      "date": "2026-09-16",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/scaling-agents-in-healthcare-life-sciences-lessons-from-madrigal-pharmaceuticals-abridge-and-vizient",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-09-14 - 医疗 Agent 的评估、发布与协作边界.md",
+      "published": "2026-09-14",
+      "historical_collection": false,
+      "evidence": "9月14日发布的医疗与生命科学工程案例，9月16日首次收录；摘要修订后独立复核通过。"
+    },
+    {
+      "at": "2026-09-16T09:30:47.338416+08:00",
+      "date": "2026-09-16",
+      "type": "enrichment",
+      "url": "https://www.langchain.com/blog/scaling-agents-in-europe-the-middle-east-lessons-from-schneider-electric-vodafone-and-monday-com",
+      "path": "01-文章/工程与Agent/运行架构/2026-09-03 - 从企业案例理解 Agent 平台分层与反馈闭环.md",
+      "published": "2026-09-03",
+      "historical_collection": false,
+      "evidence": "官网3张配图换版，替换为清晰原图并补清工具分级加载范围；摘要保持原文，独立复核通过，无新增技术结论。"
+    },
+    {
+      "at": "2026-09-19T09:26:11.986544+08:00",
+      "date": "2026-09-19",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/building-a-harness-with-jev",
+      "path": "01-文章/工程与Agent/运行架构/2026-09-17 - 用 Jev 为 Agent 分担结构化决策.md",
+      "published": "2026-09-17",
+      "historical_collection": false,
+      "evidence": "9月17日发布；9月18日临时准备未正式保存，今日重新读取原文及独立复核摘要后首次收录。"
+    },
+    {
+      "at": "2026-09-19T09:26:11.986544+08:00",
+      "date": "2026-09-19",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/agent-harness-life-sciences",
+      "path": "01-文章/工程与Agent/运行架构/2026-09-17 - 用 Deep Life Sci 组合科研检索、沙箱与评估.md",
+      "published": "2026-09-17",
+      "historical_collection": false,
+      "evidence": "9月17日发布；9月18日临时准备未正式保存，今日重新读取原文及独立复核摘要后首次收录。"
+    },
+    {
+      "at": "2026-09-19T09:26:11.986544+08:00",
+      "date": "2026-09-19",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/how-included-health-built-federated-agents-for-healthcare-navigation-with-deep-agents-and-langgraph",
+      "path": "01-文章/工程与Agent/多智能体协作/2026-09-17 - 用联邦式多 Agent 衔接医疗导航与人工接管.md",
+      "published": "2026-09-17",
+      "historical_collection": false,
+      "evidence": "9月17日发布；9月18日临时准备未正式保存，今日重新读取原文及独立复核摘要后首次收录。"
+    },
+    {
+      "at": "2026-09-20T09:29:37.436252+08:00",
+      "date": "2026-09-20",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/jev-agent-evals-langsmith",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-09-20 - 用固定样本比较 Jev 评估器的准确性、稳定性与成本.md",
+      "published": "2026-09-20",
+      "historical_collection": false,
+      "evidence": "9月20日发布并首次收录；完整读取原文与图表，独立摘要事实与可读性复核通过。"
+    },
+    {
+      "at": "2026-09-21T09:26:45.905532+08:00",
+      "date": "2026-09-21",
+      "type": "source_update",
+      "url": "https://www.langchain.com/blog/jev-agent-evals-langsmith",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-09-20 - 用固定样本比较 Jev 评估器的准确性、稳定性与成本.md",
+      "published": "2026-09-20",
+      "historical_collection": false,
+      "evidence": "回查确认原文已纠正Choice/Noul技术示例对应；与昨日存档逐字比较仅此变化。修订补充说明，摘要再次独立双项复核通过且保留；按发现日期归W39，源站实际修改时间未知。"
+    },
+    {
+      "at": "2026-09-23T09:30:19.267392+08:00",
+      "date": "2026-09-23",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/reliability-healthcare-ai-langsmith-use-cases",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-09-22 - 把临床专家审核转成可复用的评估与发布门槛.md",
+      "published": "2026-09-22",
+      "historical_collection": false,
+      "evidence": "9月22日发布，9月23日首次正式收录；今日重读原文与图表，摘要独立双项复核通过。"
+    },
+    {
+      "at": "2026-09-23T09:30:19.267392+08:00",
+      "date": "2026-09-23",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/jev-is-now-available-in-langsmith-evals",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-09-21 - 在 LangSmith 中用 Jev 评估运行记录与对话.md",
+      "published": "2026-09-21",
+      "historical_collection": false,
+      "evidence": "9月21日发布，9月23日首次正式收录；今日重读原文与图表，摘要独立双项复核通过。9月22日只完成临时准备，未保存至正式库。"
+    },
+    {
+      "at": "2026-09-23T09:30:19.267392+08:00",
+      "date": "2026-09-23",
+      "type": "source_update",
+      "url": "https://www.langchain.com/blog/building-a-harness-with-jev",
+      "path": "01-文章/工程与Agent/运行架构/2026-09-17 - 用 Jev 为 Agent 分担结构化决策.md",
+      "published": "2026-09-17",
+      "historical_collection": false,
+      "evidence": "原文invoke改为包含state/questions的单字典输入；昨日临时发现尚未正式保存，今日重查后同步正文说明。摘要再次独立双项复核通过并保留；按正式保存日期计入W39，源站准确修改时间未知。"
+    },
+    {
+      "at": "2026-09-25T09:34:11.904099+08:00",
+      "date": "2026-09-25",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/langsmith-engine-v2-redteam",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-09-24 - 让 Engine 提前发现问题并验证修复.md",
+      "published": "2026-09-24",
+      "historical_collection": false,
+      "evidence": "9月24日发布，9月25日首次正式收录；完整正文与静态配图已读取，摘要经独立事实及可读性复核通过。"
+    },
+    {
+      "at": "2026-09-25T09:34:11.904099+08:00",
+      "date": "2026-09-25",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/langsmith-managed-deep-agents-whats-new",
+      "path": "01-文章/工程与Agent/部署与持久化/2026-09-24 - 为托管 Agent 划分用户记忆、凭据与接入渠道.md",
+      "published": "2026-09-24",
+      "historical_collection": false,
+      "evidence": "9月24日发布，9月25日首次正式收录；完整正文与静态配图已读取，摘要经独立事实及可读性复核通过。"
+    },
+    {
+      "at": "2026-09-25T09:34:11.904099+08:00",
+      "date": "2026-09-25",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/langsmith-trajectories-tracing",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-09-24 - 把多轮 Agent 轨迹整理成可审阅的行为序列.md",
+      "published": "2026-09-24",
+      "historical_collection": false,
+      "evidence": "9月24日发布，9月25日首次正式收录；完整正文与静态配图已读取，摘要经独立事实及可读性复核通过。"
+    },
+    {
+      "at": "2026-09-25T09:34:11.904099+08:00",
+      "date": "2026-09-25",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/langsmith-fine-tuning",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-09-24 - 用生产轨迹筛选数据并验证模型微调.md",
+      "published": "2026-09-24",
+      "historical_collection": false,
+      "evidence": "9月24日发布，9月25日首次正式收录；完整正文与静态配图已读取，摘要经独立事实及可读性复核通过。"
+    },
+    {
+      "at": "2026-09-25T09:34:11.904099+08:00",
+      "date": "2026-09-25",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/langsmith-custom-apps",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-09-24 - 为标注和实验审查定制 LangSmith 界面.md",
+      "published": "2026-09-24",
+      "historical_collection": false,
+      "evidence": "9月24日发布，9月25日首次正式收录；完整正文与静态配图已读取，摘要经独立事实及可读性复核通过。"
+    },
+    {
+      "at": "2026-09-26T09:28:13.341778+08:00",
+      "date": "2026-09-26",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/building-prod-with-jev-and-langgraph",
+      "path": "01-文章/工程与Agent/运行架构/2026-09-25 - 用 Jev 决策与 LangGraph 编排文档审核.md",
+      "published": "2026-09-25",
+      "historical_collection": false,
+      "evidence": "9月25日发布，9月26日首次正式收录；完整正文和4张静态图已读取，摘要独立双项复核通过，保留局部性能比较范围。"
+    },
+    {
+      "at": "2026-09-29T09:29:35.154602+08:00",
+      "date": "2026-09-29",
+      "type": "source_update",
+      "url": "https://www.langchain.com/blog/langsmith-custom-apps",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-09-24 - 为标注和实验审查定制 LangSmith 界面.md",
+      "published": "2026-09-24",
+      "historical_collection": false,
+      "evidence": "站点地图lastmod变化触发补充回查，原文新增Chime定性审核案例及Macaw设计系统开源说明；摘要、正文和卡片已独立复核后更新。原发布日期和首次收录时间保留；具体正文修改时刻未核实，按本次正式保存日期计入W40。"
+    },
+    {
+      "at": "2026-10-02T09:34:26.280166+08:00",
+      "date": "2026-10-02",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness",
+      "path": "01-文章/工程与Agent/运行架构/2026-10-01 - 在 Agent 运行框架内按任务路由模型.md",
+      "published": "2026-10-01",
+      "historical_collection": false,
+      "evidence": "10月1日发布，10月2日首次收录；完整正文与5张静态图已读，采用4图，摘要修正费用口径和第二次试验对照组后独立双项复核通过。"
+    },
+    {
+      "at": "2026-10-02T09:34:26.280166+08:00",
+      "date": "2026-10-02",
+      "type": "source_update",
+      "url": "https://www.langchain.com/blog/jev-is-now-available-in-langsmith-evals",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-09-21 - 在 LangSmith 中用 Jev 评估运行记录与对话.md",
+      "published": "2026-09-21",
+      "historical_collection": false,
+      "evidence": "原文正文与新版配置截图移除数据留存提示，更新摘要、说明及配图；不推定零数据保留支持。发布日期、首次收录时间及USER内容保留；实际改文时刻未确定，按本次保存计入W40。"
+    },
+    {
+      "at": "2026-10-08T09:29:20.285229+08:00",
+      "date": "2026-10-08",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/revamping-skills-in-deep-agents",
+      "path": "01-文章/工程与Agent/运行架构/2026-10-07 - 让 Deep Agents 的 Skills 按需加载工具与指令.md",
+      "published": "2026-10-07",
+      "historical_collection": false,
+      "evidence": "10月7日发布，完整正文与正文配图已读；摘要经同一执行者两遍事实与可读性复核通过。"
+    },
+    {
+      "at": "2026-10-08T09:29:20.285229+08:00",
+      "date": "2026-10-08",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/managed-deep-agents-schedules-per-run-configuration-slack",
+      "path": "01-文章/工程与Agent/部署与持久化/2026-10-07 - Managed Deep Agents v0.9 让 Agent 自主排程并按运行配置.md",
+      "published": "2026-10-07",
+      "historical_collection": false,
+      "evidence": "10月7日发布，完整正文与正文配图已读；摘要经同一执行者两遍事实与可读性复核通过。"
+    },
+    {
+      "at": "2026-10-09T09:44:11.179445+08:00",
+      "date": "2026-10-09",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/how-snyk-turned-an-internal-support-agent-into-a-customer-feature",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-10-08 - Snyk Assist 从内部支持 Agent 走向客户产品.md",
+      "published": "2026-10-08",
+      "historical_collection": false,
+      "evidence": "10月8日发布，完整正文与正文配图已读；摘要经同一执行者两遍事实与可读性复核通过。"
+    },
+    {
+      "at": "2026-10-09T09:44:11.179445+08:00",
+      "date": "2026-10-09",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/agents-that-can-pay-with-stripe-link",
+      "path": "01-文章/工程与Agent/部署与持久化/2026-10-08 - 让 Agent 通过 Link 与 MPP 在审批后支付.md",
+      "published": "2026-10-08",
+      "historical_collection": false,
+      "evidence": "10月8日发布，完整正文与正文配图已读；摘要经同一执行者两遍事实与可读性复核通过。"
+    },
+    {
+      "at": "2026-10-13T09:19:03.367+08:00",
+      "date": "2026-10-13",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/slack-sdk-managed-deep-agents",
+      "path": "01-文章/工程与Agent/运行架构/2026-10-09 - 让 Managed Deep Agents 用反应表情反馈等待状态.md",
+      "published": "2026-10-09",
+      "historical_collection": false,
+      "evidence": "完整读取正文与配图；摘要经同一执行者两遍事实与可读性复核通过。"
+    },
+    {
+      "at": "2026-10-14T09:19:35.541+08:00",
+      "date": "2026-10-14",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/how-orange-business-built-live-intelligence-on-langchain-and-langsmith",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-10-13 - Orange Business 用 LangChain 与 LangSmith 构建企业级 Live Intelligence.md",
+      "published": "2026-10-13",
+      "historical_collection": false,
+      "evidence": "完整正文、图文和元数据已核对；摘要由同一执行者逐句事实复核并单独只读复核。"
+    },
+    {
+      "at": "2026-10-14T09:19:35.541+08:00",
+      "date": "2026-10-14",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/agent-traces-ai-search-langsmith",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-10-13 - 用 LangSmith AI Search 按 Agent 行为检索轨迹.md",
+      "published": "2026-10-13",
+      "historical_collection": false,
+      "evidence": "完整正文、图文和元数据已核对；摘要由同一执行者逐句事实复核并单独只读复核。"
+    },
+    {
+      "at": "2026-10-14T09:19:35.541+08:00",
+      "date": "2026-10-14",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/building-long-running-agents-with-scaledown-and-deep-agents",
+      "path": "01-文章/工程与Agent/上下文管理/2026-10-13 - 用 ScaleDown 为长运行 Agent 压缩上下文.md",
+      "published": "2026-10-13",
+      "historical_collection": false,
+      "evidence": "完整正文、图文和元数据已核对；摘要由同一执行者逐句事实复核并单独只读复核。"
+    },
+    {
+      "at": "2026-10-15T09:27:41+08:00",
+      "date": "2026-10-15",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/common-questions-about-agent-evals",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-10-15 - 从轨迹构建 Agent 评估、基准与线上监控.md",
+      "published": "2026-10-15",
+      "historical_collection": false,
+      "evidence": "正文、元数据、图文核对；同一执行者先逐句事实复核，再单独只读摘要复核。"
+    },
+    {
+      "at": "2026-10-15T09:27:41+08:00",
+      "date": "2026-10-15",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/context-engineering-deep-agents-remember",
+      "path": "01-文章/工程与Agent/上下文管理/2026-10-14 - 用 Deep Agents 管理长任务上下文与长期记忆.md",
+      "published": "2026-10-14",
+      "historical_collection": false,
+      "evidence": "正文、元数据、图文核对；同一执行者先逐句事实复核，再单独只读摘要复核。"
+    },
+    {
+      "at": "2026-10-23T09:24:00+08:00",
+      "date": "2026-10-23",
+      "type": "new",
+      "url": "https://www.langchain.com/blog/how-numan-built-an-eval-first-ai-health-coach-with-langgraph-and-langsmith",
+      "path": "01-文章/工程与Agent/评估与可靠性/2026-10-19 - Numan 用评估优先的 AI 健康教练守住医疗边界.md",
+      "published": "2026-10-19",
+      "historical_collection": false,
+      "evidence": "完整读取正文、图文和元数据；摘要由同一执行者逐句事实复核并单独只读复核通过。"
+    }
+  ]
+}

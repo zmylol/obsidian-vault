@@ -1,0 +1,216 @@
+{
+  "at": "2026-10-12T10:54:55+08:00",
+  "lookback_start": "2026-09-28",
+  "coverage_end": "2026-10-12",
+  "sources": {
+    "news": {
+      "url": "https://openai.com/news/",
+      "last_attempt_at": "2026-10-12T10:51:26+08:00",
+      "last_listing_read_at": "2026-10-12T10:51:26+08:00",
+      "last_complete_scan_at": null,
+      "lookback_start": "2026-09-28",
+      "coverage_end": "2026-10-12",
+      "listing_oldest_visible": "2026-10-02",
+      "pages": [
+        "https://openai.com/news/"
+      ],
+      "status": "partial",
+      "body_processing_complete": false,
+      "coverage": "首页 9 条，最早为 10-02；加载更多后未增加条目，14 天窗口尚未完整覆盖。",
+      "listing_sha256": "99f6417b5eb41409559ec8fba90eba19089f23d6786186f3057ea1c749c28b86"
+    },
+    "research": {
+      "url": "https://openai.com/research/index/",
+      "last_attempt_at": "2026-10-12T10:51:26+08:00",
+      "last_listing_read_at": "2026-10-12T10:51:26+08:00",
+      "last_complete_scan_at": "2026-10-12T10:51:26+08:00",
+      "lookback_start": "2026-09-28",
+      "coverage_end": "2026-10-12",
+      "listing_oldest_visible": "2026-09-10",
+      "pages": [
+        "https://openai.com/research/index/"
+      ],
+      "status": "success",
+      "body_processing_complete": false,
+      "coverage": "已读日期降序列表，进入窗口之前的记录；候选独立排队处理。",
+      "listing_sha256": "3598a1ad1d3adefe530c34364f4d033d8850d723e4c30462549798526084e81f"
+    },
+    "engineering": {
+      "url": "https://openai.com/news/engineering/",
+      "last_attempt_at": "2026-10-12T10:51:26+08:00",
+      "last_listing_read_at": "2026-10-12T10:51:26+08:00",
+      "last_complete_scan_at": "2026-10-12T10:51:26+08:00",
+      "lookback_start": "2026-09-28",
+      "coverage_end": "2026-10-12",
+      "listing_oldest_visible": "2026-05-04",
+      "pages": [
+        "https://openai.com/news/engineering/"
+      ],
+      "status": "success",
+      "body_processing_complete": false,
+      "coverage": "已读日期降序列表，进入窗口之前的记录；候选独立排队处理。",
+      "listing_sha256": "1c53db4d37bcff3eeeb90ad6f3a81cddaefe644be4a6b242f237623f95693166"
+    },
+    "safety": {
+      "url": "https://openai.com/news/safety-alignment/",
+      "last_attempt_at": "2026-10-12T10:51:26+08:00",
+      "last_listing_read_at": "2026-10-12T10:51:26+08:00",
+      "last_complete_scan_at": "2026-10-12T10:51:26+08:00",
+      "lookback_start": "2026-09-28",
+      "coverage_end": "2026-10-12",
+      "listing_oldest_visible": "2026-09-16",
+      "pages": [
+        "https://openai.com/news/safety-alignment/"
+      ],
+      "status": "success",
+      "body_processing_complete": false,
+      "coverage": "已读日期降序列表，进入窗口之前的记录；候选独立排队处理。",
+      "listing_sha256": "034873ae00fad18c9b517e29ec05beb6bda9677e7aa19ae99504ed20de35a78b",
+      "migration": {
+        "old": "https://openai.com/news/safety/",
+        "old_result": "404",
+        "new_verified_via": "News 的 Safety 链接"
+      }
+    },
+    "security": {
+      "url": "https://openai.com/news/security/",
+      "last_attempt_at": "2026-10-12T10:51:26+08:00",
+      "last_listing_read_at": "2026-10-12T10:51:26+08:00",
+      "last_complete_scan_at": "2026-10-12T10:51:26+08:00",
+      "lookback_start": "2026-09-28",
+      "coverage_end": "2026-10-12",
+      "listing_oldest_visible": "2026-08-04",
+      "pages": [
+        "https://openai.com/news/security/"
+      ],
+      "status": "success",
+      "body_processing_complete": false,
+      "coverage": "已读日期降序列表，进入窗口之前的记录；候选独立排队处理。",
+      "listing_sha256": "b36a01e97245d905fc7a0bb515782cb75f3999b6603c316c777197a4424ff0e7"
+    },
+    "product": {
+      "url": "https://openai.com/news/product-releases/",
+      "last_attempt_at": "2026-10-12T10:51:26+08:00",
+      "last_listing_read_at": "2026-10-12T10:51:26+08:00",
+      "last_complete_scan_at": "2026-10-12T10:51:26+08:00",
+      "lookback_start": "2026-09-28",
+      "coverage_end": "2026-10-12",
+      "listing_oldest_visible": "2026-09-22",
+      "pages": [
+        "https://openai.com/news/product-releases/"
+      ],
+      "status": "success",
+      "body_processing_complete": false,
+      "coverage": "已读日期降序列表，进入窗口之前的记录；候选独立排队处理。",
+      "listing_sha256": "8b37cde009f7ce23bd398144fce0b88c193b34028e68da1ac0c88010982ba4b1",
+      "migration": {
+        "old": "https://openai.com/news/product/",
+        "old_result": "redirect",
+        "new_verified_via": "官方重定向"
+      }
+    },
+    "applied_ai": {
+      "url": "https://openai.com/news/applied-ai/",
+      "last_attempt_at": "2026-10-12T10:51:26+08:00",
+      "last_listing_read_at": "2026-10-12T10:51:26+08:00",
+      "last_complete_scan_at": "2026-10-12T10:51:26+08:00",
+      "lookback_start": "2026-09-28",
+      "coverage_end": "2026-10-12",
+      "listing_oldest_visible": "2026-06-11",
+      "pages": [
+        "https://openai.com/news/applied-ai/"
+      ],
+      "status": "success",
+      "body_processing_complete": false,
+      "coverage": "已读日期降序列表，进入窗口之前的记录；候选独立排队处理。",
+      "listing_sha256": "e8ed49185eefd62c0d9cf912db4db2ba60ce6fa49dd74fec6a38e76a2b06d173"
+    },
+    "ai_adoption": {
+      "url": "https://openai.com/news/ai-adoption/",
+      "last_attempt_at": "2026-10-12T10:51:26+08:00",
+      "last_listing_read_at": "2026-10-12T10:51:26+08:00",
+      "last_complete_scan_at": "2026-10-12T10:51:26+08:00",
+      "lookback_start": "2026-09-28",
+      "coverage_end": "2026-10-12",
+      "listing_oldest_visible": "2026-03-05",
+      "pages": [
+        "https://openai.com/news/ai-adoption/"
+      ],
+      "status": "success",
+      "body_processing_complete": false,
+      "coverage": "已读日期降序列表，进入窗口之前的记录；候选独立排队处理。",
+      "listing_sha256": "3922d9cb312b69afb155e0fed73ad38e88a2a7feb6a92e33b6301db3d05c5ae3"
+    }
+  },
+  "saved_urls": [
+    "https://openai.com/index/disrupting-ai-enabled-false-front-operations/",
+    "https://openai.com/index/gpt-6-for-everyone/",
+    "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+    "https://openai.com/index/advancing-computer-use-with-ironclad/",
+    "https://openai.com/index/eu-text-provenance/",
+    "https://openai.com/index/practical-guide-building-gpt-6/",
+    "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/",
+    "https://openai.com/index/introducing-gpt-6-1-sol/",
+    "https://openai.com/index/towards-safety-cases-for-frontier-ai-training/",
+    "https://openai.com/index/introducing-dots/"
+  ],
+  "pending": [
+    {
+      "url": "https://deploymentsafety.openai.com/gpt-6-october",
+      "published": "2026-10-07",
+      "reason": "独立系统卡有评估信息，今日收录名额已满；待全文及媒体核验",
+      "status": "pending",
+      "discovered_at": "2026-10-12T10:51:26+08:00",
+      "body_read": false
+    },
+    {
+      "url": "https://openai.com/index/teens-learn-and-plan/",
+      "published": "2026-10-07",
+      "reason": "产品实质更新候选；今日名额已满，尚未读正文",
+      "status": "pending",
+      "discovered_at": "2026-10-12T10:51:26+08:00",
+      "body_read": false
+    },
+    {
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement/",
+      "published": "2026-10-05",
+      "reason": "待区分实质技术更新与营销，未读正文，不能仅凭广告标题排除",
+      "status": "pending",
+      "discovered_at": "2026-10-12T10:51:26+08:00",
+      "body_read": false
+    },
+    {
+      "url": "https://deploymentsafety.openai.com/gpt-6-1-sol",
+      "published": "2026-09-29",
+      "reason": "官方地址已确认；系统卡全文与关键图表尚待核验",
+      "status": "pending",
+      "discovered_at": "2026-10-12T10:51:26+08:00",
+      "body_read": false
+    },
+    {
+      "url": "https://openai.com/index/devday-2026-recap/",
+      "published": "2026-09-29",
+      "reason": "官方地址已确认，汇总需与独立发布去重；未完整读正文",
+      "status": "pending",
+      "discovered_at": "2026-10-12T10:51:26+08:00",
+      "body_read": false
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://openai.com/index/atlassian-partnership/",
+      "published": "2026-10-06",
+      "reason": "公司合作公告，按范围暂不纳入；仅列表级筛选，未对技术正文作结论"
+    },
+    {
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia/",
+      "published": "2026-09-28",
+      "reason": "公司治理回应，列表级范围筛选，保留重新评估可能"
+    }
+  ],
+  "listing_complete": false,
+  "saved_quality": {
+    "completed": 5,
+    "pending": 5
+  }
+}

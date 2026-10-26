@@ -1,0 +1,666 @@
+{
+  "checked_at": "2026-09-15T09:34:59.717418+08:00",
+  "listing_checked_at": "2026-09-15T09:21:56.724861+08:00",
+  "incremental_window": [
+    "2026-08-31",
+    "2026-09-15"
+  ],
+  "listing_pages": [
+    {
+      "url": "https://www.langchain.com/blog",
+      "count": 16,
+      "newest": "2026-09-13",
+      "oldest": "2026-08-12",
+      "next": "https://www.langchain.com/blog?8457a1db_page=2"
+    },
+    {
+      "url": "https://www.langchain.com/blog?8457a1db_page=2",
+      "count": 16,
+      "newest": "2026-08-12",
+      "oldest": "2026-07-25",
+      "next": "https://www.langchain.com/blog?8457a1db_page=3"
+    },
+    {
+      "url": "https://www.langchain.com/blog?8457a1db_page=3",
+      "count": 16,
+      "newest": "2026-07-23",
+      "oldest": "2026-07-08",
+      "next": "https://www.langchain.com/blog?8457a1db_page=4"
+    }
+  ],
+  "categories": {
+    "labels": [
+      "Agent Architecture",
+      "Case Studies",
+      "Company Announcements",
+      "Conceptual Guide",
+      "Deep Agents",
+      "Deployment",
+      "Engineering",
+      "Filter by 2 All posts Agent Architecture Case Studies Company Announcements Conceptual Guide Deep Agents Deployment Engineering Harrison's In the Loop LangChain LangChain Labs LangGraph LangSmith Max Agency Podcast Newsletter Observability & Evals Open Source Partner Systems at LangChain Tutorials & How-Tos",
+      "Harrison's In the Loop",
+      "LangChain",
+      "LangChain Labs",
+      "LangGraph",
+      "LangSmith",
+      "Max Agency Podcast",
+      "Newsletter",
+      "Observability & Evals",
+      "Open Source",
+      "Partner",
+      "Systems at LangChain",
+      "Tutorials & How-Tos"
+    ],
+    "note": "分类控件过滤同一列表，无独立分类分页；检查All posts文章分类。"
+  },
+  "sitemap_entries_checked": 514,
+  "sitemap_recent_missing_from_pages": [
+    {
+      "url": "https://www.langchain.com/blog/how-we-built-langchains-gtm-agent",
+      "lastmod": "2026-09-14T01:53:59.499Z",
+      "title": "How we built LangChain’s GTM Agent",
+      "published_evidence": "March 9, 2026",
+      "decision": "已核对页首，发表于2026-03-09，早于增量窗口且不在既有精选内；本轮仅检查元数据，不扩为全站历史补录。"
+    }
+  ],
+  "items": [
+    {
+      "url": "https://www.langchain.com/blog/paid-media-agent",
+      "title": "How we built LangChain's Paid Media Agent",
+      "published": "2026-09-13",
+      "date_evidence": "September 13, 2026",
+      "listing_text": "Tutorials & How-Tos Agent Architecture How we built LangChain's Paid Media Agent Amal Irgashev Danny Lambert Jan Gomez September 13, 2026 19 min",
+      "page": 1,
+      "in_window": true,
+      "decision": "new_saved"
+    },
+    {
+      "url": "https://www.langchain.com/blog/how-credit-genie-uses-openwiki-to-keep-codebase-knowledge-fresh-searchable-and-automated",
+      "title": "How Credit Genie uses OpenWiki to keep codebase knowledge fresh, searchable, and automated",
+      "published": "2026-09-10",
+      "date_evidence": "September 10, 2026",
+      "listing_text": "Case Studies How Credit Genie uses OpenWiki to keep codebase knowledge fresh, searchable, and automated Kara Kadri September 10, 2026 6 min",
+      "page": 1,
+      "in_window": true,
+      "decision": "already_saved"
+    },
+    {
+      "url": "https://www.langchain.com/blog/connections-managed-credentials-and-per-caller-identity-for-managed-deep-agents",
+      "title": "Connections: Managed credentials and per-caller identity for Managed Deep Agents",
+      "published": "2026-09-09",
+      "date_evidence": "September 9, 2026",
+      "listing_text": "Deep Agents Connections: Managed credentials and per-caller identity for Managed Deep Agents Victor Moreira September 9, 2026 8 min",
+      "page": 1,
+      "in_window": true,
+      "decision": "already_saved"
+    },
+    {
+      "url": "https://www.langchain.com/blog/organizing-context-in-a-multi-agent-harness",
+      "title": "Organizing Context in a Multi-Agent Harness",
+      "published": "2026-09-08",
+      "date_evidence": "September 8, 2026",
+      "listing_text": "Agent Architecture Deep Agents Open Source Organizing Context in a Multi-Agent Harness Thushanth Bengre Chester Curme September 8, 2026 6 min",
+      "page": 1,
+      "in_window": true,
+      "decision": "already_saved"
+    },
+    {
+      "url": "https://www.langchain.com/blog/mcp-in-langchain-stateless-protocol-elicitation-and-more",
+      "title": "MCP in LangChain: Stateless Protocol, Elicitation, and More!",
+      "published": "2026-09-03",
+      "date_evidence": "September 3, 2026",
+      "listing_text": "Open Source Agent Architecture LangChain MCP in LangChain: Stateless Protocol, Elicitation, and More! Sydney Runkle September 3, 2026 5 min",
+      "page": 1,
+      "in_window": true,
+      "decision": "already_saved"
+    },
+    {
+      "url": "https://www.langchain.com/blog/agents-that-pay-how-nevermined-empowers-langchain-agents-to-buy-and-sell-services",
+      "title": "Agents That Pay | How Nevermined Empowers LangChain Agents to Buy and Sell Services",
+      "published": "2026-09-03",
+      "date_evidence": "September 3, 2026",
+      "listing_text": "Partner Agents That Pay | How Nevermined Empowers LangChain Agents to Buy and Sell Services Josh Wadinski Rodolphe Marques Karan Singh September 3, 2026 12 min",
+      "page": 1,
+      "in_window": true,
+      "decision": "already_saved"
+    },
+    {
+      "url": "https://www.langchain.com/blog/scaling-agents-in-europe-the-middle-east-lessons-from-schneider-electric-vodafone-and-monday-com",
+      "title": "Scaling Agents in Europe & The Middle East: Lessons from Schneider Electric, Vodafone, and monday.com",
+      "published": "2026-09-03",
+      "date_evidence": "September 3, 2026",
+      "listing_text": "Conceptual Guide Scaling Agents in Europe & The Middle East: Lessons from Schneider Electric, Vodafone, and monday.com Jess Ou September 3, 2026 17 min",
+      "page": 1,
+      "in_window": true,
+      "decision": "already_saved"
+    },
+    {
+      "url": "https://www.langchain.com/blog/august-2026-langchain-newsletter",
+      "title": "August 2026: LangChain Newsletter",
+      "published": "2026-08-26",
+      "date_evidence": "August 26, 2026",
+      "listing_text": "Newsletter August 2026: LangChain Newsletter The LangChain Team August 26, 2026 4 min",
+      "page": 1,
+      "in_window": false,
+      "decision": "outside_incremental_window"
+    },
+    {
+      "url": "https://www.langchain.com/blog/new-in-langsmith-engine-2x-better-issue-detection",
+      "title": "New in LangSmith Engine: >2x better issue detection",
+      "published": "2026-08-25",
+      "date_evidence": "August 25, 2026",
+      "listing_text": "LangSmith New in LangSmith Engine: >2x better issue detection Trammell Saltzgaber Ben Tannyhill August 25, 2026 5 min",
+      "page": 1,
+      "in_window": false,
+      "decision": "outside_incremental_window"
+    },
+    {
+      "url": "https://www.langchain.com/blog/building-agent-environments-and-tasks",
+      "title": "How We Build Agent Environments & Tasks",
+      "published": "2026-08-25",
+      "date_evidence": "August 25, 2026",
+      "listing_text": "Observability & Evals How We Build Agent Environments & Tasks Vivek Trivedy Nick Hollon August 25, 2026 12 min",
+      "page": 1,
+      "in_window": false,
+      "decision": "already_saved"
+    },
+    {
+      "url": "https://www.langchain.com/blog/self-correcting-memory-openwiki",
+      "title": "Building Self-Correcting Memory in OpenWiki",
+      "published": "2026-08-25",
+      "date_evidence": "August 25, 2026",
+      "listing_text": "Open Source Building Self-Correcting Memory in OpenWiki Colin Francis August 25, 2026 7 min",
+      "page": 1,
+      "in_window": false,
+      "decision": "already_saved"
+    },
+    {
+      "url": "https://www.langchain.com/blog/how-toyota-north-america-put-enterprise-ai-on-the-balance-sheet-with-deep-agents-and-langsmith",
+      "title": "How Toyota North America Put Enterprise AI on the Balance Sheet with Deep Agents and LangSmith",
+      "published": "2026-08-24",
+      "date_evidence": "August 24, 2026",
+      "listing_text": "No items found. How Toyota North America Put Enterprise AI on the Balance Sheet with Deep Agents and LangSmith Sofia Sulikowski August 24, 2026 6 min",
+      "page": 1,
+      "in_window": false,
+      "decision": "outside_incremental_window"
+    },
+    {
+      "url": "https://www.langchain.com/blog/langsmith-preview-builds-test-agent-changes-before-production",
+      "title": "LangSmith Preview Builds: Test agent changes before production",
+      "published": "2026-08-20",
+      "date_evidence": "August 20, 2026",
+      "listing_text": "No items found. LangSmith Preview Builds: Test agent changes before production Victor Moreira August 20, 2026 4 min",
+      "page": 1,
+      "in_window": false,
+      "decision": "already_saved"
+    },
+    {
+      "url": "https://www.langchain.com/blog/introducing-langsmith-tuned-evaluators-starting-with-perceived-error",
+      "title": "Introducing LangSmith Tuned Evaluators, starting with Perceived Error",
+      "published": "2026-08-18",
+      "date_evidence": "August 18, 2026",
+      "listing_text": "LangSmith Observability & Evals Introducing LangSmith Tuned Evaluators, starting with Perceived Error Jake Broekhuizen Shamik Karkhanis Vivek Trivedy August 18, 2026 5 min",
+      "page": 1,
+      "in_window": false,
+      "decision": "already_saved"
+    },
+    {
+      "url": "https://www.langchain.com/blog/langchain-agentcore-payments",
+      "title": "Agentic Commerce at Scale: Your LangChain agents can transact securely",
+      "published": "2026-08-17",
+      "date_evidence": "August 17, 2026",
+      "listing_text": "Partner Agentic Commerce at Scale: Your LangChain agents can transact securely Srimanth Tangedipalli Karan Singh Nneoma Okoroafor Madhu Samhitha Vangara Chethan Shriyan August 17, 2026 10 min",
+      "page": 1,
+      "in_window": false,
+      "decision": "outside_incremental_window"
+    },
+    {
+      "url": "https://www.langchain.com/blog/why-managed-agents-are-the-next-big-thing-in-agent-building",
+      "title": "Why managed agents are the next big thing in agent building",
+      "published": "2026-08-12",
+      "date_evidence": "August 12, 2026",
+      "listing_text": "Harrison's In the Loop Why managed agents are the next big thing in agent building Harrison Chase August 12, 2026 6 min",
+      "page": 1,
+      "in_window": false,
+      "decision": "outside_incremental_window"
+    },
+    {
+      "url": "https://www.langchain.com/blog/langsmith-byoc-is-now-generally-available-on-aws",
+      "title": "LangSmith BYOC is now generally available on AWS",
+      "published": "2026-08-12",
+      "date_evidence": "August 12, 2026",
+      "listing_text": "No items found. LangSmith BYOC is now generally available on AWS Romain Priour August 12, 2026 7 min",
+      "page": 2,
+      "in_window": false,
+      "decision": "outside_incremental_window"
+    },
+    {
+      "url": "https://www.langchain.com/blog/switchyard-agent-routing-benchmark",
+      "title": "How many of your agent's calls actually need a frontier model?",
+      "published": "2026-08-11",
+      "date_evidence": "August 11, 2026",
+      "listing_text": "Partner How many of your agent's calls actually need a frontier model? Srimanth Tangedipalli Karan Singh August 11, 2026 11 min",
+      "page": 2,
+      "in_window": false,
+      "decision": "outside_incremental_window"
+    },
+    {
+      "url": "https://www.langchain.com/blog/building-monday-com-sidekick-why-capable-agents-need-more-than-just-tools",
+      "title": "Building monday.com Sidekick: why capable agents need more than just tools",
+      "published": "2026-08-11",
+      "date_evidence": "August 11, 2026",
+      "listing_text": "No items found. Building monday.com Sidekick: why capable agents need more than just tools Omri Bruchim August 11, 2026 14 min",
+      "page": 2,
+      "in_window": false,
+      "decision": "outside_incremental_window"
+    },
+    {
+      "url": "https://www.langchain.com/blog/managed-deep-agents-is-now-in-public-beta",
+      "title": "Managed Deep Agents is now in Public Beta",
+      "published": "2026-08-07",
+      "date_evidence": "August 7, 2026",
+      "listing_text": "LangSmith Managed Deep Agents is now in Public Beta Victor Moreira August 7, 2026 9 min",
+      "page": 2,
+      "in_window": false,
+      "decision": "outside_incremental_window"
+    },
+    {
+      "url": "https://www.langchain.com/blog/deep-agents-vs-langchain-vs-langgraph",
+      "title": "Deep Agents vs LangChain vs LangGraph",
+      "published": "2026-08-06",
+      "date_evidence": "August 6, 2026",
+      "listing_text": "Open Source Agent Architecture Deep Agents Deep Agents vs LangChain vs LangGraph Sydney Runkle August 6, 2026 8 min",
+      "page": 2,
+      "in_window": false,
+      "decision": "already_saved"
+    },
+    {
+      "url": "https://www.langchain.com/blog/how-we-build-an-autonomous-sre-agent-for-kubernetes-deployments",
+      "title": "How we build an autonomous SRE Agent for Kubernetes Deployments",
+      "published": "2026-08-05",
+      "date_evidence": "August 5, 2026",
+      "listing_text": "No items found. How we build an autonomous SRE Agent for Kubernetes Deployments Eric Johanson August 5, 2026 9 min",
+      "page": 2,
+      "in_window": false,
+      "decision": "already_saved"
+    },
+    {
+      "url": "https://www.langchain.com/blog/how-to-evaluate-voice-agents-execution-outcomes-and-experience",
+      "title": "How to evaluate voice agents: execution, outcomes, and experience",
+      "published": "2026-08-04",
+      "date_evidence": "August 4, 2026",
+      "listing_text": "No items found. How to evaluate voice agents: execution, outcomes, and experience Caroline di Vittorio August 4, 2026 11 min",
+      "page": 2,
+      "in_window": false,
+      "decision": "already_saved"
+    },
+    {
+      "url": "https://www.langchain.com/blog/customer-experience-cx-agents-in-production-lessons-from-lyft-vodafone-and-latam-airlines",
+      "title": "Customer Experience (CX) Agents in Production: Lessons from Lyft, Vodafone, and LATAM Airlines",
+      "published": "2026-08-04",
+      "date_evidence": "August 4, 2026",
+      "listing_text": "Conceptual Guide Customer Experience (CX) Agents in Production: Lessons from Lyft, Vodafone, and LATAM Airlines Jess Ou August 4, 2026 24 min",
+      "page": 2,
+      "in_window": false,
+      "decision": "outside_incremental_window"
+    },
+    {
+      "url": "https://www.langchain.com/blog/how-stripe-built-their-knowledge-ai-platform-on-deep-agents",
+      "title": "How Stripe Built Kai, its Company-Wide AI Agent, on Deep Agents",
+      "published": "2026-08-03",
+      "date_evidence": "August 3, 2026",
+      "listing_text": "Case Studies How Stripe Built Kai, its Company-Wide AI Agent, on Deep Agents Sofia Sulikowski August 3, 2026 10 min",
+      "page": 2,
+      "in_window": false,
+      "decision": "outside_incremental_window"
+    },
+    {
+      "url": "https://www.langchain.com/blog/what-is-an-agent",
+      "title": "What is an AI agent?",
+      "published": "2026-07-31",
+      "date_evidence": "July 31, 2026",
+      "listing_text": "Agent Architecture What is an AI agent? Jess Ou July 31, 2026 9 min",
+      "page": 2,
+      "in_window": false,
+      "decision": "outside_incremental_window"
+    },
+    {
+      "url": "https://www.langchain.com/blog/evaluating-code-review-agents-with-reviewbench",
+      "title": "Evaluating code review agents with ReviewBench",
+      "published": "2026-07-31",
+      "date_evidence": "July 31, 2026",
+      "listing_text": "Observability & Evals Evaluating code review agents with ReviewBench Nick Hollon July 31, 2026 6 min",
+      "page": 2,
+      "in_window": false,
+      "decision": "already_saved"
+    },
+    {
+      "url": "https://www.langchain.com/blog/langsmith-llm-gateway-runtime-controls-for-production-agents",
+      "title": "LangSmith LLM Gateway: runtime controls for production agents",
+      "published": "2026-07-30",
+      "date_evidence": "July 30, 2026",
+      "listing_text": "No items found. LangSmith LLM Gateway: runtime controls for production agents Martha Janicki Ramon Petgrave July 30, 2026 7 min",
+      "page": 2,
+      "in_window": false,
+      "decision": "already_saved"
+    },
+    {
+      "url": "https://www.langchain.com/blog/deep-agents-v0-7",
+      "title": "Deep Agents v0.7",
+      "published": "2026-07-29",
+      "date_evidence": "July 29, 2026",
+      "listing_text": "Deep Agents Open Source Agent Architecture Deep Agents v0.7 Sydney Runkle July 29, 2026 6 min",
+      "page": 2,
+      "in_window": false,
+      "decision": "already_saved"
+    },
+    {
+      "url": "https://www.langchain.com/blog/how-similarweb-evaluates-long-form-agent-research-reports-with-langsmith",
+      "title": "How Similarweb Evaluates Long-Form Agent Research Reports with LangSmith",
+      "published": "2026-07-29",
+      "date_evidence": "July 29, 2026",
+      "listing_text": "No items found. How Similarweb Evaluates Long-Form Agent Research Reports with LangSmith Liora Korni July 29, 2026 10 min",
+      "page": 2,
+      "in_window": false,
+      "decision": "outside_incremental_window"
+    },
+    {
+      "url": "https://www.langchain.com/blog/agent-data-stack",
+      "title": "How we built LangChain’s agent-first data stack",
+      "published": "2026-07-27",
+      "date_evidence": "July 27, 2026",
+      "listing_text": "Agent Architecture How we built LangChain’s agent-first data stack Emily Hawkins July 27, 2026 14 min",
+      "page": 2,
+      "in_window": false,
+      "decision": "outside_incremental_window"
+    },
+    {
+      "url": "https://www.langchain.com/blog/own-your-intelligence",
+      "title": "What does it mean to \"own your intelligence\"?",
+      "published": "2026-07-25",
+      "date_evidence": "July 25, 2026",
+      "listing_text": "Harrison's In the Loop What does it mean to \"own your intelligence\"? Harrison Chase July 25, 2026 9 min",
+      "page": 2,
+      "in_window": false,
+      "decision": "outside_incremental_window"
+    },
+    {
+      "url": "https://www.langchain.com/blog/july-2026-langchain-newsletter",
+      "title": "July 2026: LangChain Newsletter",
+      "published": "2026-07-23",
+      "date_evidence": "July 23, 2026",
+      "listing_text": "Newsletter July 2026: LangChain Newsletter The LangChain Team July 23, 2026 4 min",
+      "page": 3,
+      "in_window": false,
+      "decision": "outside_incremental_window"
+    },
+    {
+      "url": "https://www.langchain.com/blog/how-we-benchmark-deep-agents",
+      "title": "How We Benchmark Deep Agents",
+      "published": "2026-07-23",
+      "date_evidence": "July 23, 2026",
+      "listing_text": "Open Source Observability & Evals How We Benchmark Deep Agents Nick Hollon Harrison Chase July 23, 2026 4 min",
+      "page": 3,
+      "in_window": false,
+      "decision": "already_saved"
+    },
+    {
+      "url": "https://www.langchain.com/blog/towards-automating-eval-engineering",
+      "title": "Towards Automating Eval Engineering",
+      "published": "2026-07-22",
+      "date_evidence": "July 22, 2026",
+      "listing_text": "Observability & Evals Towards Automating Eval Engineering Vivek Trivedy July 22, 2026 5 min",
+      "page": 3,
+      "in_window": false,
+      "decision": "already_saved"
+    },
+    {
+      "url": "https://www.langchain.com/blog/3-years-of-graph-engineering-with-langgraph",
+      "title": "3 Years of Graph Engineering with LangGraph",
+      "published": "2026-07-22",
+      "date_evidence": "July 22, 2026",
+      "listing_text": "Open Source LangGraph Agent Architecture 3 Years of Graph Engineering with LangGraph Sydney Runkle Harrison Chase July 22, 2026 7 min",
+      "page": 3,
+      "in_window": false,
+      "decision": "outside_incremental_window"
+    },
+    {
+      "url": "https://www.langchain.com/blog/how-apollo-rebuilt-its-ai-assistant-on-deep-agents-to-power-the-full-gtm-loop",
+      "title": "How Apollo Rebuilt Its AI Assistant on Deep Agents to Power the Full GTM Loop",
+      "published": "2026-07-21",
+      "date_evidence": "July 21, 2026",
+      "listing_text": "Case Studies How Apollo Rebuilt Its AI Assistant on Deep Agents to Power the Full GTM Loop Sofia Sulikowski July 21, 2026 6 min",
+      "page": 3,
+      "in_window": false,
+      "decision": "outside_incremental_window"
+    },
+    {
+      "url": "https://www.langchain.com/blog/trace-voice-agents-in-langsmith",
+      "title": "Trace voice agents in LangSmith",
+      "published": "2026-07-21",
+      "date_evidence": "July 21, 2026",
+      "listing_text": "No items found. Trace voice agents in LangSmith Caroline di Vittorio July 21, 2026 4 min",
+      "page": 3,
+      "in_window": false,
+      "decision": "outside_incremental_window"
+    },
+    {
+      "url": "https://www.langchain.com/blog/issuebench-how-we-evaluate-engine",
+      "title": "IssueBench - How We Evaluate Engine",
+      "published": "2026-07-20",
+      "date_evidence": "July 20, 2026",
+      "listing_text": "Observability & Evals IssueBench - How We Evaluate Engine Nick Bray Arjun Nargolwala July 20, 2026 6 min",
+      "page": 3,
+      "in_window": false,
+      "decision": "already_saved"
+    },
+    {
+      "url": "https://www.langchain.com/blog/building-governed-agents-a-framework-for-cost-control-and-compliance",
+      "title": "Building Governed Agents: A Framework for Cost, Control, and Compliance",
+      "published": "2026-07-20",
+      "date_evidence": "July 20, 2026",
+      "listing_text": "Conceptual Guide LangSmith Building Governed Agents: A Framework for Cost, Control, and Compliance Martha Janicki July 20, 2026 15 min",
+      "page": 3,
+      "in_window": false,
+      "decision": "outside_incremental_window"
+    },
+    {
+      "url": "https://www.langchain.com/blog/proving-the-roi-of-agentic-ai-in-financial-services",
+      "title": "Proving the ROI of agentic AI in financial services",
+      "published": "2026-07-17",
+      "date_evidence": "July 17, 2026",
+      "listing_text": "Partner Proving the ROI of agentic AI in financial services Karan Singh David Tepper July 17, 2026 14 min",
+      "page": 3,
+      "in_window": false,
+      "decision": "outside_incremental_window"
+    },
+    {
+      "url": "https://www.langchain.com/blog/openwiki-0-2-adds-okf-support",
+      "title": "OpenWiki 0.2 is adopting the OKF support",
+      "published": "2026-07-16",
+      "date_evidence": "July 16, 2026",
+      "listing_text": "No items found. OpenWiki 0.2 is adopting the OKF support Brace Sproul July 16, 2026 4 min",
+      "page": 3,
+      "in_window": false,
+      "decision": "outside_incremental_window"
+    },
+    {
+      "url": "https://www.langchain.com/blog/new-in-langsmith-fleet-bring-agents-into-slack-in-one-click",
+      "title": "New in LangSmith Fleet: Bring agents into Slack in one click",
+      "published": "2026-07-15",
+      "date_evidence": "July 15, 2026",
+      "listing_text": "No items found. New in LangSmith Fleet: Bring agents into Slack in one click Caspar Broekhuizen July 15, 2026 4 min",
+      "page": 3,
+      "in_window": false,
+      "decision": "outside_incremental_window"
+    },
+    {
+      "url": "https://www.langchain.com/blog/agents-need-their-own-computer",
+      "title": "Agents need their own computer. Here's how to give them one safely.",
+      "published": "2026-07-15",
+      "date_evidence": "July 15, 2026",
+      "listing_text": "Conceptual Guide LangSmith Agents need their own computer. Here's how to give them one safely. Amy Ru July 15, 2026 12 min",
+      "page": 3,
+      "in_window": false,
+      "decision": "already_saved"
+    },
+    {
+      "url": "https://www.langchain.com/blog/your-coding-agents-are-a-black-box-heres-how-to-crack-them-open",
+      "title": "Your coding agents are a black box. Here's how to crack them open.",
+      "published": "2026-07-14",
+      "date_evidence": "July 14, 2026",
+      "listing_text": "No items found. Your coding agents are a black box. Here's how to crack them open. Hari Harish July 14, 2026 5 min",
+      "page": 3,
+      "in_window": false,
+      "decision": "outside_incremental_window"
+    },
+    {
+      "url": "https://www.langchain.com/blog/introducing-openwiki-brains-general-purpose-wiki-memory-for-agents",
+      "title": "Introducing OpenWiki Brains, general-purpose wiki memory for agents",
+      "published": "2026-07-10",
+      "date_evidence": "July 10, 2026",
+      "listing_text": "No items found. Introducing OpenWiki Brains, general-purpose wiki memory for agents Brace Sproul July 10, 2026 7 min",
+      "page": 3,
+      "in_window": false,
+      "decision": "already_saved"
+    },
+    {
+      "url": "https://www.langchain.com/blog/langchain-and-nvidia-launch-the-nemoclaw-deep-agents-blueprint",
+      "title": "LangChain and NVIDIA launch the NemoClaw Deep Agents Blueprint",
+      "published": "2026-07-08",
+      "date_evidence": "July 8, 2026",
+      "listing_text": "No items found. LangChain and NVIDIA launch the NemoClaw Deep Agents Blueprint The LangChain Team July 8, 2026 7 min",
+      "page": 3,
+      "in_window": false,
+      "decision": "outside_incremental_window"
+    },
+    {
+      "url": "https://www.langchain.com/blog/tuning-the-harness-not-the-model-a-nemotron-3-ultra-playbook",
+      "title": "Tuning the harness, not the model: a Nemotron 3 Ultra playbook",
+      "published": "2026-07-08",
+      "date_evidence": "July 8, 2026",
+      "listing_text": "Case Studies Partner Tuning the harness, not the model: a Nemotron 3 Ultra playbook Nick Hollon Srimanth Tangedipalli July 8, 2026 11 min",
+      "page": 3,
+      "in_window": false,
+      "decision": "outside_incremental_window"
+    }
+  ],
+  "original_revisit_batches": [
+    [
+      {
+        "url": "https://www.langchain.com/blog/self-correcting-memory-openwiki",
+        "previous_hash": "a2252525901ff407d8a8c532d5cbd6bfabca62e22076415c064029484e66d94e",
+        "current_hash": "a2252525901ff407d8a8c532d5cbd6bfabca62e22076415c064029484e66d94e",
+        "matching_extraction": [
+          "\n",
+          "blank_lines_removed"
+        ],
+        "classification": "unchanged",
+        "note": "现原文仍可用既有提取方式复现原hash。"
+      },
+      {
+        "url": "https://www.langchain.com/blog/introducing-dynamic-subagents-in-deep-agents",
+        "previous_hash": "5a143604107218916c06f2d7e92c5da345f39bdd09c2775d541eff44940e04c1",
+        "current_hash": "c051d3b6f793a431fca931d64f2422e668420492927e858cff58d43d8b2c5c72",
+        "matching_extraction": [],
+        "classification": "prior_baseline_unavailable",
+        "note": "已重读当前原文并核验摘要；初始逐字正文基线未留存在库内，hash差异不单独记作已确认的原文实质更新。"
+      },
+      {
+        "url": "https://www.langchain.com/blog/deep-agents-0-6",
+        "previous_hash": "5db81ae3b0a7bf593932a1ecbf34f761c74fa2366c2949bc532e756458c6de8f",
+        "current_hash": "691aa7a114c9dc23aecdd829dfa6c529b33566f38ddb776ea6b547f9d5595a34",
+        "matching_extraction": [],
+        "classification": "prior_baseline_unavailable",
+        "note": "已重读当前原文并核验摘要；初始逐字正文基线未留存在库内，hash差异不单独记作已确认的原文实质更新。"
+      },
+      {
+        "url": "https://www.langchain.com/blog/deep-agents-deploy-an-open-alternative-to-claude-managed-agents",
+        "previous_hash": "7f8dcf6b85d3503487bbabd3d85833611a2163c0f161bf1a988f0638a13fa9e5",
+        "current_hash": "25d15f4a1300d8812435a4742835df94d133e391aa28ae31cec98f31aef105c6",
+        "matching_extraction": [],
+        "classification": "prior_baseline_unavailable",
+        "note": "已重读当前原文并核验摘要；初始逐字正文基线未留存在库内，hash差异不单独记作已确认的原文实质更新。"
+      },
+      {
+        "url": "https://www.langchain.com/blog/deep-agents-v0-5",
+        "previous_hash": "84d625de2b89e66a1e52dcb33ca17d6e52934d71bf5908213157047a429a4289",
+        "current_hash": "84d625de2b89e66a1e52dcb33ca17d6e52934d71bf5908213157047a429a4289",
+        "matching_extraction": [
+          "\n",
+          "zero_width_removed",
+          "blank_lines_removed"
+        ],
+        "classification": "unchanged",
+        "note": "现原文仍可用既有提取方式复现原hash。"
+      }
+    ],
+    [
+      {
+        "url": "https://www.langchain.com/blog/building-multi-agent-applications-with-deep-agents",
+        "previous_hash": "e8a05c157da032a5cc9cd0efe3a6483ec4ab8fdedd78c50058452d6978fa83dc",
+        "current_hash": "dce8a413eb33ce546a3c343934f32b28c72853c39bbb2cdbb27d47b13d4b1ecb",
+        "matching_extraction": [],
+        "classification": "prior_baseline_unavailable",
+        "note": "已重读当前原文并核验摘要；初始逐字正文基线未留存在库内，hash差异不单独记作已确认的原文实质更新。"
+      },
+      {
+        "url": "https://www.langchain.com/blog/evaluating-deep-agents-our-learnings",
+        "previous_hash": "90f3e5042587156c1e16481e3a1df1627a2122e3ffbffad985232589d68097f7",
+        "current_hash": "952346949e74967337bebb4dda696b767909eec93a04d3f5c9014b83cc9550f0",
+        "matching_extraction": [],
+        "classification": "prior_baseline_unavailable",
+        "note": "已重读当前原文并核验摘要；初始逐字正文基线未留存在库内，hash差异不单独记作已确认的原文实质更新。"
+      },
+      {
+        "url": "https://www.langchain.com/blog/doubling-down-on-deepagents",
+        "previous_hash": "bc8fa35f38b0fe5f0eb545b2524ce73f98dd13ac4de65dbcf8a4db902c5989f5",
+        "current_hash": "0374feefa94ef29c47e5ddf786c9110dcfbdf4fab67018a6bff1991048a74637",
+        "matching_extraction": [],
+        "classification": "prior_baseline_unavailable",
+        "note": "已重读当前原文并核验摘要；初始逐字正文基线未留存在库内，hash差异不单独记作已确认的原文实质更新。"
+      },
+      {
+        "url": "https://www.langchain.com/blog/context-engineering-for-agents",
+        "previous_hash": "5e0264db8363a073602f1ee542e806f8972f6a199f63993807fea4c8263988e6",
+        "current_hash": "1d4a0baac674d7c084f009d9fd713080642c29147141697481ab2b2bcaf9d7d8",
+        "matching_extraction": [],
+        "classification": "prior_baseline_unavailable",
+        "note": "已重读当前原文并核验摘要；初始逐字正文基线未留存在库内，hash差异不单独记作已确认的原文实质更新。"
+      },
+      {
+        "url": "https://www.langchain.com/blog/the-rise-of-context-engineering",
+        "previous_hash": "9a9f5090d2d47ba6dc6b96dd14e7837b8d004a676e13ea98fdcea35fb9b564ab",
+        "current_hash": "9a9f5090d2d47ba6dc6b96dd14e7837b8d004a676e13ea98fdcea35fb9b564ab",
+        "matching_extraction": [
+          "\n",
+          "zero_width_removed",
+          "blank_lines_removed"
+        ],
+        "classification": "unchanged",
+        "note": "现原文仍可用既有提取方式复现原hash。"
+      }
+    ]
+  ],
+  "body_related_links": [
+    {
+      "url": "https://www.langchain.com/blog/delta-channels-evolving-agent-runtime",
+      "already_saved": false,
+      "in_listing": false,
+      "sitemap_lastmod": "2026-06-03T02:01:34.092Z"
+    },
+    {
+      "url": "https://www.langchain.com/blog/tuning-deep-agents-different-models",
+      "already_saved": false,
+      "in_listing": false,
+      "sitemap_lastmod": "2026-05-19T03:57:24.489Z"
+    },
+    {
+      "url": "https://www.langchain.com/blog/wiki-memory",
+      "already_saved": false,
+      "in_listing": false,
+      "sitemap_lastmod": "2026-08-26T15:02:51.894Z"
+    }
+  ],
+  "failures": []
+}

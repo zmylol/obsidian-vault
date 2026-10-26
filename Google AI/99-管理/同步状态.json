@@ -1,0 +1,1970 @@
+{
+  "schema_version": 2,
+  "timezone": "Asia/Shanghai",
+  "created_at": "2026-10-11T10:35:34+08:00",
+  "updated_at": "2026-10-19T10:03:37+08:00",
+  "schedule": {
+    "status": "ACTIVE",
+    "automation_id": "google-ai",
+    "automation_name": "Google AI 知识库每日同步与周报",
+    "kind": "heartbeat",
+    "timezone": "Asia/Shanghai",
+    "daily_time": "10:40",
+    "weekly_report_day": "Sunday",
+    "first_scheduled_run": "2026-10-11T10:40:00+08:00",
+    "first_weekly_report": "2026-10-11",
+    "verified_at": "2026-10-11T10:35:34+08:00",
+    "stagger_order": 6,
+    "next_scheduled_run": "2026-10-20T10:40:00+08:00"
+  },
+  "structure": {
+    "topics_enabled": false,
+    "learning_routes_enabled": false,
+    "category_levels": 2,
+    "categories": 8,
+    "dynamic_categories": true
+  },
+  "initial_collection": {
+    "mode": "first_run_14_day_lookback",
+    "date": "2026-10-11",
+    "lookback_start": "2026-09-27",
+    "saved_count": 5,
+    "complete": false,
+    "completion_note": "此前true仅代表首批5篇写入；回看窗口未全处理，保留候选队列，不宣称全部完成。"
+  },
+  "backfill": {
+    "mode": "incremental_14_day_overlap",
+    "complete": false,
+    "coverage": "初始2026-09-27发现回看及后续14天重叠持续维护；本轮五个指定入口列表扫描完整，保存12篇。未读、未达标和日期口径候选继续保留，不宣称全站全部完成。"
+  },
+  "sources": {
+    "deepmind": {
+      "url": "https://deepmind.google/blog/",
+      "last_attempt_at": "2026-10-19T09:58:43+08:00",
+      "last_listing_read_at": "2026-10-19T09:58:43+08:00",
+      "last_complete_scan_at": "2026-10-19T09:58:43+08:00",
+      "lookback_start": "2026-10-05",
+      "coverage": "首页与RSS本轮跨过10月05日，未发现已完成的新主文章；旧候选继续保留。",
+      "pages": [
+        "https://deepmind.google/blog/"
+      ],
+      "backfill_complete": false,
+      "status": "success"
+    },
+    "research": {
+      "url": "https://research.google/blog/",
+      "last_attempt_at": "2026-10-19T09:58:43+08:00",
+      "last_listing_read_at": "2026-10-19T09:58:43+08:00",
+      "last_complete_scan_at": "2026-10-19T09:58:43+08:00",
+      "lookback_start": "2026-10-05",
+      "coverage": "本轮首页已降至2026-10-16，新增Wet Lab Agent候选；100条RSS与列表继续跨过2026-10-05重叠窗口。正文候选与媒体待办分开管理。",
+      "pages": [
+        "https://research.google/blog/",
+        "https://research.google/blog/rss/"
+      ],
+      "backfill_complete": false,
+      "status": "success"
+    },
+    "google_ai": {
+      "url": "https://blog.google/innovation-and-ai/technology/ai/",
+      "last_attempt_at": "2026-10-19T09:58:43+08:00",
+      "last_listing_read_at": "2026-10-19T09:58:43+08:00",
+      "last_complete_scan_at": "2026-10-19T09:58:43+08:00",
+      "lookback_start": "2026-10-05",
+      "coverage": "AI栏目与RSS本轮跨过10月05日，产品推荐内容继续作为候选，未与已收录Argon后续重复。",
+      "pages": [
+        "https://blog.google/innovation-and-ai/technology/ai/",
+        "https://blog.google/innovation-and-ai/technology/ai/rss/"
+      ],
+      "backfill_complete": false,
+      "status": "success"
+    },
+    "developers": {
+      "url": "https://developers.googleblog.com/",
+      "last_attempt_at": "2026-10-19T09:58:43+08:00",
+      "last_listing_read_at": "2026-10-19T09:58:43+08:00",
+      "last_complete_scan_at": "2026-10-19T09:58:43+08:00",
+      "lookback_start": "2026-10-05",
+      "coverage": "AI筛选首页已覆盖10月15日评测工程文章，旧候选与新文章逐项登记；列表跨过2026-10-05重叠窗口。",
+      "pages": [
+        "https://developers.googleblog.com/",
+        "https://developers.googleblog.com/en/search/?technology_categories=AI"
+      ],
+      "backfill_complete": false,
+      "status": "success"
+    },
+    "cloud": {
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning",
+      "last_attempt_at": "2026-10-19T09:58:43+08:00",
+      "last_listing_read_at": "2026-10-19T09:58:43+08:00",
+      "last_complete_scan_at": "2026-10-19T09:58:43+08:00",
+      "lookback_start": "2026-10-05",
+      "coverage": "AI/ML首屏已覆盖10月16日Cloud评测/生物技术架构文章；Load more与RSS候选仍按正文核验，未将列表发现当completed。",
+      "pages": [
+        "https://cloud.google.com/blog/products/ai-machine-learning",
+        "https://cloudblog.withgoogle.com/rss/"
+      ],
+      "backfill_complete": false,
+      "status": "success",
+      "listing_date_checks": [
+        {
+          "url": "https://cloud.google.com/blog/topics/customers/ireland-innovation-companies-startups-governments-scale-with-gemini",
+          "final_url": "https://cloud.google.com/blog/topics/customers/ireland-innovation-companies-startups-governments-scale-with-gemini",
+          "title": "Innovation in Ireland: How Irish brands scale with Gemini",
+          "published": "2026-10-08",
+          "modified": null,
+          "status": "date_verified"
+        },
+        {
+          "url": "https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month",
+          "final_url": "https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month",
+          "title": "What’s new in AI infrastructure this month",
+          "published": "2026-09-30",
+          "modified": null,
+          "status": "date_verified"
+        },
+        {
+          "url": "https://cloud.google.com/blog/topics/startups/why-your-startup-needs-open-models-alongside-frontier-apis",
+          "final_url": "https://cloud.google.com/blog/topics/startups/why-your-startup-needs-open-models-alongside-frontier-apis",
+          "title": "Why your startup needs open models alongside frontier APIs",
+          "published": "2026-09-28",
+          "modified": null,
+          "status": "date_verified"
+        },
+        {
+          "url": "https://cloud.google.com/blog/topics/developers-practitioners/best-practices-guide-for-customizing-gemini-models",
+          "final_url": "https://cloud.google.com/blog/topics/developers-practitioners/best-practices-guide-for-customizing-gemini-models",
+          "title": "Best practices guide for customizing Gemini models",
+          "published": "2026-09-25",
+          "modified": null,
+          "status": "date_verified"
+        },
+        {
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-8-live-with-live-avatar-is-now-generally-available",
+          "final_url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-8-live-with-live-avatar-is-now-generally-available",
+          "title": "Gemini 3.8 Live with Live Avatar is now generally available",
+          "published": "2026-09-24",
+          "modified": null,
+          "status": "date_verified"
+        },
+        {
+          "url": "https://cloud.google.com/blog/topics/customers/how-midsize-latam-companies-build-with-ai",
+          "final_url": "https://cloud.google.com/blog/topics/customers/how-midsize-latam-companies-build-with-ai",
+          "title": "How midsize LATAM companies build with AI",
+          "published": "2026-09-24",
+          "modified": null,
+          "status": "date_verified"
+        },
+        {
+          "url": "https://cloud.google.com/blog/topics/startups/the-three-things-todays-hottest-startups-are-looking-for-in-their-ai-stack",
+          "final_url": "https://cloud.google.com/blog/topics/startups/the-three-things-todays-hottest-startups-are-looking-for-in-their-ai-stack",
+          "title": "The three things today's hottest startups are looking for in their AI stack",
+          "published": "2026-09-24",
+          "modified": null,
+          "status": "date_verified"
+        },
+        {
+          "url": "https://cloud.google.com/blog/topics/systems/using-ai-agents-to-secure-google-infrastructure",
+          "final_url": "https://cloud.google.com/blog/topics/systems/using-ai-agents-to-secure-google-infrastructure",
+          "title": "Using AI agents to secure Google infrastructure",
+          "published": "2026-09-19",
+          "modified": null,
+          "status": "date_verified"
+        },
+        {
+          "url": "https://cloud.google.com/blog/topics/telecommunications/how-orange-uses-agents-to-make-finops-everyones-responsibility",
+          "final_url": "https://cloud.google.com/blog/topics/telecommunications/how-orange-uses-agents-to-make-finops-everyones-responsibility",
+          "title": "How Orange uses agents to make FinOps everyone's responsibility",
+          "published": "2026-09-16",
+          "modified": null,
+          "status": "date_verified"
+        },
+        {
+          "url": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-google-monitors-ai-threats-advances-ai-defenses",
+          "final_url": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-google-monitors-ai-threats-advances-ai-defenses",
+          "title": "Cloud CISO Perspectives: How Google monitors AI threats and advances AI defenses",
+          "published": "2026-09-16",
+          "modified": null,
+          "status": "date_verified"
+        },
+        {
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-is-a-leader-in-2026-gartner-magic-quadrant-for-enterprise-ai-assistants",
+          "final_url": "https://cloud.google.com/blog/products/ai-machine-learning/google-is-a-leader-in-2026-gartner-magic-quadrant-for-enterprise-ai-assistants",
+          "title": "Google is a Leader in the 2026 Gartner® Magic Quadrant™ for Enterprise AI Assistants",
+          "published": "2026-09-10",
+          "modified": null,
+          "status": "date_verified"
+        },
+        {
+          "url": "https://cloud.google.com/blog/topics/customers/how-kddi-optimized-rag-performance-with-agent-development-kit",
+          "final_url": "https://cloud.google.com/blog/topics/customers/how-kddi-optimized-rag-performance-with-agent-development-kit",
+          "title": "How KDDI Optimized RAG Performance with Agent Development Kit",
+          "published": "2026-09-08",
+          "modified": null,
+          "status": "date_verified"
+        },
+        {
+          "url": "https://cloud.google.com/blog/topics/developers-practitioners/using-antigravity-cli-to-streamline-dual-write-database-migration",
+          "final_url": "https://cloud.google.com/blog/topics/developers-practitioners/using-antigravity-cli-to-streamline-dual-write-database-migration",
+          "title": "Using Antigravity CLI to streamline dual-write database migration",
+          "published": "2026-09-04",
+          "modified": null,
+          "status": "date_verified"
+        },
+        {
+          "url": "https://cloud.google.com/blog/products/identity-security/getting-started-with-the-mantis-harness-to-find-and-fix-bugs",
+          "final_url": "https://cloud.google.com/blog/products/identity-security/getting-started-with-the-mantis-harness-to-find-and-fix-bugs",
+          "title": "Getting started with the Mantis harness to find and fix bugs",
+          "published": "2026-09-02",
+          "modified": null,
+          "status": "date_verified"
+        },
+        {
+          "url": "https://cloud.google.com/blog/topics/startups/how-pythians-internal-ai-playbook-delivers-customer-roi",
+          "final_url": "https://cloud.google.com/blog/topics/startups/how-pythians-internal-ai-playbook-delivers-customer-roi",
+          "title": "How Pythian’s internal AI playbook delivers customer ROI",
+          "published": "2026-08-27",
+          "modified": null,
+          "status": "date_verified"
+        },
+        {
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/flexible-billing-and-cost-controls-for-agents-on-google-cloud",
+          "final_url": "https://cloud.google.com/blog/products/ai-machine-learning/flexible-billing-and-cost-controls-for-agents-on-google-cloud",
+          "title": "Flexible billing and cost controls for agents on Google Cloud",
+          "published": "2026-08-26",
+          "modified": null,
+          "status": "date_verified"
+        },
+        {
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-legal",
+          "final_url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-legal",
+          "title": "Introducing Gemini Enterprise for Legal",
+          "published": "2026-08-25",
+          "modified": null,
+          "status": "date_verified"
+        },
+        {
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-financial-services",
+          "final_url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-financial-services",
+          "title": "Introducing Gemini Enterprise for Financial Services",
+          "published": "2026-08-25",
+          "modified": null,
+          "status": "date_verified"
+        },
+        {
+          "url": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-sticking-to-security-fundamentals-in-the-ai-era",
+          "final_url": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-sticking-to-security-fundamentals-in-the-ai-era",
+          "title": "Cloud CISO Perspectives: Sticking to security fundamentals in the AI era",
+          "published": "2026-08-21",
+          "modified": null,
+          "status": "date_verified"
+        }
+      ],
+      "coverage_completed_at": "2026-10-15T10:38:47+08:00"
+    }
+  },
+  "articles": [
+    {
+      "url": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
+      "source_aliases": [],
+      "path": "01-文章/科学与应用/地理空间健康/2026-10-06 - 地理空间基础模型服务全球公共健康.md",
+      "title": "地理空间基础模型服务全球公共健康",
+      "original_title": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
+      "published": "2026-10-06",
+      "published_evidence": "原文页首",
+      "category": "科学与应用/地理空间健康",
+      "status": "saved",
+      "first_collected_at": "2026-10-11T10:35:34+08:00",
+      "last_checked_at": "2026-10-13T13:27:40+08:00",
+      "last_updated_at": "2026-10-13T13:27:40+08:00",
+      "body_sha256": "fcc2db580ab315d031be01a593849a14b951cbe4b62c3dd2403df0397ec37fc2",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "technical_figures": 1,
+          "illustrative_cover": 1
+        },
+        "selected_images": 1,
+        "selected_images_visually_checked": true,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "all_videos_reviewed": false,
+        "media_review_scope": "所选技术配图已可视核对；正文完整读，外链论文未精读。",
+        "summary_review": {
+          "at": "2026-10-13T13:27:40+08:00",
+          "method": "独立审阅代理逐句事实核验与脱离标题可读性检查；主执行者修正后重查",
+          "result": "passed"
+        }
+      },
+      "authors": [
+        "Arbaaz Muslim",
+        "Gautam Prasad"
+      ],
+      "source_section": "Google Research · Earth AI",
+      "summary": "Google Research 的人口动态基础模型（PDFM）把聚合搜索、人口流动和环境信号压缩成按月更新的位置嵌入，补充既有公共卫生模型。在五项合作研究中，美国邻近加拿大边境的 146 个县，其麻疹、腮腺炎和风疹疫苗覆盖率模型的解释方差由 0.159 升至 0.216，相对提高约 36%；心血管死亡估计与人口普查输入的误差差异未达统计显著。相关嵌入以 Population Dynamics Insights 预览数据集提供，结果依赖地区、任务和预测时距。",
+      "collected": "2026-10-11T10:35:34+08:00",
+      "source_body_sha256": "34c41266e335581c5a23a18eb26b4c520040bbacbd1e37f11a1fae3d74259f17"
+    },
+    {
+      "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
+      "source_aliases": [],
+      "path": "01-文章/Agent 与开发者工具/Agent 安全与治理/2026-10-05 - Agent 隐私与安全的开放问题：上下文视角.md",
+      "title": "Agent 隐私与安全的开放问题：上下文视角",
+      "original_title": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
+      "published": "2026-10-05",
+      "published_evidence": "原文页首",
+      "category": "Agent 与开发者工具/Agent 安全与治理",
+      "status": "saved",
+      "first_collected_at": "2026-10-11T10:35:34+08:00",
+      "last_checked_at": "2026-10-12T10:56:46+08:00",
+      "last_updated_at": "2026-10-12T10:56:46+08:00",
+      "body_sha256": "8f25277e41d48a663f1b4e5ac70670bbdc675bd8f7dc8cfce1e726299d8c40d0",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 3,
+          "video": 0,
+          "gif": 0
+        },
+        "selected_images": 2,
+        "selected_images_visually_checked": true,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "all_videos_reviewed": false,
+        "media_review_scope": "已检查所选原图；其余媒体为明确列出的节选范围"
+      },
+      "authors": [
+        "Eugene Bagdasarian",
+        "Marco Gruteser"
+      ],
+      "source_section": "Google Research · Agentic Privacy and Security",
+      "summary": "Google Research 汇总 50 多位研究者参与的工作坊报告，用“上下文完整性”讨论自主 Agent 的隐私与安全：信息流和动作须符合具体场景中的角色、数据类型与传输规则。报告把输入歧义、概率控制流和自主委派列为主要挑战，建议以动态策略引擎连接系统沙箱、模型判断、用户控制和多 Agent 治理。它提出研究方向与评测需求，尚未证明某个通用方案可解决这些风险，关联技术报告本次未精读。",
+      "collected": "2026-10-11T10:35:34+08:00",
+      "source_body_sha256": "a523da05c6da65d0a6b5942fe4d16a9d9c01329e769952692feb8334b0ebd2da"
+    },
+    {
+      "url": "https://research.google/blog/toward-provably-private-learning-from-federated-data/",
+      "source_aliases": [],
+      "path": "01-文章/安全与隐私/联邦学习隐私/2026-10-02 - 从可信执行环境走向可验证的联邦学习隐私.md",
+      "title": "从可信执行环境走向可验证的联邦学习隐私",
+      "original_title": "Toward provably private learning from federated data",
+      "published": "2026-10-02",
+      "published_evidence": "原文页首",
+      "category": "安全与隐私/联邦学习隐私",
+      "status": "saved",
+      "first_collected_at": "2026-10-11T10:35:34+08:00",
+      "last_checked_at": "2026-10-13T13:27:40+08:00",
+      "last_updated_at": "2026-10-13T13:27:40+08:00",
+      "body_sha256": "6146da685ba95713b96c3db83c721d489bc2a6da8c7d6c95db1977a459990818",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "technical_figures": 2
+        },
+        "selected_images": 2,
+        "selected_images_visually_checked": true,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "all_videos_reviewed": false,
+        "media_review_scope": "所选技术配图已可视核对；正文完整读，外链论文未精读。",
+        "summary_review": {
+          "at": "2026-10-13T13:27:40+08:00",
+          "method": "独立审阅代理逐句事实核验与脱离标题可读性检查；主执行者修正后重查",
+          "result": "passed"
+        }
+      },
+      "authors": [
+        "Katharine Daly",
+        "Daniel Ramage"
+      ],
+      "source_section": "Google Research · Federated Learning",
+      "summary": "Google Research 将联邦学习计算移入服务端可信执行环境（TEE）：设备加密上传数据并预授权策略，密钥管理系统只向匹配策略的程序发放密钥，运营方只能看到指标和具备差分隐私保障的模型权重。公开策略日志和可复现构建支持外部核验，Gboard 已用于英日语下一词预测，作者报告训练加速和精度改善。保证仍依赖 TEE、硬编码隐私逻辑及侧信道防护；完整软件正确性证明是未来工作。",
+      "collected": "2026-10-11T10:35:34+08:00",
+      "source_body_sha256": "5c9bd4764a00f37315adec925ab756129037468e1ec13d6bef2711b8bc984dd9"
+    },
+    {
+      "url": "https://developers.googleblog.com/en/embeddinggemma-2-the-developer-guide/",
+      "source_aliases": [],
+      "path": "01-文章/研究与模型/多模态表示/2026-10-06 - EmbeddingGemma 2：开发者指南.md",
+      "title": "EmbeddingGemma 2：开发者指南",
+      "original_title": "EmbeddingGemma 2: The Developer Guide",
+      "published": "2026-10-06",
+      "published_evidence": "原文页首",
+      "category": "研究与模型/多模态表示",
+      "status": "saved",
+      "first_collected_at": "2026-10-11T10:35:34+08:00",
+      "last_checked_at": "2026-10-15T17:07:08+08:00",
+      "last_updated_at": "2026-10-12T10:56:46+08:00",
+      "body_sha256": "bf300bd1b8f165099a2ba4f01221d0884a0a2a3aeae56dfcd82768c340f97385",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 6,
+          "video": 2,
+          "gif": 0
+        },
+        "selected_images": 2,
+        "selected_images_visually_checked": true,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "all_videos_reviewed": false,
+        "media_review_scope": "已检查所选原图；其余媒体为明确列出的节选范围"
+      },
+      "authors": [
+        "Maarten Grootendorst",
+        "Ian Ballantyne"
+      ],
+      "source_section": "Google Developers Blog · AI",
+      "summary": "EmbeddingGemma 2 将文本、代码、图像、视频和音频映射到兼容的 768 维向量空间，按需加载 270M 至 740M 参数的编码器。开发指南给出任务提示、跨模态输入与 Matryoshka 降维方法：256 维约占原向量三分之一存储，原文称图像、视频和语音检索约保留 95% 的质量；降到 128 维的损失更大，应在目标数据上验证。模型采用 Apache 2.0 授权，示例代码和视频本次未运行或观看。",
+      "collected": "2026-10-11T10:35:34+08:00",
+      "source_body_sha256": "c9267c4178359037f19dac9455859e8cc4454f7f551c98f09814ed4d48141f70",
+      "last_recheck": {
+        "at": "2026-10-15T17:07:08+08:00",
+        "result": "existing_summary_claims_checked_no_substantive_change",
+        "method": "主执行者核对正文相关章节与既有摘要；不以整页hash差异宣称原文变化"
+      },
+      "last_fetched_page_text_sha256": "683fd016fe7c4a00c03eec1a6b82da3f3d560d9e419809ac4254851646be2bb6"
+    },
+    {
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-cli-remote-mcp-server-in-preview/",
+      "source_aliases": [],
+      "path": "01-文章/Agent 与开发者工具/Agent 工具链/2026-09-30 - 用 Google Cloud CLI 远程 MCP 服务增强 Agent.md",
+      "title": "用 Google Cloud CLI 远程 MCP 服务增强 Agent",
+      "original_title": "Empower your agents with the Google Cloud CLI remote MCP server",
+      "published": "2026-09-30",
+      "published_evidence": "原文页首",
+      "category": "Agent 与开发者工具/Agent 工具链",
+      "status": "saved",
+      "first_collected_at": "2026-10-11T10:35:34+08:00",
+      "last_checked_at": "2026-10-12T10:56:46+08:00",
+      "last_updated_at": "2026-10-12T10:56:46+08:00",
+      "body_sha256": "bbb66d78f2924a52d8571dedc5b9735d8c3af4c0db40a4d8733b280c33f9b7eb",
+      "detail_status": "completed",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 0,
+          "video": 0,
+          "gif": 2
+        },
+        "selected_images": 2,
+        "selected_images_visually_checked": true,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "all_videos_reviewed": false,
+        "media_review_scope": "技术原图可视核对；MCP两个GIF各抽查6帧，未逐帧观看；Embedding两个视频未观看"
+      },
+      "authors": [
+        "Prosper Nwankpa",
+        "Adam Hwang"
+      ],
+      "source_section": "Google Cloud Blog · AI & Machine Learning",
+      "summary": "Google Cloud 将 gcloud 与 bq 命令封装成公共预览版远程 MCP 服务，让 Agent 调用两个工具管理云资源和 BigQuery 作业。命令在云端隔离环境中按调用者的身份、IAM 权限和组织策略执行，可配置 Model Armor 与数据访问审计日志。该设计减少 Agent 本地维护 CLI 的工作；服务本身不额外收费，创建的云资源和适用数据传输仍计费，本次未接入或执行命令。",
+      "collected": "2026-10-11T10:35:34+08:00",
+      "source_body_sha256": "612d68060803e660d427a6545ac0221485402e2ce51d3e2ff1b9c84434583152"
+    },
+    {
+      "url": "https://developers.googleblog.com/en/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent/",
+      "source_aliases": [],
+      "path": "01-文章/Agent 与开发者工具/Agent 工具链/2026-10-08 - 用 AQuA 从生产会话追踪 Agent 质量回退.md",
+      "title": "用 AQuA 从生产会话追踪 Agent 质量回退",
+      "original_title": "The Outer Loop, Insights First: An Ambient Quality Agent That Diagnoses Your Production Agent",
+      "published": "2026-10-08",
+      "published_evidence": "官方正文页首",
+      "category": "Agent 与开发者工具/Agent 工具链",
+      "status": "saved",
+      "first_collected_at": "2026-10-12T10:56:46+08:00",
+      "collected": "2026-10-12T10:56:46+08:00",
+      "authors": [
+        "Dima Melnyk",
+        "Elia Secchi"
+      ],
+      "source_section": "Google Developers Blog · AI",
+      "summary": "Google Developers 开源 AQuA，作为旁路质量 Agent 抽样读取生产会话，经审阅、聚类、独立模型核验和问题跟踪，发现健康检查仍正常时的任务失败。按需诊断会结合部署时的源码快照提出有行号依据的修复建议，但不会自动修改代码。作者在 32 个脚本重放会话中演示，人工修改两处提示后通过会话由 5 个升至 13 个；该案例本次未独立复现，抽样与有限核验也不能证明所有会话都可靠。",
+      "detail_status": "completed",
+      "last_checked_at": "2026-10-15T17:07:08+08:00",
+      "last_updated_at": "2026-10-12T10:56:46+08:00",
+      "body_sha256": "90fc7ba18dfd57d6e0a5a0a7b3c666338ee16421772eee2b8f7f547b519a30b8",
+      "source_body_sha256": "0ae3120730c3ddfe32c479277c651fb830380bce84156fdfd3bc03fa3a0a72c8",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 9,
+          "video": 0,
+          "gif": 0
+        },
+        "selected_images": 2,
+        "selected_images_visually_checked": true,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "all_videos_reviewed": false,
+        "media_review_scope": "已检查所选原图；其余媒体为明确列出的节选范围"
+      },
+      "last_recheck": {
+        "at": "2026-10-15T17:07:08+08:00",
+        "result": "existing_summary_claims_checked_no_substantive_change",
+        "method": "主执行者核对正文相关章节与既有摘要；不以整页hash差异宣称原文变化"
+      },
+      "last_fetched_page_text_sha256": "bdfda85fca8774269446d6749887363437fbca673fbf237d761dcee688669eef"
+    },
+    {
+      "url": "https://developers.googleblog.com/en/supercharge-your-development-with-the-google-developer-knowledge-api-ecosystem/",
+      "source_aliases": [],
+      "path": "01-文章/Agent 与开发者工具/Agent 工具链/2026-10-07 - 用 Developer Knowledge API 获取 Google 官方开发文档.md",
+      "title": "用 Developer Knowledge API 获取 Google 官方开发文档",
+      "original_title": "Supercharge your development with the Google Developer Knowledge API ecosystem",
+      "published": "2026-10-07",
+      "published_evidence": "官方正文页首",
+      "category": "Agent 与开发者工具/Agent 工具链",
+      "status": "saved",
+      "first_collected_at": "2026-10-12T10:56:46+08:00",
+      "collected": "2026-10-12T10:56:46+08:00",
+      "authors": [
+        "Christina Gonzalez"
+      ],
+      "source_section": "Google Developers Blog · AI",
+      "summary": "Google Developers 介绍 Developer Knowledge API 的 CLI、Agent 技能、客户端库与交互式 API Explorer，供开发工具检索 Google Cloud、Firebase、Android 等官方文档。工作流先搜索相关片段，再按需读取 Markdown 全页或生成带依据的回答；批量接口一次可取最多 20 份文档。文章强调减少过期训练知识和抓取网页的依赖，但调用仍需相应认证，检索结果也要核对适用版本；本文未实测接口。",
+      "detail_status": "completed",
+      "last_checked_at": "2026-10-15T17:07:08+08:00",
+      "last_updated_at": "2026-10-12T10:56:46+08:00",
+      "body_sha256": "260f6a72b17b7f66887487349517ddd7b16515fe72f595b4a0434a43421b5f2b",
+      "source_body_sha256": "9ecc3b7ebd4a5464f8051882e5003f79fdba26d88a7ab9f36631410f1b6dd9cc",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 2,
+          "video": 0,
+          "gif": 0
+        },
+        "selected_images": 1,
+        "selected_images_visually_checked": true,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "all_videos_reviewed": false,
+        "media_review_scope": "已检查所选原图；其余媒体为明确列出的节选范围"
+      },
+      "last_recheck": {
+        "at": "2026-10-15T17:07:08+08:00",
+        "result": "existing_summary_claims_checked_no_substantive_change",
+        "method": "主执行者核对正文相关章节与既有摘要；不以整页hash差异宣称原文变化"
+      },
+      "last_fetched_page_text_sha256": "30c4624a03ed36ab93ef67a9c71b676444df5dde76381eea7769f813c1ec8e51"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "source_aliases": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon"
+      ],
+      "path": "01-文章/研究与模型/模型能力与评测/2026-09-30 - Gemini 4 Argon：长时程任务能力与开放范围.md",
+      "title": "Gemini 4 Argon：长时程任务能力与开放范围",
+      "original_title": "Gemini 4 Argon: our next era of frontier intelligence",
+      "published": "2026-09-30",
+      "category": "研究与模型/模型能力与评测",
+      "authors": [
+        "Koray Kavukcuoglu"
+      ],
+      "source_section": "Google Blog · Gemini models",
+      "first_collected_at": "2026-10-13T13:27:40+08:00",
+      "collected": "2026-10-13T13:27:40+08:00",
+      "published_evidence": "原文页首与 JSON-LD",
+      "last_checked_at": "2026-10-15T17:07:08+08:00",
+      "last_updated_at": "2026-10-15T17:07:08+08:00",
+      "summary": "Google 的 Gemini 4 Argon 从早期受限测试扩展为全球开放：开发者可通过 Gemini API 付费层使用，消费端按 AI Pro/Ultra 套餐开放。10 月 13 日新公告将 API 长任务额度表述为 100 万统一输入输出 token，并提示开发者参考新的续接协议配置；这与 9 月 30 日预告的“输出上限”口径不同。官方展示代码重构与专业工作案例，但效果属于发布方自述，本次未接入或复现。",
+      "status": "saved",
+      "detail_status": "completed",
+      "body_sha256": "25ee97f09e3b5411208a769a11d6536d909fa24c1a2a1177d11faf716fbe15ff",
+      "source_body_sha256": "1098b36fec5e470a55cc4e80586df5fc0377bda84c6eff8a608f027456df49cb",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "selected_images": 1,
+        "selected_images_visually_checked": true,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "all_videos_reviewed": false,
+        "media_review_scope": "所选静态图已可视核对；TimesFM原GIF121帧抽查6帧。Argon保留9月预告基准图，新增视频/模型卡未覆盖；Earth概览动画与案例视频未完整覆盖。",
+        "summary_review": {
+          "at": "2026-10-15T17:07:08+08:00",
+          "method": "独立审阅代理逐句事实检查及脱离标题可读性复核；主执行者修正后再核对",
+          "result": "passed"
+        }
+      },
+      "source_updates": [
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+          "published": "2026-10-13",
+          "relationship": "同一模型后续开放的补充来源，非URL别名",
+          "body_read": true
+        },
+        {
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/",
+          "published": "2026-10-13",
+          "relationship": "同一模型后续开放的补充来源，非URL别名",
+          "body_read": true
+        },
+        {
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
+          "published": "2026-10-13",
+          "relationship": "同一模型后续开放的补充来源，非URL别名",
+          "body_read": true
+        },
+        {
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-4-argon-available-on-google-cloud",
+          "published": "2026-10-14",
+          "relationship": "同一模型后续开放的补充来源，非URL别名",
+          "body_read": true
+        }
+      ],
+      "source_page_text_sha256": "88a032ed49191642aabe82f27ae891e914c6b61349ffa984ecd69d0ff6b8440f",
+      "followup_source_text_sha256": "835a7c5fbbc092a067a8397b2d48a6fb7b66b8b2f2ea45ac815f1111ec6881c2"
+    },
+    {
+      "url": "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation/",
+      "source_aliases": [
+        "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation"
+      ],
+      "path": "01-文章/研究与模型/生成模型控制/2026-09-29 - Diffusion Controller：用连续控制调整图像生成.md",
+      "title": "Diffusion Controller：用连续控制调整图像生成",
+      "original_title": "How Diffusion Controller unifies and simplifies AI image generation",
+      "published": "2026-09-29",
+      "category": "研究与模型/生成模型控制",
+      "authors": [
+        "Chih-wei Hsu",
+        "Moonkyung Ryu"
+      ],
+      "source_section": "Google Research · Machine Intelligence",
+      "first_collected_at": "2026-10-13T13:27:40+08:00",
+      "collected": "2026-10-13T13:27:40+08:00",
+      "published_evidence": "原文页首与 JSON-LD",
+      "last_checked_at": "2026-10-13T13:27:40+08:00",
+      "last_updated_at": "2026-10-13T13:27:40+08:00",
+      "summary": "Google Research 用 Diffusion Controller 把图像去噪过程表述为连续控制问题，并通过奖励加权损失或 PPO 训练轻量控制网络。灰盒方案冻结骨干，但需取得中间反向均值等信号；白盒方案可联合或分别调整骨干。在 Stable Diffusion v1.4 与 HPS-v2 提示测试中，作者报告部分方案优于 LoRA，白盒版本相对预训练基线的胜率达 90%；这一结果不是任意闭源 API 都可复用的保证，本次未复现。",
+      "status": "saved",
+      "detail_status": "completed",
+      "body_sha256": "2b013f11af023c755a3fa60bc40441eb2191e57a6fef158f3e5d0467da34aab2",
+      "source_body_sha256": "dc134a3edcbe472b894e143d890ca33201b0cf56efd920a2c975ac46680df7e8",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "technical_figures": 4,
+          "hero_gif": 1
+        },
+        "selected_images": 2,
+        "selected_images_visually_checked": true,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "all_videos_reviewed": false,
+        "media_review_scope": "所有选用图片均可解码并人工可视核对；Argon GIF实际1帧。Diffusion示例矩阵、训练曲线和封面动画未完整覆盖。",
+        "summary_review": {
+          "at": "2026-10-13T13:27:40+08:00",
+          "method": "独立审阅代理逐句事实核验与脱离标题可读性检查；主执行者修正后重查",
+          "result": "passed"
+        }
+      }
+    },
+    {
+      "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+      "source_aliases": [],
+      "path": "01-文章/Agent 与开发者工具/Agent 工具链/2026-10-14 - Deep Review：分段并行核验技术文档.md",
+      "title": "Deep Review：分段并行核验技术文档",
+      "original_title": "Analyzing technical documents with Deep Review",
+      "published": "2026-10-14",
+      "authors": [
+        "Rajesh Jayaram",
+        "Vincent Cohen-Addad"
+      ],
+      "category": "Agent 与开发者工具/Agent 工具链",
+      "source_section": "Google Research · Deep Review",
+      "first_collected_at": "2026-10-15T17:07:08+08:00",
+      "collected": "2026-10-15T17:07:08+08:00",
+      "published_evidence": "https://research.google/blog/analyzing-technical-documents-with-deep-review/；页首标题、日期与署名",
+      "last_checked_at": "2026-10-15T17:07:08+08:00",
+      "last_updated_at": "2026-10-15T17:07:08+08:00",
+      "summary": "Google Research 公开 Deep Review，以文档分段、按信息密度分配算力、并行核验和全局综合四步，检查长文档的逻辑、数学与证据。前身 PAT 曾为四场计算机科学会议中超过 1.6 万份自愿参加的稿件提供投稿前反馈，与正式评审分离。当前全球支持 PDF 和纯文本，每周免费两次，多文件输入尚未开放；试点反馈不等于专业判断可由系统替代，本次未实测。",
+      "status": "saved",
+      "detail_status": "completed",
+      "body_sha256": "fb4c32db06cd5f6b6ea5b7be9cf0c0e24be6d9b30e4561421a3ac5538cdaeabd",
+      "source_page_text_sha256": "2faf17038d11ff1fa16762279c52fef4989b7f9bb3b52562ef20bfd43944df7b",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "selected_images": 2,
+        "selected_images_visually_checked": true,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "all_videos_reviewed": false,
+        "media_review_scope": "所选静态图已可视核对；TimesFM原GIF121帧抽查6帧。Argon保留9月预告基准图，新增视频/模型卡未覆盖；Earth概览动画与案例视频未完整覆盖。",
+        "summary_review": {
+          "at": "2026-10-15T17:07:08+08:00",
+          "method": "独立审阅代理逐句事实检查及脱离标题可读性复核；主执行者修正后再核对",
+          "result": "passed"
+        }
+      }
+    },
+    {
+      "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
+      "source_aliases": [],
+      "path": "01-文章/Agent 与开发者工具/Agent 工具链/2026-10-14 - 地理空间 Agent：专业工具与预先规划的作用.md",
+      "title": "地理空间 Agent：专业工具与预先规划的作用",
+      "original_title": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
+      "published": "2026-10-14",
+      "authors": [
+        "Shravya Shetty",
+        "Luke Barrington"
+      ],
+      "category": "Agent 与开发者工具/Agent 工具链",
+      "source_section": "Google Research · Earth AI",
+      "first_collected_at": "2026-10-15T17:07:08+08:00",
+      "collected": "2026-10-15T17:07:08+08:00",
+      "published_evidence": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/；页首标题、日期与署名",
+      "last_checked_at": "2026-10-15T17:07:08+08:00",
+      "last_updated_at": "2026-10-15T17:07:08+08:00",
+      "summary": "Google Research 的实验性地理空间 Agent 把 Gemini 与 Earth AI 模型、空间工具和专用工作区连接，先规划再做多步分析或预测建模。官方在四个基准上对照基础模型、基本工具、专业工具与完整系统，报告专业工具帮助定量任务、规划改善开放问题。GeoExpertQueries 按专家工作流自动评分，不能视为最终答案正确率；Ask Google Earth 和 A2A API 仍为有限早期访问，本次未复现。",
+      "status": "saved",
+      "detail_status": "completed",
+      "body_sha256": "e2c345ddf64407305c4988166b231d2634dce2a4ad5ce891dc1dae31bfd81b27",
+      "source_page_text_sha256": "c4b61b2a5b60149707380a43775ed4b1fd413dda3c1aba9dd977b9e73c47ffef",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "selected_images": 2,
+        "selected_images_visually_checked": true,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "all_videos_reviewed": false,
+        "media_review_scope": "所选静态图已可视核对；TimesFM原GIF121帧抽查6帧。Argon保留9月预告基准图，新增视频/模型卡未覆盖；Earth概览动画与案例视频未完整覆盖。",
+        "summary_review": {
+          "at": "2026-10-15T17:07:08+08:00",
+          "method": "独立审阅代理逐句事实检查及脱离标题可读性复核；主执行者修正后再核对",
+          "result": "passed"
+        }
+      }
+    },
+    {
+      "url": "https://cloud.google.com/blog/products/data-analytics/bigquery-timesfm-3-0-with-multivariate-time-series-forecasting/",
+      "source_aliases": [],
+      "path": "01-文章/研究与模型/时序预测/2026-10-12 - TimesFM 3.0：在 BigQuery 中联合预测多变量.md",
+      "title": "TimesFM 3.0：在 BigQuery 中联合预测多变量",
+      "original_title": "Introducing TimesFM 3.0 with multivariate time-series forecasting in BigQuery",
+      "published": "2026-10-12",
+      "authors": [
+        "Haiyang Qi",
+        "Haoming Chen"
+      ],
+      "category": "研究与模型/时序预测",
+      "source_section": "Google Cloud Blog · Data Analytics",
+      "first_collected_at": "2026-10-15T17:07:08+08:00",
+      "collected": "2026-10-15T17:07:08+08:00",
+      "published_evidence": "https://cloud.google.com/blog/products/data-analytics/bigquery-timesfm-3-0-with-multivariate-time-series-forecasting/；页首标题、日期与署名；页首/JSON-LD/RSS为12日，其他模板时间为13日，差异已保留",
+      "last_checked_at": "2026-10-15T17:07:08+08:00",
+      "last_updated_at": "2026-10-15T17:07:08+08:00",
+      "summary": "Google Cloud 预览上线 BigQuery 中的 TimesFM 3.0，使 AI.FORECAST 可联合预测多个目标，并接收仅有历史值、或历史期与预测期均已知的协变量。官方用纽约共享单车七天预测演示 SQL，每个目标返回点预测与区间，另设公共预测状态字段。系统也支持通过自然语言生成对应查询。该预览无需为每个任务专门训练模型，但榜单表现不能证明业务数据上普遍更准；本次未运行 SQL 或实测接口。",
+      "status": "saved",
+      "detail_status": "completed",
+      "body_sha256": "ce165a1144a1aefc1c66e1477f50c5de2887bf4af75107e05c95f6425e6c8bb7",
+      "source_page_text_sha256": "67b5172fedb324d36540328347eb27d675178903181563580b43c01cbece386c",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "selected_images": 1,
+        "selected_images_visually_checked": true,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "all_videos_reviewed": false,
+        "media_review_scope": "所选静态图已可视核对；TimesFM原GIF121帧抽查6帧。Argon保留9月预告基准图，新增视频/模型卡未覆盖；Earth概览动画与案例视频未完整覆盖。",
+        "summary_review": {
+          "at": "2026-10-15T17:07:08+08:00",
+          "method": "独立审阅代理逐句事实检查及脱离标题可读性复核；主执行者修正后再核对",
+          "result": "passed"
+        }
+      }
+    },
+    {
+      "url": "https://developers.googleblog.com/en/evaluating-ai-agents-moving-past-the-vibe-check/",
+      "source_aliases": [],
+      "path": "01-文章/Agent 与开发者工具/Agent 安全与治理/2026-10-15 - 评测 AI Agent：从感觉检查到可重复回归.md",
+      "title": "评测 AI Agent：从感觉检查到可重复回归",
+      "original_title": "Evaluating AI agents: moving past the vibe check",
+      "published": "2026-10-15",
+      "category": "Agent 与开发者工具/Agent 安全与治理",
+      "authors": [
+        "Hugo Selbie",
+        "Dani Zamora",
+        "Jesse Carah",
+        "John DeMartino"
+      ],
+      "source_section": "Google Developers Blog · AI",
+      "first_collected_at": "2026-10-19T09:58:43+08:00",
+      "collected": "2026-10-19T09:58:43+08:00",
+      "published_evidence": "https://developers.googleblog.com/en/evaluating-ai-agents-moving-past-the-vibe-check/；页首标题、作者与日期",
+      "last_checked_at": "2026-10-19T09:58:43+08:00",
+      "last_updated_at": "2026-10-19T09:58:43+08:00",
+      "summary": "Google Developers 给出一套从“凭感觉”转向可重复评测的 Agent 工作流：先把关键用户旅程拆成场景，再用模拟用户和真实轨迹建立冻结的 golden set，并同时检查工具调用、状态转移、延迟、token、成本与答案质量。文章以 agent-eval、OpenTelemetry/OpenInference 和 Gemini 平台评测服务为例，建议 Day 0 手工红笔看 5–20 条轨迹，Day 1 自动化检查，Day 2 把零回归门禁接入 CI。方案是工程实践指南，本次未运行代码或接入服务。",
+      "status": "saved",
+      "detail_status": "completed",
+      "body_sha256": "97e6141729812dd1d7d638048f9f070470cf7d8c0cbf610c967f4e1a445c8e87",
+      "source_page_text_sha256": "5f01afe47437b166cd5015493545444c493239439654d90b50d41469704cb0cc",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 1,
+          "video": 0,
+          "gif": 0
+        },
+        "selected_images": 1,
+        "selected_images_visually_checked": true,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "all_videos_reviewed": false,
+        "media_review_scope": "所选原图已可视核对；代码与视频未运行或观看。",
+        "summary_review": {
+          "at": "2026-10-19T09:58:43+08:00",
+          "method": "独立审阅代理逐句事实核验与脱离标题可读性复核；主执行者复查",
+          "result": "passed"
+        }
+      }
+    },
+    {
+      "url": "https://cloud.google.com/blog/topics/developers-practitioners/four-eval-engineering-lessons",
+      "source_aliases": [],
+      "path": "01-文章/Agent 与开发者工具/Agent 安全与治理/2026-10-17 - Agent 插件评测工程的四条经验.md",
+      "title": "Agent 插件评测工程的四条经验",
+      "original_title": "Four evaluation engineering lessons learned from building agent plugins",
+      "published": "2026-10-17",
+      "category": "Agent 与开发者工具/Agent 安全与治理",
+      "authors": [
+        "Casey West"
+      ],
+      "source_section": "Google Cloud Blog · Developers & Practitioners",
+      "first_collected_at": "2026-10-19T09:58:43+08:00",
+      "collected": "2026-10-19T09:58:43+08:00",
+      "published_evidence": "https://cloud.google.com/blog/topics/developers-practitioners/four-eval-engineering-lessons；页首标题、作者与日期",
+      "last_checked_at": "2026-10-19T09:58:43+08:00",
+      "last_updated_at": "2026-10-19T09:58:43+08:00",
+      "summary": "Google Cloud 总结构建 Developer plugin 时的四条评测经验：评分应读取真实工具调用轨迹而非只看最终摘要；遥测必须保留并发调用的 turn 结构；live run 与 plan-only run 要并列测试；用人工整理的 golden set 作为持续回归基线。文中 11 个提示的初始套件曾把三个实际通过的任务判为失败，原因是最终文字没有复述已执行的检查。文章是作者的工程案例，不等于所有 Agent 框架都适用，本次未运行插件或复现实验。",
+      "status": "saved",
+      "detail_status": "completed",
+      "body_sha256": "74fb92db4f0a3cc6bcefc94dd591b874faa9b9655baceb7cac701b809780fd06",
+      "source_page_text_sha256": "5236d2f51e5dd0a8020a1efa9c7cdf8321fe53ee4e4cd6b5cc78b6dde58b947c",
+      "evidence": {
+        "body_read": true,
+        "summary": true,
+        "specific_points": 3,
+        "media_inventory": {
+          "img": 1,
+          "video": 0,
+          "gif": 0
+        },
+        "selected_images": 1,
+        "selected_images_visually_checked": true,
+        "source_code_executed": false,
+        "papers_close_read": false,
+        "all_videos_reviewed": false,
+        "media_review_scope": "所选原图已可视核对；代码与视频未运行或观看。",
+        "summary_review": {
+          "at": "2026-10-19T09:58:43+08:00",
+          "method": "独立审阅代理逐句事实核验与脱离标题可读性复核；主执行者复查",
+          "result": "passed"
+        }
+      }
+    }
+  ],
+  "queues": {
+    "pending": [
+      {
+        "url": "https://deepmind.google/blog/introducing-synthid-bio",
+        "title": "Introducing SynthID Bio",
+        "source": "deepmind",
+        "published": "2026-09-30",
+        "status": "pending",
+        "stage": "date_verified",
+        "discovered_at": "2026-10-12T14:08:16+08:00",
+        "reason": "待完整读文、摘要核验及图文整理"
+      },
+      {
+        "url": "https://research.google/blog/does-better-work-always-mean-better-workers",
+        "title": "Does better work always mean better workers?",
+        "source": "research",
+        "published": "2026-10-07",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-12T14:08:16+08:00",
+        "reason": "待范围筛选与正文读取"
+      },
+      {
+        "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform",
+        "title": "Introducing Playground: Create and play custom games",
+        "source": "google_ai",
+        "published": "2026-10-07",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-12T14:08:16+08:00",
+        "reason": "待完整读文；月度汇总需与具体原始发布核对，不以汇总代替逐项核验"
+      },
+      {
+        "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026",
+        "title": "The latest AI news we announced in September 2026",
+        "source": "google_ai",
+        "published": "2026-10-02",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-12T14:08:16+08:00",
+        "reason": "待完整读文；月度汇总需与具体原始发布核对，不以汇总代替逐项核验"
+      },
+      {
+        "url": "https://developers.googleblog.com/en/ml-drift-next-gen-gpu-aiml-inference-at-the-edge",
+        "title": "ML Drift: Next-Gen GPU AI/ML Inference at the Edge",
+        "source": "developers",
+        "published": "2026-10-08",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-12T14:08:16+08:00",
+        "reason": "待完整读文、摘要核验及图文整理"
+      },
+      {
+        "url": "https://developers.googleblog.com/en/google-ai-edge-with-embeddinggemma-2",
+        "title": "Bring multimodal semantic search to the edge with EmbeddingGemma 2",
+        "source": "developers",
+        "published": "2026-10-06",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-12T14:08:16+08:00",
+        "reason": "待完整读文、摘要核验及图文整理"
+      },
+      {
+        "url": "https://developers.googleblog.com/en/accelerating-spatio-temporal-attention-for-video-diffusion-on-tpus",
+        "title": "Accelerating Spatio-Temporal Attention for Video Diffusion on TPUs",
+        "source": "developers",
+        "published": "2026-09-30",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-12T14:08:16+08:00",
+        "reason": "待完整读文、摘要核验及图文整理"
+      },
+      {
+        "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+        "title": "Gemini at Work 2026: Introducing Gemini agent",
+        "source": "cloud",
+        "published": "2026-10-08",
+        "status": "pending",
+        "stage": "date_verified",
+        "discovered_at": "2026-10-12T14:08:16+08:00",
+        "reason": "发布日期已核对；待完整正文、技术范围与同一事件去重核验。",
+        "date_evidence": "官方正文JSON-LD datePublished，尚未纳入本轮文章整理",
+        "last_checked_at": "2026-10-13T13:27:40+08:00"
+      },
+      {
+        "url": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-google-antigravity-for-enterprise-customers",
+        "title": "Expanding Google Antigravity for enterprise customers",
+        "source": "cloud",
+        "published": "2026-08-21",
+        "status": "pending",
+        "stage": "date_verified",
+        "discovered_at": "2026-10-12T14:08:16+08:00",
+        "reason": "置顶旧文，原始发布日期早于初始回看窗口；没有dateModified或已核验正文更新依据，低优先级保留，不能计为新发布。",
+        "date_evidence": "官方正文JSON-LD datePublished，尚未纳入本轮文章整理",
+        "last_checked_at": "2026-10-13T13:27:40+08:00"
+      },
+      {
+        "url": "https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month",
+        "title": "What Google Cloud announced in AI this month – and how it helps you",
+        "source": "cloud",
+        "published": "2026-09-01",
+        "status": "pending",
+        "stage": "date_verified",
+        "discovered_at": "2026-10-12T14:08:16+08:00",
+        "reason": "置顶旧文，原始发布日期早于初始回看窗口；没有dateModified或已核验正文更新依据，低优先级保留，不能计为新发布。",
+        "date_evidence": "官方正文JSON-LD datePublished，尚未纳入本轮文章整理",
+        "last_checked_at": "2026-10-13T13:27:40+08:00"
+      },
+      {
+        "url": "https://blog.google/innovation-and-ai/technology/health/amie-clinical-study-lancet",
+        "title": "Study in The Lancet suggests AI could improve patient-physician relationships.",
+        "source": "google_ai_supplement",
+        "published": "2026-10-08",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-12T14:08:16+08:00",
+        "reason": "待完整读文、摘要核验及图文整理"
+      },
+      {
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content",
+        "title": "We're making it easier to identify AI-generated content globally.",
+        "source": "google_ai_supplement",
+        "published": "2026-10-07",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-12T14:08:16+08:00",
+        "reason": "待完整读文、摘要核验及图文整理"
+      },
+      {
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/create-music-production-plugins-google-flow",
+        "title": "Producers can now vibe code their own music production tools using Google Flow Music.",
+        "source": "google_ai_supplement",
+        "published": "2026-10-06",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-12T14:08:16+08:00",
+        "reason": "待完整读文、摘要核验及图文整理"
+      },
+      {
+        "url": "https://cloud.google.com/blog/topics/customers/ireland-innovation-companies-startups-governments-scale-with-gemini",
+        "title": "Innovation in Ireland: How Irish brands scale with Gemini",
+        "source": "cloud",
+        "published": "2026-10-08",
+        "status": "pending",
+        "stage": "date_verified",
+        "discovered_at": "2026-10-13T13:27:40+08:00",
+        "date_evidence": "官方正文JSON-LD datePublished；只作日期核对，正文尚未整理",
+        "reason": "待完整读文、实质AI信息筛选、摘要与同一事件去重。"
+      },
+      {
+        "url": "https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month",
+        "title": "What’s new in AI infrastructure this month",
+        "source": "cloud",
+        "published": "2026-09-30",
+        "status": "pending",
+        "stage": "date_verified",
+        "discovered_at": "2026-10-13T13:27:40+08:00",
+        "date_evidence": "官方正文JSON-LD datePublished；只作日期核对，正文尚未整理",
+        "reason": "待完整读文、实质AI信息筛选、摘要与同一事件去重。"
+      },
+      {
+        "url": "https://cloud.google.com/blog/topics/startups/why-your-startup-needs-open-models-alongside-frontier-apis",
+        "title": "Why your startup needs open models alongside frontier APIs",
+        "source": "cloud",
+        "published": "2026-09-28",
+        "status": "pending",
+        "stage": "date_verified",
+        "discovered_at": "2026-10-13T13:27:40+08:00",
+        "date_evidence": "官方正文JSON-LD datePublished；只作日期核对，正文尚未整理",
+        "reason": "待完整读文、实质AI信息筛选、摘要与同一事件去重。"
+      },
+      {
+        "url": "https://cloud.google.com/blog/products/data-analytics/bringing-you-the-data-agent-kit/",
+        "title": "Agentic data science with the Data Agent Kit",
+        "source": "cloud_supplement",
+        "published": "2026-10-12",
+        "published_evidence": "RSS发现日期，待原文页首核实",
+        "status": "pending",
+        "stage": "body_read_date_scope_pending",
+        "discovered_at": "2026-10-13T13:27:40+08:00",
+        "reason": "正文已完整读，标题/署名已核对；页首13日、无时区JSON-LD12日、RSS12日16:00UTC（北京时间13日00:00）及模板时间存在口径差异；不能认定日期错误，本轮保留待确认。",
+        "last_checked_at": "2026-10-15T17:07:08+08:00",
+        "date_evidence": {
+          "visible_date": "2026-10-13",
+          "jsonld_datePublished": "2026-10-12",
+          "rss_pubDate": "12 Oct 2026 16:00 +0000",
+          "published_time": "2026-10-13T07:00:14+0800"
+        }
+      },
+      {
+        "url": "https://cloud.google.com/blog/products/business-intelligence/introducing-looker-data-apps/",
+        "title": "Trusted Data Apps for the Agentic Data Cloud, powered by Looker",
+        "source": "cloud_supplement",
+        "published": "2026-10-12",
+        "published_evidence": "RSS发现日期，待原文页首核实",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-13T13:27:40+08:00",
+        "reason": "官方RSS仅用于发现；待排除营销/活动/重复汇总并完整读取正文、核对作者和日期。"
+      },
+      {
+        "url": "https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/",
+        "title": "What’s new with Google Data Cloud",
+        "source": "cloud_supplement",
+        "published": "2026-10-09",
+        "published_evidence": "RSS发现日期，待原文页首核实",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-13T13:27:40+08:00",
+        "reason": "官方RSS仅用于发现；待排除营销/活动/重复汇总并完整读取正文、核对作者和日期。"
+      },
+      {
+        "url": "https://cloud.google.com/blog/topics/startups/how-to-grow-your-small-business-using-google-gemini/",
+        "title": "Empowering SMBs to do more with Gemini",
+        "source": "cloud_supplement",
+        "published": "2026-10-08",
+        "published_evidence": "RSS发现日期，待原文页首核实",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-13T13:27:40+08:00",
+        "reason": "官方RSS仅用于发现；待排除营销/活动/重复汇总并完整读取正文、核对作者和日期。"
+      },
+      {
+        "url": "https://cloud.google.com/blog/topics/public-sector/gps-suny-launch-ai-enabled-platform-to-accelerate-university-research/",
+        "title": "Google Public Sector and SUNY launch AI-enabled platform to accelerate university research",
+        "source": "cloud_supplement",
+        "published": "2026-10-08",
+        "published_evidence": "RSS发现日期，待原文页首核实",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-13T13:27:40+08:00",
+        "reason": "官方RSS仅用于发现；待排除营销/活动/重复汇总并完整读取正文、核对作者和日期。"
+      },
+      {
+        "url": "https://cloud.google.com/blog/topics/developers-practitioners/announcing-mcp-toolbox-java-sdk-v10-agentic-data-access-for-the-enterprise/",
+        "title": "Announcing MCP Toolbox Java SDK v1.0: Agentic data access for the enterprise",
+        "source": "cloud_supplement",
+        "published": "2026-10-06",
+        "published_evidence": "RSS发现日期，待原文页首核实",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-13T13:27:40+08:00",
+        "reason": "官方RSS仅用于发现；待排除营销/活动/重复汇总并完整读取正文、核对作者和日期。"
+      },
+      {
+        "url": "https://cloud.google.com/blog/topics/developers-practitioners/networking-for-ai-inference-model-serving-gke-only-and-for-all-other-backends/",
+        "title": "Networking for AI inference model serving - GKE only and for all other backends",
+        "source": "cloud_supplement",
+        "published": "2026-10-06",
+        "published_evidence": "RSS发现日期，待原文页首核实",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-13T13:27:40+08:00",
+        "reason": "官方RSS仅用于发现；待排除营销/活动/重复汇总并完整读取正文、核对作者和日期。"
+      },
+      {
+        "url": "https://cloud.google.com/blog/products/databases/simplify-ai-search-with-alloydb-hybrid-search-and-rrf/",
+        "title": "AlloyDB: A unified database engine for hybrid search",
+        "source": "cloud_supplement",
+        "published": "2026-10-06",
+        "published_evidence": "RSS发现日期，待原文页首核实",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-13T13:27:40+08:00",
+        "reason": "官方RSS仅用于发现；待排除营销/活动/重复汇总并完整读取正文、核对作者和日期。"
+      },
+      {
+        "url": "https://cloud.google.com/blog/products/infrastructure-modernization/google-cloud-modernize-accelerate-transformation-with-ai/",
+        "title": "Introducing Google Cloud Modernize, transforming for (and with) AI",
+        "source": "cloud_supplement",
+        "published": "2026-10-05",
+        "published_evidence": "RSS发现日期，待原文页首核实",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-13T13:27:40+08:00",
+        "reason": "官方RSS仅用于发现；待排除营销/活动/重复汇总并完整读取正文、核对作者和日期。"
+      },
+      {
+        "url": "https://cloud.google.com/blog/products/containers-kubernetes/ai21-trains-its-models-on-ai-hypercomputer/",
+        "title": "AI21 achieves an 83% reduction in time-to-start for AI workloads with AI Hypercomputer",
+        "source": "cloud_supplement",
+        "published": "2026-10-02",
+        "published_evidence": "RSS发现日期，待原文页首核实",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-13T13:27:40+08:00",
+        "reason": "官方RSS仅用于发现；待排除营销/活动/重复汇总并完整读取正文、核对作者和日期。"
+      },
+      {
+        "url": "https://cloud.google.com/blog/products/databases/spanner-queues-provide-native-transactional-messaging/",
+        "title": "Announcing Spanner queues: Transactional messaging for agentic workloads and beyond",
+        "source": "cloud_supplement",
+        "published": "2026-10-02",
+        "published_evidence": "RSS发现日期，待原文页首核实",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-13T13:27:40+08:00",
+        "reason": "官方RSS仅用于发现；待排除营销/活动/重复汇总并完整读取正文、核对作者和日期。"
+      },
+      {
+        "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi",
+        "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+        "source": "deepmind",
+        "published": "2026-10-14",
+        "published_evidence": "官方来源列表或RSS发现日期；正文日期核实状态见stage",
+        "status": "pending",
+        "stage": "date_verified",
+        "discovered_at": "2026-10-15T17:07:08+08:00",
+        "reason": "待完整读文、范围筛选、日期署名核验和摘要复核。"
+      },
+      {
+        "url": "https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security",
+        "title": "Developing Gemini 4 Argon responsibly and safely",
+        "source": "deepmind",
+        "published": "2026-10-13",
+        "published_evidence": "官方来源列表或RSS发现日期；正文日期核实状态见stage",
+        "status": "pending",
+        "stage": "date_verified",
+        "discovered_at": "2026-10-15T17:07:08+08:00",
+        "reason": "待完整读文、范围筛选、日期署名核验和摘要复核。"
+      },
+      {
+        "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics",
+        "title": "Gemini 4 Argon for Robotics",
+        "source": "deepmind",
+        "published": "2026-10-13",
+        "published_evidence": "官方来源列表或RSS发现日期；正文日期核实状态见stage",
+        "status": "pending",
+        "stage": "date_verified",
+        "discovered_at": "2026-10-15T17:07:08+08:00",
+        "reason": "待完整读文、范围筛选、日期署名核验和摘要复核。"
+      },
+      {
+        "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity",
+        "title": "Research@ 2026: 10 ways we're amplifying human ingenuity",
+        "source": "research",
+        "published": "2026-10-14",
+        "published_evidence": "官方来源列表或RSS发现日期；正文日期核实状态见stage",
+        "status": "pending",
+        "stage": "date_verified",
+        "discovered_at": "2026-10-15T17:07:08+08:00",
+        "reason": "待完整读文、范围筛选、日期署名核验和摘要复核。"
+      },
+      {
+        "url": "https://developers.googleblog.com/en/announcing-mcp-support-in-apigee-hybrid-agentic-tools-that-run-in-your-own-cluster",
+        "title": "Announcing MCP support in Apigee hybrid: agentic tools that run in your own cluster",
+        "source": "developers",
+        "published": "2026-10-14",
+        "published_evidence": "官方来源列表或RSS发现日期；正文日期核实状态见stage",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-15T17:07:08+08:00",
+        "reason": "待完整读文、范围筛选、日期署名核验和摘要复核。"
+      },
+      {
+        "url": "https://developers.googleblog.com/en/optimizing-a-200000-line-python-codebase-overnight-with-gemini-4-argon",
+        "title": "Optimizing a 200,000-line Python codebase overnight with Gemini 4 Argon",
+        "source": "developers",
+        "published": "2026-10-13",
+        "published_evidence": "官方来源列表或RSS发现日期；正文日期核实状态见stage",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-15T17:07:08+08:00",
+        "reason": "待完整读文、范围筛选、日期署名核验和摘要复核。"
+      },
+      {
+        "url": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-new-gemini-notebook-can-help-cisos-policymakers-prepare-for-pqc",
+        "title": "Cloud CISO Perspectives: New Gemini Notebook can help CISOs and policymakers prepare for PQC",
+        "source": "cloud_rss",
+        "published": "2026-10-14",
+        "published_evidence": "官方来源列表或RSS发现日期；正文日期核实状态见stage",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-15T17:07:08+08:00",
+        "reason": "待完整读文、范围筛选、日期署名核验和摘要复核。"
+      },
+      {
+        "url": "https://cloud.google.com/blog/products/data-analytics/using-bigquerys-generative-ai-cost-management-features",
+        "title": "Predictable AI spend in BigQuery: Introducing cost management for generative AI functions",
+        "source": "cloud_rss",
+        "published": "2026-10-14",
+        "published_evidence": "官方来源列表或RSS发现日期；正文日期核实状态见stage",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-15T17:07:08+08:00",
+        "reason": "待完整读文、范围筛选、日期署名核验和摘要复核。"
+      },
+      {
+        "url": "https://cloud.google.com/blog/products/data-analytics/cross-cloud-conversational-analytics-with-borderless-lakehouse",
+        "title": "Cross-cloud conversational analytics made simple with open standards",
+        "source": "cloud_rss",
+        "published": "2026-10-13",
+        "published_evidence": "官方来源列表或RSS发现日期；正文日期核实状态见stage",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-15T17:07:08+08:00",
+        "reason": "待完整读文、范围筛选、日期署名核验和摘要复核。"
+      },
+      {
+        "url": "https://cloud.google.com/blog/topics/developers-practitioners/one-agent-development-kit-five-languages",
+        "title": "One Agent Development Kit, five languages",
+        "source": "cloud_rss",
+        "published": "2026-10-13",
+        "published_evidence": "官方来源列表或RSS发现日期；正文日期核实状态见stage",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-15T17:07:08+08:00",
+        "reason": "待完整读文、范围筛选、日期署名核验和摘要复核。"
+      },
+      {
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live",
+        "title": "Guided Vision in Gemini Live: built for accessibility",
+        "source": "google_ai_featured",
+        "published": null,
+        "published_evidence": "官方来源列表或RSS发现日期；正文日期核实状态见stage",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-15T17:07:08+08:00",
+        "reason": "首页推荐模块发现，非按发布时间排序；先核对日期、实质内容和关联原始发布，再决定收录。"
+      },
+      {
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-gemini",
+        "title": "A new wave of Connected Apps is rolling out to Gemini.",
+        "source": "google_ai_featured",
+        "published": null,
+        "published_evidence": "官方来源列表或RSS发现日期；正文日期核实状态见stage",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-15T17:07:08+08:00",
+        "reason": "首页推荐模块发现，非按发布时间排序；先核对日期、实质内容和关联原始发布，再决定收录。"
+      },
+      {
+        "url": "https://blog.google/innovation-and-ai/technology/research/research-capabilities-intelligence-2026",
+        "title": "Research@ 2026: Novel capabilities and intelligence",
+        "source": "google_ai_featured",
+        "published": null,
+        "published_evidence": "官方来源列表或RSS发现日期；正文日期核实状态见stage",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-15T17:07:08+08:00",
+        "reason": "首页推荐模块发现，非按发布时间排序；先核对日期、实质内容和关联原始发布，再决定收录。"
+      },
+      {
+        "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs",
+        "title": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
+        "source": "research",
+        "published": "2026-10-16",
+        "published_evidence": "官方正文页首",
+        "status": "pending",
+        "stage": "body_read_media_retry",
+        "discovered_at": "2026-10-19T09:58:43+08:00",
+        "reason": "正文完整读取，关键图表下载临时中断；待重试媒体、摘要复核和图文整理。"
+      },
+      {
+        "url": "https://cloud.google.com/blog/topics/healthcare-life-sciences/architecting-scalable-agentic-biotech-workloads",
+        "title": "Architecting autonomy: A design pattern for high-compute, governed agents in biotech",
+        "source": "cloud",
+        "published": "2026-10-16",
+        "published_evidence": "官方正文页首",
+        "status": "pending",
+        "stage": "discovered",
+        "discovered_at": "2026-10-19T09:58:43+08:00",
+        "reason": "日期与正文已核对；待范围筛选、摘要复核和配图整理。"
+      }
+    ],
+    "retry": [],
+    "retry_exhausted": [],
+    "quality_todo": [
+      "Wet Lab Agent关键图表下载失败，保留retry队列。",
+      "Data Agent Kit日期口径待确认；EmbeddingGemma视频、MCP GIF和TimesFM GIF覆盖范围按原记录保留。"
+    ]
+  },
+  "weekly_reports": {
+    "2026-W40": {
+      "path": "03-周报/2026-W40.md",
+      "coverage_start": "2026-09-27",
+      "coverage_end": "2026-10-04",
+      "generated_at": "2026-10-11T10:35:34+08:00",
+      "status": "historical_reference",
+      "included_articles": [],
+      "updated_at": "2026-10-12T14:09:37+08:00",
+      "note": "建库前发布回顾；实际收录计入W41，非已执行周报"
+    },
+    "2026-W41": {
+      "path": "03-周报/2026-W41.md",
+      "coverage_start": "2026-10-05",
+      "coverage_end": "2026-10-11",
+      "generated_at": "2026-10-11T10:35:34+08:00",
+      "status": "generated",
+      "included_articles": [
+        "01-文章/科学与应用/地理空间健康/2026-10-06 - 地理空间基础模型服务全球公共健康.md",
+        "01-文章/Agent 与开发者工具/Agent 安全与治理/2026-10-05 - Agent 隐私与安全的开放问题：上下文视角.md",
+        "01-文章/安全与隐私/联邦学习隐私/2026-10-02 - 从可信执行环境走向可验证的联邦学习隐私.md",
+        "01-文章/研究与模型/多模态表示/2026-10-06 - EmbeddingGemma 2：开发者指南.md",
+        "01-文章/Agent 与开发者工具/Agent 工具链/2026-09-30 - 用 Google Cloud CLI 远程 MCP 服务增强 Agent.md"
+      ],
+      "updated_at": "2026-10-12T14:09:37+08:00",
+      "count_basis": "first_collected_at / change timestamp",
+      "coverage_status": "partial_at_first_run"
+    },
+    "2026-W42": {
+      "status": "generated",
+      "scheduled_for": "2026-10-18",
+      "changes": [
+        {
+          "url": "https://developers.googleblog.com/en/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent/",
+          "path": "01-文章/Agent 与开发者工具/Agent 工具链/2026-10-08 - 用 AQuA 从生产会话追踪 Agent 质量回退.md",
+          "type": "new",
+          "at": "2026-10-12T10:56:46+08:00",
+          "published": "2026-10-08"
+        },
+        {
+          "url": "https://developers.googleblog.com/en/supercharge-your-development-with-the-google-developer-knowledge-api-ecosystem/",
+          "path": "01-文章/Agent 与开发者工具/Agent 工具链/2026-10-07 - 用 Developer Knowledge API 获取 Google 官方开发文档.md",
+          "type": "new",
+          "at": "2026-10-12T10:56:46+08:00",
+          "published": "2026-10-07"
+        },
+        {
+          "url": "https://developers.googleblog.com/en/embeddinggemma-2-the-developer-guide/",
+          "path": "01-文章/研究与模型/多模态表示/2026-10-06 - EmbeddingGemma 2：开发者指南.md",
+          "type": "deepened",
+          "at": "2026-10-12T10:56:46+08:00",
+          "published": "2026-10-06"
+        },
+        {
+          "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
+          "path": "01-文章/Agent 与开发者工具/Agent 安全与治理/2026-10-05 - Agent 隐私与安全的开放问题：上下文视角.md",
+          "type": "deepened",
+          "at": "2026-10-12T10:56:46+08:00",
+          "published": "2026-10-05"
+        },
+        {
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-cli-remote-mcp-server-in-preview/",
+          "path": "01-文章/Agent 与开发者工具/Agent 工具链/2026-09-30 - 用 Google Cloud CLI 远程 MCP 服务增强 Agent.md",
+          "type": "deepened",
+          "at": "2026-10-12T10:56:46+08:00",
+          "published": "2026-09-30"
+        },
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+          "path": "01-文章/研究与模型/模型能力与评测/2026-09-30 - Gemini 4 Argon：长时程任务能力与开放范围.md",
+          "published": "2026-09-30",
+          "type": "new",
+          "at": "2026-10-13T13:27:40+08:00"
+        },
+        {
+          "url": "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation/",
+          "path": "01-文章/研究与模型/生成模型控制/2026-09-29 - Diffusion Controller：用连续控制调整图像生成.md",
+          "published": "2026-09-29",
+          "type": "new",
+          "at": "2026-10-13T13:27:40+08:00"
+        },
+        {
+          "url": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
+          "path": "01-文章/科学与应用/地理空间健康/2026-10-06 - 地理空间基础模型服务全球公共健康.md",
+          "published": "2026-10-06",
+          "type": "deepened",
+          "at": "2026-10-13T13:27:40+08:00"
+        },
+        {
+          "url": "https://research.google/blog/toward-provably-private-learning-from-federated-data/",
+          "path": "01-文章/安全与隐私/联邦学习隐私/2026-10-02 - 从可信执行环境走向可验证的联邦学习隐私.md",
+          "published": "2026-10-02",
+          "type": "deepened",
+          "at": "2026-10-13T13:27:40+08:00"
+        },
+        {
+          "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+          "path": "01-文章/Agent 与开发者工具/Agent 工具链/2026-10-14 - Deep Review：分段并行核验技术文档.md",
+          "published": "2026-10-14",
+          "type": "new",
+          "at": "2026-10-15T17:07:08+08:00"
+        },
+        {
+          "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
+          "path": "01-文章/Agent 与开发者工具/Agent 工具链/2026-10-14 - 地理空间 Agent：专业工具与预先规划的作用.md",
+          "published": "2026-10-14",
+          "type": "new",
+          "at": "2026-10-15T17:07:08+08:00"
+        },
+        {
+          "url": "https://cloud.google.com/blog/products/data-analytics/bigquery-timesfm-3-0-with-multivariate-time-series-forecasting/",
+          "path": "01-文章/研究与模型/时序预测/2026-10-12 - TimesFM 3.0：在 BigQuery 中联合预测多变量.md",
+          "published": "2026-10-12",
+          "type": "new",
+          "at": "2026-10-15T17:07:08+08:00"
+        },
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+          "path": "01-文章/研究与模型/模型能力与评测/2026-09-30 - Gemini 4 Argon：长时程任务能力与开放范围.md",
+          "published": "2026-09-30",
+          "type": "deepened",
+          "at": "2026-10-15T17:07:08+08:00",
+          "reason": "followup_official_release_availability；原主文未判定更新，记旧文深化"
+        },
+        {
+          "url": "https://developers.googleblog.com/en/evaluating-ai-agents-moving-past-the-vibe-check/",
+          "path": "01-文章/Agent 与开发者工具/Agent 安全与治理/2026-10-15 - 评测 AI Agent：从感觉检查到可重复回归.md",
+          "published": "2026-10-15",
+          "type": "new",
+          "at": "2026-10-19T09:58:43+08:00"
+        },
+        {
+          "url": "https://cloud.google.com/blog/topics/developers-practitioners/four-eval-engineering-lessons",
+          "path": "01-文章/Agent 与开发者工具/Agent 安全与治理/2026-10-17 - Agent 插件评测工程的四条经验.md",
+          "published": "2026-10-17",
+          "type": "new",
+          "at": "2026-10-19T09:58:43+08:00"
+        }
+      ],
+      "note": "等待周日出报；不生成当前未结束周的空报告",
+      "generated_at": "2026-10-19T09:58:43+08:00",
+      "updated_at": "2026-10-19T09:58:43+08:00",
+      "coverage_start": "2026-10-12",
+      "coverage_end": "2026-10-18",
+      "included_articles": [
+        "01-文章/Agent 与开发者工具/Agent 工具链/2026-10-08 - 用 AQuA 从生产会话追踪 Agent 质量回退.md",
+        "01-文章/Agent 与开发者工具/Agent 工具链/2026-10-07 - 用 Developer Knowledge API 获取 Google 官方开发文档.md",
+        "01-文章/研究与模型/多模态表示/2026-10-06 - EmbeddingGemma 2：开发者指南.md",
+        "01-文章/Agent 与开发者工具/Agent 安全与治理/2026-10-05 - Agent 隐私与安全的开放问题：上下文视角.md",
+        "01-文章/Agent 与开发者工具/Agent 工具链/2026-09-30 - 用 Google Cloud CLI 远程 MCP 服务增强 Agent.md",
+        "01-文章/研究与模型/模型能力与评测/2026-09-30 - Gemini 4 Argon：长时程任务能力与开放范围.md",
+        "01-文章/研究与模型/生成模型控制/2026-09-29 - Diffusion Controller：用连续控制调整图像生成.md",
+        "01-文章/科学与应用/地理空间健康/2026-10-06 - 地理空间基础模型服务全球公共健康.md",
+        "01-文章/安全与隐私/联邦学习隐私/2026-10-02 - 从可信执行环境走向可验证的联邦学习隐私.md",
+        "01-文章/Agent 与开发者工具/Agent 工具链/2026-10-14 - Deep Review：分段并行核验技术文档.md",
+        "01-文章/Agent 与开发者工具/Agent 工具链/2026-10-14 - 地理空间 Agent：专业工具与预先规划的作用.md",
+        "01-文章/研究与模型/时序预测/2026-10-12 - TimesFM 3.0：在 BigQuery 中联合预测多变量.md",
+        "01-文章/Agent 与开发者工具/Agent 安全与治理/2026-10-15 - 评测 AI Agent：从感觉检查到可重复回归.md",
+        "01-文章/Agent 与开发者工具/Agent 安全与治理/2026-10-17 - Agent 插件评测工程的四条经验.md"
+      ],
+      "count_basis": "first_collected_at / change timestamp",
+      "coverage_status": "sources_window_scanned_candidates_pending"
+    }
+  },
+  "logs": [
+    {
+      "at": "2026-10-11T10:35:34+08:00",
+      "event": "first_run",
+      "result": "saved_5_articles",
+      "coverage": "2026-09-27 through 2026-10-11",
+      "sources": [
+        "deepmind",
+        "research",
+        "google_ai",
+        "developers",
+        "cloud"
+      ],
+      "notes": "首批精选 5 篇；未宣称全站或全年完成"
+    },
+    {
+      "at": "2026-10-11T10:35:34+08:00",
+      "event": "weekly_reports",
+      "result": "generated_2026-W40_and_2026-W41",
+      "coverage": "2026-09-27 through 2026-10-11",
+      "notes": "补生成建库后已结束的 W40，并生成当周 W41"
+    },
+    {
+      "at": "2026-10-11T10:35:34+08:00",
+      "event": "coverage_note",
+      "result": "partial_sources_recorded",
+      "notes": "DeepMind、Google AI、Developers、Cloud 未推进完整扫描时间；Research 列表覆盖成功"
+    },
+    {
+      "at": "2026-10-12T14:08:16+08:00",
+      "event": "daily_sync",
+      "result": "2_new_3_deepened",
+      "changed_articles": [
+        {
+          "url": "https://developers.googleblog.com/en/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent/",
+          "path": "01-文章/Agent 与开发者工具/Agent 工具链/2026-10-08 - 用 AQuA 从生产会话追踪 Agent 质量回退.md",
+          "type": "new",
+          "at": "2026-10-12T10:56:46+08:00",
+          "published": "2026-10-08"
+        },
+        {
+          "url": "https://developers.googleblog.com/en/supercharge-your-development-with-the-google-developer-knowledge-api-ecosystem/",
+          "path": "01-文章/Agent 与开发者工具/Agent 工具链/2026-10-07 - 用 Developer Knowledge API 获取 Google 官方开发文档.md",
+          "type": "new",
+          "at": "2026-10-12T10:56:46+08:00",
+          "published": "2026-10-07"
+        },
+        {
+          "url": "https://developers.googleblog.com/en/embeddinggemma-2-the-developer-guide/",
+          "path": "01-文章/研究与模型/多模态表示/2026-10-06 - EmbeddingGemma 2：开发者指南.md",
+          "type": "deepened",
+          "at": "2026-10-12T10:56:46+08:00",
+          "published": "2026-10-06"
+        },
+        {
+          "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
+          "path": "01-文章/Agent 与开发者工具/Agent 安全与治理/2026-10-05 - Agent 隐私与安全的开放问题：上下文视角.md",
+          "type": "deepened",
+          "at": "2026-10-12T10:56:46+08:00",
+          "published": "2026-10-05"
+        },
+        {
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-cli-remote-mcp-server-in-preview/",
+          "path": "01-文章/Agent 与开发者工具/Agent 工具链/2026-09-30 - 用 Google Cloud CLI 远程 MCP 服务增强 Agent.md",
+          "type": "deepened",
+          "at": "2026-10-12T10:56:46+08:00",
+          "published": "2026-09-30"
+        }
+      ],
+      "lookback_start": "2026-09-27",
+      "pending_count": 15,
+      "source_status": {
+        "deepmind": "success",
+        "research": "success",
+        "google_ai": "success",
+        "developers": "success",
+        "cloud": "partial"
+      },
+      "notes": "独立摘要复核通过；技术配图补齐，临时下载和日期读取错误恢复；Cloud覆盖仍部分。"
+    },
+    {
+      "at": "2026-10-12T14:09:37+08:00",
+      "event": "weekly_count_correction",
+      "result": "W41_5_first_collections_W40_historical_only",
+      "notes": "保留既有文件和USER区；修正此前按原文日期分配新增的错误。"
+    },
+    {
+      "at": "2026-10-12T14:11:24+08:00",
+      "event": "validation_complete",
+      "result": "passed",
+      "notes": "7篇文章、状态、摘要卡片、URL、相对链接与锚点一致；所选媒体可解码；USER及用户属性原样保留。"
+    },
+    {
+      "at": "2026-10-13T13:27:40+08:00",
+      "event": "daily_sync",
+      "result": "2_new_2_deepened",
+      "changed_articles": [
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+          "path": "01-文章/研究与模型/模型能力与评测/2026-09-30 - Gemini 4 Argon：长时程任务能力与开放范围.md",
+          "published": "2026-09-30",
+          "type": "new",
+          "at": "2026-10-13T13:27:40+08:00"
+        },
+        {
+          "url": "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation/",
+          "path": "01-文章/研究与模型/生成模型控制/2026-09-29 - Diffusion Controller：用连续控制调整图像生成.md",
+          "published": "2026-09-29",
+          "type": "new",
+          "at": "2026-10-13T13:27:40+08:00"
+        },
+        {
+          "url": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
+          "path": "01-文章/科学与应用/地理空间健康/2026-10-06 - 地理空间基础模型服务全球公共健康.md",
+          "published": "2026-10-06",
+          "type": "deepened",
+          "at": "2026-10-13T13:27:40+08:00"
+        },
+        {
+          "url": "https://research.google/blog/toward-provably-private-learning-from-federated-data/",
+          "path": "01-文章/安全与隐私/联邦学习隐私/2026-10-02 - 从可信执行环境走向可验证的联邦学习隐私.md",
+          "published": "2026-10-02",
+          "type": "deepened",
+          "at": "2026-10-13T13:27:40+08:00"
+        }
+      ],
+      "lookback_start_by_source": {
+        "deepmind": "2026-09-28",
+        "research": "2026-09-28",
+        "google_ai": "2026-09-28",
+        "developers": "2026-09-28",
+        "cloud": "2026-09-27"
+      },
+      "pending_count": 28,
+      "source_status": {
+        "deepmind": "success",
+        "research": "success",
+        "google_ai": "success",
+        "developers": "success",
+        "cloud": "success"
+      },
+      "notes": "独立摘要复核通过；纠正两篇旧摘要限定，技术图核对。Cloud发现窗口缺口已补齐，近期RSS候选保留。当前W42未结束，无遗漏已结束周，不生成当前周报。"
+    },
+    {
+      "at": "2026-10-13T13:36:50+08:00",
+      "event": "validation_complete",
+      "result": "passed",
+      "notes": "9篇文件、状态与摘要卡片一致；99个实际页面相对链接及锚点通过，所选媒体可解码，原有USER、标签和自定义属性逐字保留。模板链接按生成后位置校验。状态原子保存并回读验证。"
+    },
+    {
+      "at": "2026-10-15T17:07:08+08:00",
+      "event": "daily_sync",
+      "result": "3_new_1_deepened_3_rechecked",
+      "changed_articles": [
+        {
+          "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+          "path": "01-文章/Agent 与开发者工具/Agent 工具链/2026-10-14 - Deep Review：分段并行核验技术文档.md",
+          "published": "2026-10-14",
+          "type": "new",
+          "at": "2026-10-15T17:07:08+08:00"
+        },
+        {
+          "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
+          "path": "01-文章/Agent 与开发者工具/Agent 工具链/2026-10-14 - 地理空间 Agent：专业工具与预先规划的作用.md",
+          "published": "2026-10-14",
+          "type": "new",
+          "at": "2026-10-15T17:07:08+08:00"
+        },
+        {
+          "url": "https://cloud.google.com/blog/products/data-analytics/bigquery-timesfm-3-0-with-multivariate-time-series-forecasting/",
+          "path": "01-文章/研究与模型/时序预测/2026-10-12 - TimesFM 3.0：在 BigQuery 中联合预测多变量.md",
+          "published": "2026-10-12",
+          "type": "new",
+          "at": "2026-10-15T17:07:08+08:00"
+        },
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+          "path": "01-文章/研究与模型/模型能力与评测/2026-09-30 - Gemini 4 Argon：长时程任务能力与开放范围.md",
+          "published": "2026-09-30",
+          "type": "deepened",
+          "at": "2026-10-15T17:07:08+08:00",
+          "reason": "followup_official_release_availability；原主文未判定更新，记旧文深化"
+        }
+      ],
+      "lookback_start_by_source": {
+        "deepmind": "2026-09-29",
+        "research": "2026-09-29",
+        "google_ai": "2026-09-29",
+        "developers": "2026-09-29",
+        "cloud": "2026-09-29"
+      },
+      "pending_count": 40,
+      "source_status": {
+        "deepmind": "success",
+        "research": "success",
+        "google_ai": "success",
+        "developers": "success",
+        "cloud": "success"
+      },
+      "notes": "四篇摘要独立审阅修正后通过。Argon同模型后续开放补入原路径，未把新来源当URL别名；Data Agent Kit日期口径留队。5张原始媒体保存，其中图片下载两次中断递增重试后恢复。10月14日没有完整状态保存记录，本次未补造昨日成功。W41已存在，W42未结束不提前出报。"
+    },
+    {
+      "at": "2026-10-15T17:12:10+08:00",
+      "event": "validation_complete",
+      "result": "passed",
+      "notes": "12篇文章、状态与摘要卡片一致；122个实际页面相对链接及锚点通过。新媒体按声明范围解码、可视核对，USER、标签和自定义属性逐字保留；状态原子保存并回读验证。"
+    },
+    {
+      "at": "2026-10-19T09:58:43+08:00",
+      "event": "daily_sync",
+      "result": "2_new_0_deepened",
+      "changed_articles": [
+        {
+          "url": "https://developers.googleblog.com/en/evaluating-ai-agents-moving-past-the-vibe-check/",
+          "path": "01-文章/Agent 与开发者工具/Agent 安全与治理/2026-10-15 - 评测 AI Agent：从感觉检查到可重复回归.md",
+          "published": "2026-10-15",
+          "type": "new",
+          "at": "2026-10-19T09:58:43+08:00"
+        },
+        {
+          "url": "https://cloud.google.com/blog/topics/developers-practitioners/four-eval-engineering-lessons",
+          "path": "01-文章/Agent 与开发者工具/Agent 安全与治理/2026-10-17 - Agent 插件评测工程的四条经验.md",
+          "published": "2026-10-17",
+          "type": "new",
+          "at": "2026-10-19T09:58:43+08:00"
+        }
+      ],
+      "pending_count": 42,
+      "source_status": {
+        "deepmind": "success",
+        "research": "success",
+        "google_ai": "success",
+        "developers": "success",
+        "cloud": "success"
+      },
+      "notes": "正文候选与媒体失败分开记录；W42已结束，周报先完成同步后生成。"
+    },
+    {
+      "at": "2026-10-19T10:03:37+08:00",
+      "event": "validation_complete",
+      "result": "passed",
+      "notes": "14篇文章、状态与索引一致；周报W42已生成；个人区块、相对链接、图片和候选队列核对通过。Wet Lab关键图下载仍待重试，未标completed。"
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+      "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "published": "2026-09-28",
+      "at": "2026-10-12T14:08:16+08:00",
+      "reason": "获奖预告短讯，本轮按范围排除；不据此断言无技术价值"
+    }
+  ],
+  "related_sources": [
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+      "main_note": "01-文章/研究与模型/多模态表示/2026-10-06 - EmbeddingGemma 2：开发者指南.md",
+      "relationship": "同一模型发布的补充官方来源；不作为相同URL别名，也未另建重复笔记",
+      "body_review": "正文未纳入本轮摘要依据",
+      "at": "2026-10-12T14:08:16+08:00"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "main_note": "01-文章/研究与模型/模型能力与评测/2026-09-30 - Gemini 4 Argon：长时程任务能力与开放范围.md",
+      "relationship": "同一模型后续开放的补充来源，非URL别名",
+      "body_review": "正文已读；补充同一模型开放范围，非URL跳转别名",
+      "published": "2026-10-13",
+      "at": "2026-10-15T17:07:08+08:00"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/",
+      "main_note": "01-文章/研究与模型/模型能力与评测/2026-09-30 - Gemini 4 Argon：长时程任务能力与开放范围.md",
+      "relationship": "同一模型后续开放的补充来源，非URL别名",
+      "body_review": "正文已读；补充同一模型开放范围，非URL跳转别名",
+      "published": "2026-10-13",
+      "at": "2026-10-15T17:07:08+08:00"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
+      "main_note": "01-文章/研究与模型/模型能力与评测/2026-09-30 - Gemini 4 Argon：长时程任务能力与开放范围.md",
+      "relationship": "同一模型后续开放的补充来源，非URL别名",
+      "body_review": "正文已读；补充同一模型开放范围，非URL跳转别名",
+      "published": "2026-10-13",
+      "at": "2026-10-15T17:07:08+08:00"
+    },
+    {
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-4-argon-available-on-google-cloud",
+      "main_note": "01-文章/研究与模型/模型能力与评测/2026-09-30 - Gemini 4 Argon：长时程任务能力与开放范围.md",
+      "relationship": "同一模型后续开放的补充来源，非URL别名",
+      "body_review": "正文已读；补充同一模型开放范围，非URL跳转别名",
+      "published": "2026-10-14",
+      "at": "2026-10-15T17:07:08+08:00"
+    }
+  ],
+  "changes": [
+    {
+      "url": "https://developers.googleblog.com/en/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent/",
+      "path": "01-文章/Agent 与开发者工具/Agent 工具链/2026-10-08 - 用 AQuA 从生产会话追踪 Agent 质量回退.md",
+      "type": "new",
+      "at": "2026-10-12T10:56:46+08:00",
+      "published": "2026-10-08"
+    },
+    {
+      "url": "https://developers.googleblog.com/en/supercharge-your-development-with-the-google-developer-knowledge-api-ecosystem/",
+      "path": "01-文章/Agent 与开发者工具/Agent 工具链/2026-10-07 - 用 Developer Knowledge API 获取 Google 官方开发文档.md",
+      "type": "new",
+      "at": "2026-10-12T10:56:46+08:00",
+      "published": "2026-10-07"
+    },
+    {
+      "url": "https://developers.googleblog.com/en/embeddinggemma-2-the-developer-guide/",
+      "path": "01-文章/研究与模型/多模态表示/2026-10-06 - EmbeddingGemma 2：开发者指南.md",
+      "type": "deepened",
+      "at": "2026-10-12T10:56:46+08:00",
+      "published": "2026-10-06"
+    },
+    {
+      "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
+      "path": "01-文章/Agent 与开发者工具/Agent 安全与治理/2026-10-05 - Agent 隐私与安全的开放问题：上下文视角.md",
+      "type": "deepened",
+      "at": "2026-10-12T10:56:46+08:00",
+      "published": "2026-10-05"
+    },
+    {
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-cli-remote-mcp-server-in-preview/",
+      "path": "01-文章/Agent 与开发者工具/Agent 工具链/2026-09-30 - 用 Google Cloud CLI 远程 MCP 服务增强 Agent.md",
+      "type": "deepened",
+      "at": "2026-10-12T10:56:46+08:00",
+      "published": "2026-09-30"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "path": "01-文章/研究与模型/模型能力与评测/2026-09-30 - Gemini 4 Argon：长时程任务能力与开放范围.md",
+      "published": "2026-09-30",
+      "type": "new",
+      "at": "2026-10-13T13:27:40+08:00"
+    },
+    {
+      "url": "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation/",
+      "path": "01-文章/研究与模型/生成模型控制/2026-09-29 - Diffusion Controller：用连续控制调整图像生成.md",
+      "published": "2026-09-29",
+      "type": "new",
+      "at": "2026-10-13T13:27:40+08:00"
+    },
+    {
+      "url": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
+      "path": "01-文章/科学与应用/地理空间健康/2026-10-06 - 地理空间基础模型服务全球公共健康.md",
+      "published": "2026-10-06",
+      "type": "deepened",
+      "at": "2026-10-13T13:27:40+08:00"
+    },
+    {
+      "url": "https://research.google/blog/toward-provably-private-learning-from-federated-data/",
+      "path": "01-文章/安全与隐私/联邦学习隐私/2026-10-02 - 从可信执行环境走向可验证的联邦学习隐私.md",
+      "published": "2026-10-02",
+      "type": "deepened",
+      "at": "2026-10-13T13:27:40+08:00"
+    },
+    {
+      "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+      "path": "01-文章/Agent 与开发者工具/Agent 工具链/2026-10-14 - Deep Review：分段并行核验技术文档.md",
+      "published": "2026-10-14",
+      "type": "new",
+      "at": "2026-10-15T17:07:08+08:00"
+    },
+    {
+      "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
+      "path": "01-文章/Agent 与开发者工具/Agent 工具链/2026-10-14 - 地理空间 Agent：专业工具与预先规划的作用.md",
+      "published": "2026-10-14",
+      "type": "new",
+      "at": "2026-10-15T17:07:08+08:00"
+    },
+    {
+      "url": "https://cloud.google.com/blog/products/data-analytics/bigquery-timesfm-3-0-with-multivariate-time-series-forecasting/",
+      "path": "01-文章/研究与模型/时序预测/2026-10-12 - TimesFM 3.0：在 BigQuery 中联合预测多变量.md",
+      "published": "2026-10-12",
+      "type": "new",
+      "at": "2026-10-15T17:07:08+08:00"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "path": "01-文章/研究与模型/模型能力与评测/2026-09-30 - Gemini 4 Argon：长时程任务能力与开放范围.md",
+      "published": "2026-09-30",
+      "type": "deepened",
+      "at": "2026-10-15T17:07:08+08:00",
+      "reason": "followup_official_release_availability；原主文未判定更新，记旧文深化"
+    },
+    {
+      "url": "https://developers.googleblog.com/en/evaluating-ai-agents-moving-past-the-vibe-check/",
+      "path": "01-文章/Agent 与开发者工具/Agent 安全与治理/2026-10-15 - 评测 AI Agent：从感觉检查到可重复回归.md",
+      "published": "2026-10-15",
+      "type": "new",
+      "at": "2026-10-19T09:58:43+08:00"
+    },
+    {
+      "url": "https://cloud.google.com/blog/topics/developers-practitioners/four-eval-engineering-lessons",
+      "path": "01-文章/Agent 与开发者工具/Agent 安全与治理/2026-10-17 - Agent 插件评测工程的四条经验.md",
+      "published": "2026-10-17",
+      "type": "new",
+      "at": "2026-10-19T09:58:43+08:00"
+    }
+  ],
+  "hash_fields_note": "body_sha256沿用既有笔记文件哈希；source_body_sha256是本次抽取来源全文的基线，不用二者互判原文更新。 本轮source_page_text_sha256为当前抽取整页文本（可能含导航）的校验值，只作变动线索；实质更新仍按正文事实与限定复核。",
+  "validation": {
+    "article_files": 14,
+    "state_articles": 14,
+    "registry_articles": 14,
+    "summary_cards": 14,
+    "detail_status_counts": {
+      "completed": 14
+    },
+    "selected_media_decoded": true,
+    "user_content_preserved": true,
+    "links_and_anchors_valid": true,
+    "weekly_report_generated": "2026-W42",
+    "pending_count": 42,
+    "passed": true,
+    "checked_at": "2026-10-19T10:03:37+08:00"
+  },
+  "source_rechecks": {
+    "last_batch_at": "2026-10-19T09:58:43+08:00",
+    "checked_paths": [],
+    "batch_size": 0,
+    "max_batch_size": 5,
+    "result": "本轮处理新候选；Wet Lab图媒体失败保留队列。",
+    "next_priority": "先重试Wet Lab媒体，再处理近期来源候选。"
+  },
+  "weekly_audit": {
+    "checked_at": "2026-10-15T17:07:08+08:00",
+    "ended_weeks_since_creation": [
+      "2026-W41"
+    ],
+    "missing_reports": [],
+    "current_week": "2026-W42",
+    "current_week_report_due": "2026-10-18"
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "library": "Hacker News",
+  "timezone": "Asia/Shanghai",
+  "last_run": "2026-10-25T10:57:43.892+08:00",
+  "last_successful_sync": "2026-10-25T10:57:43.892+08:00",
+  "window_start": "2026-10-23T03:18:50.787+00:00",
+  "window_end": "2026-10-25T02:57:43.892+00:00",
+  "articles_collected": [
+    50035530,
+    50052638,
+    50029123,
+    50048312,
+    50031269,
+    50048642,
+    50044272,
+    50033357,
+    50042425,
+    50055593,
+    50052251,
+    50031614,
+    50037949,
+    50039092,
+    50059115,
+    50048522,
+    50063717,
+    50033601,
+    50058528,
+    50090369,
+    50089229,
+    50088935,
+    50086165,
+    50094994,
+    50092423,
+    50063138,
+    50138531,
+    50142573,
+    50145337,
+    50139067,
+    50142449,
+    50140784,
+    50142176,
+    50058507,
+    50212065,
+    50211474,
+    50208099,
+    50211746,
+    50217500,
+    50214416,
+    50215530,
+    50029487,
+    50227739,
+    50227655,
+    50227356,
+    50227798
+  ],
+  "pending_retry": [
+    {
+      "hn_item_id": 50033407,
+      "title": "Bitwarden Dual License Model",
+      "reason": "原文社区页面返回 403，待下一次重试",
+      "hn_item_url": "https://news.ycombinator.com/item?id=50033407",
+      "original_url": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
+      "author": "Cider9986",
+      "submitted": "2026-10-10T14:32:50+00:00",
+      "score": 405,
+      "comments": 310,
+      "first_failed_at": "2026-10-11T10:58:30+08:00",
+      "last_attempt_at": "2026-10-24T11:18:50.787+08:00",
+      "attempt_count": 6,
+      "failure_signature": "50033407:http_403",
+      "last_notified_at": "2026-10-11T10:58:30+08:00",
+      "normalized_original_url": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750"
+    },
+    {
+      "hn_item_id": 50031653,
+      "title": "Apple/macOS removed from official Unix registry",
+      "reason": "原文注册页面返回 403，待下一次重试",
+      "hn_item_url": "https://news.ycombinator.com/item?id=50031653",
+      "original_url": "https://www.opengroup.org//openbrand/register/",
+      "author": "john_alan",
+      "submitted": "2026-10-10T10:57:31+00:00",
+      "score": 298,
+      "comments": 247,
+      "first_failed_at": "2026-10-11T10:58:30+08:00",
+      "last_attempt_at": "2026-10-24T11:18:50.787+08:00",
+      "attempt_count": 6,
+      "failure_signature": "50031653:http_403",
+      "last_notified_at": "2026-10-11T10:58:30+08:00",
+      "normalized_original_url": "https://www.opengroup.org/openbrand/register"
+    },
+    {
+      "hn_item_id": 50040276,
+      "title": "LineageOS 24",
+      "author": "timschumi",
+      "submitted": "2026-10-11T06:18:59+00:00",
+      "score": 457,
+      "comments": 184,
+      "hn_item_url": "https://news.ycombinator.com/item?id=50040276",
+      "original_url": "https://lineageos.org/Changelog-32/",
+      "normalized_original_url": "https://lineageos.org/Changelog-32",
+      "reason": "官方原文返回 HTTP 403 Forbidden，未读取正文，保留重试",
+      "first_failed_at": "2026-10-12T11:11:15+08:00",
+      "last_attempt_at": "2026-10-24T11:18:50.787+08:00",
+      "attempt_count": 5,
+      "failure_signature": "50040276:http_403",
+      "last_notified_at": "2026-10-12T11:11:15+08:00"
+    },
+    {
+      "hn_item_id": 50061791,
+      "title": "Making big downloads resumable in Firefox",
+      "author": "speckx",
+      "submitted": "2026-10-12T19:36:02+00:00",
+      "score": 285,
+      "comments": 136,
+      "hn_item_url": "https://news.ycombinator.com/item?id=50061791",
+      "original_url": "https://lunarwatcher.codeberg.page/til/firefox/resumable-big-downloads.html",
+      "normalized_original_url": "https://lunarwatcher.codeberg.page/til/firefox/resumable-big-downloads.html",
+      "reason": "Firefox 原文读取失败，未获得可访问正文，保留重试",
+      "first_failed_at": "2026-10-13T11:09:26+08:00",
+      "last_attempt_at": "2026-10-24T11:18:50.787+08:00",
+      "attempt_count": 4,
+      "failure_signature": "50061791:reader_unavailable",
+      "last_notified_at": "2026-10-13T11:09:26+08:00"
+    }
+  ],
+  "sources_checked": [
+    "https://hacker-news.firebaseio.com/v0/topstories.json",
+    "https://hacker-news.firebaseio.com/v0/newstories.json",
+    "https://hacker-news.firebaseio.com/v0/item/<id>.json",
+    "https://news.ycombinator.com/",
+    "https://hn.algolia.com/api/v1/search_by_date?tags=story"
+  ],
+  "failed_sources": [],
+  "last_failure_signature": null,
+  "recent_window_start": "2026-10-24T02:57:43.892+00:00",
+  "last_run_result": {
+    "new_articles": 4,
+    "recent_24h": 4,
+    "overlap_backfill": 0,
+    "recovered_articles": 0,
+    "total_articles": 46,
+    "pending": 4,
+    "new_read_failures": [],
+    "recovered_read_failures": [],
+    "discovery_complete": true,
+    "digest": "03-简报/2026-10-25 - Hacker News 每日简报.md"
+  },
+  "source_status": {
+    "firebase_topstories": "ok",
+    "firebase_newstories": "ok",
+    "firebase_selected_items": "ok",
+    "hn_front_page": "ok",
+    "algolia_incremental": "ok"
+  },
+  "article_index": {
+    "50035530": {
+      "path": "01-文章/数据库与数据工程/查询引擎/2026-10-10 - DuckDB 2.0 性能变化.md",
+      "normalized_original_url": "https://motherduck.com/blog/why-duckdb-20-is-faster"
+    },
+    "50052638": {
+      "path": "01-文章/安全与隐私/Web 应用安全/2026-10-12 - Google DevSite 漏洞报告：会话秘密复用与反序列化链.md",
+      "normalized_original_url": "https://simonkoeck.com/writeups/google-devsite-flask-session-pickle-rce"
+    },
+    "50029123": {
+      "path": "01-文章/安全与隐私/桌面应用安全/2026-10-10 - Telegram Desktop：IPC 注入导致一键接管账号.md",
+      "normalized_original_url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover"
+    },
+    "50048312": {
+      "path": "01-文章/安全与隐私/身份认证/2026-10-11 - Passkey 与设备自主权：一篇有争议的反对意见.md",
+      "normalized_original_url": "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them"
+    },
+    "50031269": {
+      "path": "01-文章/安全与隐私/数据泄露/2026-10-10 - 123456 密码导致丹麦 CPR 数据泄露.md",
+      "normalized_original_url": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach"
+    },
+    "50048642": {
+      "path": "01-文章/安全与隐私/浏览器隐私/2026-10-11 - 浏览器指纹：无需 Cookie 的识别信号.md",
+      "normalized_original_url": "https://royfish.dev/fingerprints-are-the-new-cookies"
+    },
+    "50044272": {
+      "path": "01-文章/系统与基础设施/音频工程/2026-10-11 - 通过黑箱测量重建商业空间音效.md",
+      "normalized_original_url": "https://epestr.com/blog/reverse-engineering-a-commercial-spatial-audio-effect"
+    },
+    "50033357": {
+      "path": "01-文章/系统与基础设施/Unikernel/2026-10-10 - Unikernel 与 AI 辅助系统移植.md",
+      "normalized_original_url": "https://ghuntley.com/unikernels"
+    },
+    "50042425": {
+      "path": "01-文章/系统与基础设施/命令行环境/2026-10-11 - PATH 中的波浪号可能指向当前目录.md",
+      "normalized_original_url": "https://disconnect3d.pl/2026/10/02/dont-put-tilde-in-your-path"
+    },
+    "50055593": {
+      "path": "01-文章/系统与基础设施/无线电与嵌入式/2026-10-12 - W1700K SDR：把 Wi-Fi 7 路由器改为宽带接收器.md",
+      "normalized_original_url": "https://github.com/h0m3us3r/w1700k-sdr"
+    },
+    "50052251": {
+      "path": "01-文章/系统与基础设施/WebAssembly 与游戏运行时/2026-10-12 - PS2 Web Recomp：将 EE 代码静态重编译为 WebAssembly.md",
+      "normalized_original_url": "https://github.com/snuri00/ps2-web-recomp"
+    },
+    "50031614": {
+      "path": "01-文章/AI 与 Agent/自托管智能体/2026-10-10 - Talorys 自托管个人 AI Agent.md",
+      "normalized_original_url": "https://github.com/rociiu/talorys"
+    },
+    "50037949": {
+      "path": "01-文章/AI 与 Agent/分类与决策模型/2026-10-10 - 为分类任务构建决策模型.md",
+      "normalized_original_url": "https://nishtahir.com/build-your-own-decision-model"
+    },
+    "50039092": {
+      "path": "01-文章/AI 与 Agent/代码逆向/2026-10-11 - AI Agent 反编译游戏：让机器码比对成为验收标准.md",
+      "normalized_original_url": "https://momo5502.com/posts/2026-10-09-game-decompilation"
+    },
+    "50059115": {
+      "path": "01-文章/AI 与 Agent/模型发布与评估/2026-10-12 - Muse Wonder：Meta 对 Agent 记忆与持续执行的主张.md",
+      "normalized_original_url": "https://research.meta.ai/blog/muse-wonder"
+    },
+    "50048522": {
+      "path": "01-文章/AI 与 Agent/多智能体研究/2026-10-11 - MASS：把多智能体协作经验蒸馏为模型改进信号.md",
+      "normalized_original_url": "https://pub.sakana.ai/mass"
+    },
+    "50063717": {
+      "path": "01-文章/AI 与 Agent/本地推理/2026-10-12 - Janas：从 SSD 按需读取专家，让模型突破 RAM 容量.md",
+      "normalized_original_url": "https://github.com/prabanta-dev/janas"
+    },
+    "50033601": {
+      "path": "01-文章/编程语言与工具/Rust/2026-10-10 - Rust SIMD：用 CPU 特性令牌减少内部不安全代码.md",
+      "normalized_original_url": "https://shnatsel.github.io/safe-simd-in-rust-even-on-the-inside"
+    },
+    "50058528": {
+      "path": "01-文章/编程语言与工具/C 与 Web 开发/2026-10-12 - 用 C、CGI 与 SQLite 构建现代 Web 产品.md",
+      "normalized_original_url": "https://prophitt.me/writing/a-modern-web-app-in-c"
+    },
+    "50090369": {
+      "path": "01-文章/编程语言与工具/Go/2026-10-14 - Go 1.27：HTTP1 连接复用与响应体自动排空.md",
+      "normalized_original_url": "https://go.dev/blog/http-connection-reuse"
+    },
+    "50089229": {
+      "path": "01-文章/系统与基础设施/网络韧性/2026-10-14 - 海缆韧性：路由之外，还有维修船与许可瓶颈.md",
+      "normalized_original_url": "https://blog.apnic.net/2026/10/14/submarine-cable-resilience"
+    },
+    "50088935": {
+      "path": "01-文章/安全与隐私/身份认证/2026-10-14 - Passkey 不是陷阱：认证器证明与防钓鱼的区别.md",
+      "normalized_original_url": "https://scotthelme.co.uk/passkeys-are-not-a-trap"
+    },
+    "50086165": {
+      "path": "01-文章/数据库与数据工程/向量检索/2026-10-14 - pg_vectorsearch：用 PRISM 与量化做 PostgreSQL 向量索引.md",
+      "normalized_original_url": "https://github.com/timescale/pg_vectorsearch"
+    },
+    "50094994": {
+      "path": "01-文章/AI 与 Agent/编码工具/2026-10-14 - OpenCode 2.0：共享后台、Code Mode 与插件化.md",
+      "normalized_original_url": "https://anoma.ly/notes/opencode-2-0"
+    },
+    "50092423": {
+      "path": "01-文章/系统与基础设施/虚拟化与测试/2026-10-14 - Virtual Oxide Labs：在单机中模拟整座 Oxide 机架.md",
+      "normalized_original_url": "https://oxide.computer/blog/voxel-labs"
+    },
+    "50063138": {
+      "path": "01-文章/系统与基础设施/指令集/2026-10-12 - vfmaddrnd231pd：追查一条从手册消失的浮点指令.md",
+      "normalized_original_url": "https://purplesyringa.moe/blog/who-is-vfmaddrnd231pd"
+    },
+    "50138531": {
+      "path": "01-文章/AI 与 Agent/搜索与抓取/2026-10-18 - DeepSeek Search 与 Fetch：面向 Agent 的实时网页能力.md",
+      "normalized_original_url": "https://api-docs.deepseek.com/guides/search"
+    },
+    "50142573": {
+      "path": "01-文章/AI 与 Agent/产品工程/2026-10-18 - 软件背后的人：Agent 时代仍需要产品判断.md",
+      "normalized_original_url": "https://karrisaarinen.com/posts/someone-behind-the-software"
+    },
+    "50145337": {
+      "path": "01-文章/AI 与 Agent/混合推理/2026-10-18 - Hybrid Reasoning Agents：在潜在空间与文本之间切换.md",
+      "normalized_original_url": "https://arxiv.org/abs/2610.18861"
+    },
+    "50139067": {
+      "path": "01-文章/编程语言与工具/解析器/2026-10-18 - Parser Combinators：用组合器构建可读解析器.md",
+      "normalized_original_url": "https://t3.at/blog/2026-10-17-parser-combinators"
+    },
+    "50142449": {
+      "path": "01-文章/系统与基础设施/指令集/2026-10-18 - Intel 8087：浮点加减的微码与硬件.md",
+      "normalized_original_url": "https://www.righto.com/2026/10/8087-addition-subtraction-microcode.html"
+    },
+    "50140784": {
+      "path": "01-文章/系统与基础设施/GPU 推理/2026-10-18 - vLLM：用 CuTe DSL 优化 Kimi K3 解码.md",
+      "normalized_original_url": "https://vllm.ai/blog/2026-10-16-kimi-k3-megakernel"
+    },
+    "50142176": {
+      "path": "01-文章/安全与隐私/软件供应链/2026-10-18 - Python 二进制 wheel 与供应链攻击.md",
+      "normalized_original_url": "https://rushter.com/blog/python-binary-wheels"
+    },
+    "50058507": {
+      "path": "01-文章/AI 与 Agent/模型发布与评估/2026-10-12 - GLM-Legal：面向法律工作流的 Agent 模型.md",
+      "normalized_original_url": "https://z.ai/blog/glm-legal"
+    },
+    "50212065": {
+      "path": "01-文章/AI 与 Agent/模型发布与评估/2026-10-23 - Kimi K3.1 Pro：三万亿参数级开放权重模型的长程 Agent 能力.md",
+      "normalized_original_url": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+    },
+    "50211474": {
+      "path": "01-文章/安全与隐私/移动设备安全/2026-10-23 - 攻击 iPhone：从演示到已公布的利用链.md",
+      "normalized_original_url": "https://blog.calif.io/p/iphone"
+    },
+    "50208099": {
+      "path": "01-文章/安全与隐私/密码学/2026-10-23 - OpenSSL 4.1.0：DTLS 1.3、后量子优化与架构变更.md",
+      "normalized_original_url": "https://github.com/openssl/openssl/releases/tag/openssl-4.1.0"
+    },
+    "50211746": {
+      "path": "01-文章/编程语言与工具/标识符与时间/2026-10-23 - UUIDv7 的时间戳、单调性与实现陷阱.md",
+      "normalized_original_url": "https://alexsci.com/blog/uuidv7-is-weird"
+    },
+    "50217500": {
+      "path": "01-文章/数据库与数据工程/分布式数据库/2026-10-24 - 分布式 SQLite 十二年：共识、流式复制与合并.md",
+      "normalized_original_url": "https://philipotoole.com/twelve-years-of-distributed-sqlite"
+    },
+    "50214416": {
+      "path": "01-文章/安全与隐私/模型环境安全/2026-10-23 - 前沿模型训练环境的隔离、离线世界与红队.md",
+      "normalized_original_url": "https://openai.com/index/securing-our-frontier-model-training-environment"
+    },
+    "50215530": {
+      "path": "01-文章/安全与隐私/CVE 与漏洞情报/2026-10-23 - CVE Tracker：按时间与模型观察漏洞发布趋势.md",
+      "normalized_original_url": "https://cve.0xosprey.com"
+    },
+    "50029487": {
+      "path": "01-文章/系统与基础设施/空间计算/2026-10-10 - Lightbulb Computer：投影式空间计算设想.md",
+      "normalized_original_url": "https://lightbulbcomputer.com"
+    },
+    "50227739": {
+      "path": "01-文章/AI 与 Agent/模型发布与评估/2026-10-25 - Claude Mythos 5 的 GitHub 供应链越界事件.md",
+      "normalized_original_url": "https://www.anthropic.com/research/alignment-assessment-ukaisi"
+    },
+    "50227655": {
+      "path": "01-文章/安全与隐私/模型环境安全/2026-10-25 - 红队测试 OpenAI 内部 Agent 监控系统.md",
+      "normalized_original_url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring"
+    },
+    "50227356": {
+      "path": "01-文章/系统与基础设施/GPU 推理/2026-10-25 - Cerebras 如何部署万亿参数前沿模型.md",
+      "normalized_original_url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"
+    },
+    "50227798": {
+      "path": "01-文章/安全与隐私/证书与信任/2026-10-25 - OpenJDK 移除 eMudhra 根证书.md",
+      "normalized_original_url": "https://github.com/openjdk/jdk/pull/33554"
+    }
+  },
+  "validation": {
+    "at": "2026-10-25T10:57:43.892+08:00",
+    "result": "passed",
+    "articles": 46,
+    "user_content_preserved": true,
+    "outside_auto_preserved": true
+  },
+  "source_retry": [],
+  "discovery_status": {
+    "complete": false,
+    "counts": {},
+    "failed_sources": [
+      {
+        "source": "firebase/item metadata",
+        "error": "本轮网络权限审批未完成，未能获得与触发时间对齐的 item 元数据"
+      },
+      {
+        "source": "algolia date increment",
+        "error": "本轮网络权限审批未完成，未能完成日期分页"
+      }
+    ],
+    "source_retry": [
+      {
+        "window_start": "2026-10-14T02:55:43.762000+00:00",
+        "window_end": "2026-10-16T02:56:56.413+00:00",
+        "last_attempt_at": "2026-10-16T10:56:00+08:00",
+        "failed_sources": [
+          {
+            "source": "firebase/item metadata",
+            "error": "本轮网络权限审批未完成，未能获得与触发时间对齐的 item 元数据"
+          },
+          {
+            "source": "algolia date increment",
+            "error": "本轮网络权限审批未完成，未能完成日期分页"
+          }
+        ]
+      }
+    ],
+    "source_status": {
+      "firebase_front_page": "not_time_aligned",
+      "firebase_item_metadata": "failed",
+      "algolia_incremental": "failed"
+    }
+  }
+}
